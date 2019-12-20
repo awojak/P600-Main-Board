@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 3
+Sheet 2 5
 Title "Y Axis Motor Driver"
 Date "2019-12-02"
 Rev "1"
@@ -17,6 +17,8 @@ $Comp
 L Library:TMC2209-LA U?
 U 1 1 5DE58A69
 P 5650 3700
+AR Path="/5DE587B9/5DE58A69" Ref="U?"  Part="1" 
+AR Path="/5DFB2EC0/5DE58A69" Ref="U?"  Part="1" 
 F 0 "U?" H 4850 4800 60  0000 C CNN
 F 1 "TMC2209-LA" H 5100 4700 60  0000 C CNN
 F 2 "footprints:TMC2209-LA" V 5600 3700 60  0001 C CNN
