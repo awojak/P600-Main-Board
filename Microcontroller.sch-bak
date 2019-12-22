@@ -14,17 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L MCU_ST_STM32F4:STM32F401VETx U?
-U 1 1 5DFBBA51
-P 3750 3950
-F 0 "U?" H 3100 1350 50  0000 C CNN
-F 1 "STM32F401VETx" H 4400 1350 50  0000 C CNN
-F 2 "Package_QFP:LQFP-100_14x14mm_P0.5mm" H 3050 1450 50  0001 R CNN
-F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00102166.pdf" H 3750 3950 50  0001 C CNN
-	1    3750 3950
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:Crystal_Small Y?
 U 1 1 5DFC2DAF
 P 2300 3100
@@ -122,17 +111,6 @@ $EndComp
 Wire Wire Line
 	3750 6650 3750 6700
 $Comp
-L Device:C_Small C?
-U 1 1 5DFD088E
-P 3250 1100
-F 0 "C?" H 3000 1150 50  0000 L CNN
-F 1 "100n" H 3000 1050 50  0000 L CNN
-F 2 "" H 3250 1100 50  0001 C CNN
-F 3 "~" H 3250 1100 50  0001 C CNN
-	1    3250 1100
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R_Small R?
 U 1 1 5DFD306C
 P 2650 1750
@@ -156,26 +134,6 @@ F 3 "~" H 2100 1950 50  0001 C CNN
 	1    2100 1950
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2850 1550 2650 1550
-Wire Wire Line
-	2650 1500 2650 1550
-Connection ~ 2650 1550
-Wire Wire Line
-	2650 1550 2550 1550
-$Comp
-L power:VDD #PWR?
-U 1 1 5DFD6268
-P 2650 1250
-F 0 "#PWR?" H 2650 1100 50  0001 C CNN
-F 1 "VDD" H 2667 1423 50  0000 C CNN
-F 2 "" H 2650 1250 50  0001 C CNN
-F 3 "" H 2650 1250 50  0001 C CNN
-	1    2650 1250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2650 1250 2650 1300
 Wire Wire Line
 	2500 1950 2500 2250
 $Comp
@@ -252,32 +210,6 @@ Wire Wire Line
 	2850 2150 2100 2150
 Connection ~ 2100 2150
 $Comp
-L Device:R_Small R?
-U 1 1 5DFF0C9F
-P 2650 1400
-F 0 "R?" V 2550 1400 50  0000 C CNN
-F 1 "10k" V 2750 1400 50  0000 C CNN
-F 2 "" H 2650 1400 50  0001 C CNN
-F 3 "~" H 2650 1400 50  0001 C CNN
-	1    2650 1400
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5DFF1C54
-P 3250 1200
-F 0 "#PWR?" H 3250 950 50  0001 C CNN
-F 1 "GND" H 3255 1027 50  0000 C CNN
-F 2 "" H 3250 1200 50  0001 C CNN
-F 3 "" H 3250 1200 50  0001 C CNN
-	1    3250 1200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3250 1000 3450 1000
-Wire Wire Line
-	3450 1000 3450 1250
-$Comp
 L power:GNDA #PWR?
 U 1 1 5DFF52E4
 P 2100 2550
@@ -290,56 +222,6 @@ F 3 "" H 2100 2550 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2100 2450 2100 2550
-$Comp
-L power:VDD #PWR?
-U 1 1 5DFF63EE
-P 3750 1100
-F 0 "#PWR?" H 3750 950 50  0001 C CNN
-F 1 "VDD" H 3767 1273 50  0000 C CNN
-F 2 "" H 3750 1100 50  0001 C CNN
-F 3 "" H 3750 1100 50  0001 C CNN
-	1    3750 1100
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VDDA #PWR?
-U 1 1 5DFF67B8
-P 4150 850
-F 0 "#PWR?" H 4150 700 50  0001 C CNN
-F 1 "VDDA" H 4167 1023 50  0000 C CNN
-F 2 "" H 4150 850 50  0001 C CNN
-F 3 "" H 4150 850 50  0001 C CNN
-	1    4150 850 
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3550 1200 3650 1200
-Wire Wire Line
-	3550 1250 3550 1200
-Connection ~ 3650 1200
-Wire Wire Line
-	3650 1250 3650 1200
-Wire Wire Line
-	3750 1200 3850 1200
-Connection ~ 3850 1200
-Wire Wire Line
-	3750 1250 3750 1200
-Connection ~ 3750 1200
-Wire Wire Line
-	3650 1200 3750 1200
-Wire Wire Line
-	3750 1100 3750 1200
-Wire Wire Line
-	3850 1250 3850 1200
-Wire Wire Line
-	3950 1200 4050 1200
-Wire Wire Line
-	3950 1250 3950 1200
-Connection ~ 3950 1200
-Wire Wire Line
-	3850 1200 3950 1200
-Wire Wire Line
-	4050 1200 4050 1250
 $Comp
 L power:GND #PWR?
 U 1 1 5E00456D
@@ -471,37 +353,6 @@ F 3 "~" H 2500 7250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
-U 1 1 5E014C73
-P 4350 1050
-F 0 "C?" H 4450 1100 50  0000 L CNN
-F 1 "100n" H 4450 1000 50  0000 L CNN
-F 2 "" H 4350 1050 50  0001 C CNN
-F 3 "~" H 4350 1050 50  0001 C CNN
-	1    4350 1050
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GNDA #PWR?
-U 1 1 5E015704
-P 4350 1200
-F 0 "#PWR?" H 4350 950 50  0001 C CNN
-F 1 "GNDA" H 4355 1027 50  0000 C CNN
-F 2 "" H 4350 1200 50  0001 C CNN
-F 3 "" H 4350 1200 50  0001 C CNN
-	1    4350 1200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4350 1150 4350 1200
-Wire Wire Line
-	4150 850  4150 950 
-Wire Wire Line
-	4150 950  4350 950 
-Connection ~ 4150 950 
-Wire Wire Line
-	4150 950  4150 1250
-$Comp
 L power:GND #PWR?
 U 1 1 5E01E6D2
 P 750 7450
@@ -592,4 +443,153 @@ Wire Wire Line
 	2500 6050 2850 6050
 Wire Wire Line
 	2500 6150 2850 6150
+Connection ~ 2650 1550
+Wire Wire Line
+	2650 1550 2550 1550
+Wire Wire Line
+	2850 1550 2650 1550
+Wire Wire Line
+	4150 950  4150 1250
+Connection ~ 4150 950 
+Wire Wire Line
+	4150 950  4350 950 
+Wire Wire Line
+	4150 850  4150 950 
+Wire Wire Line
+	4350 1150 4350 1200
+$Comp
+L power:GNDA #PWR?
+U 1 1 5E015704
+P 4350 1200
+F 0 "#PWR?" H 4350 950 50  0001 C CNN
+F 1 "GNDA" H 4355 1027 50  0000 C CNN
+F 2 "" H 4350 1200 50  0001 C CNN
+F 3 "" H 4350 1200 50  0001 C CNN
+	1    4350 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5E014C73
+P 4350 1050
+F 0 "C?" H 4450 1100 50  0000 L CNN
+F 1 "100n" H 4450 1000 50  0000 L CNN
+F 2 "" H 4350 1050 50  0001 C CNN
+F 3 "~" H 4350 1050 50  0001 C CNN
+	1    4350 1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 1200 4050 1250
+Wire Wire Line
+	3850 1200 3950 1200
+Connection ~ 3950 1200
+Wire Wire Line
+	3950 1250 3950 1200
+Wire Wire Line
+	3950 1200 4050 1200
+Wire Wire Line
+	3850 1250 3850 1200
+Wire Wire Line
+	3750 1100 3750 1200
+Wire Wire Line
+	3650 1200 3750 1200
+Connection ~ 3750 1200
+Wire Wire Line
+	3750 1250 3750 1200
+Connection ~ 3850 1200
+Wire Wire Line
+	3750 1200 3850 1200
+Wire Wire Line
+	3650 1250 3650 1200
+Connection ~ 3650 1200
+Wire Wire Line
+	3550 1250 3550 1200
+Wire Wire Line
+	3550 1200 3650 1200
+$Comp
+L power:VDDA #PWR?
+U 1 1 5DFF67B8
+P 4150 850
+F 0 "#PWR?" H 4150 700 50  0001 C CNN
+F 1 "VDDA" H 4167 1023 50  0000 C CNN
+F 2 "" H 4150 850 50  0001 C CNN
+F 3 "" H 4150 850 50  0001 C CNN
+	1    4150 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDD #PWR?
+U 1 1 5DFF63EE
+P 3750 1100
+F 0 "#PWR?" H 3750 950 50  0001 C CNN
+F 1 "VDD" H 3767 1273 50  0000 C CNN
+F 2 "" H 3750 1100 50  0001 C CNN
+F 3 "" H 3750 1100 50  0001 C CNN
+	1    3750 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 1000 3450 1250
+Wire Wire Line
+	3250 1000 3450 1000
+$Comp
+L power:GND #PWR?
+U 1 1 5DFF1C54
+P 3250 1200
+F 0 "#PWR?" H 3250 950 50  0001 C CNN
+F 1 "GND" H 3255 1027 50  0000 C CNN
+F 2 "" H 3250 1200 50  0001 C CNN
+F 3 "" H 3250 1200 50  0001 C CNN
+	1    3250 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5DFF0C9F
+P 2650 1400
+F 0 "R?" V 2550 1400 50  0000 C CNN
+F 1 "10k" V 2750 1400 50  0000 C CNN
+F 2 "" H 2650 1400 50  0001 C CNN
+F 3 "~" H 2650 1400 50  0001 C CNN
+	1    2650 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 1250 2650 1300
+$Comp
+L power:VDD #PWR?
+U 1 1 5DFD6268
+P 2650 1250
+F 0 "#PWR?" H 2650 1100 50  0001 C CNN
+F 1 "VDD" H 2667 1423 50  0000 C CNN
+F 2 "" H 2650 1250 50  0001 C CNN
+F 3 "" H 2650 1250 50  0001 C CNN
+	1    2650 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 1500 2650 1550
+$Comp
+L Device:C_Small C?
+U 1 1 5DFD088E
+P 3250 1100
+F 0 "C?" H 3000 1150 50  0000 L CNN
+F 1 "100n" H 3000 1050 50  0000 L CNN
+F 2 "" H 3250 1100 50  0001 C CNN
+F 3 "~" H 3250 1100 50  0001 C CNN
+	1    3250 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L MCU_ST_STM32F4:STM32F401VETx U?
+U 1 1 5DFBBA51
+P 3750 3950
+F 0 "U?" H 3100 1350 50  0000 C CNN
+F 1 "STM32F401VETx" H 4400 1350 50  0000 C CNN
+F 2 "Package_QFP:LQFP-100_14x14mm_P0.5mm" H 3050 1450 50  0001 R CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00102166.pdf" H 3750 3950 50  0001 C CNN
+	1    3750 3950
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
