@@ -37,11 +37,7 @@ U 5E07245F
 F0 "Sockets" 50
 F1 "Sockets.sch" 50
 $EndSheet
-Text Notes 5550 3650 2    50   ~ 0
-Zabezpieczyć wejście zasilania przed odwrotną polaryzacją i wysokim napięciem, wykorzystać diodę TVS SMB28A
 NoConn ~ 3850 4400
-Text Notes 3100 3950 2    50   ~ 0
-Jeden uart , dwa TMC z wykorzystaniem 74HC4066\n
 $Sheet
 S 5400 800  1600 900 
 U 5E1018C2
