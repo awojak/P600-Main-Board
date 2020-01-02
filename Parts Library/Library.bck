@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP A4403
+D Valley current mode buck converter, 46V, 3A, up to 2MHz, QFN-16
+K buck regulator adjustable
+F https://www.allegromicro.com/~/media/Files/Datasheets/A4403-Datasheet.ashx
+$ENDCMP
+#
+$CMP TMC2209-LA
+D The TMC2209 is an ultra-silent motor driver IC for two phase stepper motors, 2A RMS, 4.75V-29V, UART, 64 microsteps
+K motor driver stepper
+F https://www.trinamic.com/fileadmin/assets/Products/ICs_Documents/TMC2209_Datasheet_V103.pdf
+$ENDCMP
+#
+#End Doc Library

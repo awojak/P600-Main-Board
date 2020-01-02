@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 5
+Sheet 1 6
 Title ""
 Date ""
 Rev ""
@@ -42,4 +42,10 @@ Zabezpieczyć wejście zasilania przed odwrotną polaryzacją i wysokim napięci
 NoConn ~ 3850 4400
 Text Notes 3100 3950 2    50   ~ 0
 Jeden uart , dwa TMC z wykorzystaniem 74HC4066\n
+$Sheet
+S 5400 800  1600 900 
+U 5E1018C2
+F0 "Power" 50
+F1 "Power.sch" 50
+$EndSheet
 $EndSCHEMATC
