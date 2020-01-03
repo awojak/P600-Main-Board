@@ -37,7 +37,6 @@ U 5E07245F
 F0 "Sockets" 50
 F1 "Sockets.sch" 50
 $EndSheet
-NoConn ~ 3850 4400
 $Sheet
 S 5400 800  1600 900 
 U 5E1018C2
