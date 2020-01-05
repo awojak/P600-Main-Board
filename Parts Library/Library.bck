@@ -1,9 +1,20 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 74HC2G32
+D Dual OR Gate, CMOS
+K Dual Gate OR HC CMOS
+$ENDCMP
+#
 $CMP A4403
 D Valley current mode buck converter, 46V, 3A, up to 2MHz, QFN-16
 K buck regulator adjustable
 F https://www.allegromicro.com/~/media/Files/Datasheets/A4403-Datasheet.ashx
+$ENDCMP
+#
+$CMP S13-24V-2C
+D Compact, Industry-Standard 2-pole relay, designed to switch 1A Signal Loads, Single-side Stable
+K Miniature Relay Dual Pole DPDT SHORI
+F https://www.tme.eu/Document/64152b8fe9c340a87eeb0f5deb8b7f91/s13-relay.pdf
 $ENDCMP
 #
 $CMP TMC2209-LA

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 6
+Sheet 1 9
 Title ""
 Date ""
 Rev ""
@@ -42,5 +42,23 @@ S 5400 800  1600 900
 U 5E1018C2
 F0 "Power" 50
 F1 "Power.sch" 50
+$EndSheet
+$Sheet
+S 5400 2050 1600 900 
+U 5E858220
+F0 "Sockets 2" 50
+F1 "Sockets 2.sch" 50
+$EndSheet
+$Sheet
+S 1750 3250 1600 900 
+U 5E91D7CC
+F0 "Emergency" 50
+F1 "Emergency.sch" 50
+$EndSheet
+$Sheet
+S 3550 3250 1600 900 
+U 5E91D96F
+F0 "HMI" 50
+F1 "HMI.sch" 50
 $EndSheet
 $EndSCHEMATC

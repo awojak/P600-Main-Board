@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 6
+Sheet 4 9
 Title "Microcontroller"
 Date "2019-12-19"
 Rev "1"
@@ -592,4 +592,10 @@ F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/da
 	1    3750 3950
 	1    0    0    -1  
 $EndComp
+Text GLabel 7050 3050 0    50   Input ~ 0
+Y_ENABLE
+Text GLabel 7050 3200 0    50   Input ~ 0
+Z_ENABLE
+Text GLabel 6650 3350 2    50   Output ~ 0
+EMERGENCY
 $EndSCHEMATC

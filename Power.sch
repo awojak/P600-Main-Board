@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 6
+Sheet 6 9
 Title ""
 Date ""
 Rev ""
@@ -771,7 +771,7 @@ Wire Wire Line
 	8150 4450 8900 4450
 Text Notes 8900 4600 0    50   ~ 0
 3.3V 600mA
-Text Notes 8300 4000 0    50   ~ 0
+Text Notes 8000 4100 0    50   ~ 0
 Pytanie ile potrzebujemy mocy? Może wykorzystać stabilizator liniowy?
 $Comp
 L Device:R R?
@@ -956,12 +956,12 @@ Wire Wire Line
 	5250 4450 5250 4350
 Wire Wire Line
 	5250 4350 4900 4350
-Text Notes 2750 4700 0    50   ~ 0
+Text Notes 2750 4750 0    50   ~ 0
 zastanowić się czy nie usunąc tych diod
-Text Notes 650  3000 0    50   ~ 0
+Text Notes 650  3200 0    50   ~ 0
 Pomyśleć czy TVS nie wymaga zabezpieczenia, chodźby bezpiecznikiem
 Text Notes 850  6900 0    50   ~ 0
 może zastosować https://www.tme.eu/pl/details/0154003.dr/bezpieczniki-smd-z-podstaw-superszybkie/littelfuse/
-Text Notes 1000 3950 0    50   ~ 0
+Text Notes 650  3350 0    50   ~ 0
 dodać diodę led sygnalizującą zasilanie
 $EndSCHEMATC
