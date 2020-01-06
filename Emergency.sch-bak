@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 9
+Sheet 8 10
 Title ""
 Date ""
 Rev ""
@@ -440,23 +440,23 @@ Wire Wire Line
 	7500 2500 7500 2550
 Wire Wire Line
 	7500 3250 7500 3300
-$Comp
-L Device:D_ALT D?
-U 1 1 5E1664E5
-P 3100 2000
-AR Path="/5E1018C2/5E1664E5" Ref="D?"  Part="1" 
-AR Path="/5E91D7CC/5E1664E5" Ref="D?"  Part="1" 
-F 0 "D?" H 3100 1800 50  0000 C CNN
-F 1 "1N4448WS-7-F" H 3100 1900 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-323" H 3100 2000 50  0001 C CNN
-F 3 "~" H 3100 2000 50  0001 C CNN
-	1    3100 2000
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	3100 1800 3100 1850
 Wire Wire Line
 	3100 2250 3100 2150
 Wire Wire Line
 	2550 2250 3100 2250
+$Comp
+L Device:Polyfuse F?
+U 1 1 5E164594
+P 3100 2000
+AR Path="/5E07245F/5E164594" Ref="F?"  Part="1" 
+AR Path="/5E91D7CC/5E164594" Ref="F?"  Part="1" 
+F 0 "F?" H 3012 1954 50  0000 R CNN
+F 1 "SN010-60 " H 3012 2045 50  0000 R CNN
+F 2 "Fuse:Fuse_1206_3216Metric" H 3150 1800 50  0001 L CNN
+F 3 "~" H 3100 2000 50  0001 C CNN
+	1    3100 2000
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC

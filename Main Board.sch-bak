@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 9
+Sheet 1 10
 Title ""
 Date ""
 Rev ""
@@ -61,4 +61,16 @@ U 5E91D96F
 F0 "HMI" 50
 F1 "HMI.sch" 50
 $EndSheet
+$Sheet
+S 5400 3250 1600 900 
+U 5E1B3A8F
+F0 "Sensors" 50
+F1 "Sensors.sch" 50
+$EndSheet
+Text Notes 2750 4650 0    50   ~ 0
+Pomyśleść na podłączeniem Capping station do automatycznego uwalniania głowicy jak w openDTG.
+Text Notes 2750 4750 0    50   ~ 0
+Sprawdzić czy nie trzeba kontrolować sygnału ASF
+Text Notes 2750 4850 0    50   ~ 0
+Sprawdzić konektor z zasilacza EPSON
 $EndSCHEMATC

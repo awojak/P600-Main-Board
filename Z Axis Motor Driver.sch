@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 9
+Sheet 3 10
 Title "Z Axis Motor Driver"
 Date "2019-12-02"
 Rev "1"
@@ -1042,7 +1042,7 @@ Wire Wire Line
 	1400 3950 2700 3950
 Wire Wire Line
 	2700 3850 1400 3850
-Text Notes 1800 4150 2    50   ~ 0
+Text Notes 1800 4100 2    50   ~ 0
 INDEX na wejście Timera STM
 NoConn ~ 2700 4150
 NoConn ~ 2700 4350
@@ -1076,8 +1076,6 @@ F 3 "" H 2200 5000 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2200 4700 2200 5000
-Text Notes 2650 3450 2    50   ~ 0
-Wybrać address
 Text Notes 3700 5550 2    50   ~ 0
 Pin 25 NC można podłączyć do GND jeśli poprawi to rutowanie PCB
 $EndSCHEMATC

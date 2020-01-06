@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 9
+Sheet 2 10
 Title "Y Axis Motor Driver"
 Date "2019-12-02"
 Rev "1"
@@ -1154,7 +1154,7 @@ Wire Wire Line
 	1600 4100 2900 4100
 Wire Wire Line
 	2900 4000 1600 4000
-Text Notes 2000 4300 2    50   ~ 0
+Text Notes 2000 4250 2    50   ~ 0
 INDEX na wejście Timera STM
 NoConn ~ 2900 4300
 NoConn ~ 2900 4500
