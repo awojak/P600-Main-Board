@@ -67,12 +67,6 @@ F 3 "~" H 4850 4050 50  0001 C CNN
 	1    4850 4050
 	-1   0    0    -1  
 $EndComp
-Text GLabel 2550 2650 2    50   Output ~ 0
-LIMIT_Y_FRONT
-Text GLabel 2500 3900 2    50   Output ~ 0
-LIMIT_Z_UP
-Text GLabel 2500 5150 2    50   Output ~ 0
-LIMIT_Z_DOWN
 Wire Wire Line
 	4500 3850 4550 3850
 Wire Wire Line
@@ -378,101 +372,6 @@ Text Label 2600 6800 0    50   ~ 0
 PF_A
 Text Label 2600 7000 0    50   ~ 0
 PE
-Wire Wire Line
-	6250 3000 6250 3150
-Wire Wire Line
-	6200 3000 6250 3000
-$Comp
-L power:GND #PWR?
-U 1 1 5E178011
-P 6250 3150
-AR Path="/5E07245F/5E178011" Ref="#PWR?"  Part="1" 
-AR Path="/5E858220/5E178011" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 6250 2900 50  0001 C CNN
-F 1 "GND" H 6255 2977 50  0000 C CNN
-F 2 "" H 6250 3150 50  0001 C CNN
-F 3 "" H 6250 3150 50  0001 C CNN
-	1    6250 3150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6200 2900 6300 2900
-Text GLabel 7300 2650 2    50   Output ~ 0
-PRINTER_POWER_DETECT2
-$Comp
-L power:+3.3V #PWR?
-U 1 1 5E168635
-P 7000 2300
-AR Path="/5E07245F/5E168635" Ref="#PWR?"  Part="1" 
-AR Path="/5E858220/5E168635" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 7000 2150 50  0001 C CNN
-F 1 "+3.3V" H 7015 2473 50  0000 C CNN
-F 2 "" H 7000 2300 50  0001 C CNN
-F 3 "" H 7000 2300 50  0001 C CNN
-	1    7000 2300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5E168627
-P 6450 2900
-AR Path="/5E07245F/5E168627" Ref="R?"  Part="1" 
-AR Path="/5E858220/5E168627" Ref="R?"  Part="1" 
-F 0 "R?" V 6250 2850 50  0000 C CNN
-F 1 "4.7kΩ" V 6350 2900 50  0000 C CNN
-F 2 "" V 6380 2900 50  0001 C CNN
-F 3 "~" H 6450 2900 50  0001 C CNN
-	1    6450 2900
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	7000 2650 7000 2700
-Connection ~ 7000 2650
-Wire Wire Line
-	7000 2650 7300 2650
-$Comp
-L power:GND #PWR?
-U 1 1 5E16860A
-P 7000 3150
-AR Path="/5E07245F/5E16860A" Ref="#PWR?"  Part="1" 
-AR Path="/5E858220/5E16860A" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 7000 2900 50  0001 C CNN
-F 1 "GND" H 7005 2977 50  0000 C CNN
-F 2 "" H 7000 3150 50  0001 C CNN
-F 3 "" H 7000 3150 50  0001 C CNN
-	1    7000 3150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7000 2600 7000 2650
-$Comp
-L Device:R R?
-U 1 1 5E1685FF
-P 7000 2450
-AR Path="/5E07245F/5E1685FF" Ref="R?"  Part="1" 
-AR Path="/5E858220/5E1685FF" Ref="R?"  Part="1" 
-F 0 "R?" H 6850 2400 50  0000 C CNN
-F 1 "10kΩ" H 6800 2500 50  0000 C CNN
-F 2 "" V 6930 2450 50  0001 C CNN
-F 3 "~" H 7000 2450 50  0001 C CNN
-	1    7000 2450
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector:Conn_01x02_Male J?
-U 1 1 5E10548D
-P 6000 2900
-AR Path="/5E07245F/5E10548D" Ref="J?"  Part="1" 
-AR Path="/5E858220/5E10548D" Ref="J?"  Part="1" 
-F 0 "J?" H 5972 2924 50  0000 R CNN
-F 1 "PRINTER POWER" H 6300 3050 50  0000 R CNN
-F 2 "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical" H 6000 2900 50  0001 C CNN
-F 3 "~" H 6000 2900 50  0001 C CNN
-	1    6000 2900
-	1    0    0    -1  
-$EndComp
-Text GLabel 6950 1400 2    50   Output ~ 0
-PRINTER_POWER_DETECT
 $Comp
 L power:+3.3V #PWR?
 U 1 1 5E159CCD
@@ -536,8 +435,6 @@ F 3 "http://www.fairchildsemi.com/ds/BC/BC817.pdf" H 6600 1650 50  0001 L CNN
 	1    6600 1650
 	1    0    0    -1  
 $EndComp
-Text GLabel 2550 1400 2    50   Output ~ 0
-LIMIT_Y_BACK
 $Comp
 L Connector:Conn_01x02_Male J?
 U 1 1 5E076735
@@ -1121,23 +1018,6 @@ Wire Wire Line
 	9950 1900 9950 1950
 Wire Wire Line
 	9550 1700 9650 1700
-$Comp
-L Transistor_BJT:BC817 Q?
-U 1 1 5E1685F5
-P 6900 2900
-AR Path="/5E07245F/5E1685F5" Ref="Q?"  Part="1" 
-AR Path="/5E858220/5E1685F5" Ref="Q?"  Part="1" 
-F 0 "Q?" H 7091 2946 50  0000 L CNN
-F 1 "BC817" H 7091 2855 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 7100 2825 50  0001 L CIN
-F 3 "http://www.fairchildsemi.com/ds/BC/BC817.pdf" H 6900 2900 50  0001 L CNN
-	1    6900 2900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6600 2900 6700 2900
-Wire Wire Line
-	7000 3100 7000 3150
 Wire Wire Line
 	6300 1650 6400 1650
 Text Label 9950 1000 0    50   ~ 0
@@ -1732,4 +1612,14 @@ F 3 "~" H 4350 3850 50  0001 C CNN
 	1    4350 3850
 	0    -1   -1   0   
 $EndComp
+Text GLabel 2550 1400 2    50   Output ~ 0
+LIMIT_Y_BACK
+Text GLabel 2500 5150 2    50   Output ~ 0
+LIMIT_Z_DOWN
+Text GLabel 2500 3900 2    50   Output ~ 0
+LIMIT_Z_UP
+Text GLabel 2550 2650 2    50   Output ~ 0
+LIMIT_Y_FRONT
+Text GLabel 6950 1400 2    50   Output ~ 0
+PRINTER_POWER_DETECT
 $EndSCHEMATC

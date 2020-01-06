@@ -23,6 +23,12 @@ K motor driver stepper
 F https://www.trinamic.com/fileadmin/assets/Products/ICs_Documents/TMC2209_Datasheet_V103.pdf
 $ENDCMP
 #
+$CMP USBUF02W6
+D EMI filter and line termination for USB upstream ports
+K USB ESD EMI filter
+F https://www.st.com/resource/en/datasheet/usbuf.pdf
+$ENDCMP
+#
 $CMP YJS9435A
 D -3.6A Id, -30V Vds, HexFET P-MOS Power MOSFET, Ronon 0.09R, Micro8
 K HexFET Power MOSFET P-MOS

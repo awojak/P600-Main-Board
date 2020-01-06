@@ -650,10 +650,6 @@ Text GLabel 1600 3000 0    50   Input ~ 0
 Y_STEP
 Text GLabel 1600 3100 0    50   Input ~ 0
 Y_DIR
-Text GLabel 1600 3650 0    50   Input ~ 0
-UART_RX
-Text GLabel 1600 3800 0    50   Output ~ 0
-UART_TX
 $Comp
 L Device:R R?
 U 1 1 5E249179
@@ -1211,4 +1207,8 @@ Wire Wire Line
 	2500 3500 2500 3400
 Wire Wire Line
 	2500 3500 2900 3500
+Text GLabel 1600 3800 0    50   Input ~ 0
+UART_TX
+Text GLabel 1600 3650 0    50   Output ~ 0
+UART_RX
 $EndSCHEMATC

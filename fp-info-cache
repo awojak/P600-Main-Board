@@ -1,4 +1,4 @@
-16942630875623623
+16944209212083804
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -75263,6 +75263,13 @@ Omron G5V-2 Relay DPDT
 0
 8
 8
+footprints
+SOT323-6L
+
+
+0
+6
+6
 footprints
 THT_FPC_r1.0mm_11pin_vertical
 

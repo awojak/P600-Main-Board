@@ -16,74 +16,68 @@ $EndDescr
 $Comp
 L Device:Crystal_Small Y?
 U 1 1 5DFC2DAF
-P 2300 3100
-F 0 "Y?" H 2300 3325 50  0000 C CNN
-F 1 "8MHz" H 2300 3234 50  0000 C CNN
-F 2 "Crystals:Crystal_HC49-SD_SMD" H 2300 3100 50  0001 C CNN
-F 3 "~" H 2300 3100 50  0001 C CNN
-	1    2300 3100
+P 1300 3100
+F 0 "Y?" H 1300 3325 50  0000 C CNN
+F 1 "8MHz" H 1300 3234 50  0000 C CNN
+F 2 "Crystals:Crystal_HC49-SD_SMD" H 1300 3100 50  0001 C CNN
+F 3 "~" H 1300 3100 50  0001 C CNN
+	1    1300 3100
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2850 2950 2450 2950
-Wire Wire Line
-	2150 2850 2850 2850
 $Comp
 L Device:C_Small C?
 U 1 1 5DFC8494
-P 2450 3250
-F 0 "C?" H 2542 3296 50  0000 L CNN
-F 1 "20p" H 2542 3205 50  0000 L CNN
-F 2 "" H 2450 3250 50  0001 C CNN
-F 3 "~" H 2450 3250 50  0001 C CNN
-	1    2450 3250
+P 1450 3250
+F 0 "C?" H 1542 3296 50  0000 L CNN
+F 1 "20p" H 1542 3205 50  0000 L CNN
+F 2 "" H 1450 3250 50  0001 C CNN
+F 3 "~" H 1450 3250 50  0001 C CNN
+	1    1450 3250
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C_Small C?
 U 1 1 5DFC8FE2
-P 2150 3250
-F 0 "C?" H 2242 3296 50  0000 L CNN
-F 1 "20p" H 2242 3205 50  0000 L CNN
-F 2 "" H 2150 3250 50  0001 C CNN
-F 3 "~" H 2150 3250 50  0001 C CNN
-	1    2150 3250
+P 1150 3250
+F 0 "C?" H 1242 3296 50  0000 L CNN
+F 1 "20p" H 1242 3205 50  0000 L CNN
+F 2 "" H 1150 3250 50  0001 C CNN
+F 3 "~" H 1150 3250 50  0001 C CNN
+	1    1150 3250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2450 2950 2450 3100
+	1150 2850 1150 3100
 Wire Wire Line
-	2150 2850 2150 3100
+	1200 3100 1150 3100
+Connection ~ 1150 3100
 Wire Wire Line
-	2200 3100 2150 3100
-Connection ~ 2150 3100
+	1150 3100 1150 3150
 Wire Wire Line
-	2150 3100 2150 3150
+	1400 3100 1450 3100
+Connection ~ 1450 3100
 Wire Wire Line
-	2400 3100 2450 3100
-Connection ~ 2450 3100
-Wire Wire Line
-	2450 3100 2450 3150
+	1450 3100 1450 3150
 $Comp
 L power:GND #PWR?
 U 1 1 5DFC9D55
-P 2150 3450
-F 0 "#PWR?" H 2150 3200 50  0001 C CNN
-F 1 "GND" H 2155 3277 50  0000 C CNN
-F 2 "" H 2150 3450 50  0001 C CNN
-F 3 "" H 2150 3450 50  0001 C CNN
-	1    2150 3450
+P 1150 3450
+F 0 "#PWR?" H 1150 3200 50  0001 C CNN
+F 1 "GND" H 1155 3277 50  0000 C CNN
+F 2 "" H 1150 3450 50  0001 C CNN
+F 3 "" H 1150 3450 50  0001 C CNN
+	1    1150 3450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2150 3350 2150 3400
+	1150 3350 1150 3400
 Wire Wire Line
-	2450 3350 2450 3400
+	1450 3350 1450 3400
 Wire Wire Line
-	2450 3400 2150 3400
-Connection ~ 2150 3400
+	1450 3400 1150 3400
+Connection ~ 1150 3400
 Wire Wire Line
-	2150 3400 2150 3450
+	1150 3400 1150 3450
 $Comp
 L Device:C_Small C?
 U 1 1 5DFCB4FC
@@ -435,14 +429,10 @@ Wire Wire Line
 	4650 1550 5000 1550
 Wire Wire Line
 	4650 1650 5000 1650
-Text GLabel 2500 6050 0    50   Input ~ 0
+Text GLabel 5000 3050 2    50   Input ~ 0
 ENC2_A
-Text GLabel 2500 6150 0    50   Input ~ 0
+Text GLabel 5000 3550 2    50   Input ~ 0
 ENC2_B
-Wire Wire Line
-	2500 6050 2850 6050
-Wire Wire Line
-	2500 6150 2850 6150
 Connection ~ 2650 1550
 Wire Wire Line
 	2650 1550 2550 1550
@@ -581,6 +571,277 @@ F 3 "~" H 3250 1100 50  0001 C CNN
 	1    3250 1100
 	1    0    0    -1  
 $EndComp
+Text GLabel 2500 5550 0    50   Output ~ 0
+Y_ENABLE
+Text GLabel 2500 5050 0    50   Output ~ 0
+Z_ENABLE
+Text GLabel 5000 4350 2    50   Output ~ 0
+EMERGENCY
+Text GLabel 2500 4050 0    50   Output ~ 0
+LCD_DB4
+Text GLabel 2500 4150 0    50   Output ~ 0
+LCD_DB5
+Text GLabel 2500 4250 0    50   Output ~ 0
+LCD_DB6
+Text GLabel 2500 4350 0    50   Output ~ 0
+LCD_DB7
+Text GLabel 2500 3950 0    50   Output ~ 0
+LCD_E
+Text GLabel 2500 3850 0    50   Output ~ 0
+LCD_RS
+Text GLabel 5000 4150 2    50   Output ~ 0
+LCD_PWM
+Text GLabel 5000 2150 2    50   Input ~ 0
+SPI_MISO
+Text GLabel 5000 4550 2    50   Output ~ 0
+LED3
+Text GLabel 5000 4650 2    50   Output ~ 0
+LED4
+Text GLabel 5000 5750 2    50   BiDi ~ 0
+I2C_SDA
+Text GLabel 5000 2350 2    50   Output ~ 0
+I2C_SCL
+Text GLabel 2500 5750 0    50   Input ~ 0
+KEY_2
+Text GLabel 2500 5850 0    50   Input ~ 0
+KEY_3
+Text GLabel 2500 5950 0    50   Input ~ 0
+KEY_4
+Text GLabel 2500 5650 0    50   Input ~ 0
+KEY_1
+Text GLabel 2500 3650 0    50   Output ~ 0
+LED1_CONTROL
+Text GLabel 2500 3750 0    50   Output ~ 0
+LED2_CONTROL
+Text GLabel 5000 2050 2    50   Output ~ 0
+SPI_SCLK
+Text GLabel 5000 2250 2    50   Output ~ 0
+SPI_MOSI
+Text GLabel 2500 3250 0    50   Input ~ 0
+LIMIT_Y_BACK
+Text GLabel 2500 3550 0    50   Input ~ 0
+LIMIT_Z_DOWN
+Text GLabel 2500 3450 0    50   Input ~ 0
+LIMIT_Z_UP
+Text GLabel 2500 3350 0    50   Input ~ 0
+LIMIT_Y_FRONT
+Text GLabel 2500 4450 0    50   Input ~ 0
+WASTE_INK
+Text GLabel 5000 1750 2    50   Output ~ 0
+PE_SIGNAL
+Text GLabel 5000 6150 2    50   Input ~ 0
+PHOTO_SENSOR
+Text GLabel 5000 3850 2    50   Output ~ 0
+Y_STEP
+Text GLabel 5000 3950 2    50   Output ~ 0
+Y_DIR
+Text GLabel 2500 5450 0    50   Input ~ 0
+UART_RX
+Text GLabel 2500 5350 0    50   Output ~ 0
+UART_TX
+Text GLabel 2500 5250 0    50   Input ~ 0
+Y_INDEX
+Text GLabel 2500 5150 0    50   Input ~ 0
+Y_DIAG
+Text GLabel 5000 3650 2    50   Output ~ 0
+Z_STEP
+Text GLabel 5000 3750 2    50   Output ~ 0
+Z_DIR
+Text GLabel 2500 4950 0    50   Input ~ 0
+Z_INDEX
+Text GLabel 2500 4850 0    50   Input ~ 0
+Z_DIAG
+Wire Wire Line
+	4650 3650 5000 3650
+Wire Wire Line
+	5000 3750 4650 3750
+Wire Wire Line
+	5000 3850 4650 3850
+Wire Wire Line
+	4650 3950 5000 3950
+Text GLabel 5000 2750 2    50   BiDi ~ 0
+USB_DP
+Text GLabel 5000 2650 2    50   BiDi ~ 0
+USB_DM
+Wire Wire Line
+	4650 2650 5000 2650
+Wire Wire Line
+	4650 2750 5000 2750
+Wire Wire Line
+	4650 3550 5000 3550
+Wire Wire Line
+	2500 5450 2850 5450
+Wire Wire Line
+	2850 5350 2500 5350
+Text GLabel 5000 2850 2    50   BiDi ~ 0
+SWDIO
+Text GLabel 5000 2950 2    50   Input ~ 0
+SWCLK
+Wire Wire Line
+	4650 2950 5000 2950
+Wire Wire Line
+	5000 2850 4650 2850
+Wire Wire Line
+	4650 2050 5000 2050
+Wire Wire Line
+	4650 2150 5000 2150
+Wire Wire Line
+	4650 2250 5000 2250
+Wire Wire Line
+	4650 2350 5000 2350
+Wire Wire Line
+	4650 5750 5000 5750
+Text GLabel 5000 5450 2    50   Output ~ 0
+UART_OUT_TX
+Text GLabel 5000 5550 2    50   Input ~ 0
+UART_OUT_RX
+Wire Wire Line
+	4650 5450 5000 5450
+Wire Wire Line
+	5000 5550 4650 5550
+Wire Wire Line
+	2500 4950 2850 4950
+Wire Wire Line
+	2500 5050 2850 5050
+Wire Wire Line
+	2500 5150 2850 5150
+Wire Wire Line
+	2500 5250 2850 5250
+Wire Wire Line
+	2500 5550 2850 5550
+Wire Wire Line
+	4650 4150 5000 4150
+Wire Wire Line
+	5000 4350 4650 4350
+Wire Wire Line
+	2500 3850 2850 3850
+Wire Wire Line
+	2850 3950 2500 3950
+Wire Wire Line
+	2500 4050 2850 4050
+Wire Wire Line
+	2850 4150 2500 4150
+Wire Wire Line
+	2500 4250 2850 4250
+Wire Wire Line
+	2850 4350 2500 4350
+Wire Wire Line
+	5000 1750 4650 1750
+Wire Wire Line
+	2500 3250 2850 3250
+Wire Wire Line
+	2850 3350 2500 3350
+Wire Wire Line
+	2500 3450 2850 3450
+Wire Wire Line
+	2850 3550 2500 3550
+Wire Wire Line
+	1450 2950 2850 2950
+Wire Wire Line
+	1150 2850 2850 2850
+Wire Wire Line
+	2500 3650 2850 3650
+Wire Wire Line
+	2850 3750 2500 3750
+Wire Wire Line
+	2500 5650 2850 5650
+Wire Wire Line
+	2850 5750 2500 5750
+Wire Wire Line
+	2500 5850 2850 5850
+Wire Wire Line
+	2850 5950 2500 5950
+Wire Wire Line
+	4650 4550 5000 4550
+Wire Wire Line
+	5000 4650 4650 4650
+Wire Wire Line
+	2500 4450 2850 4450
+Wire Wire Line
+	4650 6150 5000 6150
+Wire Wire Line
+	2500 4550 2850 4550
+Text GLabel 2500 4550 0    50   Input ~ 0
+PRINTER_POWER_DETECT
+$Comp
+L Connector:USB_B J?
+U 1 1 5E13B7DC
+P 7600 1700
+F 0 "J?" H 7657 2167 50  0000 C CNN
+F 1 "USB_B" H 7657 2076 50  0000 C CNN
+F 2 "Connector_USB:USB_B_OST_USB-B1HSxx_Horizontal" H 7750 1650 50  0001 C CNN
+F 3 " ~" H 7750 1650 50  0001 C CNN
+	1    7600 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Library:USBUF02W6 U?
+U 1 1 5E1458B6
+P 8600 1750
+F 0 "U?" H 8300 2100 50  0000 C CNN
+F 1 "USBUF02W6" H 8300 2000 50  0000 C CNN
+F 2 "" H 9250 2400 50  0001 C CNN
+F 3 "" H 9250 2400 50  0001 C CNN
+	1    8600 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7900 1700 8250 1700
+$Comp
+L power:VDD #PWR?
+U 1 1 5E156C47
+P 8600 1400
+F 0 "#PWR?" H 8600 1250 50  0001 C CNN
+F 1 "VDD" H 8617 1573 50  0000 C CNN
+F 2 "" H 8600 1400 50  0001 C CNN
+F 3 "" H 8600 1400 50  0001 C CNN
+	1    8600 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E1575E9
+P 8600 2100
+F 0 "#PWR?" H 8600 1850 50  0001 C CNN
+F 1 "GND" H 8605 1927 50  0000 C CNN
+F 2 "" H 8600 2100 50  0001 C CNN
+F 3 "" H 8600 2100 50  0001 C CNN
+	1    8600 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8600 2050 8600 2100
+Wire Wire Line
+	8600 1400 8600 1450
+Text GLabel 9150 1800 2    50   BiDi ~ 0
+USB_DM
+Text GLabel 9150 1700 2    50   BiDi ~ 0
+USB_DP
+Wire Wire Line
+	8950 1700 9150 1700
+Wire Wire Line
+	8950 1800 9150 1800
+NoConn ~ 7900 1500
+$Comp
+L power:GND #PWR?
+U 1 1 5E1749C3
+P 7600 2150
+F 0 "#PWR?" H 7600 1900 50  0001 C CNN
+F 1 "GND" H 7605 1977 50  0000 C CNN
+F 2 "" H 7600 2150 50  0001 C CNN
+F 3 "" H 7600 2150 50  0001 C CNN
+	1    7600 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7600 2100 7600 2150
+NoConn ~ 7500 2100
+Wire Wire Line
+	4650 3050 5000 3050
+Wire Wire Line
+	1450 2950 1450 3100
+Wire Wire Line
+	2500 4850 2850 4850
 $Comp
 L MCU_ST_STM32F4:STM32F401VETx U?
 U 1 1 5DFBBA51
@@ -592,10 +853,6 @@ F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/da
 	1    3750 3950
 	1    0    0    -1  
 $EndComp
-Text GLabel 7050 3050 0    50   Input ~ 0
-Y_ENABLE
-Text GLabel 7050 3200 0    50   Input ~ 0
-Z_ENABLE
-Text GLabel 6650 3350 2    50   Output ~ 0
-EMERGENCY
+Wire Wire Line
+	7900 1800 8250 1800
 $EndSCHEMATC

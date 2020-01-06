@@ -71,6 +71,6 @@ Text Notes 2750 4650 0    50   ~ 0
 Pomyśleść na podłączeniem Capping station do automatycznego uwalniania głowicy jak w openDTG.
 Text Notes 2750 4750 0    50   ~ 0
 Sprawdzić czy nie trzeba kontrolować sygnału ASF
-Text Notes 2750 4850 0    50   ~ 0
-Sprawdzić konektor z zasilacza EPSON
+Text Notes 2750 4950 0    50   ~ 0
+5V Detect
 $EndSCHEMATC

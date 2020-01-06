@@ -146,7 +146,7 @@ LCD_E
 Text GLabel 1450 1650 0    50   Input ~ 0
 LCD_RS
 Text GLabel 1450 2250 0    50   Input ~ 0
-LCD_CON
+LCD_PWM
 Wire Wire Line
 	1450 1650 1600 1650
 Wire Wire Line
