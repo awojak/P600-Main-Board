@@ -375,64 +375,64 @@ PE
 $Comp
 L power:+3.3V #PWR?
 U 1 1 5E159CCD
-P 6700 1050
+P 6900 1050
 AR Path="/5E07245F/5E159CCD" Ref="#PWR?"  Part="1" 
 AR Path="/5E858220/5E159CCD" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 6700 900 50  0001 C CNN
-F 1 "+3.3V" H 6715 1223 50  0000 C CNN
-F 2 "" H 6700 1050 50  0001 C CNN
-F 3 "" H 6700 1050 50  0001 C CNN
-	1    6700 1050
+F 0 "#PWR?" H 6900 900 50  0001 C CNN
+F 1 "+3.3V" H 6915 1223 50  0000 C CNN
+F 2 "" H 6900 1050 50  0001 C CNN
+F 3 "" H 6900 1050 50  0001 C CNN
+	1    6900 1050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6000 1650 5800 1650
-Text Label 5800 1650 0    50   ~ 0
+	6150 1650 5950 1650
+Text Label 5950 1650 0    50   ~ 0
 3.3V
 $Comp
 L Device:R R?
 U 1 1 5E153875
-P 6150 1650
+P 6300 1650
 AR Path="/5E07245F/5E153875" Ref="R?"  Part="1" 
 AR Path="/5E858220/5E153875" Ref="R?"  Part="1" 
-F 0 "R?" V 5950 1600 50  0000 C CNN
-F 1 "4.7kΩ" V 6050 1650 50  0000 C CNN
-F 2 "" V 6080 1650 50  0001 C CNN
-F 3 "~" H 6150 1650 50  0001 C CNN
-	1    6150 1650
+F 0 "R?" V 6100 1600 50  0000 C CNN
+F 1 "4.7kΩ" V 6200 1650 50  0000 C CNN
+F 2 "" V 6230 1650 50  0001 C CNN
+F 3 "~" H 6300 1650 50  0001 C CNN
+	1    6300 1650
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	6700 1400 6700 1450
-Connection ~ 6700 1400
+	6900 1400 6900 1450
+Connection ~ 6900 1400
 Wire Wire Line
-	6700 1400 6950 1400
+	6900 1400 7150 1400
 Wire Wire Line
-	6700 1350 6700 1400
+	6900 1350 6900 1400
 $Comp
 L Device:R R?
 U 1 1 5E1422FA
-P 6700 1200
+P 6900 1200
 AR Path="/5E07245F/5E1422FA" Ref="R?"  Part="1" 
 AR Path="/5E858220/5E1422FA" Ref="R?"  Part="1" 
-F 0 "R?" H 6550 1150 50  0000 C CNN
-F 1 "10kΩ" H 6500 1250 50  0000 C CNN
-F 2 "" V 6630 1200 50  0001 C CNN
-F 3 "~" H 6700 1200 50  0001 C CNN
-	1    6700 1200
+F 0 "R?" H 6750 1150 50  0000 C CNN
+F 1 "10kΩ" H 6700 1250 50  0000 C CNN
+F 2 "" V 6830 1200 50  0001 C CNN
+F 3 "~" H 6900 1200 50  0001 C CNN
+	1    6900 1200
 	-1   0    0    1   
 $EndComp
 $Comp
 L Transistor_BJT:BC817 Q?
 U 1 1 5E13EDA8
-P 6600 1650
+P 6800 1650
 AR Path="/5E07245F/5E13EDA8" Ref="Q?"  Part="1" 
 AR Path="/5E858220/5E13EDA8" Ref="Q?"  Part="1" 
-F 0 "Q?" H 6791 1696 50  0000 L CNN
-F 1 "BC817" H 6791 1605 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 6800 1575 50  0001 L CIN
-F 3 "http://www.fairchildsemi.com/ds/BC/BC817.pdf" H 6600 1650 50  0001 L CNN
-	1    6600 1650
+F 0 "Q?" H 6991 1696 50  0000 L CNN
+F 1 "BC817" H 6991 1605 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7000 1575 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC817.pdf" H 6800 1650 50  0001 L CNN
+	1    6800 1650
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1019,7 +1019,7 @@ Wire Wire Line
 Wire Wire Line
 	9550 1700 9650 1700
 Wire Wire Line
-	6300 1650 6400 1650
+	6450 1650 6600 1650
 Text Label 9950 1000 0    50   ~ 0
 PE_S
 Wire Wire Line
@@ -1125,28 +1125,28 @@ Wire Notes Line
 Text Notes 1950 6000 0    50   ~ 0
 EPOSON FPC Input and Output
 Wire Wire Line
-	6700 1850 6700 1900
+	6900 1850 6900 2000
 $Comp
 L power:GND #PWR?
 U 1 1 5E145820
-P 6700 1900
+P 6900 2150
 AR Path="/5E07245F/5E145820" Ref="#PWR?"  Part="1" 
 AR Path="/5E858220/5E145820" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 6700 1650 50  0001 C CNN
-F 1 "GND" H 6705 1727 50  0000 C CNN
-F 2 "" H 6700 1900 50  0001 C CNN
-F 3 "" H 6700 1900 50  0001 C CNN
-	1    6700 1900
+F 0 "#PWR?" H 6900 1900 50  0001 C CNN
+F 1 "GND" H 6905 1977 50  0000 C CNN
+F 2 "" H 6900 2150 50  0001 C CNN
+F 3 "" H 6900 2150 50  0001 C CNN
+	1    6900 2150
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
 	5650 750  8350 750 
 Wire Notes Line
-	8350 750  8350 3400
+	8350 750  8350 2550
 Wire Notes Line
-	8350 3400 5650 3400
+	8350 2550 5650 2550
 Wire Notes Line
-	5650 750  5650 3400
+	5650 750  5650 2550
 Text Notes 6300 700  0    50   ~ 0
 EPSON POWER DETECTION TWO WAY
 Wire Notes Line
@@ -1200,14 +1200,14 @@ LED2_CONTROL
 $Comp
 L power:+5V #PWR?
 U 1 1 5E6328B5
-P 6800 3900
+P 6800 3400
 AR Path="/5E07245F/5E6328B5" Ref="#PWR?"  Part="1" 
 AR Path="/5E858220/5E6328B5" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 6800 3750 50  0001 C CNN
-F 1 "+5V" H 6815 4073 50  0000 C CNN
-F 2 "" H 6800 3900 50  0001 C CNN
-F 3 "" H 6800 3900 50  0001 C CNN
-	1    6800 3900
+F 0 "#PWR?" H 6800 3250 50  0001 C CNN
+F 1 "+5V" H 6815 3573 50  0000 C CNN
+F 2 "" H 6800 3400 50  0001 C CNN
+F 3 "" H 6800 3400 50  0001 C CNN
+	1    6800 3400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1328,14 +1328,14 @@ Wire Wire Line
 Wire Wire Line
 	7750 4700 8150 4700
 Wire Notes Line
-	5650 3650 8350 3650
+	5650 3050 8350 3050
 Wire Notes Line
-	8350 3650 8350 5800
+	8350 3050 8350 5800
 Wire Notes Line
 	8350 5800 5650 5800
 Wire Notes Line
-	5650 5800 5650 3650
-Text Notes 6500 3600 0    50   ~ 0
+	5650 5800 5650 3050
+Text Notes 5700 3850 0    50   ~ 0
 Buffered outputs signals
 Text Label 9350 2700 0    50   ~ 0
 YSTEP
@@ -1385,188 +1385,6 @@ Wire Notes Line
 	8500 3850 8500 2500
 Text Notes 9250 2450 0    50   ~ 0
 Optional Step/DIR Outputs
-$Comp
-L Connector:Conn_01x02_Male J?
-U 1 1 5E7929D8
-P 10100 4450
-AR Path="/5E07245F/5E7929D8" Ref="J?"  Part="1" 
-AR Path="/5E858220/5E7929D8" Ref="J?"  Part="1" 
-F 0 "J?" H 10072 4474 50  0000 R CNN
-F 1 "PHOTO SENSOR EMITER" H 10300 4600 50  0000 R CNN
-F 2 "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical" H 10100 4450 50  0001 C CNN
-F 3 "~" H 10100 4450 50  0001 C CNN
-	1    10100 4450
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x03_Male J?
-U 1 1 5E79348B
-P 10100 5150
-AR Path="/5E07245F/5E79348B" Ref="J?"  Part="1" 
-AR Path="/5E858220/5E79348B" Ref="J?"  Part="1" 
-F 0 "J?" H 10072 5174 50  0000 R CNN
-F 1 "PHOTO SENSOR RECEIVER" H 10300 5350 50  0000 R CNN
-F 2 "Connector_JST:JST_PH_B2B-PH-K_1x03_P2.00mm_Vertical" H 10100 5150 50  0001 C CNN
-F 3 "~" H 10100 5150 50  0001 C CNN
-	1    10100 5150
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	9100 4450 8850 4450
-Wire Wire Line
-	9400 4450 9700 4450
-Wire Wire Line
-	9900 5050 9700 5050
-Wire Wire Line
-	9700 5050 9700 4650
-Connection ~ 9700 4450
-Wire Wire Line
-	9700 4450 9900 4450
-$Comp
-L power:GND #PWR?
-U 1 1 5E7E234A
-P 9800 5650
-AR Path="/5E07245F/5E7E234A" Ref="#PWR?"  Part="1" 
-AR Path="/5E858220/5E7E234A" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 9800 5400 50  0001 C CNN
-F 1 "GND" H 9805 5477 50  0000 C CNN
-F 2 "" H 9800 5650 50  0001 C CNN
-F 3 "" H 9800 5650 50  0001 C CNN
-	1    9800 5650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9900 4550 9800 4550
-Wire Wire Line
-	9900 5150 9800 5150
-Connection ~ 9800 5150
-Wire Wire Line
-	9800 5150 9800 5600
-$Comp
-L Device:R R?
-U 1 1 5E7F706B
-P 9550 5000
-AR Path="/5E07245F/5E7F706B" Ref="R?"  Part="1" 
-AR Path="/5E858220/5E7F706B" Ref="R?"  Part="1" 
-F 0 "R?" H 9400 5050 50  0000 C CNN
-F 1 "NI" H 9400 4950 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 9480 5000 50  0001 C CNN
-F 3 "~" H 9550 5000 50  0001 C CNN
-	1    9550 5000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5E7FEDA3
-P 9200 5000
-AR Path="/5E07245F/5E7FEDA3" Ref="R?"  Part="1" 
-AR Path="/5E858220/5E7FEDA3" Ref="R?"  Part="1" 
-F 0 "R?" H 9050 5050 50  0000 C CNN
-F 1 "10kΩ" H 9050 4950 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 9130 5000 50  0001 C CNN
-F 3 "~" H 9200 5000 50  0001 C CNN
-	1    9200 5000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9900 5250 9550 5250
-Wire Wire Line
-	9550 5150 9550 5250
-Connection ~ 9550 5250
-Wire Wire Line
-	9550 5250 9200 5250
-Wire Wire Line
-	9550 4850 9800 4850
-Connection ~ 9800 4850
-Wire Wire Line
-	9800 4850 9800 5150
-Wire Wire Line
-	9800 4550 9800 4850
-Wire Wire Line
-	9200 4850 9200 4650
-Wire Wire Line
-	9200 4650 9700 4650
-Connection ~ 9700 4650
-Wire Wire Line
-	9700 4650 9700 4450
-Wire Wire Line
-	9200 5150 9200 5250
-Connection ~ 9200 5250
-Text Notes 8800 4800 0    50   ~ 0
-NPN Type
-Text Notes 9300 4800 0    50   ~ 0
-PNP Type
-Text Notes 8750 4150 0    50   ~ 0
-Mount just one 10k resistor for corect sensor type
-$Comp
-L Device:D_Zener_ALT D?
-U 1 1 5E84DCC4
-P 9550 5600
-AR Path="/5E07245F/5E84DCC4" Ref="D?"  Part="1" 
-AR Path="/5E858220/5E84DCC4" Ref="D?"  Part="1" 
-F 0 "D?" H 9500 5700 50  0000 C CNN
-F 1 "BZT52C3V3-7-F " H 9450 5500 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123" H 9550 5600 50  0001 C CNN
-F 3 "~" H 9550 5600 50  0001 C CNN
-	1    9550 5600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5E86D398
-P 9200 5400
-AR Path="/5E07245F/5E86D398" Ref="R?"  Part="1" 
-AR Path="/5E858220/5E86D398" Ref="R?"  Part="1" 
-F 0 "R?" H 9050 5450 50  0000 C CNN
-F 1 "10kΩ" H 9050 5350 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 9130 5400 50  0001 C CNN
-F 3 "~" H 9200 5400 50  0001 C CNN
-	1    9200 5400
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	9200 5550 9200 5600
-Wire Wire Line
-	9200 5600 9400 5600
-Wire Wire Line
-	9700 5600 9800 5600
-Connection ~ 9800 5600
-Wire Wire Line
-	9800 5600 9800 5650
-Text Notes 9850 5550 0    50   ~ 0
-Limit out. voltage to 3.3V
-Text GLabel 9150 5600 0    50   Output ~ 0
-PHOTO_SENSOR
-Wire Wire Line
-	8850 4400 8850 4450
-$Comp
-L power:VS #PWR?
-U 1 1 5E7AF906
-P 8850 4400
-AR Path="/5E07245F/5E7AF906" Ref="#PWR?"  Part="1" 
-AR Path="/5E858220/5E7AF906" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 8650 4250 50  0001 C CNN
-F 1 "VS" H 8867 4573 50  0000 C CNN
-F 2 "" H 8850 4400 50  0001 C CNN
-F 3 "" H 8850 4400 50  0001 C CNN
-	1    8850 4400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9150 5600 9200 5600
-Connection ~ 9200 5600
-Wire Notes Line
-	8500 5900 10950 5900
-Wire Notes Line
-	10950 5900 10950 4050
-Wire Notes Line
-	10950 4050 8500 4050
-Wire Notes Line
-	8500 4050 8500 5900
-Text Notes 9250 4000 0    50   ~ 0
-Photobarier sensor Input
-Text Notes 5600 6200 0    50   ~ 0
-Ovecurrent protection for LED and Sensors?
 Text GLabel 6300 4900 0    50   Input ~ 0
 SPI_SCLK
 Text GLabel 6300 4800 0    50   Input ~ 0
@@ -1575,17 +1393,6 @@ Text GLabel 7750 4800 2    50   Output ~ 0
 SPI_MOSI_BUF
 Text GLabel 7750 4900 2    50   Output ~ 0
 SPI_SCLK_BUF
-$Comp
-L Device:Polyfuse F?
-U 1 1 5E15436A
-P 9250 4450
-F 0 "F?" V 9025 4450 50  0000 C CNN
-F 1 "SN010-60 " V 9116 4450 50  0000 C CNN
-F 2 "Fuse:Fuse_1206_3216Metric" H 9300 4250 50  0001 L CNN
-F 3 "~" H 9250 4450 50  0001 C CNN
-	1    9250 4450
-	0    1    1    0   
-$EndComp
 $Comp
 L Device:Polyfuse F?
 U 1 1 5E1588DB
@@ -1620,6 +1427,62 @@ Text GLabel 2500 3900 2    50   Output ~ 0
 LIMIT_Z_UP
 Text GLabel 2550 2650 2    50   Output ~ 0
 LIMIT_Y_FRONT
-Text GLabel 6950 1400 2    50   Output ~ 0
+Text GLabel 7150 1400 2    50   Output ~ 0
 PRINTER_POWER_DETECT
+$Comp
+L Device:D_ALT D?
+U 1 1 5E1EDB71
+P 6600 1850
+AR Path="/5E1018C2/5E1EDB71" Ref="D?"  Part="1" 
+AR Path="/5E91D7CC/5E1EDB71" Ref="D?"  Part="1" 
+AR Path="/5E07245F/5E1EDB71" Ref="D?"  Part="1" 
+F 0 "D?" H 6600 1650 50  0000 C CNN
+F 1 "1N4448WS-7-F" H 6600 1750 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-323" H 6600 1850 50  0001 C CNN
+F 3 "~" H 6600 1850 50  0001 C CNN
+	1    6600 1850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6600 1700 6600 1650
+Connection ~ 6600 1650
+Wire Wire Line
+	6600 2000 6900 2000
+Connection ~ 6900 2000
+Wire Wire Line
+	6900 2000 6900 2150
+$Comp
+L Device:C C?
+U 1 1 5E22AE8F
+P 6950 3650
+AR Path="/5E07245F/5E22AE8F" Ref="C?"  Part="1" 
+AR Path="/5E858220/5E22AE8F" Ref="C?"  Part="1" 
+AR Path="/5E91D96F/5E22AE8F" Ref="C?"  Part="1" 
+F 0 "C?" H 7065 3696 50  0000 L CNN
+F 1 "0.1uF" H 7065 3605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6988 3500 50  0001 C CNN
+F 3 "~" H 6950 3650 50  0001 C CNN
+	1    6950 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 3400 6800 3500
+Wire Wire Line
+	6950 3500 6800 3500
+Connection ~ 6800 3500
+Wire Wire Line
+	6800 3500 6800 3900
+$Comp
+L power:GND #PWR?
+U 1 1 5E28D046
+P 6950 3800
+AR Path="/5E07245F/5E28D046" Ref="#PWR?"  Part="1" 
+AR Path="/5E858220/5E28D046" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6950 3550 50  0001 C CNN
+F 1 "GND" H 6955 3627 50  0000 C CNN
+F 2 "" H 6950 3800 50  0001 C CNN
+F 3 "" H 6950 3800 50  0001 C CNN
+	1    6950 3800
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
