@@ -1144,4 +1144,18 @@ F 3 "~" H 3900 5850 50  0001 C CNN
 	1    3900 5850
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:C C?
+U 1 1 5E465412
+P 1400 1200
+AR Path="/5E07245F/5E465412" Ref="C?"  Part="1" 
+AR Path="/5E858220/5E465412" Ref="C?"  Part="1" 
+AR Path="/5E91D96F/5E465412" Ref="C?"  Part="1" 
+F 0 "C?" H 1515 1246 50  0000 L CNN
+F 1 "0.1uF" H 1515 1155 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1438 1050 50  0001 C CNN
+F 3 "~" H 1400 1200 50  0001 C CNN
+	1    1400 1200
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

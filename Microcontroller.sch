@@ -780,7 +780,7 @@ U 1 1 5E1458B6
 P 8600 1750
 F 0 "U?" H 8300 2100 50  0000 C CNN
 F 1 "USBUF02W6" H 8300 2000 50  0000 C CNN
-F 2 "" H 9250 2400 50  0001 C CNN
+F 2 "footprints:SOT323-6L" H 9250 2400 50  0001 C CNN
 F 3 "" H 9250 2400 50  0001 C CNN
 	1    8600 1750
 	1    0    0    -1  
@@ -855,4 +855,140 @@ F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/da
 $EndComp
 Wire Wire Line
 	7900 1800 8250 1800
+$Comp
+L Connector_Generic:Conn_02x03_Odd_Even J?
+U 1 1 5E16DD76
+P 8500 3200
+F 0 "J?" H 8550 2900 50  0000 C CNN
+F 1 "SWD" H 8550 3000 50  0000 C CNN
+F 2 "Connector_IDC:IDC-Header_2x03_P2.54mm_Vertical" H 8500 3200 50  0001 C CNN
+F 3 "~" H 8500 3200 50  0001 C CNN
+	1    8500 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDD #PWR?
+U 1 1 5E17BC07
+P 7400 3100
+F 0 "#PWR?" H 7400 2950 50  0001 C CNN
+F 1 "VDD" H 7417 3273 50  0000 C CNN
+F 2 "" H 7400 3100 50  0001 C CNN
+F 3 "" H 7400 3100 50  0001 C CNN
+	1    7400 3100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7800 3100 7400 3100
+Text GLabel 7650 2900 0    50   Output ~ 0
+NRST
+Wire Wire Line
+	8800 3100 9000 3100
+Text GLabel 7650 3200 0    50   Input ~ 0
+SWO
+Wire Wire Line
+	7650 3200 7800 3200
+Text GLabel 7650 3000 0    50   BiDi ~ 0
+SWDIO
+$Comp
+L power:GND #PWR?
+U 1 1 5E1C4BF1
+P 8350 4600
+F 0 "#PWR?" H 8350 4350 50  0001 C CNN
+F 1 "GND" H 8355 4427 50  0000 C CNN
+F 2 "" H 8350 4600 50  0001 C CNN
+F 3 "" H 8350 4600 50  0001 C CNN
+	1    8350 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8800 3300 9100 3300
+Wire Wire Line
+	8300 3300 8100 3300
+Wire Wire Line
+	8100 3300 8100 3400
+$Comp
+L Device:R_Pack04 RN?
+U 1 1 5E27A122
+P 8000 3000
+AR Path="/5E07245F/5E27A122" Ref="RN?"  Part="1" 
+AR Path="/5E858220/5E27A122" Ref="RN?"  Part="1" 
+AR Path="/5DFB2EC0/5E27A122" Ref="RN?"  Part="1" 
+F 0 "RN?" V 8325 3000 50  0000 C CNN
+F 1 "330Ω" V 8234 3000 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Concave_4x0603" V 8275 3000 50  0001 C CNN
+F 3 "~" H 8000 3000 50  0001 C CNN
+	1    8000 3000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8800 3200 8900 3200
+Wire Wire Line
+	8200 3200 8300 3200
+Wire Wire Line
+	8200 3100 8300 3100
+Wire Wire Line
+	8200 3000 8900 3000
+Wire Wire Line
+	8900 3000 8900 3200
+Wire Wire Line
+	7800 3000 7650 3000
+Wire Wire Line
+	8200 2900 9000 2900
+Wire Wire Line
+	9000 2900 9000 3100
+Wire Wire Line
+	7800 2900 7650 2900
+$Comp
+L Connector:Conn_01x03_Male J?
+U 1 1 5E3B0D8E
+P 8650 4350
+AR Path="/5E07245F/5E3B0D8E" Ref="J?"  Part="1" 
+AR Path="/5E858220/5E3B0D8E" Ref="J?"  Part="1" 
+AR Path="/5E91D96F/5E3B0D8E" Ref="J?"  Part="1" 
+AR Path="/5DFB2EC0/5E3B0D8E" Ref="J?"  Part="1" 
+F 0 "J?" H 8622 4374 50  0000 R CNN
+F 1 "DEBUG" H 8622 4283 50  0000 R CNN
+F 2 "Connector_JST:JST_PH_B2B-PH-K_1x03_P2.00mm_Vertical" H 8650 4350 50  0001 C CNN
+F 3 "~" H 8650 4350 50  0001 C CNN
+	1    8650 4350
+	-1   0    0    1   
+$EndComp
+Text GLabel 8100 4250 0    50   Input ~ 0
+UART_OUT_TX
+Text GLabel 8100 4450 0    50   Output ~ 0
+UART_OUT_RX
+Wire Wire Line
+	8450 4450 8100 4450
+Wire Wire Line
+	8450 4350 8350 4350
+Wire Wire Line
+	8350 4350 8350 4600
+$Comp
+L power:GND #PWR?
+U 1 1 5E3E776E
+P 8100 3400
+F 0 "#PWR?" H 8100 3150 50  0001 C CNN
+F 1 "GND" H 8105 3227 50  0000 C CNN
+F 2 "" H 8100 3400 50  0001 C CNN
+F 3 "" H 8100 3400 50  0001 C CNN
+	1    8100 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5E3F628C
+P 8250 4250
+F 0 "R?" V 8050 4250 50  0000 C CNN
+F 1 "330Ω" V 8150 4250 50  0000 C CNN
+F 2 "" H 8250 4250 50  0001 C CNN
+F 3 "~" H 8250 4250 50  0001 C CNN
+	1    8250 4250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8100 4250 8150 4250
+Wire Wire Line
+	8350 4250 8450 4250
+Text GLabel 9100 3300 2    50   Output ~ 0
+SWCLK
 $EndSCHEMATC
