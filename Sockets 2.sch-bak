@@ -101,6 +101,12 @@ F 0 "R49" H 1650 1500 50  0000 C CNN
 F 1 "10kΩ" H 1650 1400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 1730 1450 50  0001 C CNN
 F 3 "~" H 1800 1450 50  0001 C CNN
+F 4 "0.03622" H 1800 1450 50  0001 C CNN "Cena"
+F 5 "https://www.tme.eu/pl/details/smd0603-10k-1%25/rezystory-smd-0603/royal-ohm/0603saf1002t5e/" H 1800 1450 50  0001 C CNN "Link"
+F 6 "0603SAF1002T5E" H 1800 1450 50  0001 C CNN "Model"
+F 7 "Rezystor: thick film; SMD; 0603; 10kΩ; 0,1W; ±1%; -55÷155°C" H 1800 1450 50  0001 C CNN "Opis"
+F 8 "ROYAL OHM" H 1800 1450 50  0001 C CNN "Producent"
+F 9 "SMD" H 1800 1450 50  0001 C CNN "Typ"
 	1    1800 1450
 	1    0    0    -1  
 $EndComp
@@ -123,6 +129,12 @@ F 0 "Q5" H 3091 1746 50  0000 L CNN
 F 1 "BC817" H 3091 1655 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 3100 1625 50  0001 L CIN
 F 3 "http://www.fairchildsemi.com/ds/BC/BC817.pdf" H 2900 1700 50  0001 L CNN
+F 4 "0.1189" H 2900 1700 50  0001 C CNN "Cena"
+F 5 "https://www.tme.eu/pl/details/bc817.215/tranzystory-npn-smd/nexperia/" H 2900 1700 50  0001 C CNN "Link"
+F 6 "BC817.215" H 2900 1700 50  0001 C CNN "Model"
+F 7 "Tranzystor: NPN; bipolarny; 45V; 0,5A; 250mW; SOT23" H 2900 1700 50  0001 C CNN "Opis"
+F 8 "NEXPERIA" H 2900 1700 50  0001 C CNN "Producent"
+F 9 "SMD" H 2900 1700 50  0001 C CNN "Typ"
 	1    2900 1700
 	1    0    0    -1  
 $EndComp
@@ -136,6 +148,8 @@ F 0 "R51" V 1900 1700 50  0000 C CNN
 F 1 "33kΩ" V 2000 1700 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 2030 1700 50  0001 C CNN
 F 3 "~" H 2100 1700 50  0001 C CNN
+F 4 "0.04651" H 2100 1700 50  0001 C CNN "Cena"
+F 5 "SMD" H 2100 1700 50  0001 C CNN "Typ"
 	1    2100 1700
 	0    1    1    0   
 $EndComp
@@ -195,6 +209,12 @@ F 0 "R53" H 2850 1300 50  0000 C CNN
 F 1 "10kΩ" H 2850 1200 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 2930 1250 50  0001 C CNN
 F 3 "~" H 3000 1250 50  0001 C CNN
+F 4 "0.03622" H 3000 1250 50  0001 C CNN "Cena"
+F 5 "https://www.tme.eu/pl/details/smd0603-10k-1%25/rezystory-smd-0603/royal-ohm/0603saf1002t5e/" H 3000 1250 50  0001 C CNN "Link"
+F 6 "0603SAF1002T5E" H 3000 1250 50  0001 C CNN "Model"
+F 7 "Rezystor: thick film; SMD; 0603; 10kΩ; 0,1W; ±1%; -55÷155°C" H 3000 1250 50  0001 C CNN "Opis"
+F 8 "ROYAL OHM" H 3000 1250 50  0001 C CNN "Producent"
+F 9 "SMD" H 3000 1250 50  0001 C CNN "Typ"
 	1    3000 1250
 	1    0    0    -1  
 $EndComp
@@ -228,6 +248,12 @@ F 0 "C60" H 3665 1746 50  0000 L CNN
 F 1 "1nF" H 3665 1655 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 3588 1550 50  0001 C CNN
 F 3 "~" H 3550 1700 50  0001 C CNN
+F 4 "0.05563" H 3550 1700 50  0001 C CNN "Cena"
+F 5 "https://www.tme.eu/pl/details/cl10b102kb8nnnc/kondensatory-mlcc-smd-0603/samsung/" H 3550 1700 50  0001 C CNN "Link"
+F 6 "CL10B102KB8NNNC" H 3550 1700 50  0001 C CNN "Model"
+F 7 "Kondensator: ceramiczny; MLCC; 1nF; 50V; X7R; ±10%; SMD; 0603" H 3550 1700 50  0001 C CNN "Opis"
+F 8 "SAMSUNG" H 3550 1700 50  0001 C CNN "Producent"
+F 9 "SMD" H 3550 1700 50  0001 C CNN "Typ"
 	1    3550 1700
 	1    0    0    -1  
 $EndComp
@@ -334,6 +360,12 @@ F 0 "R50" H 2150 3500 50  0000 C CNN
 F 1 "10kΩ" H 2200 3400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 1980 3450 50  0001 C CNN
 F 3 "~" H 2050 3450 50  0001 C CNN
+F 4 "0.03622" H 2050 3450 50  0001 C CNN "Cena"
+F 5 "https://www.tme.eu/pl/details/smd0603-10k-1%25/rezystory-smd-0603/royal-ohm/0603saf1002t5e/" H 2050 3450 50  0001 C CNN "Link"
+F 6 "0603SAF1002T5E" H 2050 3450 50  0001 C CNN "Model"
+F 7 "Rezystor: thick film; SMD; 0603; 10kΩ; 0,1W; ±1%; -55÷155°C" H 2050 3450 50  0001 C CNN "Opis"
+F 8 "ROYAL OHM" H 2050 3450 50  0001 C CNN "Producent"
+F 9 "SMD" H 2050 3450 50  0001 C CNN "Typ"
 	1    2050 3450
 	1    0    0    -1  
 $EndComp
@@ -351,6 +383,12 @@ F 0 "Q6" H 3341 3896 50  0000 L CNN
 F 1 "BC817" H 3341 3805 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 3350 3775 50  0001 L CIN
 F 3 "http://www.fairchildsemi.com/ds/BC/BC817.pdf" H 3150 3850 50  0001 L CNN
+F 4 "0.1189" H 3150 3850 50  0001 C CNN "Cena"
+F 5 "https://www.tme.eu/pl/details/bc817.215/tranzystory-npn-smd/nexperia/" H 3150 3850 50  0001 C CNN "Link"
+F 6 "BC817.215" H 3150 3850 50  0001 C CNN "Model"
+F 7 "Tranzystor: NPN; bipolarny; 45V; 0,5A; 250mW; SOT23" H 3150 3850 50  0001 C CNN "Opis"
+F 8 "NEXPERIA" H 3150 3850 50  0001 C CNN "Producent"
+F 9 "SMD" H 3150 3850 50  0001 C CNN "Typ"
 	1    3150 3850
 	1    0    0    -1  
 $EndComp
@@ -364,6 +402,8 @@ F 0 "R52" V 2150 3850 50  0000 C CNN
 F 1 "33kΩ" V 2250 3850 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 2280 3850 50  0001 C CNN
 F 3 "~" H 2350 3850 50  0001 C CNN
+F 4 "0.04651" H 2350 3850 50  0001 C CNN "Cena"
+F 5 "SMD" H 2350 3850 50  0001 C CNN "Typ"
 	1    2350 3850
 	0    1    1    0   
 $EndComp
@@ -423,6 +463,12 @@ F 0 "R54" H 3100 3450 50  0000 C CNN
 F 1 "10kΩ" H 3100 3350 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 3180 3400 50  0001 C CNN
 F 3 "~" H 3250 3400 50  0001 C CNN
+F 4 "0.03622" H 3250 3400 50  0001 C CNN "Cena"
+F 5 "https://www.tme.eu/pl/details/smd0603-10k-1%25/rezystory-smd-0603/royal-ohm/0603saf1002t5e/" H 3250 3400 50  0001 C CNN "Link"
+F 6 "0603SAF1002T5E" H 3250 3400 50  0001 C CNN "Model"
+F 7 "Rezystor: thick film; SMD; 0603; 10kΩ; 0,1W; ±1%; -55÷155°C" H 3250 3400 50  0001 C CNN "Opis"
+F 8 "ROYAL OHM" H 3250 3400 50  0001 C CNN "Producent"
+F 9 "SMD" H 3250 3400 50  0001 C CNN "Typ"
 	1    3250 3400
 	1    0    0    -1  
 $EndComp
@@ -456,6 +502,12 @@ F 0 "C61" H 3915 3896 50  0000 L CNN
 F 1 "1nF" H 3915 3805 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 3838 3700 50  0001 C CNN
 F 3 "~" H 3800 3850 50  0001 C CNN
+F 4 "0.05563" H 3800 3850 50  0001 C CNN "Cena"
+F 5 "https://www.tme.eu/pl/details/cl10b102kb8nnnc/kondensatory-mlcc-smd-0603/samsung/" H 3800 3850 50  0001 C CNN "Link"
+F 6 "CL10B102KB8NNNC" H 3800 3850 50  0001 C CNN "Model"
+F 7 "Kondensator: ceramiczny; MLCC; 1nF; 50V; X7R; ±10%; SMD; 0603" H 3800 3850 50  0001 C CNN "Opis"
+F 8 "SAMSUNG" H 3800 3850 50  0001 C CNN "Producent"
+F 9 "SMD" H 3800 3850 50  0001 C CNN "Typ"
 	1    3800 3850
 	1    0    0    -1  
 $EndComp

@@ -121,6 +121,8 @@ F 0 "R15" H 3400 6850 50  0000 L CNN
 F 1 "0Ω" H 3400 6750 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 3750 6800 50  0001 C CNN
 F 3 "~" H 3750 6800 50  0001 C CNN
+F 4 "0.04651" H 3750 6800 50  0001 C CNN "Cena"
+F 5 "SMD" H 3750 6800 50  0001 C CNN "Typ"
 	1    3750 6800
 	1    0    0    -1  
 $EndComp
@@ -134,6 +136,12 @@ F 0 "R14" V 2550 1750 50  0000 C CNN
 F 1 "10kΩ" V 2750 1750 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 2650 1750 50  0001 C CNN
 F 3 "~" H 2650 1750 50  0001 C CNN
+F 4 "0.03622" H 2650 1750 50  0001 C CNN "Cena"
+F 5 "https://www.tme.eu/pl/details/smd0603-10k-1%25/rezystory-smd-0603/royal-ohm/0603saf1002t5e/" H 2650 1750 50  0001 C CNN "Link"
+F 6 "0603SAF1002T5E" H 2650 1750 50  0001 C CNN "Model"
+F 7 "Rezystor: thick film; SMD; 0603; 10kΩ; 0,1W; ±1%; -55÷155°C" H 2650 1750 50  0001 C CNN "Opis"
+F 8 "ROYAL OHM" H 2650 1750 50  0001 C CNN "Producent"
+F 9 "SMD" H 2650 1750 50  0001 C CNN "Typ"
 	1    2650 1750
 	0    1    1    0   
 $EndComp
@@ -147,6 +155,8 @@ F 0 "R12" V 2000 1950 50  0000 C CNN
 F 1 "47RΩ" V 2200 1950 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 2100 1950 50  0001 C CNN
 F 3 "~" H 2100 1950 50  0001 C CNN
+F 4 "0.04651" H 2100 1950 50  0001 C CNN "Cena"
+F 5 "SMD" H 2100 1950 50  0001 C CNN "Typ"
 	1    2100 1950
 	1    0    0    -1  
 $EndComp
@@ -601,6 +611,12 @@ F 0 "R13" V 2550 1400 50  0000 C CNN
 F 1 "10kΩ" V 2750 1400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 2650 1400 50  0001 C CNN
 F 3 "~" H 2650 1400 50  0001 C CNN
+F 4 "0.03622" H 2650 1400 50  0001 C CNN "Cena"
+F 5 "https://www.tme.eu/pl/details/smd0603-10k-1%25/rezystory-smd-0603/royal-ohm/0603saf1002t5e/" H 2650 1400 50  0001 C CNN "Link"
+F 6 "0603SAF1002T5E" H 2650 1400 50  0001 C CNN "Model"
+F 7 "Rezystor: thick film; SMD; 0603; 10kΩ; 0,1W; ±1%; -55÷155°C" H 2650 1400 50  0001 C CNN "Opis"
+F 8 "ROYAL OHM" H 2650 1400 50  0001 C CNN "Producent"
+F 9 "SMD" H 2650 1400 50  0001 C CNN "Typ"
 	1    2650 1400
 	1    0    0    -1  
 $EndComp
@@ -834,6 +850,12 @@ F 0 "J3" H 7657 2167 50  0000 C CNN
 F 1 "USB_B" H 7657 2076 50  0000 C CNN
 F 2 "Connector_USB:USB_B_OST_USB-B1HSxx_Horizontal" H 7750 1650 50  0001 C CNN
 F 3 " ~" H 7750 1650 50  0001 C CNN
+F 4 "2.9560" H 7600 1700 50  0001 C CNN "Cena"
+F 5 "https://www.tme.eu/pl/details/2411-02/zlacza-usb-i-ieee1394/lumberg/2411-02/" H 7600 1700 50  0001 C CNN "Link"
+F 6 "2411 02" H 7600 1700 50  0001 C CNN "Model"
+F 7 "Gniazdo; USB B; na PCB; THT; PIN: 4; kątowe 90°; V: USB 2.0; biały" H 7600 1700 50  0001 C CNN "Opis"
+F 8 "LUMBERG" H 7600 1700 50  0001 C CNN "Producent"
+F 9 "THT" H 7600 1700 50  0001 C CNN "Typ"
 	1    7600 1700
 	1    0    0    -1  
 $EndComp
@@ -936,6 +958,12 @@ F 0 "J4" H 8550 2900 50  0000 C CNN
 F 1 "SWD" H 8550 3000 50  0000 C CNN
 F 2 "Connector_IDC:IDC-Header_2x03_P2.54mm_Vertical" H 8500 3200 50  0001 C CNN
 F 3 "~" H 8500 3200 50  0001 C CNN
+F 4 "1.5839" H 8500 3200 50  0001 C CNN "Cena"
+F 5 "https://www.tme.eu/pl/details/t821-1-06-s1/zlacza-idc/amphenol/t821106a1s100ceu/" H 8500 3200 50  0001 C CNN "Link"
+F 6 "T821106A1S100CEU" H 8500 3200 50  0001 C CNN "Model"
+F 7 "Gniazdo; IDC; męskie; PIN: 6; proste; THT; złocony; 2,54mm; Układ: 2x3" H 8500 3200 50  0001 C CNN "Opis"
+F 8 "AMPHENOL" H 8500 3200 50  0001 C CNN "Producent"
+F 9 "THT" H 8500 3200 50  0001 C CNN "Typ"
 	1    8500 3200
 	1    0    0    -1  
 $EndComp
@@ -1043,6 +1071,8 @@ F 0 "R16" V 7893 3100 50  0000 C CNN
 F 1 "330Ω" V 7984 3100 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 8030 3100 50  0001 C CNN
 F 3 "~" H 8100 3100 50  0001 C CNN
+F 4 "0.04651" H 8100 3100 50  0001 C CNN "Cena"
+F 5 "SMD" H 8100 3100 50  0001 C CNN "Typ"
 	1    8100 3100
 	0    1    1    0   
 $EndComp
@@ -1071,6 +1101,12 @@ F 0 "FB10" V 7913 5850 50  0000 C CNN
 F 1 "1000@100MHz" V 8004 5850 50  0000 C CNN
 F 2 "Inductor_SMD:L_0805_2012Metric" V 8080 5850 50  0001 C CNN
 F 3 "~" H 8150 5850 50  0001 C CNN
+F 4 "0.2794" H 8150 5850 50  0001 C CNN "Cena"
+F 5 "https://www.tme.eu/pl/details/blm21ag102sn1d/ferryty-koraliki/murata/" H 8150 5850 50  0001 C CNN "Link"
+F 6 "BLM21AG102SN1D" H 8150 5850 50  0001 C CNN "Model"
+F 7 "Ferryt: koralik; Imp.@ 100MHz: 1000Ω; Montaż: SMD; 0,5A; Obud: 0805" H 8150 5850 50  0001 C CNN "Opis"
+F 8 "MURATA" H 8150 5850 50  0001 C CNN "Producent"
+F 9 "SMD" H 8150 5850 50  0001 C CNN "Typ"
 	1    8150 5850
 	0    1    1    0   
 $EndComp
@@ -1128,6 +1164,8 @@ F 0 "R17" H 10170 3596 50  0000 L CNN
 F 1 "330Ω" H 10170 3505 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 10030 3550 50  0001 C CNN
 F 3 "~" H 10100 3550 50  0001 C CNN
+F 4 "0.04651" H 10100 3550 50  0001 C CNN "Cena"
+F 5 "SMD" H 10100 3550 50  0001 C CNN "Typ"
 	1    10100 3550
 	1    0    0    -1  
 $EndComp
@@ -1143,6 +1181,12 @@ F 0 "Q1" H 1691 6546 50  0000 L CNN
 F 1 "BC817" H 1691 6455 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 1700 6425 50  0001 L CIN
 F 3 "http://www.fairchildsemi.com/ds/BC/BC817.pdf" H 1500 6500 50  0001 L CNN
+F 4 "0.1189" H 1500 6500 50  0001 C CNN "Cena"
+F 5 "https://www.tme.eu/pl/details/bc817.215/tranzystory-npn-smd/nexperia/" H 1500 6500 50  0001 C CNN "Link"
+F 6 "BC817.215" H 1500 6500 50  0001 C CNN "Model"
+F 7 "Tranzystor: NPN; bipolarny; 45V; 0,5A; 250mW; SOT23" H 1500 6500 50  0001 C CNN "Opis"
+F 8 "NEXPERIA" H 1500 6500 50  0001 C CNN "Producent"
+F 9 "SMD" H 1500 6500 50  0001 C CNN "Typ"
 	1    1500 6500
 	1    0    0    -1  
 $EndComp
@@ -1156,6 +1200,12 @@ F 0 "R10" H 1120 6546 50  0000 L CNN
 F 1 "10kΩ" H 1120 6455 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 980 6500 50  0001 C CNN
 F 3 "~" H 1050 6500 50  0001 C CNN
+F 4 "0.03622" H 1050 6500 50  0001 C CNN "Cena"
+F 5 "https://www.tme.eu/pl/details/smd0603-10k-1%25/rezystory-smd-0603/royal-ohm/0603saf1002t5e/" H 1050 6500 50  0001 C CNN "Link"
+F 6 "0603SAF1002T5E" H 1050 6500 50  0001 C CNN "Model"
+F 7 "Rezystor: thick film; SMD; 0603; 10kΩ; 0,1W; ±1%; -55÷155°C" H 1050 6500 50  0001 C CNN "Opis"
+F 8 "ROYAL OHM" H 1050 6500 50  0001 C CNN "Producent"
+F 9 "SMD" H 1050 6500 50  0001 C CNN "Typ"
 	1    1050 6500
 	0    -1   -1   0   
 $EndComp
@@ -1169,6 +1219,12 @@ F 0 "R11" H 1670 6096 50  0000 L CNN
 F 1 "10kΩ" H 1670 6005 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 1530 6050 50  0001 C CNN
 F 3 "~" H 1600 6050 50  0001 C CNN
+F 4 "0.03622" H 1600 6050 50  0001 C CNN "Cena"
+F 5 "https://www.tme.eu/pl/details/smd0603-10k-1%25/rezystory-smd-0603/royal-ohm/0603saf1002t5e/" H 1600 6050 50  0001 C CNN "Link"
+F 6 "0603SAF1002T5E" H 1600 6050 50  0001 C CNN "Model"
+F 7 "Rezystor: thick film; SMD; 0603; 10kΩ; 0,1W; ±1%; -55÷155°C" H 1600 6050 50  0001 C CNN "Opis"
+F 8 "ROYAL OHM" H 1600 6050 50  0001 C CNN "Producent"
+F 9 "SMD" H 1600 6050 50  0001 C CNN "Typ"
 	1    1600 6050
 	-1   0    0    1   
 $EndComp
@@ -1300,6 +1356,12 @@ F 0 "FB9" V 7913 5400 50  0000 C CNN
 F 1 "1000@100MHz" V 8004 5400 50  0000 C CNN
 F 2 "Inductor_SMD:L_0805_2012Metric" V 8080 5400 50  0001 C CNN
 F 3 "~" H 8150 5400 50  0001 C CNN
+F 4 "0.2794" H 8150 5400 50  0001 C CNN "Cena"
+F 5 "https://www.tme.eu/pl/details/blm21ag102sn1d/ferryty-koraliki/murata/" H 8150 5400 50  0001 C CNN "Link"
+F 6 "BLM21AG102SN1D" H 8150 5400 50  0001 C CNN "Model"
+F 7 "Ferryt: koralik; Imp.@ 100MHz: 1000Ω; Montaż: SMD; 0,5A; Obud: 0805" H 8150 5400 50  0001 C CNN "Opis"
+F 8 "MURATA" H 8150 5400 50  0001 C CNN "Producent"
+F 9 "SMD" H 8150 5400 50  0001 C CNN "Typ"
 	1    8150 5400
 	0    1    1    0   
 $EndComp

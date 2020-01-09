@@ -39,13 +39,17 @@ P 5000 4450
 AR Path="/5DE588DC/5E249033" Ref="R?"  Part="1" 
 AR Path="/5DE587B9/5E249033" Ref="R4"  Part="1" 
 F 0 "R4" H 5070 4632 50  0000 L CNN
-F 1 "120mΩ" H 5070 4541 50  0000 L CNN
+F 1 "100mΩ" H 5070 4541 50  0000 L CNN
 F 2 "Resistor_SMD:R_2010_5025Metric" V 4930 4450 50  0001 C CNN
 F 3 "~" H 5000 4450 50  0001 C CNN
 F 4 "1W" H 5070 4450 50  0000 L CNN "Moc"
-F 5 "Metal" H 5070 4359 50  0000 L CNN "Typ"
+F 5 "SMD" H 5070 4359 50  0000 L CNN "Typ"
 F 6 "1%" H 5070 4268 50  0000 L CNN "Tolerancja"
-F 7 "" H 5000 4450 50  0001 C CNN "Model"
+F 7 "CS10FTFTR100" H 5000 4450 50  0001 C CNN "Model"
+F 8 "0.76246" H 5000 4450 50  0001 C CNN "Cena"
+F 9 "https://www.tme.eu/pl/details/cs2010-0r1-1%25-hp/rezystory-smd-2010/viking/cs10ftftr100/" H 5000 4450 50  0001 C CNN "Link"
+F 10 "Rezystor: thick film; pomiarowy; SMD; 2010; 100mΩ; 1W; ±1%" H 5000 4450 50  0001 C CNN "Opis"
+F 11 "VIKING" H 5000 4450 50  0001 C CNN "Producent"
 	1    5000 4450
 	1    0    0    -1  
 $EndComp
@@ -119,13 +123,17 @@ P 6050 4450
 AR Path="/5DE588DC/5E24905B" Ref="R?"  Part="1" 
 AR Path="/5DE587B9/5E24905B" Ref="R5"  Part="1" 
 F 0 "R5" H 6120 4632 50  0000 L CNN
-F 1 "120mΩ" H 6120 4541 50  0000 L CNN
+F 1 "100mΩ" H 6120 4541 50  0000 L CNN
 F 2 "Resistor_SMD:R_2010_5025Metric" V 5980 4450 50  0001 C CNN
 F 3 "~" H 6050 4450 50  0001 C CNN
 F 4 "1W" H 6120 4450 50  0000 L CNN "Moc"
-F 5 "Metal" H 6120 4359 50  0000 L CNN "Typ"
+F 5 "SMD" H 6120 4359 50  0000 L CNN "Typ"
 F 6 "1%" H 6120 4268 50  0000 L CNN "Tolerancja"
-F 7 "" H 6050 4450 50  0001 C CNN "Model"
+F 7 "CS10FTFTR100" H 6050 4450 50  0001 C CNN "Model"
+F 8 "0.76246" H 6050 4450 50  0001 C CNN "Cena"
+F 9 "https://www.tme.eu/pl/details/cs2010-0r1-1%25-hp/rezystory-smd-2010/viking/cs10ftftr100/" H 6050 4450 50  0001 C CNN "Link"
+F 10 "Rezystor: thick film; pomiarowy; SMD; 2010; 100mΩ; 1W; ±1%" H 6050 4450 50  0001 C CNN "Opis"
+F 11 "VIKING" H 6050 4450 50  0001 C CNN "Producent"
 	1    6050 4450
 	1    0    0    -1  
 $EndComp
@@ -344,6 +352,11 @@ F 1 "60Ohm@100MHz" V 7004 3050 50  0000 C CNN
 F 2 "Inductor_SMD:L_0805_2012Metric" V 7080 3050 50  0001 C CNN
 F 3 "~" H 7150 3050 50  0001 C CNN
 F 4 "BLM21PG600SN1D" V 7150 3050 50  0001 C CNN "Model"
+F 5 "0.13674" H 7150 3050 50  0001 C CNN "Cena"
+F 6 "https://www.tme.eu/pl/details/blm21pg600sn1d/ferryty-koraliki/murata/" H 7150 3050 50  0001 C CNN "Link"
+F 7 "Ferryt: koralik; Imp.@ 100MHz: 60Ω; Montaż: SMD; 3A; Obud: 0805" H 7150 3050 50  0001 C CNN "Opis"
+F 8 "MURATA" H 7150 3050 50  0001 C CNN "Producent"
+F 9 "SMD" H 7150 3050 50  0001 C CNN "Typ"
 	1    7150 3050
 	0    1    1    0   
 $EndComp
@@ -358,6 +371,11 @@ F 1 "60Ohm@100MHz" V 7250 3200 50  0000 C CNN
 F 2 "Inductor_SMD:L_0805_2012Metric" V 7080 3200 50  0001 C CNN
 F 3 "~" H 7150 3200 50  0001 C CNN
 F 4 "BLM21PG600SN1D" V 7150 3200 50  0001 C CNN "Model"
+F 5 "0.13674" H 7150 3200 50  0001 C CNN "Cena"
+F 6 "https://www.tme.eu/pl/details/blm21pg600sn1d/ferryty-koraliki/murata/" H 7150 3200 50  0001 C CNN "Link"
+F 7 "Ferryt: koralik; Imp.@ 100MHz: 60Ω; Montaż: SMD; 3A; Obud: 0805" H 7150 3200 50  0001 C CNN "Opis"
+F 8 "MURATA" H 7150 3200 50  0001 C CNN "Producent"
+F 9 "SMD" H 7150 3200 50  0001 C CNN "Typ"
 	1    7150 3200
 	0    1    1    0   
 $EndComp
@@ -372,6 +390,11 @@ F 1 "60Ohm@100MHz" V 7004 3750 50  0000 C CNN
 F 2 "Inductor_SMD:L_0805_2012Metric" V 7080 3750 50  0001 C CNN
 F 3 "~" H 7150 3750 50  0001 C CNN
 F 4 "BLM21PG600SN1D" V 7150 3750 50  0001 C CNN "Model"
+F 5 "0.13674" H 7150 3750 50  0001 C CNN "Cena"
+F 6 "https://www.tme.eu/pl/details/blm21pg600sn1d/ferryty-koraliki/murata/" H 7150 3750 50  0001 C CNN "Link"
+F 7 "Ferryt: koralik; Imp.@ 100MHz: 60Ω; Montaż: SMD; 3A; Obud: 0805" H 7150 3750 50  0001 C CNN "Opis"
+F 8 "MURATA" H 7150 3750 50  0001 C CNN "Producent"
+F 9 "SMD" H 7150 3750 50  0001 C CNN "Typ"
 	1    7150 3750
 	0    1    1    0   
 $EndComp
@@ -386,6 +409,11 @@ F 1 "60Ohm@100MHz" V 7250 3900 50  0000 C CNN
 F 2 "Inductor_SMD:L_0805_2012Metric" V 7080 3900 50  0001 C CNN
 F 3 "~" H 7150 3900 50  0001 C CNN
 F 4 "BLM21PG600SN1D" V 7150 3900 50  0001 C CNN "Model"
+F 5 "0.13674" H 7150 3900 50  0001 C CNN "Cena"
+F 6 "https://www.tme.eu/pl/details/blm21pg600sn1d/ferryty-koraliki/murata/" H 7150 3900 50  0001 C CNN "Link"
+F 7 "Ferryt: koralik; Imp.@ 100MHz: 60Ω; Montaż: SMD; 3A; Obud: 0805" H 7150 3900 50  0001 C CNN "Opis"
+F 8 "MURATA" H 7150 3900 50  0001 C CNN "Producent"
+F 9 "SMD" H 7150 3900 50  0001 C CNN "Typ"
 	1    7150 3900
 	0    1    1    0   
 $EndComp
@@ -590,6 +618,12 @@ F 0 "J1" H 10572 3374 50  0000 R CNN
 F 1 "Motor Y" H 10572 3283 50  0000 R CNN
 F 2 "Connector_JST:JST_XH_B4B-XH-AM_1x04_P2.50mm_Vertical" H 10600 3400 50  0001 C CNN
 F 3 "~" H 10600 3400 50  0001 C CNN
+F 4 "0.81567" H 10600 3400 50  0001 C CNN "Cena"
+F 5 "https://www.tme.eu/pl/details/b4b-xh-a/zlacza-sygnalowe-raster-2-50mm/jst/" H 10600 3400 50  0001 C CNN "Link"
+F 6 "B4B-XH-A" H 10600 3400 50  0001 C CNN "Model"
+F 7 "Gniazdo; przewód-płytka; męskie; XH; 2,5mm; PIN: 4; THT; 250V; 3A" H 10600 3400 50  0001 C CNN "Opis"
+F 8 "JST" H 10600 3400 50  0001 C CNN "Producent"
+F 9 "THT" H 10600 3400 50  0001 C CNN "Typ"
 	1    10600 3400
 	-1   0    0    -1  
 $EndComp
@@ -1261,6 +1295,8 @@ F 1 "100kΩ" H 2100 4750 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 2330 4700 50  0001 C CNN
 F 3 "~" H 2400 4700 50  0001 C CNN
 F 4 "" H 2400 4700 50  0001 C CNN "Model"
+F 5 "0.04651" H 2400 4700 50  0001 C CNN "Cena"
+F 6 "SMD" H 2400 4700 50  0001 C CNN "Typ"
 	1    2400 4700
 	-1   0    0    1   
 $EndComp
@@ -1352,7 +1388,12 @@ F 1 "1kΩ" V 1750 3800 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 1780 3800 50  0001 C CNN
 F 3 "~" H 1850 3800 50  0001 C CNN
 F 4 "1%" V 1750 3650 50  0000 L CNN "Tolerancja"
-F 5 "" H 1850 3800 50  0001 C CNN "Model"
+F 5 "0603SAF1001T5E" H 1850 3800 50  0001 C CNN "Model"
+F 6 "0.04651" H 1850 3800 50  0001 C CNN "Cena"
+F 7 "https://www.tme.eu/pl/details/smd0603-1k-1%25/rezystory-smd-0603/royal-ohm/0603saf1001t5e/" H 1850 3800 50  0001 C CNN "Link"
+F 8 "Rezystor: thick film; SMD; 0603; 1kΩ; 0,1W; ±1%; -55÷155°C" H 1850 3800 50  0001 C CNN "Opis"
+F 9 "ROYAL OHM" H 1850 3800 50  0001 C CNN "Producent"
+F 10 "SMD" H 1850 3800 50  0001 C CNN "Typ"
 	1    1850 3800
 	0    -1   -1   0   
 $EndComp
@@ -1368,6 +1409,8 @@ F 2 "Resistor_SMD:R_0805_2012Metric" V 1780 1250 50  0001 C CNN
 F 3 "~" H 1850 1250 50  0001 C CNN
 F 4 "1%" V 1750 1100 50  0001 L CNN "Tolerancja"
 F 5 "" H 1850 1250 50  0001 C CNN "Model"
+F 6 "0.04651" H 1850 1250 50  0001 C CNN "Cena"
+F 7 "SMD" H 1850 1250 50  0001 C CNN "Typ"
 	1    1850 1250
 	0    -1   -1   0   
 $EndComp

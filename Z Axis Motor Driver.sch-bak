@@ -35,13 +35,17 @@ L Device:R R8
 U 1 1 5DE71FB1
 P 4800 4300
 F 0 "R8" H 4870 4482 50  0000 L CNN
-F 1 "120mΩ" H 4870 4391 50  0000 L CNN
+F 1 "100mΩ" H 4870 4391 50  0000 L CNN
 F 2 "Resistor_SMD:R_2010_5025Metric" V 4730 4300 50  0001 C CNN
 F 3 "~" H 4800 4300 50  0001 C CNN
 F 4 "1W" H 4870 4300 50  0000 L CNN "Moc"
-F 5 "Metal" H 4870 4209 50  0000 L CNN "Typ"
+F 5 "SMD" H 4870 4209 50  0000 L CNN "Typ"
 F 6 "1%" H 4870 4118 50  0000 L CNN "Tolerancja"
-F 7 "" H 4800 4300 50  0001 C CNN "Model"
+F 7 "CS10FTFTR100" H 4800 4300 50  0001 C CNN "Model"
+F 8 "0.76246" H 4800 4300 50  0001 C CNN "Cena"
+F 9 "https://www.tme.eu/pl/details/cs2010-0r1-1%25-hp/rezystory-smd-2010/viking/cs10ftftr100/" H 4800 4300 50  0001 C CNN "Link"
+F 10 "Rezystor: thick film; pomiarowy; SMD; 2010; 100mΩ; 1W; ±1%" H 4800 4300 50  0001 C CNN "Opis"
+F 11 "VIKING" H 4800 4300 50  0001 C CNN "Producent"
 	1    4800 4300
 	1    0    0    -1  
 $EndComp
@@ -109,13 +113,17 @@ L Device:R R9
 U 1 1 5DE7F13C
 P 5850 4300
 F 0 "R9" H 5920 4482 50  0000 L CNN
-F 1 "120mΩ" H 5920 4391 50  0000 L CNN
+F 1 "100mΩ" H 5920 4391 50  0000 L CNN
 F 2 "Resistor_SMD:R_2010_5025Metric" V 5780 4300 50  0001 C CNN
 F 3 "~" H 5850 4300 50  0001 C CNN
 F 4 "1W" H 5920 4300 50  0000 L CNN "Moc"
-F 5 "Metal" H 5920 4209 50  0000 L CNN "Typ"
+F 5 "SMD" H 5920 4209 50  0000 L CNN "Typ"
 F 6 "1%" H 5920 4118 50  0000 L CNN "Tolerancja"
-F 7 "" H 5850 4300 50  0001 C CNN "Model"
+F 7 "CS10FTFTR100" H 5850 4300 50  0001 C CNN "Model"
+F 8 "0.76246" H 5850 4300 50  0001 C CNN "Cena"
+F 9 "https://www.tme.eu/pl/details/cs2010-0r1-1%25-hp/rezystory-smd-2010/viking/cs10ftftr100/" H 5850 4300 50  0001 C CNN "Link"
+F 10 "Rezystor: thick film; pomiarowy; SMD; 2010; 100mΩ; 1W; ±1%" H 5850 4300 50  0001 C CNN "Opis"
+F 11 "VIKING" H 5850 4300 50  0001 C CNN "Producent"
 	1    5850 4300
 	1    0    0    -1  
 $EndComp
@@ -312,6 +320,11 @@ F 1 "60Ohm@100MHz" V 6804 2900 50  0000 C CNN
 F 2 "Inductor_SMD:L_0805_2012Metric" V 6880 2900 50  0001 C CNN
 F 3 "~" H 6950 2900 50  0001 C CNN
 F 4 "BLM21PG600SN1D" V 6950 2900 50  0001 C CNN "Model"
+F 5 "0.13674" H 6950 2900 50  0001 C CNN "Cena"
+F 6 "https://www.tme.eu/pl/details/blm21pg600sn1d/ferryty-koraliki/murata/" H 6950 2900 50  0001 C CNN "Link"
+F 7 "Ferryt: koralik; Imp.@ 100MHz: 60Ω; Montaż: SMD; 3A; Obud: 0805" H 6950 2900 50  0001 C CNN "Opis"
+F 8 "MURATA" H 6950 2900 50  0001 C CNN "Producent"
+F 9 "SMD" H 6950 2900 50  0001 C CNN "Typ"
 	1    6950 2900
 	0    1    1    0   
 $EndComp
@@ -324,6 +337,11 @@ F 1 "60Ohm@100MHz" V 7050 3050 50  0000 C CNN
 F 2 "Inductor_SMD:L_0805_2012Metric" V 6880 3050 50  0001 C CNN
 F 3 "~" H 6950 3050 50  0001 C CNN
 F 4 "BLM21PG600SN1D" V 6950 3050 50  0001 C CNN "Model"
+F 5 "0.13674" H 6950 3050 50  0001 C CNN "Cena"
+F 6 "https://www.tme.eu/pl/details/blm21pg600sn1d/ferryty-koraliki/murata/" H 6950 3050 50  0001 C CNN "Link"
+F 7 "Ferryt: koralik; Imp.@ 100MHz: 60Ω; Montaż: SMD; 3A; Obud: 0805" H 6950 3050 50  0001 C CNN "Opis"
+F 8 "MURATA" H 6950 3050 50  0001 C CNN "Producent"
+F 9 "SMD" H 6950 3050 50  0001 C CNN "Typ"
 	1    6950 3050
 	0    1    1    0   
 $EndComp
@@ -336,6 +354,11 @@ F 1 "60Ohm@100MHz" V 6804 3600 50  0000 C CNN
 F 2 "Inductor_SMD:L_0805_2012Metric" V 6880 3600 50  0001 C CNN
 F 3 "~" H 6950 3600 50  0001 C CNN
 F 4 "BLM21PG600SN1D" V 6950 3600 50  0001 C CNN "Model"
+F 5 "0.13674" H 6950 3600 50  0001 C CNN "Cena"
+F 6 "https://www.tme.eu/pl/details/blm21pg600sn1d/ferryty-koraliki/murata/" H 6950 3600 50  0001 C CNN "Link"
+F 7 "Ferryt: koralik; Imp.@ 100MHz: 60Ω; Montaż: SMD; 3A; Obud: 0805" H 6950 3600 50  0001 C CNN "Opis"
+F 8 "MURATA" H 6950 3600 50  0001 C CNN "Producent"
+F 9 "SMD" H 6950 3600 50  0001 C CNN "Typ"
 	1    6950 3600
 	0    1    1    0   
 $EndComp
@@ -348,6 +371,11 @@ F 1 "60Ohm@100MHz" V 7050 3750 50  0000 C CNN
 F 2 "Inductor_SMD:L_0805_2012Metric" V 6880 3750 50  0001 C CNN
 F 3 "~" H 6950 3750 50  0001 C CNN
 F 4 "BLM21PG600SN1D" V 6950 3750 50  0001 C CNN "Model"
+F 5 "0.13674" H 6950 3750 50  0001 C CNN "Cena"
+F 6 "https://www.tme.eu/pl/details/blm21pg600sn1d/ferryty-koraliki/murata/" H 6950 3750 50  0001 C CNN "Link"
+F 7 "Ferryt: koralik; Imp.@ 100MHz: 60Ω; Montaż: SMD; 3A; Obud: 0805" H 6950 3750 50  0001 C CNN "Opis"
+F 8 "MURATA" H 6950 3750 50  0001 C CNN "Producent"
+F 9 "SMD" H 6950 3750 50  0001 C CNN "Typ"
 	1    6950 3750
 	0    1    1    0   
 $EndComp
@@ -535,6 +563,12 @@ F 0 "J2" H 10372 3224 50  0000 R CNN
 F 1 "Motor Z" H 10372 3133 50  0000 R CNN
 F 2 "Connector_JST:JST_XH_B4B-XH-AM_1x04_P2.50mm_Vertical" H 10400 3250 50  0001 C CNN
 F 3 "~" H 10400 3250 50  0001 C CNN
+F 4 "0.81567" H 10400 3250 50  0001 C CNN "Cena"
+F 5 "https://www.tme.eu/pl/details/b4b-xh-a/zlacza-sygnalowe-raster-2-50mm/jst/" H 10400 3250 50  0001 C CNN "Link"
+F 6 "B4B-XH-A" H 10400 3250 50  0001 C CNN "Model"
+F 7 "Gniazdo; przewód-płytka; męskie; XH; 2,5mm; PIN: 4; THT; 250V; 3A" H 10400 3250 50  0001 C CNN "Opis"
+F 8 "JST" H 10400 3250 50  0001 C CNN "Producent"
+F 9 "THT" H 10400 3250 50  0001 C CNN "Typ"
 	1    10400 3250
 	-1   0    0    -1  
 $EndComp
@@ -639,7 +673,12 @@ F 1 "1kΩ" V 1550 3650 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 1580 3650 50  0001 C CNN
 F 3 "~" H 1650 3650 50  0001 C CNN
 F 4 "1%" V 1550 3500 50  0000 L CNN "Tolerancja"
-F 5 "" H 1650 3650 50  0001 C CNN "Model"
+F 5 "0603SAF1001T5E" H 1650 3650 50  0001 C CNN "Model"
+F 6 "0.04651" H 1650 3650 50  0001 C CNN "Cena"
+F 7 "https://www.tme.eu/pl/details/smd0603-1k-1%25/rezystory-smd-0603/royal-ohm/0603saf1001t5e/" H 1650 3650 50  0001 C CNN "Link"
+F 8 "Rezystor: thick film; SMD; 0603; 1kΩ; 0,1W; ±1%; -55÷155°C" H 1650 3650 50  0001 C CNN "Opis"
+F 9 "ROYAL OHM" H 1650 3650 50  0001 C CNN "Producent"
+F 10 "SMD" H 1650 3650 50  0001 C CNN "Typ"
 	1    1650 3650
 	0    -1   -1   0   
 $EndComp
@@ -1166,6 +1205,8 @@ F 1 "100kΩ" H 1950 4600 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 2130 4550 50  0001 C CNN
 F 3 "~" H 2200 4550 50  0001 C CNN
 F 4 "" H 2200 4550 50  0001 C CNN "Model"
+F 5 "0.04651" H 2200 4550 50  0001 C CNN "Cena"
+F 6 "SMD" H 2200 4550 50  0001 C CNN "Typ"
 	1    2200 4550
 	-1   0    0    1   
 $EndComp

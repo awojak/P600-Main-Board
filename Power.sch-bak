@@ -42,6 +42,8 @@ F 1 "47Ω" V 6450 2250 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 6480 2350 50  0001 C CNN
 F 3 "~" H 6550 2350 50  0001 C CNN
 F 4 "" H 6550 2350 50  0001 C CNN "Model"
+F 5 "0.04651" H 6550 2350 50  0001 C CNN "Cena"
+F 6 "SMD" H 6550 2350 50  0001 C CNN "Typ"
 	1    6550 2350
 	0    1    1    0   
 $EndComp
@@ -108,6 +110,12 @@ F 2 "Capacitor_SMD:C_0603_1608Metric" H 6250 2650 50  0001 C CNN
 F 3 "~" H 6250 2650 50  0001 C CNN
 F 4 "16V" H 6350 2650 50  0000 L CNN "Napięcie"
 F 5 "X7R" H 6350 2550 50  0000 L CNN "Dielektryk"
+F 6 "0.05563" H 6250 2650 50  0001 C CNN "Cena"
+F 7 "https://www.tme.eu/pl/details/cl10b102kb8nnnc/kondensatory-mlcc-smd-0603/samsung/" H 6250 2650 50  0001 C CNN "Link"
+F 8 "CL10B102KB8NNNC" H 6250 2650 50  0001 C CNN "Model"
+F 9 "Kondensator: ceramiczny; MLCC; 1nF; 50V; X7R; ±10%; SMD; 0603" H 6250 2650 50  0001 C CNN "Opis"
+F 10 "SAMSUNG" H 6250 2650 50  0001 C CNN "Producent"
+F 11 "SMD" H 6250 2650 50  0001 C CNN "Typ"
 	1    6250 2650
 	1    0    0    -1  
 $EndComp
@@ -140,6 +148,12 @@ F 1 "DJNR6045-6R8" V 7490 2050 50  0000 C CNN
 F 2 "footprints:L_6.2x6.2_H4.5" H 7300 2050 50  0001 C CNN
 F 3 "~" H 7300 2050 50  0001 C CNN
 F 4 "6.8uH" V 7399 2050 50  0000 C CNN "Induktancja"
+F 5 "0.7018" H 7300 2050 50  0001 C CNN "Cena"
+F 6 "https://www.tme.eu/pl/details/djnr6045-6r8/dlawiki-smd-mocy/ferrocore/" H 7300 2050 50  0001 C CNN "Link"
+F 7 "DJNR6045-6R8" H 7300 2050 50  0001 C CNN "Model"
+F 8 "Dławik: drutowy; SMD; 6,8uH; Ipracy: 3,5A; 49,4mΩ; 6x5,9x4,5mm; ±20%" H 7300 2050 50  0001 C CNN "Opis"
+F 9 "FERROCORE" H 7300 2050 50  0001 C CNN "Producent"
+F 10 "SMD" H 7300 2050 50  0001 C CNN "Typ"
 	1    7300 2050
 	0    -1   -1   0   
 $EndComp
@@ -162,7 +176,12 @@ F 0 "R44" H 6900 2650 50  0000 R CNN
 F 1 "100mΩ" H 6900 2750 50  0000 R CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 6930 2700 50  0001 C CNN
 F 3 "~" H 7000 2700 50  0001 C CNN
-F 4 "" H 7000 2700 50  0001 C CNN "Model"
+F 4 "6-1622825-5" H 7000 2700 50  0001 C CNN "Model"
+F 5 "0.33547" H 7000 2700 50  0001 C CNN "Cena"
+F 6 "https://www.tme.eu/pl/details/smd1206-r10-lo/rezystory-smd-1206/te-connectivity/6-1622825-5/" H 7000 2700 50  0001 C CNN "Link"
+F 7 "Rezystor: metal glaze; SMD; 1206; 100mΩ; 0,25W; ±5%; 200ppm/°C" H 7000 2700 50  0001 C CNN "Opis"
+F 8 "TE Connectivity" H 7000 2700 50  0001 C CNN "Producent"
+F 9 "SMD" H 7000 2700 50  0001 C CNN "Typ"
 	1    7000 2700
 	-1   0    0    1   
 $EndComp
@@ -295,7 +314,12 @@ F 1 "3.92kΩ" H 8750 2850 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 8580 2900 50  0001 C CNN
 F 3 "~" H 8650 2900 50  0001 C CNN
 F 4 "0.1%" H 8750 2950 50  0000 L CNN "Tolerancja"
-F 5 "" H 8650 2900 50  0001 C CNN "Model"
+F 5 "0603SAF3921T5E" H 8650 2900 50  0001 C CNN "Model"
+F 6 "0.05158" H 8650 2900 50  0001 C CNN "Cena"
+F 7 "https://www.tme.eu/pl/details/smd0603-3.92k-1%25/rezystory-smd-0603/royal-ohm/0603saf3921t5e/" H 8650 2900 50  0001 C CNN "Link"
+F 8 "Rezystor: thick film; SMD; 0603; 3,92kΩ; 0,1W; ±1%; -55÷155°C" H 8650 2900 50  0001 C CNN "Opis"
+F 9 "ROYAL OHM" H 8650 2900 50  0001 C CNN "Producent"
+F 10 "SMD" H 8650 2900 50  0001 C CNN "Typ"
 	1    8650 2900
 	-1   0    0    1   
 $EndComp
@@ -311,6 +335,7 @@ F 2 "Capacitor_SMD:C_0603_1608Metric" H 8900 2900 50  0001 C CNN
 F 3 "~" H 8900 2900 50  0001 C CNN
 F 4 "16V" H 9000 2900 50  0000 L CNN "Napięcie"
 F 5 "X7R" H 9000 2800 50  0000 L CNN "Dielektryk"
+F 6 "SMD" H 8900 2900 50  0001 C CNN "Typ"
 	1    8900 2900
 	1    0    0    -1  
 $EndComp
@@ -327,6 +352,8 @@ F 2 "Resistor_SMD:R_0603_1608Metric" V 8580 3350 50  0001 C CNN
 F 3 "~" H 8650 3350 50  0001 C CNN
 F 4 "0.1%" H 8750 3450 50  0000 L CNN "Tolerancja"
 F 5 "" H 8650 3350 50  0001 C CNN "Model"
+F 6 "0.04651" H 8650 3350 50  0001 C CNN "Cena"
+F 7 "SMD" H 8650 3350 50  0001 C CNN "Typ"
 	1    8650 3350
 	-1   0    0    1   
 $EndComp
@@ -390,6 +417,7 @@ F 2 "Capacitor_SMD:C_0603_1608Metric" H 5000 3100 50  0001 C CNN
 F 3 "~" H 5000 3100 50  0001 C CNN
 F 4 "50V" H 5100 3100 50  0000 L CNN "Napięcie"
 F 5 "X7R" H 5100 3000 50  0000 L CNN "Dielektryk"
+F 6 "SMD" H 5000 3100 50  0001 C CNN "Typ"
 	1    5000 3100
 	-1   0    0    1   
 $EndComp
@@ -443,6 +471,8 @@ F 1 "100kΩ" H 4950 1950 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 4930 1900 50  0001 C CNN
 F 3 "~" H 5000 1900 50  0001 C CNN
 F 4 "" H 5000 1900 50  0001 C CNN "Model"
+F 5 "0.04651" H 5000 1900 50  0001 C CNN "Cena"
+F 6 "SMD" H 5000 1900 50  0001 C CNN "Typ"
 	1    5000 1900
 	-1   0    0    1   
 $EndComp
@@ -464,6 +494,7 @@ F 6 "0.68179" H 4600 1900 50  0001 C CNN "Cena"
 F 7 "https://www.tme.eu/pl/details/cl31b225kbhnnne/kondensatory-mlcc-smd-1206/samsung/" H 4600 1900 50  0001 C CNN "Link"
 F 8 "CL31B225KBHNNNE" H 4600 1900 50  0001 C CNN "Model"
 F 9 "SAMSUNG" H 4600 1900 50  0001 C CNN "Producent"
+F 10 "SMD" H 4600 1900 50  0001 C CNN "Typ"
 	1    4600 1900
 	1    0    0    -1  
 $EndComp
@@ -526,6 +557,7 @@ F 6 "0.68179" H 4900 4500 50  0001 C CNN "Cena"
 F 7 "https://www.tme.eu/pl/details/cl31b225kbhnnne/kondensatory-mlcc-smd-1206/samsung/" H 4900 4500 50  0001 C CNN "Link"
 F 8 "CL31B225KBHNNNE" H 4900 4500 50  0001 C CNN "Model"
 F 9 "SAMSUNG" H 4900 4500 50  0001 C CNN "Producent"
+F 10 "SMD" H 4900 4500 50  0001 C CNN "Typ"
 	1    4900 4500
 	1    0    0    -1  
 $EndComp
@@ -574,6 +606,12 @@ F 1 "DJNR6045-150" V 6800 4450 50  0000 C CNN
 F 2 "footprints:L_6.2x6.2_H4.5" H 6850 4450 50  0001 C CNN
 F 3 "~" H 6850 4450 50  0001 C CNN
 F 4 "15uH" V 6950 4450 50  0000 C CNN "Induktancja"
+F 5 "0.7018" H 6850 4450 50  0001 C CNN "Cena"
+F 6 "https://www.tme.eu/pl/details/djnr6045-150/dlawiki-smd-mocy/ferrocore/" H 6850 4450 50  0001 C CNN "Link"
+F 7 "DJNR6045-150" H 6850 4450 50  0001 C CNN "Model"
+F 8 "Dławik: drutowy; SMD; 15uH; Ipracy: 2,3A; 100,1mΩ; 6x5,9x4,5mm; ±20%" H 6850 4450 50  0001 C CNN "Opis"
+F 9 "FERROCORE" H 6850 4450 50  0001 C CNN "Producent"
+F 10 "SMD" H 6850 4450 50  0001 C CNN "Typ"
 	1    6850 4450
 	0    -1   -1   0   
 $EndComp
@@ -596,7 +634,12 @@ F 1 "31.2kΩ" H 7400 4650 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 7230 4700 50  0001 C CNN
 F 3 "~" H 7300 4700 50  0001 C CNN
 F 4 "0.1%" H 7400 4750 50  0000 L CNN "Tolerancja"
-F 5 "" H 7300 4700 50  0001 C CNN "Model"
+F 5 "MCWR06X3162FTL" H 7300 4700 50  0001 C CNN "Model"
+F 6 "SMD" H 7300 4700 50  0001 C CNN "Typ"
+F 7 "0.02" H 7300 4700 50  0001 C CNN "Cena"
+F 8 "https://pl.farnell.com/multicomp/mcwr06x3162ftl/res-31k6-1-0-1w-thick-film/dp/2447337RL" H 7300 4700 50  0001 C CNN "Link"
+F 9 "Rezystor SMD, grubowarstwowy, 0603 [jedn. metryczne: 1608], 31.6 kohm, Seria MCWR, 75 V" H 7300 4700 50  0001 C CNN "Opis"
+F 10 "MULTICOMP PRO" H 7300 4700 50  0001 C CNN "Producent"
 	1    7300 4700
 	1    0    0    -1  
 $EndComp
@@ -612,7 +655,12 @@ F 1 "10kΩ" H 7400 5050 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 7230 5100 50  0001 C CNN
 F 3 "~" H 7300 5100 50  0001 C CNN
 F 4 "0.1%" H 7400 5150 50  0000 L CNN "Tolerancja"
-F 5 "" H 7300 5100 50  0001 C CNN "Model"
+F 5 "0603SAF1002T5E" H 7300 5100 50  0001 C CNN "Model"
+F 6 "0.03622" H 7300 5100 50  0001 C CNN "Cena"
+F 7 "https://www.tme.eu/pl/details/smd0603-10k-1%25/rezystory-smd-0603/royal-ohm/0603saf1002t5e/" H 7300 5100 50  0001 C CNN "Link"
+F 8 "Rezystor: thick film; SMD; 0603; 10kΩ; 0,1W; ±1%; -55÷155°C" H 7300 5100 50  0001 C CNN "Opis"
+F 9 "ROYAL OHM" H 7300 5100 50  0001 C CNN "Producent"
+F 10 "SMD" H 7300 5100 50  0001 C CNN "Typ"
 	1    7300 5100
 	1    0    0    -1  
 $EndComp
@@ -847,7 +895,12 @@ F 0 "R43" H 6650 2550 50  0000 L CNN
 F 1 "100mΩ" V 6750 2600 50  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" V 6780 2700 50  0001 C CNN
 F 3 "~" H 6850 2700 50  0001 C CNN
-F 4 "" H 6850 2700 50  0001 C CNN "Model"
+F 4 "6-1622825-5" H 6850 2700 50  0001 C CNN "Model"
+F 5 "0.33547" H 6850 2700 50  0001 C CNN "Cena"
+F 6 "https://www.tme.eu/pl/details/smd1206-r10-lo/rezystory-smd-1206/te-connectivity/6-1622825-5/" H 6850 2700 50  0001 C CNN "Link"
+F 7 "Rezystor: metal glaze; SMD; 1206; 100mΩ; 0,25W; ±5%; 200ppm/°C" H 6850 2700 50  0001 C CNN "Opis"
+F 8 "TE Connectivity" H 6850 2700 50  0001 C CNN "Producent"
+F 9 "SMD" H 6850 2700 50  0001 C CNN "Typ"
 	1    6850 2700
 	1    0    0    -1  
 $EndComp
@@ -864,6 +917,12 @@ F 0 "J17" H 972 1724 50  0000 R CNN
 F 1 "Power Input" H 972 1633 50  0000 R CNN
 F 2 "Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical" H 1000 1750 50  0001 C CNN
 F 3 "~" H 1000 1750 50  0001 C CNN
+F 4 "0.49272" H 1000 1750 50  0001 C CNN "Cena"
+F 5 "https://www.tme.eu/pl/details/b2b-xh-a/zlacza-sygnalowe-raster-2-50mm/jst/" H 1000 1750 50  0001 C CNN "Link"
+F 6 "B2B-XH-A" H 1000 1750 50  0001 C CNN "Model"
+F 7 "Gniazdo; przewód-płytka; męskie; XH; 2,5mm; PIN: 2; THT; 250V; 3A" H 1000 1750 50  0001 C CNN "Opis"
+F 8 "JST" H 1000 1750 50  0001 C CNN "Producent"
+F 9 "THT" H 1000 1750 50  0001 C CNN "Typ"
 	1    1000 1750
 	1    0    0    -1  
 $EndComp
@@ -875,6 +934,12 @@ F 0 "Q4" V 3042 1850 50  0000 C CNN
 F 1 "YJS9435A" V 2951 1850 50  0000 C CNN
 F 2 "Package_SO:SOP-8_3.9x4.9mm_P1.27mm" H 2900 1775 50  0001 L CIN
 F 3 "http://www.irf.com/product-info/datasheets/data/irf7606pbf.pdf" V 2700 1850 50  0001 L CNN
+F 4 "0.29736" H 2700 1850 50  0001 C CNN "Cena"
+F 5 "https://www.tme.eu/pl/details/yjs9435a-yan/tranzystory-z-kanalem-p-smd/yangjie-technology/yjs9435a/" H 2700 1850 50  0001 C CNN "Link"
+F 6 "YJS9435A" H 2700 1850 50  0001 C CNN "Model"
+F 7 "Tranzystor: P-MOSFET; TRENCH POWER LV; unipolarny; -30V; -4,1A" H 2700 1850 50  0001 C CNN "Opis"
+F 8 "YANGJIE TECHNOLOGY" H 2700 1850 50  0001 C CNN "Producent"
+F 9 "SMD" H 2700 1850 50  0001 C CNN "Typ"
 	1    2700 1850
 	0    -1   -1   0   
 $EndComp
@@ -903,6 +968,8 @@ F 0 "R39" H 2770 2396 50  0000 L CNN
 F 1 "100kΩ" H 2770 2305 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 2630 2350 50  0001 C CNN
 F 3 "~" H 2700 2350 50  0001 C CNN
+F 4 "0.04651" H 2700 2350 50  0001 C CNN "Cena"
+F 5 "SMD" H 2700 2350 50  0001 C CNN "Typ"
 	1    2700 2350
 	1    0    0    -1  
 $EndComp
@@ -1040,6 +1107,8 @@ F 0 "R38" H 2670 4896 50  0000 L CNN
 F 1 "330Ω" H 2670 4805 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 2530 4850 50  0001 C CNN
 F 3 "~" H 2600 4850 50  0001 C CNN
+F 4 "0.04651" H 2600 4850 50  0001 C CNN "Cena"
+F 5 "SMD" H 2600 4850 50  0001 C CNN "Typ"
 	1    2600 4850
 	1    0    0    -1  
 $EndComp
@@ -1110,6 +1179,12 @@ F 0 "R40" H 3220 4896 50  0000 L CNN
 F 1 "1kΩ" H 3220 4805 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 3080 4850 50  0001 C CNN
 F 3 "~" H 3150 4850 50  0001 C CNN
+F 4 "0.04651" H 3150 4850 50  0001 C CNN "Cena"
+F 5 "https://www.tme.eu/pl/details/smd0603-1k-1%25/rezystory-smd-0603/royal-ohm/0603saf1001t5e/" H 3150 4850 50  0001 C CNN "Link"
+F 6 "0603SAF1001T5E" H 3150 4850 50  0001 C CNN "Model"
+F 7 "Rezystor: thick film; SMD; 0603; 1kΩ; 0,1W; ±1%; -55÷155°C" H 3150 4850 50  0001 C CNN "Opis"
+F 8 "ROYAL OHM" H 3150 4850 50  0001 C CNN "Producent"
+F 9 "SMD" H 3150 4850 50  0001 C CNN "Typ"
 	1    3150 4850
 	1    0    0    -1  
 $EndComp
@@ -1158,6 +1233,8 @@ F 0 "R37" H 2120 4896 50  0000 L CNN
 F 1 "10kΩ" H 2120 4805 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 1980 4850 50  0001 C CNN
 F 3 "~" H 2050 4850 50  0001 C CNN
+F 4 "0.04651" H 2050 4850 50  0001 C CNN "Cena"
+F 5 "SMD" H 2050 4850 50  0001 C CNN "Typ"
 	1    2050 4850
 	1    0    0    -1  
 $EndComp

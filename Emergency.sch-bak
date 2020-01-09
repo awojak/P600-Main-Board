@@ -51,6 +51,12 @@ F 0 "K1" V 3283 3600 50  0000 C CNN
 F 1 "S13-24V-2C" V 3374 3600 50  0000 C CNN
 F 2 "footprints:Relay_DPDT_Omron_G5V-2" H 4050 3600 50  0001 L CNN
 F 3 "https://www.tme.eu/Document/64152b8fe9c340a87eeb0f5deb8b7f91/s13-relay.pdf" H 4050 3600 50  0001 C CNN
+F 4 "4.46" H 4050 3600 50  0001 C CNN "Cena"
+F 5 "https://www.tme.eu/pl/details/s13-24v-2c/przekazniki-elektromagn-miniaturowe/shori-electric/" H 4050 3600 50  0001 C CNN "Link"
+F 6 "S13-24V-2C" H 4050 3600 50  0001 C CNN "Model"
+F 7 "Przekaźnik: elektromagnetyczny; DPDT; Ucewki : 24VDC; 0,5A/125VAC" H 4050 3600 50  0001 C CNN "Opis"
+F 8 "SHORI ELECTRIC" H 4050 3600 50  0001 C CNN "Producent"
+F 9 "THT" H 4050 3600 50  0001 C CNN "Typ"
 	1    4050 3600
 	0    1    1    0   
 $EndComp
@@ -189,6 +195,8 @@ F 0 "R56" V 5793 2350 50  0000 C CNN
 F 1 "33kΩ" V 5884 2350 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 5930 2350 50  0001 C CNN
 F 3 "~" H 6000 2350 50  0001 C CNN
+F 4 "0.04651" H 6000 2350 50  0001 C CNN "Cena"
+F 5 "SMD" H 6000 2350 50  0001 C CNN "Typ"
 	1    6000 2350
 	0    1    1    0   
 $EndComp
@@ -201,6 +209,12 @@ F 0 "Q7" H 6741 2396 50  0000 L CNN
 F 1 "BC817" H 6741 2305 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 6750 2275 50  0001 L CIN
 F 3 "http://www.fairchildsemi.com/ds/BC/BC817.pdf" H 6550 2350 50  0001 L CNN
+F 4 "0.1189" H 6550 2350 50  0001 C CNN "Cena"
+F 5 "https://www.tme.eu/pl/details/bc817.215/tranzystory-npn-smd/nexperia/" H 6550 2350 50  0001 C CNN "Link"
+F 6 "BC817.215" H 6550 2350 50  0001 C CNN "Model"
+F 7 "Tranzystor: NPN; bipolarny; 45V; 0,5A; 250mW; SOT23" H 6550 2350 50  0001 C CNN "Opis"
+F 8 "NEXPERIA" H 6550 2350 50  0001 C CNN "Producent"
+F 9 "SMD" H 6550 2350 50  0001 C CNN "Typ"
 	1    6550 2350
 	1    0    0    -1  
 $EndComp
@@ -225,6 +239,12 @@ F 0 "R57" H 6720 1946 50  0000 L CNN
 F 1 "1kΩ" H 6720 1855 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 6580 1900 50  0001 C CNN
 F 3 "~" H 6650 1900 50  0001 C CNN
+F 4 "0.04651" H 6650 1900 50  0001 C CNN "Cena"
+F 5 "https://www.tme.eu/pl/details/smd0603-1k-1%25/rezystory-smd-0603/royal-ohm/0603saf1001t5e/" H 6650 1900 50  0001 C CNN "Link"
+F 6 "0603SAF1001T5E" H 6650 1900 50  0001 C CNN "Model"
+F 7 "Rezystor: thick film; SMD; 0603; 1kΩ; 0,1W; ±1%; -55÷155°C" H 6650 1900 50  0001 C CNN "Opis"
+F 8 "ROYAL OHM" H 6650 1900 50  0001 C CNN "Producent"
+F 9 "SMD" H 6650 1900 50  0001 C CNN "Typ"
 	1    6650 1900
 	1    0    0    -1  
 $EndComp
@@ -280,6 +300,8 @@ F 0 "R55" V 4943 2350 50  0000 C CNN
 F 1 "1kΩ" V 5034 2350 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 5080 2350 50  0001 C CNN
 F 3 "~" H 5150 2350 50  0001 C CNN
+F 4 "0.04651" H 5150 2350 50  0001 C CNN "Cena"
+F 5 "SMD" H 5150 2350 50  0001 C CNN "Typ"
 	1    5150 2350
 	0    1    1    0   
 $EndComp
@@ -426,6 +448,8 @@ F 0 "R59" H 7720 3996 50  0000 L CNN
 F 1 "100kΩ" H 7720 3905 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 7580 3950 50  0001 C CNN
 F 3 "~" H 7650 3950 50  0001 C CNN
+F 4 "0.04651" H 7650 3950 50  0001 C CNN "Cena"
+F 5 "SMD" H 7650 3950 50  0001 C CNN "Typ"
 	1    7650 3950
 	1    0    0    -1  
 $EndComp
@@ -442,6 +466,8 @@ F 0 "R58" H 7720 3246 50  0000 L CNN
 F 1 "100kΩ" H 7720 3155 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 7580 3200 50  0001 C CNN
 F 3 "~" H 7650 3200 50  0001 C CNN
+F 4 "0.04651" H 7650 3200 50  0001 C CNN "Cena"
+F 5 "SMD" H 7650 3200 50  0001 C CNN "Typ"
 	1    7650 3200
 	1    0    0    -1  
 $EndComp
@@ -517,6 +543,12 @@ F 0 "C62" H 7300 2400 50  0000 L CNN
 F 1 "1nF" H 7300 2300 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 7200 2350 50  0001 C CNN
 F 3 "~" H 7200 2350 50  0001 C CNN
+F 4 "0.05563" H 7200 2350 50  0001 C CNN "Cena"
+F 5 "https://www.tme.eu/pl/details/cl10b102kb8nnnc/kondensatory-mlcc-smd-0603/samsung/" H 7200 2350 50  0001 C CNN "Link"
+F 6 "CL10B102KB8NNNC" H 7200 2350 50  0001 C CNN "Model"
+F 7 "Kondensator: ceramiczny; MLCC; 1nF; 50V; X7R; ±10%; SMD; 0603" H 7200 2350 50  0001 C CNN "Opis"
+F 8 "SAMSUNG" H 7200 2350 50  0001 C CNN "Producent"
+F 9 "SMD" H 7200 2350 50  0001 C CNN "Typ"
 	1    7200 2350
 	1    0    0    -1  
 $EndComp
