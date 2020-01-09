@@ -191,4 +191,6 @@ Text Notes 9150 1850 0    50   ~ 0
 Mounting Holes
 Text Notes 9300 2850 0    50   ~ 0
 Fiducials
+Text Notes 2750 5000 0    50   ~ 0
+Generowanie BOM:\nxsltproc -o "X:/DTG/PCB/P600-Main-Board/GrupedBOMRaw.csv" "C:\Program Files\KiCad\bin\scripting\plugins\bom2grouped_csv.xsl" "X:\DTG\PCB\P600-Main-Board\Main Board.xml"
 $EndSCHEMATC
