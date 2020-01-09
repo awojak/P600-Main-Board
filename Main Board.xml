@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>X:\DTG\PCB\P600-Main-Board\Main Board.sch</source>
-    <date>2020-01-09 08:32:33</date>
+    <date>2020-01-09 11:07:26</date>
     <tool>Eeschema (5.1.5)-2</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -233,13 +233,18 @@
       <tstamp>5E249029</tstamp>
     </comp>
     <comp ref="R4">
-      <value>120mΩ</value>
+      <value>100mΩ</value>
       <footprint>Resistor_SMD:R_2010_5025Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="Cena">0.76246</field>
+        <field name="Link">https://www.tme.eu/pl/details/cs2010-0r1-1%25-hp/rezystory-smd-2010/viking/cs10ftftr100/</field>
         <field name="Moc">1W</field>
+        <field name="Model">CS10FTFTR100</field>
+        <field name="Opis">Rezystor: thick film; pomiarowy; SMD; 2010; 100mΩ; 1W; ±1%</field>
+        <field name="Producent">VIKING</field>
         <field name="Tolerancja">1%</field>
-        <field name="Typ">Metal</field>
+        <field name="Typ">SMD</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Y Axis Motor Driver/" tstamps="/5DE587B9/"/>
@@ -264,13 +269,18 @@
       <tstamp>5E249051</tstamp>
     </comp>
     <comp ref="R5">
-      <value>120mΩ</value>
+      <value>100mΩ</value>
       <footprint>Resistor_SMD:R_2010_5025Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="Cena">0.76246</field>
+        <field name="Link">https://www.tme.eu/pl/details/cs2010-0r1-1%25-hp/rezystory-smd-2010/viking/cs10ftftr100/</field>
         <field name="Moc">1W</field>
+        <field name="Model">CS10FTFTR100</field>
+        <field name="Opis">Rezystor: thick film; pomiarowy; SMD; 2010; 100mΩ; 1W; ±1%</field>
+        <field name="Producent">VIKING</field>
         <field name="Tolerancja">1%</field>
-        <field name="Typ">Metal</field>
+        <field name="Typ">SMD</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Y Axis Motor Driver/" tstamps="/5DE587B9/"/>
@@ -349,7 +359,12 @@
       <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="Cena">0.13674</field>
+        <field name="Link">https://www.tme.eu/pl/details/blm21pg600sn1d/ferryty-koraliki/murata/</field>
         <field name="Model">BLM21PG600SN1D</field>
+        <field name="Opis">Ferryt: koralik; Imp.@ 100MHz: 60Ω; Montaż: SMD; 3A; Obud: 0805</field>
+        <field name="Producent">MURATA</field>
+        <field name="Typ">SMD</field>
       </fields>
       <libsource lib="Device" part="Ferrite_Bead_Small" description="Ferrite bead, small symbol"/>
       <sheetpath names="/Y Axis Motor Driver/" tstamps="/5DE587B9/"/>
@@ -360,7 +375,12 @@
       <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="Cena">0.13674</field>
+        <field name="Link">https://www.tme.eu/pl/details/blm21pg600sn1d/ferryty-koraliki/murata/</field>
         <field name="Model">BLM21PG600SN1D</field>
+        <field name="Opis">Ferryt: koralik; Imp.@ 100MHz: 60Ω; Montaż: SMD; 3A; Obud: 0805</field>
+        <field name="Producent">MURATA</field>
+        <field name="Typ">SMD</field>
       </fields>
       <libsource lib="Device" part="Ferrite_Bead_Small" description="Ferrite bead, small symbol"/>
       <sheetpath names="/Y Axis Motor Driver/" tstamps="/5DE587B9/"/>
@@ -371,7 +391,12 @@
       <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="Cena">0.13674</field>
+        <field name="Link">https://www.tme.eu/pl/details/blm21pg600sn1d/ferryty-koraliki/murata/</field>
         <field name="Model">BLM21PG600SN1D</field>
+        <field name="Opis">Ferryt: koralik; Imp.@ 100MHz: 60Ω; Montaż: SMD; 3A; Obud: 0805</field>
+        <field name="Producent">MURATA</field>
+        <field name="Typ">SMD</field>
       </fields>
       <libsource lib="Device" part="Ferrite_Bead_Small" description="Ferrite bead, small symbol"/>
       <sheetpath names="/Y Axis Motor Driver/" tstamps="/5DE587B9/"/>
@@ -382,7 +407,12 @@
       <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="Cena">0.13674</field>
+        <field name="Link">https://www.tme.eu/pl/details/blm21pg600sn1d/ferryty-koraliki/murata/</field>
         <field name="Model">BLM21PG600SN1D</field>
+        <field name="Opis">Ferryt: koralik; Imp.@ 100MHz: 60Ω; Montaż: SMD; 3A; Obud: 0805</field>
+        <field name="Producent">MURATA</field>
+        <field name="Typ">SMD</field>
       </fields>
       <libsource lib="Device" part="Ferrite_Bead_Small" description="Ferrite bead, small symbol"/>
       <sheetpath names="/Y Axis Motor Driver/" tstamps="/5DE587B9/"/>
@@ -460,6 +490,14 @@
       <value>Motor Y</value>
       <footprint>Connector_JST:JST_XH_B4B-XH-AM_1x04_P2.50mm_Vertical</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Cena">0.81567</field>
+        <field name="Link">https://www.tme.eu/pl/details/b4b-xh-a/zlacza-sygnalowe-raster-2-50mm/jst/</field>
+        <field name="Model">B4B-XH-A</field>
+        <field name="Opis">Gniazdo; przewód-płytka; męskie; XH; 2,5mm; PIN: 4; THT; 250V; 3A</field>
+        <field name="Producent">JST</field>
+        <field name="Typ">THT</field>
+      </fields>
       <libsource lib="Connector" part="Conn_01x04_Male" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/Y Axis Motor Driver/" tstamps="/5DE587B9/"/>
       <tstamp>5E24913F</tstamp>
@@ -712,6 +750,10 @@
       <value>100kΩ</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Cena">0.04651</field>
+        <field name="Typ">SMD</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Y Axis Motor Driver/" tstamps="/5DE587B9/"/>
       <tstamp>5E249277</tstamp>
@@ -721,7 +763,13 @@
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="Cena">0.04651</field>
+        <field name="Link">https://www.tme.eu/pl/details/smd0603-1k-1%25/rezystory-smd-0603/royal-ohm/0603saf1001t5e/</field>
+        <field name="Model">0603SAF1001T5E</field>
+        <field name="Opis">Rezystor: thick film; SMD; 0603; 1kΩ; 0,1W; ±1%; -55÷155°C</field>
+        <field name="Producent">ROYAL OHM</field>
         <field name="Tolerancja">1%</field>
+        <field name="Typ">SMD</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Y Axis Motor Driver/" tstamps="/5DE587B9/"/>
@@ -732,7 +780,9 @@
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="Cena">0.04651</field>
         <field name="Tolerancja">1%</field>
+        <field name="Typ">SMD</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Y Axis Motor Driver/" tstamps="/5DE587B9/"/>
@@ -755,13 +805,18 @@
       <tstamp>5DE59DB9</tstamp>
     </comp>
     <comp ref="R8">
-      <value>120mΩ</value>
+      <value>100mΩ</value>
       <footprint>Resistor_SMD:R_2010_5025Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="Cena">0.76246</field>
+        <field name="Link">https://www.tme.eu/pl/details/cs2010-0r1-1%25-hp/rezystory-smd-2010/viking/cs10ftftr100/</field>
         <field name="Moc">1W</field>
+        <field name="Model">CS10FTFTR100</field>
+        <field name="Opis">Rezystor: thick film; pomiarowy; SMD; 2010; 100mΩ; 1W; ±1%</field>
+        <field name="Producent">VIKING</field>
         <field name="Tolerancja">1%</field>
-        <field name="Typ">Metal</field>
+        <field name="Typ">SMD</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Z Axis Motor Driver/" tstamps="/5DE588DC/"/>
@@ -786,13 +841,18 @@
       <tstamp>5DE797C5</tstamp>
     </comp>
     <comp ref="R9">
-      <value>120mΩ</value>
+      <value>100mΩ</value>
       <footprint>Resistor_SMD:R_2010_5025Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="Cena">0.76246</field>
+        <field name="Link">https://www.tme.eu/pl/details/cs2010-0r1-1%25-hp/rezystory-smd-2010/viking/cs10ftftr100/</field>
         <field name="Moc">1W</field>
+        <field name="Model">CS10FTFTR100</field>
+        <field name="Opis">Rezystor: thick film; pomiarowy; SMD; 2010; 100mΩ; 1W; ±1%</field>
+        <field name="Producent">VIKING</field>
         <field name="Tolerancja">1%</field>
-        <field name="Typ">Metal</field>
+        <field name="Typ">SMD</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Z Axis Motor Driver/" tstamps="/5DE588DC/"/>
@@ -871,7 +931,12 @@
       <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="Cena">0.13674</field>
+        <field name="Link">https://www.tme.eu/pl/details/blm21pg600sn1d/ferryty-koraliki/murata/</field>
         <field name="Model">BLM21PG600SN1D</field>
+        <field name="Opis">Ferryt: koralik; Imp.@ 100MHz: 60Ω; Montaż: SMD; 3A; Obud: 0805</field>
+        <field name="Producent">MURATA</field>
+        <field name="Typ">SMD</field>
       </fields>
       <libsource lib="Device" part="Ferrite_Bead_Small" description="Ferrite bead, small symbol"/>
       <sheetpath names="/Z Axis Motor Driver/" tstamps="/5DE588DC/"/>
@@ -882,7 +947,12 @@
       <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="Cena">0.13674</field>
+        <field name="Link">https://www.tme.eu/pl/details/blm21pg600sn1d/ferryty-koraliki/murata/</field>
         <field name="Model">BLM21PG600SN1D</field>
+        <field name="Opis">Ferryt: koralik; Imp.@ 100MHz: 60Ω; Montaż: SMD; 3A; Obud: 0805</field>
+        <field name="Producent">MURATA</field>
+        <field name="Typ">SMD</field>
       </fields>
       <libsource lib="Device" part="Ferrite_Bead_Small" description="Ferrite bead, small symbol"/>
       <sheetpath names="/Z Axis Motor Driver/" tstamps="/5DE588DC/"/>
@@ -893,7 +963,12 @@
       <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="Cena">0.13674</field>
+        <field name="Link">https://www.tme.eu/pl/details/blm21pg600sn1d/ferryty-koraliki/murata/</field>
         <field name="Model">BLM21PG600SN1D</field>
+        <field name="Opis">Ferryt: koralik; Imp.@ 100MHz: 60Ω; Montaż: SMD; 3A; Obud: 0805</field>
+        <field name="Producent">MURATA</field>
+        <field name="Typ">SMD</field>
       </fields>
       <libsource lib="Device" part="Ferrite_Bead_Small" description="Ferrite bead, small symbol"/>
       <sheetpath names="/Z Axis Motor Driver/" tstamps="/5DE588DC/"/>
@@ -904,7 +979,12 @@
       <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="Cena">0.13674</field>
+        <field name="Link">https://www.tme.eu/pl/details/blm21pg600sn1d/ferryty-koraliki/murata/</field>
         <field name="Model">BLM21PG600SN1D</field>
+        <field name="Opis">Ferryt: koralik; Imp.@ 100MHz: 60Ω; Montaż: SMD; 3A; Obud: 0805</field>
+        <field name="Producent">MURATA</field>
+        <field name="Typ">SMD</field>
       </fields>
       <libsource lib="Device" part="Ferrite_Bead_Small" description="Ferrite bead, small symbol"/>
       <sheetpath names="/Z Axis Motor Driver/" tstamps="/5DE588DC/"/>
@@ -982,6 +1062,14 @@
       <value>Motor Z</value>
       <footprint>Connector_JST:JST_XH_B4B-XH-AM_1x04_P2.50mm_Vertical</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Cena">0.81567</field>
+        <field name="Link">https://www.tme.eu/pl/details/b4b-xh-a/zlacza-sygnalowe-raster-2-50mm/jst/</field>
+        <field name="Model">B4B-XH-A</field>
+        <field name="Opis">Gniazdo; przewód-płytka; męskie; XH; 2,5mm; PIN: 4; THT; 250V; 3A</field>
+        <field name="Producent">JST</field>
+        <field name="Typ">THT</field>
+      </fields>
       <libsource lib="Connector" part="Conn_01x04_Male" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/Z Axis Motor Driver/" tstamps="/5DE588DC/"/>
       <tstamp>5E0668BE</tstamp>
@@ -1023,7 +1111,13 @@
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="Cena">0.04651</field>
+        <field name="Link">https://www.tme.eu/pl/details/smd0603-1k-1%25/rezystory-smd-0603/royal-ohm/0603saf1001t5e/</field>
+        <field name="Model">0603SAF1001T5E</field>
+        <field name="Opis">Rezystor: thick film; SMD; 0603; 1kΩ; 0,1W; ±1%; -55÷155°C</field>
+        <field name="Producent">ROYAL OHM</field>
         <field name="Tolerancja">1%</field>
+        <field name="Typ">SMD</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Z Axis Motor Driver/" tstamps="/5DE588DC/"/>
@@ -1245,6 +1339,10 @@
       <value>100kΩ</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Cena">0.04651</field>
+        <field name="Typ">SMD</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Z Axis Motor Driver/" tstamps="/5DE588DC/"/>
       <tstamp>5E21F7D5</tstamp>
@@ -1317,6 +1415,10 @@
       <value>0Ω</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Cena">0.04651</field>
+        <field name="Typ">SMD</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <sheetpath names="/Microcontroller/" tstamps="/5DFB2EC0/"/>
       <tstamp>5DFCED55</tstamp>
@@ -1325,6 +1427,14 @@
       <value>10kΩ</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Cena">0.03622</field>
+        <field name="Link">https://www.tme.eu/pl/details/smd0603-10k-1%25/rezystory-smd-0603/royal-ohm/0603saf1002t5e/</field>
+        <field name="Model">0603SAF1002T5E</field>
+        <field name="Opis">Rezystor: thick film; SMD; 0603; 10kΩ; 0,1W; ±1%; -55÷155°C</field>
+        <field name="Producent">ROYAL OHM</field>
+        <field name="Typ">SMD</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <sheetpath names="/Microcontroller/" tstamps="/5DFB2EC0/"/>
       <tstamp>5DFD306C</tstamp>
@@ -1333,6 +1443,10 @@
       <value>47RΩ</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Cena">0.04651</field>
+        <field name="Typ">SMD</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <sheetpath names="/Microcontroller/" tstamps="/5DFB2EC0/"/>
       <tstamp>5DFD42AA</tstamp>
@@ -1485,6 +1599,14 @@
       <value>10kΩ</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Cena">0.03622</field>
+        <field name="Link">https://www.tme.eu/pl/details/smd0603-10k-1%25/rezystory-smd-0603/royal-ohm/0603saf1002t5e/</field>
+        <field name="Model">0603SAF1002T5E</field>
+        <field name="Opis">Rezystor: thick film; SMD; 0603; 10kΩ; 0,1W; ±1%; -55÷155°C</field>
+        <field name="Producent">ROYAL OHM</field>
+        <field name="Typ">SMD</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <sheetpath names="/Microcontroller/" tstamps="/5DFB2EC0/"/>
       <tstamp>5DFF0C9F</tstamp>
@@ -1509,6 +1631,14 @@
       <value>USB_B</value>
       <footprint>Connector_USB:USB_B_OST_USB-B1HSxx_Horizontal</footprint>
       <datasheet> ~</datasheet>
+      <fields>
+        <field name="Cena">2.9560</field>
+        <field name="Link">https://www.tme.eu/pl/details/2411-02/zlacza-usb-i-ieee1394/lumberg/2411-02/</field>
+        <field name="Model">2411 02</field>
+        <field name="Opis">Gniazdo; USB B; na PCB; THT; PIN: 4; kątowe 90°; V: USB 2.0; biały</field>
+        <field name="Producent">LUMBERG</field>
+        <field name="Typ">THT</field>
+      </fields>
       <libsource lib="Connector" part="USB_B" description="USB Type B connector"/>
       <sheetpath names="/Microcontroller/" tstamps="/5DFB2EC0/"/>
       <tstamp>5E13B7DC</tstamp>
@@ -1548,6 +1678,14 @@
       <value>SWD</value>
       <footprint>Connector_IDC:IDC-Header_2x03_P2.54mm_Vertical</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Cena">1.5839</field>
+        <field name="Link">https://www.tme.eu/pl/details/t821-1-06-s1/zlacza-idc/amphenol/t821106a1s100ceu/</field>
+        <field name="Model">T821106A1S100CEU</field>
+        <field name="Opis">Gniazdo; IDC; męskie; PIN: 6; proste; THT; złocony; 2,54mm; Układ: 2x3</field>
+        <field name="Producent">AMPHENOL</field>
+        <field name="Typ">THT</field>
+      </fields>
       <libsource lib="Connector_Generic" part="Conn_02x03_Odd_Even" description="Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/Microcontroller/" tstamps="/5DFB2EC0/"/>
       <tstamp>5E16DD76</tstamp>
@@ -1572,6 +1710,10 @@
       <value>330Ω</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Cena">0.04651</field>
+        <field name="Typ">SMD</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Microcontroller/" tstamps="/5DFB2EC0/"/>
       <tstamp>5E3A26F8</tstamp>
@@ -1580,6 +1722,14 @@
       <value>1000@100MHz</value>
       <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Cena">0.2794</field>
+        <field name="Link">https://www.tme.eu/pl/details/blm21ag102sn1d/ferryty-koraliki/murata/</field>
+        <field name="Model">BLM21AG102SN1D</field>
+        <field name="Opis">Ferryt: koralik; Imp.@ 100MHz: 1000Ω; Montaż: SMD; 0,5A; Obud: 0805</field>
+        <field name="Producent">MURATA</field>
+        <field name="Typ">SMD</field>
+      </fields>
       <libsource lib="Device" part="Ferrite_Bead_Small" description="Ferrite bead, small symbol"/>
       <sheetpath names="/Microcontroller/" tstamps="/5DFB2EC0/"/>
       <tstamp>5E3CC970</tstamp>
@@ -1604,6 +1754,10 @@
       <value>330Ω</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Cena">0.04651</field>
+        <field name="Typ">SMD</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Microcontroller/" tstamps="/5DFB2EC0/"/>
       <tstamp>5E2C98FD</tstamp>
@@ -1612,6 +1766,14 @@
       <value>BC817</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>http://www.fairchildsemi.com/ds/BC/BC817.pdf</datasheet>
+      <fields>
+        <field name="Cena">0.1189</field>
+        <field name="Link">https://www.tme.eu/pl/details/bc817.215/tranzystory-npn-smd/nexperia/</field>
+        <field name="Model">BC817.215</field>
+        <field name="Opis">Tranzystor: NPN; bipolarny; 45V; 0,5A; 250mW; SOT23</field>
+        <field name="Producent">NEXPERIA</field>
+        <field name="Typ">SMD</field>
+      </fields>
       <libsource lib="Transistor_BJT" part="BC817" description="0.8A Ic, 45V Vce, NPN Transistor, SOT-23"/>
       <sheetpath names="/Microcontroller/" tstamps="/5DFB2EC0/"/>
       <tstamp>5E314B02</tstamp>
@@ -1620,6 +1782,14 @@
       <value>10kΩ</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Cena">0.03622</field>
+        <field name="Link">https://www.tme.eu/pl/details/smd0603-10k-1%25/rezystory-smd-0603/royal-ohm/0603saf1002t5e/</field>
+        <field name="Model">0603SAF1002T5E</field>
+        <field name="Opis">Rezystor: thick film; SMD; 0603; 10kΩ; 0,1W; ±1%; -55÷155°C</field>
+        <field name="Producent">ROYAL OHM</field>
+        <field name="Typ">SMD</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Microcontroller/" tstamps="/5DFB2EC0/"/>
       <tstamp>5E3329E9</tstamp>
@@ -1628,6 +1798,14 @@
       <value>10kΩ</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Cena">0.03622</field>
+        <field name="Link">https://www.tme.eu/pl/details/smd0603-10k-1%25/rezystory-smd-0603/royal-ohm/0603saf1002t5e/</field>
+        <field name="Model">0603SAF1002T5E</field>
+        <field name="Opis">Rezystor: thick film; SMD; 0603; 10kΩ; 0,1W; ±1%; -55÷155°C</field>
+        <field name="Producent">ROYAL OHM</field>
+        <field name="Typ">SMD</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Microcontroller/" tstamps="/5DFB2EC0/"/>
       <tstamp>5E333FE8</tstamp>
@@ -1653,6 +1831,14 @@
       <value>1000@100MHz</value>
       <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Cena">0.2794</field>
+        <field name="Link">https://www.tme.eu/pl/details/blm21ag102sn1d/ferryty-koraliki/murata/</field>
+        <field name="Model">BLM21AG102SN1D</field>
+        <field name="Opis">Ferryt: koralik; Imp.@ 100MHz: 1000Ω; Montaż: SMD; 0,5A; Obud: 0805</field>
+        <field name="Producent">MURATA</field>
+        <field name="Typ">SMD</field>
+      </fields>
       <libsource lib="Device" part="Ferrite_Bead_Small" description="Ferrite bead, small symbol"/>
       <sheetpath names="/Microcontroller/" tstamps="/5DFB2EC0/"/>
       <tstamp>5E53A55F</tstamp>
@@ -1773,6 +1959,10 @@
       <value>NI</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Cena">0.04651</field>
+        <field name="Typ">SMD</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Sockets/" tstamps="/5E07245F/"/>
       <tstamp>5E10EAAB</tstamp>
@@ -1781,6 +1971,10 @@
       <value>0Ω</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Cena">0.04651</field>
+        <field name="Typ">SMD</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Sockets/" tstamps="/5E07245F/"/>
       <tstamp>5E115345</tstamp>
@@ -1789,6 +1983,10 @@
       <value>0Ω</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Cena">0.04651</field>
+        <field name="Typ">SMD</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Sockets/" tstamps="/5E07245F/"/>
       <tstamp>5E115A2D</tstamp>
@@ -1797,6 +1995,14 @@
       <value>4.7kΩ</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Cena">0.04651</field>
+        <field name="Link">https://www.tme.eu/pl/details/smd0603-4k7-1%25/rezystory-smd-0603/royal-ohm/0603saf4701t5e/</field>
+        <field name="Model">SMD0603-4K7-1%</field>
+        <field name="Opis">Rezystor: thick film; SMD; 0603; 4,7kΩ; 0,1W; ±1%; -55÷155°C</field>
+        <field name="Producent">ROYAL OHM</field>
+        <field name="Typ">SMD</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Sockets/" tstamps="/5E07245F/"/>
       <tstamp>5E153875</tstamp>
@@ -1805,6 +2011,14 @@
       <value>10kΩ</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Cena">0.03622</field>
+        <field name="Link">https://www.tme.eu/pl/details/smd0603-10k-1%25/rezystory-smd-0603/royal-ohm/0603saf1002t5e/</field>
+        <field name="Model">0603SAF1002T5E</field>
+        <field name="Opis">Rezystor: thick film; SMD; 0603; 10kΩ; 0,1W; ±1%; -55÷155°C</field>
+        <field name="Producent">ROYAL OHM</field>
+        <field name="Typ">SMD</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Sockets/" tstamps="/5E07245F/"/>
       <tstamp>5E1422FA</tstamp>
@@ -1813,6 +2027,14 @@
       <value>BC817</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>http://www.fairchildsemi.com/ds/BC/BC817.pdf</datasheet>
+      <fields>
+        <field name="Cena">0.1189</field>
+        <field name="Link">https://www.tme.eu/pl/details/bc817.215/tranzystory-npn-smd/nexperia/</field>
+        <field name="Model">BC817.215</field>
+        <field name="Opis">Tranzystor: NPN; bipolarny; 45V; 0,5A; 250mW; SOT23</field>
+        <field name="Producent">NEXPERIA</field>
+        <field name="Typ">SMD</field>
+      </fields>
       <libsource lib="Transistor_BJT" part="BC817" description="0.8A Ic, 45V Vce, NPN Transistor, SOT-23"/>
       <sheetpath names="/Sockets/" tstamps="/5E07245F/"/>
       <tstamp>5E13EDA8</tstamp>
@@ -1837,6 +2059,14 @@
       <value>1nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Cena">0.05563</field>
+        <field name="Link">https://www.tme.eu/pl/details/cl10b102kb8nnnc/kondensatory-mlcc-smd-0603/samsung/</field>
+        <field name="Model">CL10B102KB8NNNC</field>
+        <field name="Opis">Kondensator: ceramiczny; MLCC; 1nF; 50V; X7R; ±10%; SMD; 0603</field>
+        <field name="Producent">SAMSUNG</field>
+        <field name="Typ">SMD</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/Sockets/" tstamps="/5E07245F/"/>
       <tstamp>5E189B01</tstamp>
@@ -1845,6 +2075,14 @@
       <value>4.7kΩ</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Cena">0.04651</field>
+        <field name="Link">https://www.tme.eu/pl/details/smd0603-4k7-1%25/rezystory-smd-0603/royal-ohm/0603saf4701t5e/</field>
+        <field name="Model">SMD0603-4K7-1%</field>
+        <field name="Opis">Rezystor: thick film; SMD; 0603; 4,7kΩ; 0,1W; ±1%; -55÷155°C</field>
+        <field name="Producent">ROYAL OHM</field>
+        <field name="Typ">SMD</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Sockets/" tstamps="/5E07245F/"/>
       <tstamp>5E189AF7</tstamp>
@@ -1853,6 +2091,14 @@
       <value>1kΩ</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Cena">0.04651</field>
+        <field name="Link">https://www.tme.eu/pl/details/smd0603-1k-1%25/rezystory-smd-0603/royal-ohm/0603saf1001t5e/</field>
+        <field name="Model">0603SAF1001T5E</field>
+        <field name="Opis">Rezystor: thick film; SMD; 0603; 1kΩ; 0,1W; ±1%; -55÷155°C</field>
+        <field name="Producent">ROYAL OHM</field>
+        <field name="Typ">SMD</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Sockets/" tstamps="/5E07245F/"/>
       <tstamp>5E189AED</tstamp>
@@ -1877,6 +2123,14 @@
       <value>1nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Cena">0.05563</field>
+        <field name="Link">https://www.tme.eu/pl/details/cl10b102kb8nnnc/kondensatory-mlcc-smd-0603/samsung/</field>
+        <field name="Model">CL10B102KB8NNNC</field>
+        <field name="Opis">Kondensator: ceramiczny; MLCC; 1nF; 50V; X7R; ±10%; SMD; 0603</field>
+        <field name="Producent">SAMSUNG</field>
+        <field name="Typ">SMD</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/Sockets/" tstamps="/5E07245F/"/>
       <tstamp>5E37C6B1</tstamp>
@@ -1885,6 +2139,14 @@
       <value>4.7kΩ</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Cena">0.04651</field>
+        <field name="Link">https://www.tme.eu/pl/details/smd0603-4k7-1%25/rezystory-smd-0603/royal-ohm/0603saf4701t5e/</field>
+        <field name="Model">SMD0603-4K7-1%</field>
+        <field name="Opis">Rezystor: thick film; SMD; 0603; 4,7kΩ; 0,1W; ±1%; -55÷155°C</field>
+        <field name="Producent">ROYAL OHM</field>
+        <field name="Typ">SMD</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Sockets/" tstamps="/5E07245F/"/>
       <tstamp>5E37C6BB</tstamp>
@@ -1893,6 +2155,14 @@
       <value>1kΩ</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Cena">0.04651</field>
+        <field name="Link">https://www.tme.eu/pl/details/smd0603-1k-1%25/rezystory-smd-0603/royal-ohm/0603saf1001t5e/</field>
+        <field name="Model">0603SAF1001T5E</field>
+        <field name="Opis">Rezystor: thick film; SMD; 0603; 1kΩ; 0,1W; ±1%; -55÷155°C</field>
+        <field name="Producent">ROYAL OHM</field>
+        <field name="Typ">SMD</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Sockets/" tstamps="/5E07245F/"/>
       <tstamp>5E37C6C5</tstamp>
@@ -1901,6 +2171,14 @@
       <value>1nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Cena">0.05563</field>
+        <field name="Link">https://www.tme.eu/pl/details/cl10b102kb8nnnc/kondensatory-mlcc-smd-0603/samsung/</field>
+        <field name="Model">CL10B102KB8NNNC</field>
+        <field name="Opis">Kondensator: ceramiczny; MLCC; 1nF; 50V; X7R; ±10%; SMD; 0603</field>
+        <field name="Producent">SAMSUNG</field>
+        <field name="Typ">SMD</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/Sockets/" tstamps="/5E07245F/"/>
       <tstamp>5E39138D</tstamp>
@@ -1909,6 +2187,14 @@
       <value>4.7kΩ</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Cena">0.04651</field>
+        <field name="Link">https://www.tme.eu/pl/details/smd0603-4k7-1%25/rezystory-smd-0603/royal-ohm/0603saf4701t5e/</field>
+        <field name="Model">SMD0603-4K7-1%</field>
+        <field name="Opis">Rezystor: thick film; SMD; 0603; 4,7kΩ; 0,1W; ±1%; -55÷155°C</field>
+        <field name="Producent">ROYAL OHM</field>
+        <field name="Typ">SMD</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Sockets/" tstamps="/5E07245F/"/>
       <tstamp>5E391397</tstamp>
@@ -1917,6 +2203,14 @@
       <value>1kΩ</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Cena">0.04651</field>
+        <field name="Link">https://www.tme.eu/pl/details/smd0603-1k-1%25/rezystory-smd-0603/royal-ohm/0603saf1001t5e/</field>
+        <field name="Model">0603SAF1001T5E</field>
+        <field name="Opis">Rezystor: thick film; SMD; 0603; 1kΩ; 0,1W; ±1%; -55÷155°C</field>
+        <field name="Producent">ROYAL OHM</field>
+        <field name="Typ">SMD</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Sockets/" tstamps="/5E07245F/"/>
       <tstamp>5E3913A1</tstamp>
@@ -1925,6 +2219,14 @@
       <value>1nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Cena">0.05563</field>
+        <field name="Link">https://www.tme.eu/pl/details/cl10b102kb8nnnc/kondensatory-mlcc-smd-0603/samsung/</field>
+        <field name="Model">CL10B102KB8NNNC</field>
+        <field name="Opis">Kondensator: ceramiczny; MLCC; 1nF; 50V; X7R; ±10%; SMD; 0603</field>
+        <field name="Producent">SAMSUNG</field>
+        <field name="Typ">SMD</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/Sockets/" tstamps="/5E07245F/"/>
       <tstamp>5E3981E5</tstamp>
@@ -1933,6 +2235,14 @@
       <value>4.7kΩ</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Cena">0.04651</field>
+        <field name="Link">https://www.tme.eu/pl/details/smd0603-4k7-1%25/rezystory-smd-0603/royal-ohm/0603saf4701t5e/</field>
+        <field name="Model">SMD0603-4K7-1%</field>
+        <field name="Opis">Rezystor: thick film; SMD; 0603; 4,7kΩ; 0,1W; ±1%; -55÷155°C</field>
+        <field name="Producent">ROYAL OHM</field>
+        <field name="Typ">SMD</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Sockets/" tstamps="/5E07245F/"/>
       <tstamp>5E3981EF</tstamp>
@@ -1941,6 +2251,14 @@
       <value>1kΩ</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Cena">0.04651</field>
+        <field name="Link">https://www.tme.eu/pl/details/smd0603-1k-1%25/rezystory-smd-0603/royal-ohm/0603saf1001t5e/</field>
+        <field name="Model">0603SAF1001T5E</field>
+        <field name="Opis">Rezystor: thick film; SMD; 0603; 1kΩ; 0,1W; ±1%; -55÷155°C</field>
+        <field name="Producent">ROYAL OHM</field>
+        <field name="Typ">SMD</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Sockets/" tstamps="/5E07245F/"/>
       <tstamp>5E3981F9</tstamp>
@@ -1949,6 +2267,14 @@
       <value>1nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Cena">0.05563</field>
+        <field name="Link">https://www.tme.eu/pl/details/cl10b102kb8nnnc/kondensatory-mlcc-smd-0603/samsung/</field>
+        <field name="Model">CL10B102KB8NNNC</field>
+        <field name="Opis">Kondensator: ceramiczny; MLCC; 1nF; 50V; X7R; ±10%; SMD; 0603</field>
+        <field name="Producent">SAMSUNG</field>
+        <field name="Typ">SMD</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/Sockets/" tstamps="/5E07245F/"/>
       <tstamp>5E3A08CD</tstamp>
@@ -1957,6 +2283,14 @@
       <value>4.7kΩ</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Cena">0.04651</field>
+        <field name="Link">https://www.tme.eu/pl/details/smd0603-4k7-1%25/rezystory-smd-0603/royal-ohm/0603saf4701t5e/</field>
+        <field name="Model">SMD0603-4K7-1%</field>
+        <field name="Opis">Rezystor: thick film; SMD; 0603; 4,7kΩ; 0,1W; ±1%; -55÷155°C</field>
+        <field name="Producent">ROYAL OHM</field>
+        <field name="Typ">SMD</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Sockets/" tstamps="/5E07245F/"/>
       <tstamp>5E3A08D7</tstamp>
@@ -1965,6 +2299,14 @@
       <value>1kΩ</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Cena">0.04651</field>
+        <field name="Link">https://www.tme.eu/pl/details/smd0603-1k-1%25/rezystory-smd-0603/royal-ohm/0603saf1001t5e/</field>
+        <field name="Model">0603SAF1001T5E</field>
+        <field name="Opis">Rezystor: thick film; SMD; 0603; 1kΩ; 0,1W; ±1%; -55÷155°C</field>
+        <field name="Producent">ROYAL OHM</field>
+        <field name="Typ">SMD</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Sockets/" tstamps="/5E07245F/"/>
       <tstamp>5E3A08E1</tstamp>
@@ -1973,6 +2315,14 @@
       <value>4.7kΩ</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Cena">0.04651</field>
+        <field name="Link">https://www.tme.eu/pl/details/smd0603-4k7-1%25/rezystory-smd-0603/royal-ohm/0603saf4701t5e/</field>
+        <field name="Model">SMD0603-4K7-1%</field>
+        <field name="Opis">Rezystor: thick film; SMD; 0603; 4,7kΩ; 0,1W; ±1%; -55÷155°C</field>
+        <field name="Producent">ROYAL OHM</field>
+        <field name="Typ">SMD</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Sockets/" tstamps="/5E07245F/"/>
       <tstamp>5E448D12</tstamp>
@@ -1981,6 +2331,14 @@
       <value>1kΩ</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Cena">0.04651</field>
+        <field name="Link">https://www.tme.eu/pl/details/smd0603-1k-1%25/rezystory-smd-0603/royal-ohm/0603saf1001t5e/</field>
+        <field name="Model">0603SAF1001T5E</field>
+        <field name="Opis">Rezystor: thick film; SMD; 0603; 1kΩ; 0,1W; ±1%; -55÷155°C</field>
+        <field name="Producent">ROYAL OHM</field>
+        <field name="Typ">SMD</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Sockets/" tstamps="/5E07245F/"/>
       <tstamp>5E448D3A</tstamp>
@@ -1989,6 +2347,14 @@
       <value>BC817</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>http://www.fairchildsemi.com/ds/BC/BC817.pdf</datasheet>
+      <fields>
+        <field name="Cena">0.1189</field>
+        <field name="Link">https://www.tme.eu/pl/details/bc817.215/tranzystory-npn-smd/nexperia/</field>
+        <field name="Model">BC817.215</field>
+        <field name="Opis">Tranzystor: NPN; bipolarny; 45V; 0,5A; 250mW; SOT23</field>
+        <field name="Producent">NEXPERIA</field>
+        <field name="Typ">SMD</field>
+      </fields>
       <libsource lib="Transistor_BJT" part="BC817" description="0.8A Ic, 45V Vce, NPN Transistor, SOT-23"/>
       <sheetpath names="/Sockets/" tstamps="/5E07245F/"/>
       <tstamp>5E448D44</tstamp>
@@ -1997,6 +2363,14 @@
       <value>1kΩ</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Cena">0.04651</field>
+        <field name="Link">https://www.tme.eu/pl/details/smd0603-1k-1%25/rezystory-smd-0603/royal-ohm/0603saf1001t5e/</field>
+        <field name="Model">0603SAF1001T5E</field>
+        <field name="Opis">Rezystor: thick film; SMD; 0603; 1kΩ; 0,1W; ±1%; -55÷155°C</field>
+        <field name="Producent">ROYAL OHM</field>
+        <field name="Typ">SMD</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Sockets/" tstamps="/5E07245F/"/>
       <tstamp>5E479E46</tstamp>
@@ -2005,6 +2379,14 @@
       <value>1kΩ</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Cena">0.04651</field>
+        <field name="Link">https://www.tme.eu/pl/details/smd0603-1k-1%25/rezystory-smd-0603/royal-ohm/0603saf1001t5e/</field>
+        <field name="Model">0603SAF1001T5E</field>
+        <field name="Opis">Rezystor: thick film; SMD; 0603; 1kΩ; 0,1W; ±1%; -55÷155°C</field>
+        <field name="Producent">ROYAL OHM</field>
+        <field name="Typ">SMD</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Sockets/" tstamps="/5E07245F/"/>
       <tstamp>5E47A48E</tstamp>
@@ -2158,6 +2540,10 @@
       <value>47Ω</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Cena">0.04651</field>
+        <field name="Typ">SMD</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Power/" tstamps="/5E1018C2/"/>
       <tstamp>5E0EB1CA</tstamp>
@@ -2185,8 +2571,14 @@
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="Cena">0.05563</field>
         <field name="Dielektryk">X7R</field>
+        <field name="Link">https://www.tme.eu/pl/details/cl10b102kb8nnnc/kondensatory-mlcc-smd-0603/samsung/</field>
+        <field name="Model">CL10B102KB8NNNC</field>
         <field name="Napięcie">16V</field>
+        <field name="Opis">Kondensator: ceramiczny; MLCC; 1nF; 50V; X7R; ±10%; SMD; 0603</field>
+        <field name="Producent">SAMSUNG</field>
+        <field name="Typ">SMD</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <sheetpath names="/Power/" tstamps="/5E1018C2/"/>
@@ -2213,7 +2605,13 @@
       <footprint>footprints:L_6.2x6.2_H4.5</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="Cena">0.7018</field>
         <field name="Induktancja">6.8uH</field>
+        <field name="Link">https://www.tme.eu/pl/details/djnr6045-6r8/dlawiki-smd-mocy/ferrocore/</field>
+        <field name="Model">DJNR6045-6R8</field>
+        <field name="Opis">Dławik: drutowy; SMD; 6,8uH; Ipracy: 3,5A; 49,4mΩ; 6x5,9x4,5mm; ±20%</field>
+        <field name="Producent">FERROCORE</field>
+        <field name="Typ">SMD</field>
       </fields>
       <libsource lib="Device" part="L" description="Inductor"/>
       <sheetpath names="/Power/" tstamps="/5E1018C2/"/>
@@ -2223,6 +2621,14 @@
       <value>100mΩ</value>
       <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Cena">0.33547</field>
+        <field name="Link">https://www.tme.eu/pl/details/smd1206-r10-lo/rezystory-smd-1206/te-connectivity/6-1622825-5/</field>
+        <field name="Model">6-1622825-5</field>
+        <field name="Opis">Rezystor: metal glaze; SMD; 1206; 100mΩ; 0,25W; ±5%; 200ppm/°C</field>
+        <field name="Producent">TE Connectivity</field>
+        <field name="Typ">SMD</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Power/" tstamps="/5E1018C2/"/>
       <tstamp>5E0F3551</tstamp>
@@ -2266,7 +2672,13 @@
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="Cena">0.05158</field>
+        <field name="Link">https://www.tme.eu/pl/details/smd0603-3.92k-1%25/rezystory-smd-0603/royal-ohm/0603saf3921t5e/</field>
+        <field name="Model">0603SAF3921T5E</field>
+        <field name="Opis">Rezystor: thick film; SMD; 0603; 3,92kΩ; 0,1W; ±1%; -55÷155°C</field>
+        <field name="Producent">ROYAL OHM</field>
         <field name="Tolerancja">0.1%</field>
+        <field name="Typ">SMD</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Power/" tstamps="/5E1018C2/"/>
@@ -2279,6 +2691,7 @@
       <fields>
         <field name="Dielektryk">X7R</field>
         <field name="Napięcie">16V</field>
+        <field name="Typ">SMD</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <sheetpath names="/Power/" tstamps="/5E1018C2/"/>
@@ -2289,7 +2702,9 @@
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="Cena">0.04651</field>
         <field name="Tolerancja">0.1%</field>
+        <field name="Typ">SMD</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Power/" tstamps="/5E1018C2/"/>
@@ -2302,6 +2717,7 @@
       <fields>
         <field name="Dielektryk">X7R</field>
         <field name="Napięcie">50V</field>
+        <field name="Typ">SMD</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <sheetpath names="/Power/" tstamps="/5E1018C2/"/>
@@ -2311,6 +2727,10 @@
       <value>100kΩ</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Cena">0.04651</field>
+        <field name="Typ">SMD</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Power/" tstamps="/5E1018C2/"/>
       <tstamp>5E113D9F</tstamp>
@@ -2326,6 +2746,7 @@
         <field name="Model">CL31B225KBHNNNE</field>
         <field name="Napięcie">50V</field>
         <field name="Producent">SAMSUNG</field>
+        <field name="Typ">SMD</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <sheetpath names="/Power/" tstamps="/5E1018C2/"/>
@@ -2358,6 +2779,7 @@
         <field name="Model">CL31B225KBHNNNE</field>
         <field name="Napięcie">50V</field>
         <field name="Producent">SAMSUNG</field>
+        <field name="Typ">SMD</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <sheetpath names="/Power/" tstamps="/5E1018C2/"/>
@@ -2368,7 +2790,13 @@
       <footprint>footprints:L_6.2x6.2_H4.5</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="Cena">0.7018</field>
         <field name="Induktancja">15uH</field>
+        <field name="Link">https://www.tme.eu/pl/details/djnr6045-150/dlawiki-smd-mocy/ferrocore/</field>
+        <field name="Model">DJNR6045-150</field>
+        <field name="Opis">Dławik: drutowy; SMD; 15uH; Ipracy: 2,3A; 100,1mΩ; 6x5,9x4,5mm; ±20%</field>
+        <field name="Producent">FERROCORE</field>
+        <field name="Typ">SMD</field>
       </fields>
       <libsource lib="Device" part="L" description="Inductor"/>
       <sheetpath names="/Power/" tstamps="/5E1018C2/"/>
@@ -2379,7 +2807,13 @@
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="Cena">0.02</field>
+        <field name="Link">https://pl.farnell.com/multicomp/mcwr06x3162ftl/res-31k6-1-0-1w-thick-film/dp/2447337RL</field>
+        <field name="Model">MCWR06X3162FTL</field>
+        <field name="Opis">Rezystor SMD, grubowarstwowy, 0603 [jedn. metryczne: 1608], 31.6 kohm, Seria MCWR, 75 V</field>
+        <field name="Producent">MULTICOMP PRO</field>
         <field name="Tolerancja">0.1%</field>
+        <field name="Typ">SMD</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Power/" tstamps="/5E1018C2/"/>
@@ -2390,7 +2824,13 @@
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
+        <field name="Cena">0.03622</field>
+        <field name="Link">https://www.tme.eu/pl/details/smd0603-10k-1%25/rezystory-smd-0603/royal-ohm/0603saf1002t5e/</field>
+        <field name="Model">0603SAF1002T5E</field>
+        <field name="Opis">Rezystor: thick film; SMD; 0603; 10kΩ; 0,1W; ±1%; -55÷155°C</field>
+        <field name="Producent">ROYAL OHM</field>
         <field name="Tolerancja">0.1%</field>
+        <field name="Typ">SMD</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Power/" tstamps="/5E1018C2/"/>
@@ -2483,6 +2923,14 @@
       <value>100mΩ</value>
       <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Cena">0.33547</field>
+        <field name="Link">https://www.tme.eu/pl/details/smd1206-r10-lo/rezystory-smd-1206/te-connectivity/6-1622825-5/</field>
+        <field name="Model">6-1622825-5</field>
+        <field name="Opis">Rezystor: metal glaze; SMD; 1206; 100mΩ; 0,25W; ±5%; 200ppm/°C</field>
+        <field name="Producent">TE Connectivity</field>
+        <field name="Typ">SMD</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Power/" tstamps="/5E1018C2/"/>
       <tstamp>5E0F5ED4</tstamp>
@@ -2491,6 +2939,14 @@
       <value>Power Input</value>
       <footprint>Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Cena">0.49272</field>
+        <field name="Link">https://www.tme.eu/pl/details/b2b-xh-a/zlacza-sygnalowe-raster-2-50mm/jst/</field>
+        <field name="Model">B2B-XH-A</field>
+        <field name="Opis">Gniazdo; przewód-płytka; męskie; XH; 2,5mm; PIN: 2; THT; 250V; 3A</field>
+        <field name="Producent">JST</field>
+        <field name="Typ">THT</field>
+      </fields>
       <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/Power/" tstamps="/5E1018C2/"/>
       <tstamp>5E1237D9</tstamp>
@@ -2499,6 +2955,14 @@
       <value>YJS9435A</value>
       <footprint>Package_SO:SOP-8_3.9x4.9mm_P1.27mm</footprint>
       <datasheet>http://www.irf.com/product-info/datasheets/data/irf7606pbf.pdf</datasheet>
+      <fields>
+        <field name="Cena">0.29736</field>
+        <field name="Link">https://www.tme.eu/pl/details/yjs9435a-yan/tranzystory-z-kanalem-p-smd/yangjie-technology/yjs9435a/</field>
+        <field name="Model">YJS9435A</field>
+        <field name="Opis">Tranzystor: P-MOSFET; TRENCH POWER LV; unipolarny; -30V; -4,1A</field>
+        <field name="Producent">YANGJIE TECHNOLOGY</field>
+        <field name="Typ">SMD</field>
+      </fields>
       <libsource lib="Library" part="YJS9435A" description="-3.6A Id, -30V Vds, HexFET P-MOS Power MOSFET, Ronon 0.09R, Micro8"/>
       <sheetpath names="/Power/" tstamps="/5E1018C2/"/>
       <tstamp>5E13BADE</tstamp>
@@ -2523,6 +2987,10 @@
       <value>100kΩ</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Cena">0.04651</field>
+        <field name="Typ">SMD</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Power/" tstamps="/5E1018C2/"/>
       <tstamp>5E1430CB</tstamp>
@@ -2563,6 +3031,10 @@
       <value>330Ω</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Cena">0.04651</field>
+        <field name="Typ">SMD</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Power/" tstamps="/5E1018C2/"/>
       <tstamp>5E28FFAB</tstamp>
@@ -2587,6 +3059,14 @@
       <value>1kΩ</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Cena">0.04651</field>
+        <field name="Link">https://www.tme.eu/pl/details/smd0603-1k-1%25/rezystory-smd-0603/royal-ohm/0603saf1001t5e/</field>
+        <field name="Model">0603SAF1001T5E</field>
+        <field name="Opis">Rezystor: thick film; SMD; 0603; 1kΩ; 0,1W; ±1%; -55÷155°C</field>
+        <field name="Producent">ROYAL OHM</field>
+        <field name="Typ">SMD</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Power/" tstamps="/5E1018C2/"/>
       <tstamp>5E2A86B6</tstamp>
@@ -2611,6 +3091,10 @@
       <value>10kΩ</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Cena">0.04651</field>
+        <field name="Typ">SMD</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Power/" tstamps="/5E1018C2/"/>
       <tstamp>5E2B7380</tstamp>
@@ -2667,6 +3151,14 @@
       <value>10kΩ</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Cena">0.03622</field>
+        <field name="Link">https://www.tme.eu/pl/details/smd0603-10k-1%25/rezystory-smd-0603/royal-ohm/0603saf1002t5e/</field>
+        <field name="Model">0603SAF1002T5E</field>
+        <field name="Opis">Rezystor: thick film; SMD; 0603; 10kΩ; 0,1W; ±1%; -55÷155°C</field>
+        <field name="Producent">ROYAL OHM</field>
+        <field name="Typ">SMD</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Sockets 2/" tstamps="/5E858220/"/>
       <tstamp>5E17BAB2</tstamp>
@@ -2675,6 +3167,14 @@
       <value>BC817</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>http://www.fairchildsemi.com/ds/BC/BC817.pdf</datasheet>
+      <fields>
+        <field name="Cena">0.1189</field>
+        <field name="Link">https://www.tme.eu/pl/details/bc817.215/tranzystory-npn-smd/nexperia/</field>
+        <field name="Model">BC817.215</field>
+        <field name="Opis">Tranzystor: NPN; bipolarny; 45V; 0,5A; 250mW; SOT23</field>
+        <field name="Producent">NEXPERIA</field>
+        <field name="Typ">SMD</field>
+      </fields>
       <libsource lib="Transistor_BJT" part="BC817" description="0.8A Ic, 45V Vce, NPN Transistor, SOT-23"/>
       <sheetpath names="/Sockets 2/" tstamps="/5E858220/"/>
       <tstamp>5E17E162</tstamp>
@@ -2683,6 +3183,10 @@
       <value>33kΩ</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Cena">0.04651</field>
+        <field name="Typ">SMD</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Sockets 2/" tstamps="/5E858220/"/>
       <tstamp>5E17F7E4</tstamp>
@@ -2707,6 +3211,14 @@
       <value>10kΩ</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Cena">0.03622</field>
+        <field name="Link">https://www.tme.eu/pl/details/smd0603-10k-1%25/rezystory-smd-0603/royal-ohm/0603saf1002t5e/</field>
+        <field name="Model">0603SAF1002T5E</field>
+        <field name="Opis">Rezystor: thick film; SMD; 0603; 10kΩ; 0,1W; ±1%; -55÷155°C</field>
+        <field name="Producent">ROYAL OHM</field>
+        <field name="Typ">SMD</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Sockets 2/" tstamps="/5E858220/"/>
       <tstamp>5E185B5B</tstamp>
@@ -2715,6 +3227,14 @@
       <value>1nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Cena">0.05563</field>
+        <field name="Link">https://www.tme.eu/pl/details/cl10b102kb8nnnc/kondensatory-mlcc-smd-0603/samsung/</field>
+        <field name="Model">CL10B102KB8NNNC</field>
+        <field name="Opis">Kondensator: ceramiczny; MLCC; 1nF; 50V; X7R; ±10%; SMD; 0603</field>
+        <field name="Producent">SAMSUNG</field>
+        <field name="Typ">SMD</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/Sockets 2/" tstamps="/5E858220/"/>
       <tstamp>5E189FA4</tstamp>
@@ -2755,6 +3275,14 @@
       <value>10kΩ</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Cena">0.03622</field>
+        <field name="Link">https://www.tme.eu/pl/details/smd0603-10k-1%25/rezystory-smd-0603/royal-ohm/0603saf1002t5e/</field>
+        <field name="Model">0603SAF1002T5E</field>
+        <field name="Opis">Rezystor: thick film; SMD; 0603; 10kΩ; 0,1W; ±1%; -55÷155°C</field>
+        <field name="Producent">ROYAL OHM</field>
+        <field name="Typ">SMD</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Sockets 2/" tstamps="/5E858220/"/>
       <tstamp>5E1B911B</tstamp>
@@ -2763,6 +3291,14 @@
       <value>BC817</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>http://www.fairchildsemi.com/ds/BC/BC817.pdf</datasheet>
+      <fields>
+        <field name="Cena">0.1189</field>
+        <field name="Link">https://www.tme.eu/pl/details/bc817.215/tranzystory-npn-smd/nexperia/</field>
+        <field name="Model">BC817.215</field>
+        <field name="Opis">Tranzystor: NPN; bipolarny; 45V; 0,5A; 250mW; SOT23</field>
+        <field name="Producent">NEXPERIA</field>
+        <field name="Typ">SMD</field>
+      </fields>
       <libsource lib="Transistor_BJT" part="BC817" description="0.8A Ic, 45V Vce, NPN Transistor, SOT-23"/>
       <sheetpath names="/Sockets 2/" tstamps="/5E858220/"/>
       <tstamp>5E1B912B</tstamp>
@@ -2771,6 +3307,10 @@
       <value>33kΩ</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Cena">0.04651</field>
+        <field name="Typ">SMD</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Sockets 2/" tstamps="/5E858220/"/>
       <tstamp>5E1B9135</tstamp>
@@ -2795,6 +3335,14 @@
       <value>10kΩ</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Cena">0.03622</field>
+        <field name="Link">https://www.tme.eu/pl/details/smd0603-10k-1%25/rezystory-smd-0603/royal-ohm/0603saf1002t5e/</field>
+        <field name="Model">0603SAF1002T5E</field>
+        <field name="Opis">Rezystor: thick film; SMD; 0603; 10kΩ; 0,1W; ±1%; -55÷155°C</field>
+        <field name="Producent">ROYAL OHM</field>
+        <field name="Typ">SMD</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Sockets 2/" tstamps="/5E858220/"/>
       <tstamp>5E1B915B</tstamp>
@@ -2803,6 +3351,14 @@
       <value>1nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Cena">0.05563</field>
+        <field name="Link">https://www.tme.eu/pl/details/cl10b102kb8nnnc/kondensatory-mlcc-smd-0603/samsung/</field>
+        <field name="Model">CL10B102KB8NNNC</field>
+        <field name="Opis">Kondensator: ceramiczny; MLCC; 1nF; 50V; X7R; ±10%; SMD; 0603</field>
+        <field name="Producent">SAMSUNG</field>
+        <field name="Typ">SMD</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/Sockets 2/" tstamps="/5E858220/"/>
       <tstamp>5E1B9175</tstamp>
@@ -2843,6 +3399,14 @@
       <value>S13-24V-2C</value>
       <footprint>footprints:Relay_DPDT_Omron_G5V-2</footprint>
       <datasheet>https://www.tme.eu/Document/64152b8fe9c340a87eeb0f5deb8b7f91/s13-relay.pdf</datasheet>
+      <fields>
+        <field name="Cena">4.46</field>
+        <field name="Link">https://www.tme.eu/pl/details/s13-24v-2c/przekazniki-elektromagn-miniaturowe/shori-electric/</field>
+        <field name="Model">S13-24V-2C</field>
+        <field name="Opis">Przekaźnik: elektromagnetyczny; DPDT; Ucewki : 24VDC; 0,5A/125VAC</field>
+        <field name="Producent">SHORI ELECTRIC</field>
+        <field name="Typ">THT</field>
+      </fields>
       <libsource lib="Library" part="S13-24V-2C" description="Compact, Industry-Standard 2-pole relay, designed to switch 1A Signal Loads, Single-side Stable"/>
       <sheetpath names="/Emergency/" tstamps="/5E91D7CC/"/>
       <tstamp>5E11641A</tstamp>
@@ -2899,6 +3463,10 @@
       <value>33kΩ</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Cena">0.04651</field>
+        <field name="Typ">SMD</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Emergency/" tstamps="/5E91D7CC/"/>
       <tstamp>5E137914</tstamp>
@@ -2907,6 +3475,14 @@
       <value>BC817</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>http://www.fairchildsemi.com/ds/BC/BC817.pdf</datasheet>
+      <fields>
+        <field name="Cena">0.1189</field>
+        <field name="Link">https://www.tme.eu/pl/details/bc817.215/tranzystory-npn-smd/nexperia/</field>
+        <field name="Model">BC817.215</field>
+        <field name="Opis">Tranzystor: NPN; bipolarny; 45V; 0,5A; 250mW; SOT23</field>
+        <field name="Producent">NEXPERIA</field>
+        <field name="Typ">SMD</field>
+      </fields>
       <libsource lib="Transistor_BJT" part="BC817" description="0.8A Ic, 45V Vce, NPN Transistor, SOT-23"/>
       <sheetpath names="/Emergency/" tstamps="/5E91D7CC/"/>
       <tstamp>5E139012</tstamp>
@@ -2915,6 +3491,14 @@
       <value>1kΩ</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Cena">0.04651</field>
+        <field name="Link">https://www.tme.eu/pl/details/smd0603-1k-1%25/rezystory-smd-0603/royal-ohm/0603saf1001t5e/</field>
+        <field name="Model">0603SAF1001T5E</field>
+        <field name="Opis">Rezystor: thick film; SMD; 0603; 1kΩ; 0,1W; ±1%; -55÷155°C</field>
+        <field name="Producent">ROYAL OHM</field>
+        <field name="Typ">SMD</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Emergency/" tstamps="/5E91D7CC/"/>
       <tstamp>5E13AACA</tstamp>
@@ -2955,6 +3539,10 @@
       <value>1kΩ</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Cena">0.04651</field>
+        <field name="Typ">SMD</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Emergency/" tstamps="/5E91D7CC/"/>
       <tstamp>5E122992</tstamp>
@@ -2978,6 +3566,10 @@
       <value>100kΩ</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Cena">0.04651</field>
+        <field name="Typ">SMD</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Emergency/" tstamps="/5E91D7CC/"/>
       <tstamp>5E14A9EB</tstamp>
@@ -2986,6 +3578,10 @@
       <value>100kΩ</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Cena">0.04651</field>
+        <field name="Typ">SMD</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Emergency/" tstamps="/5E91D7CC/"/>
       <tstamp>5E14F006</tstamp>
@@ -3010,6 +3606,14 @@
       <value>1nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Cena">0.05563</field>
+        <field name="Link">https://www.tme.eu/pl/details/cl10b102kb8nnnc/kondensatory-mlcc-smd-0603/samsung/</field>
+        <field name="Model">CL10B102KB8NNNC</field>
+        <field name="Opis">Kondensator: ceramiczny; MLCC; 1nF; 50V; X7R; ±10%; SMD; 0603</field>
+        <field name="Producent">SAMSUNG</field>
+        <field name="Typ">SMD</field>
+      </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <sheetpath names="/Emergency/" tstamps="/5E91D7CC/"/>
       <tstamp>5E16709A</tstamp>
@@ -3018,6 +3622,14 @@
       <value>Display</value>
       <footprint>Connector_JST:JST_PH_B10B-PH-K_1x10_P2.00mm_Vertical</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Cena">1.33</field>
+        <field name="Link">https://pl.farnell.com/jst-japan-solderless-terminals/b10b-ph-k-s-lf-sn/header-tht-vertical-2mm-10way/dp/9491880?ost=B10B-PH-K-S&amp;ddkey=https%3Apl-PL%2FElement14_Poland%2Fsearch</field>
+        <field name="Model">B10B-PH-K-S</field>
+        <field name="Opis">Złącze przewód-płytka, pionowe, 2 mm, 10 styki/-ów, Header, Seria PH, Przewlekane, 1 rzędy/-ów</field>
+        <field name="Producent">JST</field>
+        <field name="Typ">THT</field>
+      </fields>
       <libsource lib="Connector" part="Conn_01x10_Male" description="Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/HMI/" tstamps="/5E91D96F/"/>
       <tstamp>5E127511</tstamp>
@@ -3074,6 +3686,14 @@
       <value>SPI Interface</value>
       <footprint>Connector_JST:JST_PH_B5B-PH-K_1x05_P2.00mm_Vertical</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Cena">0.90501</field>
+        <field name="Link">https://www.tme.eu/pl/details/b5b-ph-k-s/zlacza-sygnalowe-raster-2-00mm/jst/</field>
+        <field name="Model">B5B-PH-K-S</field>
+        <field name="Opis">Gniazdo; przewód-płytka; męskie; PH; 2mm; PIN: 5; THT; 100V; 2A</field>
+        <field name="Producent">JST</field>
+        <field name="Typ">THT</field>
+      </fields>
       <libsource lib="Connector" part="Conn_01x05_Male" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/HMI/" tstamps="/5E91D96F/"/>
       <tstamp>5E14F125</tstamp>
@@ -3082,6 +3702,14 @@
       <value>I2C Interface</value>
       <footprint>Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Cena">0.78136</field>
+        <field name="Link">https://www.tme.eu/pl/details/b4b-ph-k-s/zlacza-sygnalowe-raster-2-00mm/jst/</field>
+        <field name="Model">B4B-PH-K-S</field>
+        <field name="Opis">Gniazdo; przewód-płytka; męskie; PH; 2mm; PIN: 4; THT; 100V; 2A</field>
+        <field name="Producent">JST</field>
+        <field name="Typ">THT</field>
+      </fields>
       <libsource lib="Connector" part="Conn_01x04_Male" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/HMI/" tstamps="/5E91D96F/"/>
       <tstamp>5E1553C7</tstamp>
@@ -3154,6 +3782,14 @@
       <value>1nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Cena">0.05563</field>
+        <field name="Link">https://www.tme.eu/pl/details/cl10b102kb8nnnc/kondensatory-mlcc-smd-0603/samsung/</field>
+        <field name="Model">CL10B102KB8NNNC</field>
+        <field name="Opis">Kondensator: ceramiczny; MLCC; 1nF; 50V; X7R; ±10%; SMD; 0603</field>
+        <field name="Producent">SAMSUNG</field>
+        <field name="Typ">SMD</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/HMI/" tstamps="/5E91D96F/"/>
       <tstamp>5E1B03B6</tstamp>
@@ -3162,6 +3798,14 @@
       <value>4.7kΩ</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Cena">0.04651</field>
+        <field name="Link">https://www.tme.eu/pl/details/smd0603-4k7-1%25/rezystory-smd-0603/royal-ohm/0603saf4701t5e/</field>
+        <field name="Model">SMD0603-4K7-1%</field>
+        <field name="Opis">Rezystor: thick film; SMD; 0603; 4,7kΩ; 0,1W; ±1%; -55÷155°C</field>
+        <field name="Producent">ROYAL OHM</field>
+        <field name="Typ">SMD</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/HMI/" tstamps="/5E91D96F/"/>
       <tstamp>5E1B03BC</tstamp>
@@ -3170,6 +3814,14 @@
       <value>1kΩ</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Cena">0.04651</field>
+        <field name="Link">https://www.tme.eu/pl/details/smd0603-1k-1%25/rezystory-smd-0603/royal-ohm/0603saf1001t5e/</field>
+        <field name="Model">0603SAF1001T5E</field>
+        <field name="Opis">Rezystor: thick film; SMD; 0603; 1kΩ; 0,1W; ±1%; -55÷155°C</field>
+        <field name="Producent">ROYAL OHM</field>
+        <field name="Typ">SMD</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/HMI/" tstamps="/5E91D96F/"/>
       <tstamp>5E1B03C2</tstamp>
@@ -3178,6 +3830,14 @@
       <value>1nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Cena">0.05563</field>
+        <field name="Link">https://www.tme.eu/pl/details/cl10b102kb8nnnc/kondensatory-mlcc-smd-0603/samsung/</field>
+        <field name="Model">CL10B102KB8NNNC</field>
+        <field name="Opis">Kondensator: ceramiczny; MLCC; 1nF; 50V; X7R; ±10%; SMD; 0603</field>
+        <field name="Producent">SAMSUNG</field>
+        <field name="Typ">SMD</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/HMI/" tstamps="/5E91D96F/"/>
       <tstamp>5E1B03E5</tstamp>
@@ -3186,6 +3846,14 @@
       <value>4.7kΩ</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Cena">0.04651</field>
+        <field name="Link">https://www.tme.eu/pl/details/smd0603-4k7-1%25/rezystory-smd-0603/royal-ohm/0603saf4701t5e/</field>
+        <field name="Model">SMD0603-4K7-1%</field>
+        <field name="Opis">Rezystor: thick film; SMD; 0603; 4,7kΩ; 0,1W; ±1%; -55÷155°C</field>
+        <field name="Producent">ROYAL OHM</field>
+        <field name="Typ">SMD</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/HMI/" tstamps="/5E91D96F/"/>
       <tstamp>5E1B03EB</tstamp>
@@ -3194,6 +3862,14 @@
       <value>1kΩ</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Cena">0.04651</field>
+        <field name="Link">https://www.tme.eu/pl/details/smd0603-1k-1%25/rezystory-smd-0603/royal-ohm/0603saf1001t5e/</field>
+        <field name="Model">0603SAF1001T5E</field>
+        <field name="Opis">Rezystor: thick film; SMD; 0603; 1kΩ; 0,1W; ±1%; -55÷155°C</field>
+        <field name="Producent">ROYAL OHM</field>
+        <field name="Typ">SMD</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/HMI/" tstamps="/5E91D96F/"/>
       <tstamp>5E1B03F1</tstamp>
@@ -3202,6 +3878,14 @@
       <value>1nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Cena">0.05563</field>
+        <field name="Link">https://www.tme.eu/pl/details/cl10b102kb8nnnc/kondensatory-mlcc-smd-0603/samsung/</field>
+        <field name="Model">CL10B102KB8NNNC</field>
+        <field name="Opis">Kondensator: ceramiczny; MLCC; 1nF; 50V; X7R; ±10%; SMD; 0603</field>
+        <field name="Producent">SAMSUNG</field>
+        <field name="Typ">SMD</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/HMI/" tstamps="/5E91D96F/"/>
       <tstamp>5E1B0414</tstamp>
@@ -3210,6 +3894,14 @@
       <value>4.7kΩ</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Cena">0.04651</field>
+        <field name="Link">https://www.tme.eu/pl/details/smd0603-4k7-1%25/rezystory-smd-0603/royal-ohm/0603saf4701t5e/</field>
+        <field name="Model">SMD0603-4K7-1%</field>
+        <field name="Opis">Rezystor: thick film; SMD; 0603; 4,7kΩ; 0,1W; ±1%; -55÷155°C</field>
+        <field name="Producent">ROYAL OHM</field>
+        <field name="Typ">SMD</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/HMI/" tstamps="/5E91D96F/"/>
       <tstamp>5E1B041A</tstamp>
@@ -3218,6 +3910,14 @@
       <value>1kΩ</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Cena">0.04651</field>
+        <field name="Link">https://www.tme.eu/pl/details/smd0603-1k-1%25/rezystory-smd-0603/royal-ohm/0603saf1001t5e/</field>
+        <field name="Model">0603SAF1001T5E</field>
+        <field name="Opis">Rezystor: thick film; SMD; 0603; 1kΩ; 0,1W; ±1%; -55÷155°C</field>
+        <field name="Producent">ROYAL OHM</field>
+        <field name="Typ">SMD</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/HMI/" tstamps="/5E91D96F/"/>
       <tstamp>5E1B0420</tstamp>
@@ -3226,6 +3926,14 @@
       <value>1nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Cena">0.05563</field>
+        <field name="Link">https://www.tme.eu/pl/details/cl10b102kb8nnnc/kondensatory-mlcc-smd-0603/samsung/</field>
+        <field name="Model">CL10B102KB8NNNC</field>
+        <field name="Opis">Kondensator: ceramiczny; MLCC; 1nF; 50V; X7R; ±10%; SMD; 0603</field>
+        <field name="Producent">SAMSUNG</field>
+        <field name="Typ">SMD</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/HMI/" tstamps="/5E91D96F/"/>
       <tstamp>5E1B0443</tstamp>
@@ -3234,6 +3942,14 @@
       <value>4.7kΩ</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Cena">0.04651</field>
+        <field name="Link">https://www.tme.eu/pl/details/smd0603-4k7-1%25/rezystory-smd-0603/royal-ohm/0603saf4701t5e/</field>
+        <field name="Model">SMD0603-4K7-1%</field>
+        <field name="Opis">Rezystor: thick film; SMD; 0603; 4,7kΩ; 0,1W; ±1%; -55÷155°C</field>
+        <field name="Producent">ROYAL OHM</field>
+        <field name="Typ">SMD</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/HMI/" tstamps="/5E91D96F/"/>
       <tstamp>5E1B0449</tstamp>
@@ -3242,6 +3958,14 @@
       <value>1kΩ</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Cena">0.04651</field>
+        <field name="Link">https://www.tme.eu/pl/details/smd0603-1k-1%25/rezystory-smd-0603/royal-ohm/0603saf1001t5e/</field>
+        <field name="Model">0603SAF1001T5E</field>
+        <field name="Opis">Rezystor: thick film; SMD; 0603; 1kΩ; 0,1W; ±1%; -55÷155°C</field>
+        <field name="Producent">ROYAL OHM</field>
+        <field name="Typ">SMD</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/HMI/" tstamps="/5E91D96F/"/>
       <tstamp>5E1B044F</tstamp>
@@ -3250,6 +3974,14 @@
       <value>4.7kΩ</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Cena">0.04651</field>
+        <field name="Link">https://www.tme.eu/pl/details/smd0603-4k7-1%25/rezystory-smd-0603/royal-ohm/0603saf4701t5e/</field>
+        <field name="Model">SMD0603-4K7-1%</field>
+        <field name="Opis">Rezystor: thick film; SMD; 0603; 4,7kΩ; 0,1W; ±1%; -55÷155°C</field>
+        <field name="Producent">ROYAL OHM</field>
+        <field name="Typ">SMD</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/HMI/" tstamps="/5E91D96F/"/>
       <tstamp>5E1E22D3</tstamp>
@@ -3258,6 +3990,14 @@
       <value>BC817</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>http://www.fairchildsemi.com/ds/BC/BC817.pdf</datasheet>
+      <fields>
+        <field name="Cena">0.1189</field>
+        <field name="Link">https://www.tme.eu/pl/details/bc817.215/tranzystory-npn-smd/nexperia/</field>
+        <field name="Model">BC817.215</field>
+        <field name="Opis">Tranzystor: NPN; bipolarny; 45V; 0,5A; 250mW; SOT23</field>
+        <field name="Producent">NEXPERIA</field>
+        <field name="Typ">SMD</field>
+      </fields>
       <libsource lib="Transistor_BJT" part="BC817" description="0.8A Ic, 45V Vce, NPN Transistor, SOT-23"/>
       <sheetpath names="/HMI/" tstamps="/5E91D96F/"/>
       <tstamp>5E1E22E9</tstamp>
@@ -3282,6 +4022,10 @@
       <value>330Ω</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Cena">0.04651</field>
+        <field name="Typ">SMD</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/HMI/" tstamps="/5E91D96F/"/>
       <tstamp>5E1E22E3</tstamp>
@@ -3290,6 +4034,14 @@
       <value>4.7kΩ</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Cena">0.04651</field>
+        <field name="Link">https://www.tme.eu/pl/details/smd0603-4k7-1%25/rezystory-smd-0603/royal-ohm/0603saf4701t5e/</field>
+        <field name="Model">SMD0603-4K7-1%</field>
+        <field name="Opis">Rezystor: thick film; SMD; 0603; 4,7kΩ; 0,1W; ±1%; -55÷155°C</field>
+        <field name="Producent">ROYAL OHM</field>
+        <field name="Typ">SMD</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/HMI/" tstamps="/5E91D96F/"/>
       <tstamp>5E21BF53</tstamp>
@@ -3298,6 +4050,14 @@
       <value>BC817</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>http://www.fairchildsemi.com/ds/BC/BC817.pdf</datasheet>
+      <fields>
+        <field name="Cena">0.1189</field>
+        <field name="Link">https://www.tme.eu/pl/details/bc817.215/tranzystory-npn-smd/nexperia/</field>
+        <field name="Model">BC817.215</field>
+        <field name="Opis">Tranzystor: NPN; bipolarny; 45V; 0,5A; 250mW; SOT23</field>
+        <field name="Producent">NEXPERIA</field>
+        <field name="Typ">SMD</field>
+      </fields>
       <libsource lib="Transistor_BJT" part="BC817" description="0.8A Ic, 45V Vce, NPN Transistor, SOT-23"/>
       <sheetpath names="/HMI/" tstamps="/5E91D96F/"/>
       <tstamp>5E21BF67</tstamp>
@@ -3322,6 +4082,10 @@
       <value>330Ω</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Cena">0.04651</field>
+        <field name="Typ">SMD</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/HMI/" tstamps="/5E91D96F/"/>
       <tstamp>5E21BF8C</tstamp>
@@ -3426,6 +4190,10 @@
       <value>2.2kΩ</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Cena">0.04651</field>
+        <field name="Typ">SMD</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Sensors/" tstamps="/5E1B3A8F/"/>
       <tstamp>5E1C6F9E</tstamp>
@@ -3434,6 +4202,10 @@
       <value>2.2kΩ</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Cena">0.04651</field>
+        <field name="Typ">SMD</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Sensors/" tstamps="/5E1B3A8F/"/>
       <tstamp>5E1C6FA4</tstamp>

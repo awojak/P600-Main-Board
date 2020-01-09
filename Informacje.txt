@@ -1,0 +1,5 @@
+Interactive HTML BOM:
+https://forum.kicad.info/t/interactive-html-bom-plugin-for-kicad-5-0/11713
+
+KiCad BOM Wizzard:
+https://www.youtube.com/watch?time_continue=752&v=k9EE21K-m8M&feature=emb_logo
