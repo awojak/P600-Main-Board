@@ -706,8 +706,6 @@ Text GLabel 2500 3450 0    50   Input ~ 0
 LIMIT_Z_UP
 Text GLabel 2500 3350 0    50   Input ~ 0
 LIMIT_Y_FRONT
-Text GLabel 2500 4450 0    50   Input ~ 0
-WASTE_INK
 Text GLabel 5000 1750 2    50   Output ~ 0
 PE_SIGNAL
 Text GLabel 5000 6150 2    50   Input ~ 0
@@ -832,8 +830,6 @@ Wire Wire Line
 	4650 4550 5000 4550
 Wire Wire Line
 	5000 4650 4650 4650
-Wire Wire Line
-	2500 4450 2850 4450
 Wire Wire Line
 	4650 6150 5000 6150
 Wire Wire Line
@@ -1287,11 +1283,6 @@ NoConn ~ 4650 3450
 NoConn ~ 4650 4050
 NoConn ~ 4650 4250
 NoConn ~ 4650 4450
-NoConn ~ 4650 4950
-NoConn ~ 4650 5050
-NoConn ~ 4650 5150
-NoConn ~ 4650 5250
-NoConn ~ 4650 5350
 NoConn ~ 4650 5650
 NoConn ~ 4650 5850
 NoConn ~ 4650 5950
@@ -1467,4 +1458,28 @@ Text Label 8050 1800 0    50   ~ 0
 D-
 Text GLabel 5000 2650 2    50   BiDi ~ 0
 USB_D-
+Text GLabel 2500 4450 0    50   Input ~ 0
+INPUT3
+Text GLabel 5000 5250 2    50   Output ~ 0
+OUTPUT1
+Text GLabel 5000 5350 2    50   Output ~ 0
+OUTPUT2
+Text GLabel 5000 5150 2    50   Input ~ 0
+INPUT1
+Text GLabel 5000 5050 2    50   Input ~ 0
+INPUT2
+Wire Wire Line
+	5000 5050 4650 5050
+Wire Wire Line
+	4650 5150 5000 5150
+Wire Wire Line
+	5000 5250 4650 5250
+Wire Wire Line
+	4650 5350 5000 5350
+Wire Wire Line
+	2500 4450 2850 4450
+Text GLabel 5000 4950 2    50   Output ~ 0
+RELAY
+Wire Wire Line
+	4650 4950 5000 4950
 $EndSCHEMATC
