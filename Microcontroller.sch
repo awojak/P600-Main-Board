@@ -741,9 +741,7 @@ Wire Wire Line
 Wire Wire Line
 	4650 3950 5000 3950
 Text GLabel 5000 2750 2    50   BiDi ~ 0
-USB_DP
-Text GLabel 5000 2650 2    50   BiDi ~ 0
-USB_DM
+USB_D+
 Wire Wire Line
 	4650 2650 5000 2650
 Wire Wire Line
@@ -905,9 +903,9 @@ Wire Wire Line
 Wire Wire Line
 	8600 1400 8600 1450
 Text GLabel 9150 1800 2    50   BiDi ~ 0
-USB_DM
+USB_D-
 Text GLabel 9150 1700 2    50   BiDi ~ 0
-USB_DP
+USB_D+
 Wire Wire Line
 	8950 1700 9150 1700
 Wire Wire Line
@@ -1463,4 +1461,10 @@ Text Notes 5225 3575 0    50   ~ 0
 ENC2_B
 Wire Wire Line
 	2750 2050 2750 2250
+Text Label 8050 1700 0    50   ~ 0
+D+
+Text Label 8050 1800 0    50   ~ 0
+D-
+Text GLabel 5000 2650 2    50   BiDi ~ 0
+USB_D-
 $EndSCHEMATC
