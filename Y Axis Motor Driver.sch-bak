@@ -37,8 +37,8 @@ L Device:R R?
 U 1 1 5E249033
 P 5000 4450
 AR Path="/5DE588DC/5E249033" Ref="R?"  Part="1" 
-AR Path="/5DE587B9/5E249033" Ref="R3"  Part="1" 
-F 0 "R3" H 5070 4632 50  0000 L CNN
+AR Path="/5DE587B9/5E249033" Ref="R4"  Part="1" 
+F 0 "R4" H 5070 4632 50  0000 L CNN
 F 1 "100mΩ" H 5070 4541 50  0000 L CNN
 F 2 "Resistor_SMD:R_2010_5025Metric" V 4930 4450 50  0001 C CNN
 F 3 "~" H 5000 4450 50  0001 C CNN
@@ -121,8 +121,8 @@ L Device:R R?
 U 1 1 5E24905B
 P 6050 4450
 AR Path="/5DE588DC/5E24905B" Ref="R?"  Part="1" 
-AR Path="/5DE587B9/5E24905B" Ref="R4"  Part="1" 
-F 0 "R4" H 6120 4632 50  0000 L CNN
+AR Path="/5DE587B9/5E24905B" Ref="R5"  Part="1" 
+F 0 "R5" H 6120 4632 50  0000 L CNN
 F 1 "100mΩ" H 6120 4541 50  0000 L CNN
 F 2 "Resistor_SMD:R_2010_5025Metric" V 5980 4450 50  0001 C CNN
 F 3 "~" H 6050 4450 50  0001 C CNN
@@ -346,8 +346,8 @@ L Device:Ferrite_Bead_Small FB?
 U 1 1 5E2490C7
 P 7150 3050
 AR Path="/5DE588DC/5E2490C7" Ref="FB?"  Part="1" 
-AR Path="/5DE587B9/5E2490C7" Ref="FB2"  Part="1" 
-F 0 "FB2" V 6913 3050 50  0000 C CNN
+AR Path="/5DE587B9/5E2490C7" Ref="FB1"  Part="1" 
+F 0 "FB1" V 6913 3050 50  0000 C CNN
 F 1 "60Ohm@100MHz" V 7004 3050 50  0000 C CNN
 F 2 "Inductor_SMD:L_0805_2012Metric" V 7080 3050 50  0001 C CNN
 F 3 "~" H 7150 3050 50  0001 C CNN
@@ -365,8 +365,8 @@ L Device:Ferrite_Bead_Small FB?
 U 1 1 5E2490CE
 P 7150 3200
 AR Path="/5DE588DC/5E2490CE" Ref="FB?"  Part="1" 
-AR Path="/5DE587B9/5E2490CE" Ref="FB3"  Part="1" 
-F 0 "FB3" V 7350 3200 50  0000 C CNN
+AR Path="/5DE587B9/5E2490CE" Ref="FB2"  Part="1" 
+F 0 "FB2" V 7350 3200 50  0000 C CNN
 F 1 "60Ohm@100MHz" V 7250 3200 50  0000 C CNN
 F 2 "Inductor_SMD:L_0805_2012Metric" V 7080 3200 50  0001 C CNN
 F 3 "~" H 7150 3200 50  0001 C CNN
@@ -384,8 +384,8 @@ L Device:Ferrite_Bead_Small FB?
 U 1 1 5E2490D5
 P 7150 3750
 AR Path="/5DE588DC/5E2490D5" Ref="FB?"  Part="1" 
-AR Path="/5DE587B9/5E2490D5" Ref="FB4"  Part="1" 
-F 0 "FB4" V 6913 3750 50  0000 C CNN
+AR Path="/5DE587B9/5E2490D5" Ref="FB3"  Part="1" 
+F 0 "FB3" V 6913 3750 50  0000 C CNN
 F 1 "60Ohm@100MHz" V 7004 3750 50  0000 C CNN
 F 2 "Inductor_SMD:L_0805_2012Metric" V 7080 3750 50  0001 C CNN
 F 3 "~" H 7150 3750 50  0001 C CNN
@@ -403,8 +403,8 @@ L Device:Ferrite_Bead_Small FB?
 U 1 1 5E2490DC
 P 7150 3900
 AR Path="/5DE588DC/5E2490DC" Ref="FB?"  Part="1" 
-AR Path="/5DE587B9/5E2490DC" Ref="FB5"  Part="1" 
-F 0 "FB5" V 7350 3900 50  0000 C CNN
+AR Path="/5DE587B9/5E2490DC" Ref="FB4"  Part="1" 
+F 0 "FB4" V 7350 3900 50  0000 C CNN
 F 1 "60Ohm@100MHz" V 7250 3900 50  0000 C CNN
 F 2 "Inductor_SMD:L_0805_2012Metric" V 7080 3900 50  0001 C CNN
 F 3 "~" H 7150 3900 50  0001 C CNN
@@ -514,21 +514,17 @@ Wire Wire Line
 Wire Wire Line
 	9050 3200 9050 3450
 Wire Wire Line
-	8700 3750 8700 4250
-Wire Wire Line
 	8350 3900 8350 4250
 Connection ~ 8700 3750
 Connection ~ 9050 3200
-Wire Wire Line
-	9400 3050 9400 2750
 Connection ~ 9400 3050
 $Comp
 L power:GND #PWR?
 U 1 1 5E249116
 P 8350 5150
 AR Path="/5DE588DC/5E249116" Ref="#PWR?"  Part="1" 
-AR Path="/5DE587B9/5E249116" Ref="#PWR020"  Part="1" 
-F 0 "#PWR020" H 8350 4900 50  0001 C CNN
+AR Path="/5DE587B9/5E249116" Ref="#PWR019"  Part="1" 
+F 0 "#PWR019" H 8350 4900 50  0001 C CNN
 F 1 "GND" H 8355 4977 50  0000 C CNN
 F 2 "" H 8350 5150 50  0001 C CNN
 F 3 "" H 8350 5150 50  0001 C CNN
@@ -537,76 +533,15 @@ F 3 "" H 8350 5150 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8350 4550 8350 5150
-$Comp
-L power:GND #PWR?
-U 1 1 5E24911D
-P 8700 5150
-AR Path="/5DE588DC/5E24911D" Ref="#PWR?"  Part="1" 
-AR Path="/5DE587B9/5E24911D" Ref="#PWR022"  Part="1" 
-F 0 "#PWR022" H 8700 4900 50  0001 C CNN
-F 1 "GND" H 8705 4977 50  0000 C CNN
-F 2 "" H 8700 5150 50  0001 C CNN
-F 3 "" H 8700 5150 50  0001 C CNN
-	1    8700 5150
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	8700 4550 8700 5150
-$Comp
-L power:GND #PWR?
-U 1 1 5E249124
-P 9050 5150
-AR Path="/5DE588DC/5E249124" Ref="#PWR?"  Part="1" 
-AR Path="/5DE587B9/5E249124" Ref="#PWR024"  Part="1" 
-F 0 "#PWR024" H 9050 4900 50  0001 C CNN
-F 1 "GND" H 9055 4977 50  0000 C CNN
-F 2 "" H 9050 5150 50  0001 C CNN
-F 3 "" H 9050 5150 50  0001 C CNN
-	1    9050 5150
-	1    0    0    -1  
-$EndComp
+	8700 3750 9750 3750
 Wire Wire Line
-	9050 4550 9050 5150
-$Comp
-L power:GND #PWR?
-U 1 1 5E24912B
-P 9400 5150
-AR Path="/5DE588DC/5E24912B" Ref="#PWR?"  Part="1" 
-AR Path="/5DE587B9/5E24912B" Ref="#PWR026"  Part="1" 
-F 0 "#PWR026" H 9400 4900 50  0001 C CNN
-F 1 "GND" H 9405 4977 50  0000 C CNN
-F 2 "" H 9400 5150 50  0001 C CNN
-F 3 "" H 9400 5150 50  0001 C CNN
-	1    9400 5150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9400 4550 9400 5150
-Wire Wire Line
-	8700 3750 9850 3750
-Wire Wire Line
-	9050 3200 9850 3200
-Wire Wire Line
-	8350 2300 8350 2450
-Wire Wire Line
-	8700 2300 8700 2450
-Wire Wire Line
-	9050 2300 9050 2450
-Wire Wire Line
-	9400 2300 9400 2450
+	9050 3200 9750 3200
 Text Notes 7050 2350 0    50   ~ 0
 EMC
 Connection ~ 8350 3900
 Wire Notes Line
-	8250 2450 9700 2450
-Wire Notes Line
-	9700 2450 9700 2800
-Text Notes 8850 2400 0    50   ~ 0
-ESD
-Wire Notes Line
 	8250 2450 8250 2800
-Wire Notes Line
-	8250 2800 9700 2800
 $Comp
 L Connector:Conn_01x04_Male J?
 U 1 1 5E24913F
@@ -634,11 +569,11 @@ Wire Wire Line
 Wire Wire Line
 	10000 3600 10400 3600
 Wire Wire Line
-	8350 3900 10000 3900
+	8350 3900 9900 3900
 Wire Wire Line
 	10000 3300 10400 3300
 Wire Wire Line
-	9400 3050 10000 3050
+	9400 3050 9900 3050
 Wire Notes Line
 	10350 3150 10350 3750
 Wire Notes Line
@@ -666,11 +601,6 @@ F 3 "~" H 8550 3450 50  0001 C CNN
 	1    8350 3450
 	0    1    1    0   
 $EndComp
-Connection ~ 8350 3450
-Wire Wire Line
-	8350 3450 8350 2750
-Wire Wire Line
-	8700 2750 8700 3450
 $Comp
 L Connector:TestPoint TP?
 U 1 1 5E24915B
@@ -684,7 +614,6 @@ F 3 "~" H 8900 3450 50  0001 C CNN
 	1    8700 3450
 	0    1    1    0   
 $EndComp
-Connection ~ 8700 3450
 Wire Wire Line
 	8700 3450 8700 3750
 $Comp
@@ -700,9 +629,6 @@ F 3 "~" H 9250 3450 50  0001 C CNN
 	1    9050 3450
 	0    1    1    0   
 $EndComp
-Connection ~ 9050 3450
-Wire Wire Line
-	9050 3450 9050 4250
 $Comp
 L Connector:TestPoint TP?
 U 1 1 5E24916B
@@ -716,9 +642,6 @@ F 3 "~" H 9600 3450 50  0001 C CNN
 	1    9400 3450
 	0    1    1    0   
 $EndComp
-Connection ~ 9400 3450
-Wire Wire Line
-	9400 3450 9400 4250
 Text GLabel 1600 3000 0    50   Input ~ 0
 Y_STEP
 Text GLabel 1600 3100 0    50   Input ~ 0
@@ -738,212 +661,6 @@ Wire Wire Line
 	2900 3000 1600 3000
 Wire Wire Line
 	2900 3100 1600 3100
-$Comp
-L Device:D_Schottky_ALT D?
-U 1 1 5E249187
-P 9400 2600
-AR Path="/5DE588DC/5E249187" Ref="D?"  Part="1" 
-AR Path="/5DE587B9/5E249187" Ref="D7"  Part="1" 
-F 0 "D7" V 9354 2679 50  0000 L CNN
-F 1 "SK25" V 9445 2679 50  0000 L CNN
-F 2 "Diode_SMD:D_SMB" H 9400 2600 50  0001 C CNN
-F 3 "~" H 9400 2600 50  0001 C CNN
-F 4 "0.2445" H 9400 2600 50  0001 C CNN "Cena"
-F 5 "https://www.tme.eu/pl/details/sk25-dio/diody-schottky-smd/diotec-semiconductor/sk25/" H 9400 2600 50  0001 C CNN "Link"
-F 6 "SK25" H 9400 2600 50  0001 C CNN "Model"
-F 7 "Dioda: prostownicza Schottky; SMD; 50V; 2A; SMB" H 9400 2600 50  0001 C CNN "Opis"
-F 8 "DIOTEC SEMICONDUCTOR" H 9400 2600 50  0001 C CNN "Producent"
-F 9 "SMD" H 9400 2600 50  0001 C CNN "Typ"
-	1    9400 2600
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	9050 3200 9050 2750
-$Comp
-L Device:D_Schottky_ALT D?
-U 1 1 5E24918E
-P 9050 2600
-AR Path="/5DE588DC/5E24918E" Ref="D?"  Part="1" 
-AR Path="/5DE587B9/5E24918E" Ref="D5"  Part="1" 
-F 0 "D5" V 9004 2679 50  0000 L CNN
-F 1 "SK25" V 9095 2679 50  0000 L CNN
-F 2 "Diode_SMD:D_SMB" H 9050 2600 50  0001 C CNN
-F 3 "~" H 9050 2600 50  0001 C CNN
-F 4 "0.2445" H 9050 2600 50  0001 C CNN "Cena"
-F 5 "https://www.tme.eu/pl/details/sk25-dio/diody-schottky-smd/diotec-semiconductor/sk25/" H 9050 2600 50  0001 C CNN "Link"
-F 6 "SK25" H 9050 2600 50  0001 C CNN "Model"
-F 7 "Dioda: prostownicza Schottky; SMD; 50V; 2A; SMB" H 9050 2600 50  0001 C CNN "Opis"
-F 8 "DIOTEC SEMICONDUCTOR" H 9050 2600 50  0001 C CNN "Producent"
-F 9 "SMD" H 9050 2600 50  0001 C CNN "Typ"
-	1    9050 2600
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:D_Schottky_ALT D?
-U 1 1 5E249194
-P 8700 2600
-AR Path="/5DE588DC/5E249194" Ref="D?"  Part="1" 
-AR Path="/5DE587B9/5E249194" Ref="D3"  Part="1" 
-F 0 "D3" V 8654 2679 50  0000 L CNN
-F 1 "SK25" V 8745 2679 50  0000 L CNN
-F 2 "Diode_SMD:D_SMB" H 8700 2600 50  0001 C CNN
-F 3 "~" H 8700 2600 50  0001 C CNN
-F 4 "0.2445" H 8700 2600 50  0001 C CNN "Cena"
-F 5 "https://www.tme.eu/pl/details/sk25-dio/diody-schottky-smd/diotec-semiconductor/sk25/" H 8700 2600 50  0001 C CNN "Link"
-F 6 "SK25" H 8700 2600 50  0001 C CNN "Model"
-F 7 "Dioda: prostownicza Schottky; SMD; 50V; 2A; SMB" H 8700 2600 50  0001 C CNN "Opis"
-F 8 "DIOTEC SEMICONDUCTOR" H 8700 2600 50  0001 C CNN "Producent"
-F 9 "SMD" H 8700 2600 50  0001 C CNN "Typ"
-	1    8700 2600
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:D_Schottky_ALT D?
-U 1 1 5E24919A
-P 8350 2600
-AR Path="/5DE588DC/5E24919A" Ref="D?"  Part="1" 
-AR Path="/5DE587B9/5E24919A" Ref="D1"  Part="1" 
-F 0 "D1" V 8304 2679 50  0000 L CNN
-F 1 "SK25" V 8395 2679 50  0000 L CNN
-F 2 "Diode_SMD:D_SMB" H 8350 2600 50  0001 C CNN
-F 3 "~" H 8350 2600 50  0001 C CNN
-F 4 "0.2445" H 8350 2600 50  0001 C CNN "Cena"
-F 5 "https://www.tme.eu/pl/details/sk25-dio/diody-schottky-smd/diotec-semiconductor/sk25/" H 8350 2600 50  0001 C CNN "Link"
-F 6 "SK25" H 8350 2600 50  0001 C CNN "Model"
-F 7 "Dioda: prostownicza Schottky; SMD; 50V; 2A; SMB" H 8350 2600 50  0001 C CNN "Opis"
-F 8 "DIOTEC SEMICONDUCTOR" H 8350 2600 50  0001 C CNN "Producent"
-F 9 "SMD" H 8350 2600 50  0001 C CNN "Typ"
-	1    8350 2600
-	0    1    1    0   
-$EndComp
-$Comp
-L power:VS #PWR?
-U 1 1 5E2491A0
-P 8350 2300
-AR Path="/5DE588DC/5E2491A0" Ref="#PWR?"  Part="1" 
-AR Path="/5DE587B9/5E2491A0" Ref="#PWR019"  Part="1" 
-F 0 "#PWR019" H 8150 2150 50  0001 C CNN
-F 1 "VS" H 8367 2473 50  0000 C CNN
-F 2 "" H 8350 2300 50  0001 C CNN
-F 3 "" H 8350 2300 50  0001 C CNN
-	1    8350 2300
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VS #PWR?
-U 1 1 5E2491A6
-P 8700 2300
-AR Path="/5DE588DC/5E2491A6" Ref="#PWR?"  Part="1" 
-AR Path="/5DE587B9/5E2491A6" Ref="#PWR021"  Part="1" 
-F 0 "#PWR021" H 8500 2150 50  0001 C CNN
-F 1 "VS" H 8717 2473 50  0000 C CNN
-F 2 "" H 8700 2300 50  0001 C CNN
-F 3 "" H 8700 2300 50  0001 C CNN
-	1    8700 2300
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VS #PWR?
-U 1 1 5E2491AC
-P 9050 2300
-AR Path="/5DE588DC/5E2491AC" Ref="#PWR?"  Part="1" 
-AR Path="/5DE587B9/5E2491AC" Ref="#PWR023"  Part="1" 
-F 0 "#PWR023" H 8850 2150 50  0001 C CNN
-F 1 "VS" H 9067 2473 50  0000 C CNN
-F 2 "" H 9050 2300 50  0001 C CNN
-F 3 "" H 9050 2300 50  0001 C CNN
-	1    9050 2300
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VS #PWR?
-U 1 1 5E2491B2
-P 9400 2300
-AR Path="/5DE588DC/5E2491B2" Ref="#PWR?"  Part="1" 
-AR Path="/5DE587B9/5E2491B2" Ref="#PWR025"  Part="1" 
-F 0 "#PWR025" H 9200 2150 50  0001 C CNN
-F 1 "VS" H 9417 2473 50  0000 C CNN
-F 2 "" H 9400 2300 50  0001 C CNN
-F 3 "" H 9400 2300 50  0001 C CNN
-	1    9400 2300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D_Schottky_ALT D?
-U 1 1 5E2491B8
-P 8350 4400
-AR Path="/5DE588DC/5E2491B8" Ref="D?"  Part="1" 
-AR Path="/5DE587B9/5E2491B8" Ref="D2"  Part="1" 
-F 0 "D2" V 8304 4479 50  0000 L CNN
-F 1 "SK25" V 8395 4479 50  0000 L CNN
-F 2 "Diode_SMD:D_SMB" H 8350 4400 50  0001 C CNN
-F 3 "~" H 8350 4400 50  0001 C CNN
-F 4 "0.2445" H 8350 4400 50  0001 C CNN "Cena"
-F 5 "https://www.tme.eu/pl/details/sk25-dio/diody-schottky-smd/diotec-semiconductor/sk25/" H 8350 4400 50  0001 C CNN "Link"
-F 6 "SK25" H 8350 4400 50  0001 C CNN "Model"
-F 7 "Dioda: prostownicza Schottky; SMD; 50V; 2A; SMB" H 8350 4400 50  0001 C CNN "Opis"
-F 8 "DIOTEC SEMICONDUCTOR" H 8350 4400 50  0001 C CNN "Producent"
-F 9 "SMD" H 8350 4400 50  0001 C CNN "Typ"
-	1    8350 4400
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:D_Schottky_ALT D?
-U 1 1 5E2491BE
-P 8700 4400
-AR Path="/5DE588DC/5E2491BE" Ref="D?"  Part="1" 
-AR Path="/5DE587B9/5E2491BE" Ref="D4"  Part="1" 
-F 0 "D4" V 8654 4479 50  0000 L CNN
-F 1 "SK25" V 8745 4479 50  0000 L CNN
-F 2 "Diode_SMD:D_SMB" H 8700 4400 50  0001 C CNN
-F 3 "~" H 8700 4400 50  0001 C CNN
-F 4 "0.2445" H 8700 4400 50  0001 C CNN "Cena"
-F 5 "https://www.tme.eu/pl/details/sk25-dio/diody-schottky-smd/diotec-semiconductor/sk25/" H 8700 4400 50  0001 C CNN "Link"
-F 6 "SK25" H 8700 4400 50  0001 C CNN "Model"
-F 7 "Dioda: prostownicza Schottky; SMD; 50V; 2A; SMB" H 8700 4400 50  0001 C CNN "Opis"
-F 8 "DIOTEC SEMICONDUCTOR" H 8700 4400 50  0001 C CNN "Producent"
-F 9 "SMD" H 8700 4400 50  0001 C CNN "Typ"
-	1    8700 4400
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:D_Schottky_ALT D?
-U 1 1 5E2491C4
-P 9050 4400
-AR Path="/5DE588DC/5E2491C4" Ref="D?"  Part="1" 
-AR Path="/5DE587B9/5E2491C4" Ref="D6"  Part="1" 
-F 0 "D6" V 9004 4479 50  0000 L CNN
-F 1 "SK25" V 9095 4479 50  0000 L CNN
-F 2 "Diode_SMD:D_SMB" H 9050 4400 50  0001 C CNN
-F 3 "~" H 9050 4400 50  0001 C CNN
-F 4 "0.2445" H 9050 4400 50  0001 C CNN "Cena"
-F 5 "https://www.tme.eu/pl/details/sk25-dio/diody-schottky-smd/diotec-semiconductor/sk25/" H 9050 4400 50  0001 C CNN "Link"
-F 6 "SK25" H 9050 4400 50  0001 C CNN "Model"
-F 7 "Dioda: prostownicza Schottky; SMD; 50V; 2A; SMB" H 9050 4400 50  0001 C CNN "Opis"
-F 8 "DIOTEC SEMICONDUCTOR" H 9050 4400 50  0001 C CNN "Producent"
-F 9 "SMD" H 9050 4400 50  0001 C CNN "Typ"
-	1    9050 4400
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:D_Schottky_ALT D?
-U 1 1 5E2491CA
-P 9400 4400
-AR Path="/5DE588DC/5E2491CA" Ref="D?"  Part="1" 
-AR Path="/5DE587B9/5E2491CA" Ref="D8"  Part="1" 
-F 0 "D8" V 9354 4479 50  0000 L CNN
-F 1 "SK25" V 9445 4479 50  0000 L CNN
-F 2 "Diode_SMD:D_SMB" H 9400 4400 50  0001 C CNN
-F 3 "~" H 9400 4400 50  0001 C CNN
-F 4 "0.2445" H 9400 4400 50  0001 C CNN "Cena"
-F 5 "https://www.tme.eu/pl/details/sk25-dio/diody-schottky-smd/diotec-semiconductor/sk25/" H 9400 4400 50  0001 C CNN "Link"
-F 6 "SK25" H 9400 4400 50  0001 C CNN "Model"
-F 7 "Dioda: prostownicza Schottky; SMD; 50V; 2A; SMB" H 9400 4400 50  0001 C CNN "Opis"
-F 8 "DIOTEC SEMICONDUCTOR" H 9400 4400 50  0001 C CNN "Producent"
-F 9 "SMD" H 9400 4400 50  0001 C CNN "Typ"
-	1    9400 4400
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	6350 3800 6350 3750
 Wire Wire Line
@@ -964,8 +681,6 @@ Wire Wire Line
 Wire Wire Line
 	7900 4300 7900 3750
 Connection ~ 7900 3750
-Wire Wire Line
-	7900 3750 8700 3750
 Wire Wire Line
 	7500 2750 7500 3050
 Connection ~ 7500 3050
@@ -1045,15 +760,7 @@ Wire Wire Line
 Wire Wire Line
 	7500 2300 7500 2550
 Wire Notes Line
-	8250 4200 9700 4200
-Wire Notes Line
-	9700 4200 9700 4600
-Wire Notes Line
-	9700 4600 8250 4600
-Wire Notes Line
 	8250 4600 8250 4200
-Text Notes 8850 4150 0    50   ~ 0
-ESD
 Wire Notes Line
 	8200 4650 6800 4650
 Wire Notes Line
@@ -1289,8 +996,8 @@ L Device:R R?
 U 1 1 5E249277
 P 2400 4700
 AR Path="/5DE588DC/5E249277" Ref="R?"  Part="1" 
-AR Path="/5DE587B9/5E249277" Ref="R2"  Part="1" 
-F 0 "R2" H 2200 4650 50  0000 L CNN
+AR Path="/5DE587B9/5E249277" Ref="R3"  Part="1" 
+F 0 "R3" H 2200 4650 50  0000 L CNN
 F 1 "100kΩ" H 2100 4750 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 2330 4700 50  0001 C CNN
 F 3 "~" H 2400 4700 50  0001 C CNN
@@ -1372,9 +1079,9 @@ $EndComp
 Wire Wire Line
 	1400 1100 1400 1250
 Wire Wire Line
-	1400 1250 1700 1250
+	1400 1250 1650 1250
 Wire Wire Line
-	1900 1250 2300 1250
+	1950 1250 2300 1250
 Wire Wire Line
 	2300 1250 2300 1100
 $Comp
@@ -1382,8 +1089,8 @@ L Device:R R?
 U 1 1 5E249179
 P 1850 3800
 AR Path="/5DE588DC/5E249179" Ref="R?"  Part="1" 
-AR Path="/5DE587B9/5E249179" Ref="R1"  Part="1" 
-F 0 "R1" V 1950 3750 50  0000 L CNN
+AR Path="/5DE587B9/5E249179" Ref="R2"  Part="1" 
+F 0 "R2" V 1950 3750 50  0000 L CNN
 F 1 "1kΩ" V 1750 3800 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 1780 3800 50  0001 C CNN
 F 3 "~" H 1850 3800 50  0001 C CNN
@@ -1398,22 +1105,205 @@ F 10 "SMD" H 1850 3800 50  0001 C CNN "Typ"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:Ferrite_Bead_Small FB?
-U 1 1 5E5425BC
+L Device:R R?
+U 1 1 5E2371E0
 P 1800 1250
-AR Path="/5DFB2EC0/5E5425BC" Ref="FB?"  Part="1" 
-AR Path="/5DE587B9/5E5425BC" Ref="FB1"  Part="1" 
-F 0 "FB1" V 1563 1250 50  0000 C CNN
-F 1 "1000@100MHz" V 1654 1250 50  0000 C CNN
-F 2 "Inductor_SMD:L_0805_2012Metric" V 1730 1250 50  0001 C CNN
+AR Path="/5DFB2EC0/5E2371E0" Ref="R?"  Part="1" 
+AR Path="/5DE587B9/5E2371E0" Ref="R1"  Part="1" 
+F 0 "R1" V 1593 1250 50  0000 C CNN
+F 1 "0Ω" V 1684 1250 50  0000 C CNN
+F 2 "" V 1730 1250 50  0001 C CNN
 F 3 "~" H 1800 1250 50  0001 C CNN
-F 4 "0.2794" H 1800 1250 50  0001 C CNN "Cena"
-F 5 "https://www.tme.eu/pl/details/blm21ag102sn1d/ferryty-koraliki/murata/" H 1800 1250 50  0001 C CNN "Link"
-F 6 "BLM21AG102SN1D" H 1800 1250 50  0001 C CNN "Model"
-F 7 "Ferryt: koralik; Imp.@ 100MHz: 1000Ω; Montaż: SMD; 0,5A; Obud: 0805" H 1800 1250 50  0001 C CNN "Opis"
-F 8 "MURATA" H 1800 1250 50  0001 C CNN "Producent"
-F 9 "SMD" H 1800 1250 50  0001 C CNN "Typ"
 	1    1800 1250
 	0    1    1    0   
 $EndComp
+$Comp
+L Device:D_TVS_ALT D1
+U 1 1 5E251EB1
+P 8350 4400
+F 0 "D1" H 8300 4525 50  0000 L CNN
+F 1 "SMAJ26CA" H 8175 4625 50  0000 L CNN
+F 2 "Diode_SMD:D_SMA" H 8350 4400 50  0001 C CNN
+F 3 "~" H 8350 4400 50  0001 C CNN
+F 4 "0.30" H 8350 4400 50  0001 C CNN "Cena"
+F 5 "https://www.tme.eu/pl/details/smaj26ca-tr/diody-transil-smd-dwukierunkowe/stmicroelectronics/smaj26ca/" H 8350 4400 50  0001 C CNN "Link"
+F 6 "26V" H 8350 4400 50  0001 C CNN "Napięcie"
+F 7 "Dioda: transil; 400W; 28,9V; 43A; dwukierunkowa; SMA" H 8350 4400 50  0001 C CNN "Opis"
+F 8 "STM" H 8350 4400 50  0001 C CNN "Producent"
+F 9 "SMD" H 8350 4400 50  0001 C CNN "Typ"
+	1    8350 4400
+	0    1    1    0   
+$EndComp
+Connection ~ 9400 3450
+Connection ~ 9050 3450
+Wire Wire Line
+	7900 3750 8700 3750
+$Comp
+L Device:D_TVS_ALT D4
+U 1 1 5E255ACF
+P 9400 4400
+F 0 "D4" H 9350 4525 50  0000 L CNN
+F 1 "SMAJ26CA" H 9225 4625 50  0000 L CNN
+F 2 "Diode_SMD:D_SMA" H 9400 4400 50  0001 C CNN
+F 3 "~" H 9400 4400 50  0001 C CNN
+F 4 "0.30" H 9400 4400 50  0001 C CNN "Cena"
+F 5 "https://www.tme.eu/pl/details/smaj26ca-tr/diody-transil-smd-dwukierunkowe/stmicroelectronics/smaj26ca/" H 9400 4400 50  0001 C CNN "Link"
+F 6 "26V" H 9400 4400 50  0001 C CNN "Napięcie"
+F 7 "Dioda: transil; 400W; 28,9V; 43A; dwukierunkowa; SMA" H 9400 4400 50  0001 C CNN "Opis"
+F 8 "STM" H 9400 4400 50  0001 C CNN "Producent"
+F 9 "SMD" H 9400 4400 50  0001 C CNN "Typ"
+	1    9400 4400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9400 3450 9400 4250
+$Comp
+L Device:D_TVS_ALT D3
+U 1 1 5E255191
+P 9050 4400
+F 0 "D3" H 9000 4525 50  0000 L CNN
+F 1 "SMAJ26CA" H 8875 4625 50  0000 L CNN
+F 2 "Diode_SMD:D_SMA" H 9050 4400 50  0001 C CNN
+F 3 "~" H 9050 4400 50  0001 C CNN
+F 4 "0.30" H 9050 4400 50  0001 C CNN "Cena"
+F 5 "https://www.tme.eu/pl/details/smaj26ca-tr/diody-transil-smd-dwukierunkowe/stmicroelectronics/smaj26ca/" H 9050 4400 50  0001 C CNN "Link"
+F 6 "26V" H 9050 4400 50  0001 C CNN "Napięcie"
+F 7 "Dioda: transil; 400W; 28,9V; 43A; dwukierunkowa; SMA" H 9050 4400 50  0001 C CNN "Opis"
+F 8 "STM" H 9050 4400 50  0001 C CNN "Producent"
+F 9 "SMD" H 9050 4400 50  0001 C CNN "Typ"
+	1    9050 4400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_TVS_ALT D2
+U 1 1 5E25492A
+P 8700 4400
+F 0 "D2" H 8650 4525 50  0000 L CNN
+F 1 "SMAJ26CA" H 8525 4625 50  0000 L CNN
+F 2 "Diode_SMD:D_SMA" H 8700 4400 50  0001 C CNN
+F 3 "~" H 8700 4400 50  0001 C CNN
+F 4 "0.30" H 8700 4400 50  0001 C CNN "Cena"
+F 5 "https://www.tme.eu/pl/details/smaj26ca-tr/diody-transil-smd-dwukierunkowe/stmicroelectronics/smaj26ca/" H 8700 4400 50  0001 C CNN "Link"
+F 6 "26V" H 8700 4400 50  0001 C CNN "Napięcie"
+F 7 "Dioda: transil; 400W; 28,9V; 43A; dwukierunkowa; SMA" H 8700 4400 50  0001 C CNN "Opis"
+F 8 "STM" H 8700 4400 50  0001 C CNN "Producent"
+F 9 "SMD" H 8700 4400 50  0001 C CNN "Typ"
+	1    8700 4400
+	0    1    1    0   
+$EndComp
+Text Notes 8850 4150 0    50   ~ 0
+ESD
+Wire Notes Line
+	9700 4600 8250 4600
+Wire Notes Line
+	9700 4200 9700 4600
+Wire Notes Line
+	8250 4200 9700 4200
+Wire Wire Line
+	9050 3450 9050 4250
+Wire Wire Line
+	9400 4550 9400 5150
+$Comp
+L power:GND #PWR?
+U 1 1 5E24912B
+P 9400 5150
+AR Path="/5DE588DC/5E24912B" Ref="#PWR?"  Part="1" 
+AR Path="/5DE587B9/5E24912B" Ref="#PWR022"  Part="1" 
+F 0 "#PWR022" H 9400 4900 50  0001 C CNN
+F 1 "GND" H 9405 4977 50  0000 C CNN
+F 2 "" H 9400 5150 50  0001 C CNN
+F 3 "" H 9400 5150 50  0001 C CNN
+	1    9400 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9050 4550 9050 5150
+$Comp
+L power:GND #PWR?
+U 1 1 5E249124
+P 9050 5150
+AR Path="/5DE588DC/5E249124" Ref="#PWR?"  Part="1" 
+AR Path="/5DE587B9/5E249124" Ref="#PWR021"  Part="1" 
+F 0 "#PWR021" H 9050 4900 50  0001 C CNN
+F 1 "GND" H 9055 4977 50  0000 C CNN
+F 2 "" H 9050 5150 50  0001 C CNN
+F 3 "" H 9050 5150 50  0001 C CNN
+	1    9050 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8700 4550 8700 5150
+$Comp
+L power:GND #PWR?
+U 1 1 5E24911D
+P 8700 5150
+AR Path="/5DE588DC/5E24911D" Ref="#PWR?"  Part="1" 
+AR Path="/5DE587B9/5E24911D" Ref="#PWR020"  Part="1" 
+F 0 "#PWR020" H 8700 4900 50  0001 C CNN
+F 1 "GND" H 8705 4977 50  0000 C CNN
+F 2 "" H 8700 5150 50  0001 C CNN
+F 3 "" H 8700 5150 50  0001 C CNN
+	1    8700 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8700 3750 8700 4250
+$Comp
+L Device:D_TVS_ALT D?
+U 1 1 5E1A690F
+P 9900 4400
+F 0 "D?" H 9850 4525 50  0000 L CNN
+F 1 "SMAJ26CA" H 9725 4625 50  0000 L CNN
+F 2 "Diode_SMD:D_SMA" H 9900 4400 50  0001 C CNN
+F 3 "~" H 9900 4400 50  0001 C CNN
+F 4 "0.30" H 9900 4400 50  0001 C CNN "Cena"
+F 5 "https://www.tme.eu/pl/details/smaj26ca-tr/diody-transil-smd-dwukierunkowe/stmicroelectronics/smaj26ca/" H 9900 4400 50  0001 C CNN "Link"
+F 6 "26V" H 9900 4400 50  0001 C CNN "Napięcie"
+F 7 "Dioda: transil; 400W; 28,9V; 43A; dwukierunkowa; SMA" H 9900 4400 50  0001 C CNN "Opis"
+F 8 "STM" H 9900 4400 50  0001 C CNN "Producent"
+F 9 "SMD" H 9900 4400 50  0001 C CNN "Typ"
+	1    9900 4400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_TVS_ALT D?
+U 1 1 5E1A80B9
+P 9900 2750
+F 0 "D?" H 9850 2875 50  0000 L CNN
+F 1 "SMAJ26CA" H 9725 2975 50  0000 L CNN
+F 2 "Diode_SMD:D_SMA" H 9900 2750 50  0001 C CNN
+F 3 "~" H 9900 2750 50  0001 C CNN
+F 4 "0.30" H 9900 2750 50  0001 C CNN "Cena"
+F 5 "https://www.tme.eu/pl/details/smaj26ca-tr/diody-transil-smd-dwukierunkowe/stmicroelectronics/smaj26ca/" H 9900 2750 50  0001 C CNN "Link"
+F 6 "26V" H 9900 2750 50  0001 C CNN "Napięcie"
+F 7 "Dioda: transil; 400W; 28,9V; 43A; dwukierunkowa; SMA" H 9900 2750 50  0001 C CNN "Opis"
+F 8 "STM" H 9900 2750 50  0001 C CNN "Producent"
+F 9 "SMD" H 9900 2750 50  0001 C CNN "Typ"
+	1    9900 2750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9900 2900 9900 3050
+Connection ~ 9900 3050
+Wire Wire Line
+	9900 3050 10000 3050
+Wire Wire Line
+	9900 2600 9750 2600
+Wire Wire Line
+	9750 2600 9750 3200
+Connection ~ 9750 3200
+Wire Wire Line
+	9750 3200 9850 3200
+Wire Wire Line
+	9900 4250 9900 3900
+Connection ~ 9900 3900
+Wire Wire Line
+	9900 3900 10000 3900
+Wire Wire Line
+	9900 4550 9750 4550
+Wire Wire Line
+	9750 4550 9750 3750
+Connection ~ 9750 3750
+Wire Wire Line
+	9750 3750 9850 3750
 $EndSCHEMATC
