@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source "D:\\DTG\\PCB\\P600-Main-Board\\Main Board.sch")
-    (date "11.01.2020 17:57:38")
+    (date "11.01.2020 18:02:20")
     (tool "Eeschema (5.1.5)-3")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -565,6 +565,7 @@
       (tstamp 5E249179))
     (comp (ref R1)
       (value 0Ω)
+      (footprint Resistor_SMD:R_0603_1608Metric)
       (datasheet ~)
       (libsource (lib Device) (part R) (description Resistor))
       (sheetpath (names "/Y Axis Motor Driver/") (tstamps /5DE587B9/))
