@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Library:SHTC3 U11
+L Library:SHTC3 U12
 U 1 1 5E1916D2
 P 3250 2450
-F 0 "U11" H 3000 2700 50  0000 L CNN
+F 0 "U12" H 3000 2700 50  0000 L CNN
 F 1 "SHTC3" H 3250 2700 50  0000 L CNN
 F 2 "footprints:DFN-4-1EP_2x2mm_P1mm_EP0.7x1.6mm" H 3050 2200 50  0001 C CNN
 F 3 "" H 3050 2200 50  0001 C CNN
@@ -31,10 +31,10 @@ F 9 "SMD" H 3250 2450 50  0001 C CNN "Typ"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C79
+L Device:C C83
 U 1 1 5E15E1F1
 P 3900 2450
-F 0 "C79" H 4015 2496 50  0000 L CNN
+F 0 "C83" H 4015 2496 50  0000 L CNN
 F 1 "0.1uF" H 4015 2405 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 3938 2300 50  0001 C CNN
 F 3 "~" H 3900 2450 50  0001 C CNN
@@ -93,8 +93,6 @@ Wire Wire Line
 Connection ~ 3900 2650
 Wire Wire Line
 	2850 2400 2600 2400
-Wire Wire Line
-	2850 2500 2250 2500
 Text GLabel 2100 2400 0    50   Input ~ 0
 I2C_SCL
 Text GLabel 2100 2500 0    50   BiDi ~ 0
@@ -105,8 +103,8 @@ U 1 1 5E1C6F9E
 P 2600 2100
 AR Path="/5E91D7CC/5E1C6F9E" Ref="R?"  Part="1" 
 AR Path="/5E91D96F/5E1C6F9E" Ref="R?"  Part="1" 
-AR Path="/5E1B3A8F/5E1C6F9E" Ref="R98"  Part="1" 
-F 0 "R98" H 2670 2146 50  0000 L CNN
+AR Path="/5E1B3A8F/5E1C6F9E" Ref="R109"  Part="1" 
+F 0 "R109" H 2670 2146 50  0000 L CNN
 F 1 "2.2kΩ" H 2670 2055 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 2530 2100 50  0001 C CNN
 F 3 "~" H 2600 2100 50  0001 C CNN
@@ -121,8 +119,8 @@ U 1 1 5E1C6FA4
 P 2250 2100
 AR Path="/5E91D7CC/5E1C6FA4" Ref="R?"  Part="1" 
 AR Path="/5E91D96F/5E1C6FA4" Ref="R?"  Part="1" 
-AR Path="/5E1B3A8F/5E1C6FA4" Ref="R97"  Part="1" 
-F 0 "R97" H 2320 2146 50  0000 L CNN
+AR Path="/5E1B3A8F/5E1C6FA4" Ref="R107"  Part="1" 
+F 0 "R107" H 2320 2146 50  0000 L CNN
 F 1 "2.2kΩ" H 2320 2055 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 2180 2100 50  0001 C CNN
 F 3 "~" H 2250 2100 50  0001 C CNN
@@ -140,7 +138,6 @@ Wire Wire Line
 Wire Wire Line
 	2250 1750 2250 1950
 Connection ~ 2600 1750
-Connection ~ 2250 2500
 Wire Wire Line
 	2250 2500 2100 2500
 Wire Wire Line
@@ -153,4 +150,251 @@ Wire Wire Line
 Connection ~ 3900 1750
 Wire Wire Line
 	3900 1750 3900 2250
+Wire Wire Line
+	6050 1850 6050 1900
+Wire Wire Line
+	6850 1650 6850 1700
+Wire Wire Line
+	6850 1650 7350 1650
+Connection ~ 6850 1650
+Wire Wire Line
+	6850 1600 6850 1650
+Wire Wire Line
+	6850 1250 6850 1300
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5E1CAE31
+P 6850 1250
+AR Path="/5DFB2EC0/5E1CAE31" Ref="#PWR?"  Part="1" 
+AR Path="/5E1B3A8F/5E1CAE31" Ref="#PWR0220"  Part="1" 
+F 0 "#PWR0220" H 6850 1100 50  0001 C CNN
+F 1 "+3.3V" H 6865 1423 50  0000 C CNN
+F 2 "" H 6850 1250 50  0001 C CNN
+F 3 "" H 6850 1250 50  0001 C CNN
+	1    6850 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 1900 6150 1900
+Wire Wire Line
+	6850 2100 6850 2150
+$Comp
+L power:GND #PWR?
+U 1 1 5E1CAE3F
+P 6850 2150
+AR Path="/5DFB2EC0/5E1CAE3F" Ref="#PWR?"  Part="1" 
+AR Path="/5E1B3A8F/5E1CAE3F" Ref="#PWR0221"  Part="1" 
+F 0 "#PWR0221" H 6850 1900 50  0001 C CNN
+F 1 "GND" H 6855 1977 50  0000 C CNN
+F 2 "" H 6850 2150 50  0001 C CNN
+F 3 "" H 6850 2150 50  0001 C CNN
+	1    6850 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6450 1900 6550 1900
+$Comp
+L Device:R R?
+U 1 1 5E1CAE4C
+P 6850 1450
+AR Path="/5E1018C2/5E1CAE4C" Ref="R?"  Part="1" 
+AR Path="/5DFB2EC0/5E1CAE4C" Ref="R?"  Part="1" 
+AR Path="/5E1B3A8F/5E1CAE4C" Ref="R112"  Part="1" 
+F 0 "R112" H 6920 1496 50  0000 L CNN
+F 1 "47kΩ" H 6920 1405 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6780 1450 50  0001 C CNN
+F 3 "~" H 6850 1450 50  0001 C CNN
+F 4 "" H 6850 1450 50  0001 C CNN "Cena"
+F 5 "" H 6850 1450 50  0001 C CNN "Link"
+F 6 "" H 6850 1450 50  0001 C CNN "Model"
+F 7 "" H 6850 1450 50  0001 C CNN "Opis"
+F 8 "" H 6850 1450 50  0001 C CNN "Producent"
+F 9 "SMD" H 6850 1450 50  0001 C CNN "Typ"
+	1    6850 1450
+	-1   0    0    1   
+$EndComp
+Text GLabel 7350 1650 2    50   Output ~ 0
+5V_DETECT
+$Comp
+L Transistor_FET:2N7002K Q?
+U 1 1 5E1DC73E
+P 6750 1900
+AR Path="/5E07245F/5E1DC73E" Ref="Q?"  Part="1" 
+AR Path="/5E858220/5E1DC73E" Ref="Q?"  Part="1" 
+AR Path="/5E1B3A8F/5E1DC73E" Ref="Q20"  Part="1" 
+F 0 "Q20" H 6450 1800 50  0000 L CNN
+F 1 "2N7002K" H 6450 1700 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6950 1825 50  0001 L CIN
+F 3 "https://www.diodes.com/assets/Datasheets/ds30896.pdf" H 6750 1900 50  0001 L CNN
+F 4 "0.08831" H 6750 1900 50  0001 C CNN "Cena"
+F 5 "https://www.tme.eu/pl/details/2n7002kt1g/tranzystory-z-kanalem-n-smd/on-semiconductor/" H 6750 1900 50  0001 C CNN "Link"
+F 6 "2N7002KT1G" H 6750 1900 50  0001 C CNN "Model"
+F 7 "Tranzystor: N-MOSFET ESD Protected; unipolarny; 60V; 0,38A; 0,42W; SOT23-3" H 6750 1900 50  0001 C CNN "Opis"
+F 8 "ON SEMICONDUCTOR" H 6750 1900 50  0001 C CNN "Producent"
+F 9 "SMD" H 6750 1900 50  0001 C CNN "Typ"
+	1    6750 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E1DC744
+P 6300 1900
+AR Path="/5E07245F/5E1DC744" Ref="R?"  Part="1" 
+AR Path="/5E858220/5E1DC744" Ref="R?"  Part="1" 
+AR Path="/5E1B3A8F/5E1DC744" Ref="R110"  Part="1" 
+F 0 "R110" V 6507 1900 50  0000 C CNN
+F 1 "100Ω" V 6416 1900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6230 1900 50  0001 C CNN
+F 3 "~" H 6300 1900 50  0001 C CNN
+	1    6300 1900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6050 3300 6050 3350
+Wire Wire Line
+	6850 3100 6850 3150
+Wire Wire Line
+	6850 3100 7350 3100
+Connection ~ 6850 3100
+Wire Wire Line
+	6850 3050 6850 3100
+Wire Wire Line
+	6850 2700 6850 2750
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5E1DEF2F
+P 6850 2700
+AR Path="/5DFB2EC0/5E1DEF2F" Ref="#PWR?"  Part="1" 
+AR Path="/5E1B3A8F/5E1DEF2F" Ref="#PWR0222"  Part="1" 
+F 0 "#PWR0222" H 6850 2550 50  0001 C CNN
+F 1 "+3.3V" H 6865 2873 50  0000 C CNN
+F 2 "" H 6850 2700 50  0001 C CNN
+F 3 "" H 6850 2700 50  0001 C CNN
+	1    6850 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 3350 6150 3350
+Wire Wire Line
+	6850 3550 6850 3600
+$Comp
+L power:GND #PWR?
+U 1 1 5E1DEF45
+P 6850 3600
+AR Path="/5DFB2EC0/5E1DEF45" Ref="#PWR?"  Part="1" 
+AR Path="/5E1B3A8F/5E1DEF45" Ref="#PWR0223"  Part="1" 
+F 0 "#PWR0223" H 6850 3350 50  0001 C CNN
+F 1 "GND" H 6855 3427 50  0000 C CNN
+F 2 "" H 6850 3600 50  0001 C CNN
+F 3 "" H 6850 3600 50  0001 C CNN
+	1    6850 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6450 3350 6550 3350
+$Comp
+L Device:R R?
+U 1 1 5E1DEF56
+P 6850 2900
+AR Path="/5E1018C2/5E1DEF56" Ref="R?"  Part="1" 
+AR Path="/5DFB2EC0/5E1DEF56" Ref="R?"  Part="1" 
+AR Path="/5E1B3A8F/5E1DEF56" Ref="R113"  Part="1" 
+F 0 "R113" H 6920 2946 50  0000 L CNN
+F 1 "47kΩ" H 6920 2855 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6780 2900 50  0001 C CNN
+F 3 "~" H 6850 2900 50  0001 C CNN
+F 4 "" H 6850 2900 50  0001 C CNN "Cena"
+F 5 "" H 6850 2900 50  0001 C CNN "Link"
+F 6 "" H 6850 2900 50  0001 C CNN "Model"
+F 7 "" H 6850 2900 50  0001 C CNN "Opis"
+F 8 "" H 6850 2900 50  0001 C CNN "Producent"
+F 9 "SMD" H 6850 2900 50  0001 C CNN "Typ"
+	1    6850 2900
+	-1   0    0    1   
+$EndComp
+Text GLabel 7350 3100 2    50   Output ~ 0
+12V_DETECT
+$Comp
+L Transistor_FET:2N7002K Q?
+U 1 1 5E1DEF67
+P 6750 3350
+AR Path="/5E07245F/5E1DEF67" Ref="Q?"  Part="1" 
+AR Path="/5E858220/5E1DEF67" Ref="Q?"  Part="1" 
+AR Path="/5E1B3A8F/5E1DEF67" Ref="Q21"  Part="1" 
+F 0 "Q21" H 6450 3250 50  0000 L CNN
+F 1 "2N7002K" H 6450 3150 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6950 3275 50  0001 L CIN
+F 3 "https://www.diodes.com/assets/Datasheets/ds30896.pdf" H 6750 3350 50  0001 L CNN
+F 4 "0.08831" H 6750 3350 50  0001 C CNN "Cena"
+F 5 "https://www.tme.eu/pl/details/2n7002kt1g/tranzystory-z-kanalem-n-smd/on-semiconductor/" H 6750 3350 50  0001 C CNN "Link"
+F 6 "2N7002KT1G" H 6750 3350 50  0001 C CNN "Model"
+F 7 "Tranzystor: N-MOSFET ESD Protected; unipolarny; 60V; 0,38A; 0,42W; SOT23-3" H 6750 3350 50  0001 C CNN "Opis"
+F 8 "ON SEMICONDUCTOR" H 6750 3350 50  0001 C CNN "Producent"
+F 9 "SMD" H 6750 3350 50  0001 C CNN "Typ"
+	1    6750 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E1DEF71
+P 6300 3350
+AR Path="/5E07245F/5E1DEF71" Ref="R?"  Part="1" 
+AR Path="/5E858220/5E1DEF71" Ref="R?"  Part="1" 
+AR Path="/5E1B3A8F/5E1DEF71" Ref="R111"  Part="1" 
+F 0 "R111" V 6507 3350 50  0000 C CNN
+F 1 "100Ω" V 6416 3350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6230 3350 50  0001 C CNN
+F 3 "~" H 6300 3350 50  0001 C CNN
+	1    6300 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E48B894
+P 2500 2500
+AR Path="/5E07245F/5E48B894" Ref="R?"  Part="1" 
+AR Path="/5E858220/5E48B894" Ref="R?"  Part="1" 
+AR Path="/5E1B3A8F/5E48B894" Ref="R108"  Part="1" 
+F 0 "R108" V 2400 2600 50  0000 C CNN
+F 1 "0Ω" V 2400 2350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2430 2500 50  0001 C CNN
+F 3 "~" H 2500 2500 50  0001 C CNN
+F 4 "0.04651" H 2500 2500 50  0001 C CNN "Cena"
+F 5 "SMD" H 2500 2500 50  0001 C CNN "Typ"
+	1    2500 2500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2650 2500 2850 2500
+Wire Wire Line
+	2350 2500 2250 2500
+Connection ~ 2250 2500
+$Comp
+L power:+5V #PWR0218
+U 1 1 5E509315
+P 6050 1850
+F 0 "#PWR0218" H 6050 1700 50  0001 C CNN
+F 1 "+5V" H 6065 2023 50  0000 C CNN
+F 2 "" H 6050 1850 50  0001 C CNN
+F 3 "" H 6050 1850 50  0001 C CNN
+	1    6050 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR0219
+U 1 1 5E509AAF
+P 6050 3300
+F 0 "#PWR0219" H 6050 3150 50  0001 C CNN
+F 1 "+12V" H 6065 3473 50  0000 C CNN
+F 2 "" H 6050 3300 50  0001 C CNN
+F 3 "" H 6050 3300 50  0001 C CNN
+	1    6050 3300
+	1    0    0    -1  
+$EndComp
+Text Notes 6100 950  0    50   ~ 0
+Wykrycie napięć z przetwornic 5V i 12V
+Text Notes 2350 1400 0    50   ~ 0
+Czujnik wilgotności i temperatury
+Text Notes 1700 2950 0    50   ~ 0
+Rezystor do odłączenia układy gdy chcielibyśmy\npodłączyć taki sam na zewnętrznych I2C.\nI2C z wyjściem jest dzielone z tym czujnikiem
 $EndSCHEMATC
