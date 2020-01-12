@@ -193,4 +193,26 @@ Text Notes 9300 2850 0    50   ~ 0
 Fiducials
 Text Notes 2750 5000 0    50   ~ 0
 Generowanie BOM:\nxsltproc -o "X:/DTG/PCB/P600-Main-Board/GrupedBOMRaw.csv" "C:\Program Files\KiCad\bin\scripting\plugins\bom2grouped_csv.xsl" "X:\DTG\PCB\P600-Main-Board\Main Board.xml"
+$Comp
+L Mechanical:Fiducial FID5
+U 1 1 5E310D94
+P 8650 3300
+F 0 "FID5" H 8735 3346 50  0000 L CNN
+F 1 "Fiducial" H 8735 3255 50  0000 L CNN
+F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 8650 3300 50  0001 C CNN
+F 3 "~" H 8650 3300 50  0001 C CNN
+	1    8650 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID6
+U 1 1 5E3112BF
+P 9150 3300
+F 0 "FID6" H 9235 3346 50  0000 L CNN
+F 1 "Fiducial" H 9235 3255 50  0000 L CNN
+F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 9150 3300 50  0001 C CNN
+F 3 "~" H 9150 3300 50  0001 C CNN
+	1    9150 3300
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
