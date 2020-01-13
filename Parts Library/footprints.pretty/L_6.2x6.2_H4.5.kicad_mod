@@ -1,4 +1,4 @@
-(module L_6.2x6.2_H4.5 (layer F.Cu) (tedit 5E15A5C5)
+(module L_6.2x6.2_H4.5 (layer F.Cu) (tedit 5E1C334F)
   (descr "Choke, SMD, 6.2x6.2mm 4.5mm height")
   (tags "Choke SMD")
   (attr smd)
@@ -23,9 +23,9 @@
   )
   (pad 2 smd rect (at 2.35 0) (size 1.6 5.7) (layers F.Cu F.Paste F.Mask))
   (pad 1 smd rect (at -2.35 0) (size 1.6 5.7) (layers F.Cu F.Paste F.Mask))
-  (model ${KISYS3DMOD}/Inductor_SMD.3dshapes/L_6.3x6.3_H3.wrl
+  (model "${KIPRJMOD}/Parts Library/packages3d/Inductor_SMD/DJNR6045.stp"
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
+    (rotate (xyz -90 0 0))
   )
 )
