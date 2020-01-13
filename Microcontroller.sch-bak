@@ -19,7 +19,7 @@ U 1 1 5DFC2DAF
 P 1300 3100
 F 0 "Y1" H 1300 3325 50  0000 C CNN
 F 1 "8MHz" H 1300 3234 50  0000 C CNN
-F 2 "Crystal:Crystal_HC49-U_Vertical" H 1300 3100 50  0001 C CNN
+F 2 "Crystal:Crystal_HC49-4H_Vertical" H 1300 3100 50  0001 C CNN
 F 3 "~" H 1300 3100 50  0001 C CNN
 F 4 "1.6356" H 1300 3100 50  0001 C CNN "Cena"
 F 5 "https://www.tme.eu/pl/details/8m-49s-sr/rezonatory-kwarcowe-tht/sr-passives/" H 1300 3100 50  0001 C CNN "Link"
@@ -950,14 +950,14 @@ U 1 1 5E16DD76
 P 8500 3200
 F 0 "J4" H 8550 2900 50  0000 C CNN
 F 1 "SWD" H 8550 3000 50  0000 C CNN
-F 2 "Connector_IDC:IDC-Header_2x03_P2.54mm_Vertical" H 8500 3200 50  0001 C CNN
+F 2 "Connector:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical" H 8500 3200 50  0001 C CNN
 F 3 "~" H 8500 3200 50  0001 C CNN
-F 4 "1.5839" H 8500 3200 50  0001 C CNN "Cena"
-F 5 "https://www.tme.eu/pl/details/t821-1-06-s1/zlacza-idc/amphenol/t821106a1s100ceu/" H 8500 3200 50  0001 C CNN "Link"
-F 6 "T821106A1S100CEU" H 8500 3200 50  0001 C CNN "Model"
-F 7 "Gniazdo; IDC; męskie; PIN: 6; proste; THT; złocony; 2,54mm; Układ: 2x3" H 8500 3200 50  0001 C CNN "Opis"
-F 8 "AMPHENOL" H 8500 3200 50  0001 C CNN "Producent"
-F 9 "THT" H 8500 3200 50  0001 C CNN "Typ"
+F 4 "" H 8500 3200 50  0001 C CNN "Cena"
+F 5 "" H 8500 3200 50  0001 C CNN "Link"
+F 6 "" H 8500 3200 50  0001 C CNN "Model"
+F 7 "" H 8500 3200 50  0001 C CNN "Opis"
+F 8 "" H 8500 3200 50  0001 C CNN "Producent"
+F 9 "" H 8500 3200 50  0001 C CNN "Typ"
 	1    8500 3200
 	1    0    0    -1  
 $EndComp
