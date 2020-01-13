@@ -844,11 +844,11 @@ F 0 "J3" H 7657 2167 50  0000 C CNN
 F 1 "USB_B" H 7657 2076 50  0000 C CNN
 F 2 "Connector_USB:USB_B_TE_5787834_Vertical" H 7750 1650 50  0001 C CNN
 F 3 " ~" H 7750 1650 50  0001 C CNN
-F 4 "2.9560" H 7600 1700 50  0001 C CNN "Cena"
-F 5 "https://www.tme.eu/pl/details/2411-02/zlacza-usb-i-ieee1394/lumberg/2411-02/" H 7600 1700 50  0001 C CNN "Link"
-F 6 "2411 02" H 7600 1700 50  0001 C CNN "Model"
-F 7 "Gniazdo; USB B; na PCB; THT; PIN: 4; kątowe 90°; V: USB 2.0; biały" H 7600 1700 50  0001 C CNN "Opis"
-F 8 "LUMBERG" H 7600 1700 50  0001 C CNN "Producent"
+F 4 "2.73" H 7600 1700 50  0001 C CNN "Cena"
+F 5 "https://pl.farnell.com/multicomp/mc32597/usb-2-0-type-b-receptacle-th/dp/1696538?MER=sy-me-pd-mi-alte" H 7600 1700 50  0001 C CNN "Link"
+F 6 "MC32597" H 7600 1700 50  0001 C CNN "Model"
+F 7 "Złącze USB, USB typu B, USB 2.0, Gniazdo, 4 tory/-ów, Montaż przewlekany, Pionowe " H 7600 1700 50  0001 C CNN "Opis"
+F 8 "MULTICOMP PRO" H 7600 1700 50  0001 C CNN "Producent"
 F 9 "THT" H 7600 1700 50  0001 C CNN "Typ"
 	1    7600 1700
 	1    0    0    -1  
