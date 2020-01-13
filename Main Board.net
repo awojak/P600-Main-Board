@@ -1,7 +1,7 @@
 (export (version D)
   (design
-    (source "D:\\DTG\\PCB\\P600-Main-Board\\Main Board.sch")
-    (date "12.01.2020 19:18:02")
+    (source "X:\\DTG\\PCB\\P600-Main-Board\\Main Board.sch")
+    (date "2020-01-13 10:10:42")
     (tool "Eeschema (5.1.5)-3")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -1133,7 +1133,7 @@
       (tstamp 5E1E67A1))
     (comp (ref Y1)
       (value 8MHz)
-      (footprint Crystal:Crystal_HC49-U_Vertical)
+      (footprint Crystal:Crystal_HC49-4H_Vertical)
       (datasheet ~)
       (fields
         (field (name Cena) 1.6356)
@@ -5550,7 +5550,7 @@
     (library (logical Device)
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/Device.lib"))
     (library (logical Library)
-      (uri "D:\\DTG\\PCB\\P600-Main-Board/Parts Library/Library.lib"))
+      (uri "X:\\DTG\\PCB\\P600-Main-Board/Parts Library/Library.lib"))
     (library (logical MCU_ST_STM32F4)
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/MCU_ST_STM32F4.lib"))
     (library (logical Mechanical)

@@ -19,7 +19,7 @@ U 1 1 5DFC2DAF
 P 1300 3100
 F 0 "Y1" H 1300 3325 50  0000 C CNN
 F 1 "8MHz" H 1300 3234 50  0000 C CNN
-F 2 "Crystal:Crystal_HC49-U_Vertical" H 1300 3100 50  0001 C CNN
+F 2 "Crystal:Crystal_HC49-4H_Vertical" H 1300 3100 50  0001 C CNN
 F 3 "~" H 1300 3100 50  0001 C CNN
 F 4 "1.6356" H 1300 3100 50  0001 C CNN "Cena"
 F 5 "https://www.tme.eu/pl/details/8m-49s-sr/rezonatory-kwarcowe-tht/sr-passives/" H 1300 3100 50  0001 C CNN "Link"
