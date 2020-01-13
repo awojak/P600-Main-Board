@@ -842,7 +842,7 @@ U 1 1 5E13B7DC
 P 7600 1700
 F 0 "J3" H 7657 2167 50  0000 C CNN
 F 1 "USB_B" H 7657 2076 50  0000 C CNN
-F 2 "Connector_USB:USB_B_OST_USB-B1HSxx_Horizontal" H 7750 1650 50  0001 C CNN
+F 2 "Connector_USB:USB_B_TE_5787834_Vertical" H 7750 1650 50  0001 C CNN
 F 3 " ~" H 7750 1650 50  0001 C CNN
 F 4 "2.9560" H 7600 1700 50  0001 C CNN "Cena"
 F 5 "https://www.tme.eu/pl/details/2411-02/zlacza-usb-i-ieee1394/lumberg/2411-02/" H 7600 1700 50  0001 C CNN "Link"

@@ -1,7 +1,7 @@
 (export (version D)
   (design
-    (source "X:\\DTG\\PCB\\P600-Main-Board\\Main Board.sch")
-    (date "2020-01-13 11:43:49")
+    (source "D:\\DTG\\PCB\\P600-Main-Board\\Main Board.sch")
+    (date "13.01.2020 21:49:58")
     (tool "Eeschema (5.1.5)-3")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -1377,7 +1377,7 @@
       (tstamp 5DFD088E))
     (comp (ref J3)
       (value USB_B)
-      (footprint Connector_USB:USB_B_OST_USB-B1HSxx_Horizontal)
+      (footprint Connector_USB:USB_B_TE_5787834_Vertical)
       (datasheet " ~")
       (fields
         (field (name Cena) 2.9560)
@@ -5543,7 +5543,7 @@
     (library (logical Device)
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/Device.lib"))
     (library (logical Library)
-      (uri "X:\\DTG\\PCB\\P600-Main-Board/Parts Library/Library.lib"))
+      (uri "D:\\DTG\\PCB\\P600-Main-Board/Parts Library/Library.lib"))
     (library (logical MCU_ST_STM32F4)
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/MCU_ST_STM32F4.lib"))
     (library (logical Mechanical)
