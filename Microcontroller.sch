@@ -1297,12 +1297,7 @@ sprawdzić VBAT
 Text GLabel 5000 3550 2    50   Output ~ 0
 SWO
 Wire Wire Line
-	4650 3550 5000 3550
-NoConn ~ 4650 3050
-Text Notes 4700 3075 0    50   ~ 0
-ENC2_A
-Text Notes 5225 3575 0    50   ~ 0
-ENC2_B
+	4650 3550 4900 3550
 Wire Wire Line
 	2750 2050 2750 2250
 Text Label 8050 1700 0    50   ~ 0
@@ -1377,4 +1372,19 @@ F 3 "~" H 8150 5400 50  0001 C CNN
 	1    8150 5400
 	0    1    1    0   
 $EndComp
+Text GLabel 5000 3050 2    50   Input ~ 0
+ENC2_A
+Text GLabel 5300 3450 2    50   Input ~ 0
+ENC2_B
+Wire Wire Line
+	4650 3050 5000 3050
+Wire Wire Line
+	4900 3550 4900 3450
+Wire Wire Line
+	4900 3450 5300 3450
+Connection ~ 4900 3550
+Wire Wire Line
+	4900 3550 5000 3550
+Text Notes 5700 3500 0    50   ~ 0
+ENC2_B and SWO share pin, be careful
 $EndSCHEMATC

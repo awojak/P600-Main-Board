@@ -1492,4 +1492,260 @@ Text Notes 2350 4150 0    50   ~ 0
 Wyjście SPI do modułu\nkomunikacji z użytkownikiem
 Text Notes 5850 900  0    50   ~ 0
 Wyjście OD dla opcjonalnych LED
+$Comp
+L Connector:Conn_01x03_Male J?
+U 1 1 5E210B67
+P 5350 4750
+AR Path="/5E07245F/5E210B67" Ref="J?"  Part="1" 
+AR Path="/5E858220/5E210B67" Ref="J?"  Part="1" 
+AR Path="/5E91D96F/5E210B67" Ref="J43"  Part="1" 
+F 0 "J43" H 5322 4774 50  0000 R CNN
+F 1 "Encoder" H 5322 4683 50  0000 R CNN
+F 2 "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical" H 5350 4750 50  0001 C CNN
+F 3 "~" H 5350 4750 50  0001 C CNN
+F 4 "0.59599" H 5350 4750 50  0001 C CNN "Cena"
+F 5 "https://www.tme.eu/pl/details/b3b-ph-k-s/zlacza-sygnalowe-raster-2-00mm/jst/" H 5350 4750 50  0001 C CNN "Link"
+F 6 "B3B-PH-K-S" H 5350 4750 50  0001 C CNN "Model"
+F 7 "Gniazdo; przewód-płytka; męskie; PH; 2mm; PIN: 3; THT; 100V; 2A" H 5350 4750 50  0001 C CNN "Opis"
+F 8 "JST" H 5350 4750 50  0001 C CNN "Producent"
+F 9 "THT" H 5350 4750 50  0001 C CNN "Typ"
+	1    5350 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E21ACB4
+P 5700 5250
+AR Path="/5E07245F/5E21ACB4" Ref="#PWR?"  Part="1" 
+AR Path="/5E858220/5E21ACB4" Ref="#PWR?"  Part="1" 
+AR Path="/5E91D96F/5E21ACB4" Ref="#PWR0216"  Part="1" 
+F 0 "#PWR0216" H 5700 5000 50  0001 C CNN
+F 1 "GND" H 5705 5077 50  0000 C CNN
+F 2 "" H 5700 5250 50  0001 C CNN
+F 3 "" H 5700 5250 50  0001 C CNN
+	1    5700 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 4750 5700 4750
+Wire Wire Line
+	5700 4750 5700 5250
+$Comp
+L Device:R R?
+U 1 1 5E2307E2
+P 5800 4350
+AR Path="/5E07245F/5E2307E2" Ref="R?"  Part="1" 
+AR Path="/5E858220/5E2307E2" Ref="R?"  Part="1" 
+AR Path="/5E91D96F/5E2307E2" Ref="R117"  Part="1" 
+F 0 "R117" H 6050 4300 50  0000 R CNN
+F 1 "10kΩ" H 6050 4400 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5730 4350 50  0001 C CNN
+F 3 "~" H 5800 4350 50  0001 C CNN
+F 4 "0.03622" H 5800 4350 50  0001 C CNN "Cena"
+F 5 "https://www.tme.eu/pl/details/smd0603-10k-1%25/rezystory-smd-0603/royal-ohm/0603saf1002t5e/" H 5800 4350 50  0001 C CNN "Link"
+F 6 "0603SAF1002T5E" H 5800 4350 50  0001 C CNN "Model"
+F 7 "Rezystor: thick film; SMD; 0603; 10kΩ; 0,1W; ±1%; -55÷155°C" H 5800 4350 50  0001 C CNN "Opis"
+F 8 "ROYAL OHM" H 5800 4350 50  0001 C CNN "Producent"
+F 9 "SMD" H 5800 4350 50  0001 C CNN "Typ"
+	1    5800 4350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E2310A5
+P 6200 4350
+AR Path="/5E07245F/5E2310A5" Ref="R?"  Part="1" 
+AR Path="/5E858220/5E2310A5" Ref="R?"  Part="1" 
+AR Path="/5E91D96F/5E2310A5" Ref="R118"  Part="1" 
+F 0 "R118" H 6450 4300 50  0000 R CNN
+F 1 "10kΩ" H 6450 4400 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6130 4350 50  0001 C CNN
+F 3 "~" H 6200 4350 50  0001 C CNN
+F 4 "0.03622" H 6200 4350 50  0001 C CNN "Cena"
+F 5 "https://www.tme.eu/pl/details/smd0603-10k-1%25/rezystory-smd-0603/royal-ohm/0603saf1002t5e/" H 6200 4350 50  0001 C CNN "Link"
+F 6 "0603SAF1002T5E" H 6200 4350 50  0001 C CNN "Model"
+F 7 "Rezystor: thick film; SMD; 0603; 10kΩ; 0,1W; ±1%; -55÷155°C" H 6200 4350 50  0001 C CNN "Opis"
+F 8 "ROYAL OHM" H 6200 4350 50  0001 C CNN "Producent"
+F 9 "SMD" H 6200 4350 50  0001 C CNN "Typ"
+	1    6200 4350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E2369CD
+P 6500 4650
+AR Path="/5E07245F/5E2369CD" Ref="R?"  Part="1" 
+AR Path="/5E858220/5E2369CD" Ref="R?"  Part="1" 
+AR Path="/5E91D96F/5E2369CD" Ref="R119"  Part="1" 
+F 0 "R119" V 6300 4700 50  0000 R CNN
+F 1 "10kΩ" V 6400 4750 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6430 4650 50  0001 C CNN
+F 3 "~" H 6500 4650 50  0001 C CNN
+F 4 "0.03622" H 6500 4650 50  0001 C CNN "Cena"
+F 5 "https://www.tme.eu/pl/details/smd0603-10k-1%25/rezystory-smd-0603/royal-ohm/0603saf1002t5e/" H 6500 4650 50  0001 C CNN "Link"
+F 6 "0603SAF1002T5E" H 6500 4650 50  0001 C CNN "Model"
+F 7 "Rezystor: thick film; SMD; 0603; 10kΩ; 0,1W; ±1%; -55÷155°C" H 6500 4650 50  0001 C CNN "Opis"
+F 8 "ROYAL OHM" H 6500 4650 50  0001 C CNN "Producent"
+F 9 "SMD" H 6500 4650 50  0001 C CNN "Typ"
+	1    6500 4650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E237E7A
+P 6500 4850
+AR Path="/5E07245F/5E237E7A" Ref="R?"  Part="1" 
+AR Path="/5E858220/5E237E7A" Ref="R?"  Part="1" 
+AR Path="/5E91D96F/5E237E7A" Ref="R120"  Part="1" 
+F 0 "R120" V 6700 4900 50  0000 R CNN
+F 1 "10kΩ" V 6600 4950 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6430 4850 50  0001 C CNN
+F 3 "~" H 6500 4850 50  0001 C CNN
+F 4 "0.03622" H 6500 4850 50  0001 C CNN "Cena"
+F 5 "https://www.tme.eu/pl/details/smd0603-10k-1%25/rezystory-smd-0603/royal-ohm/0603saf1002t5e/" H 6500 4850 50  0001 C CNN "Link"
+F 6 "0603SAF1002T5E" H 6500 4850 50  0001 C CNN "Model"
+F 7 "Rezystor: thick film; SMD; 0603; 10kΩ; 0,1W; ±1%; -55÷155°C" H 6500 4850 50  0001 C CNN "Opis"
+F 8 "ROYAL OHM" H 6500 4850 50  0001 C CNN "Producent"
+F 9 "SMD" H 6500 4850 50  0001 C CNN "Typ"
+	1    6500 4850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5550 4850 6200 4850
+Wire Wire Line
+	5550 4650 5800 4650
+Wire Wire Line
+	5800 4500 5800 4650
+Connection ~ 5800 4650
+Wire Wire Line
+	5800 4650 6350 4650
+Wire Wire Line
+	6200 4500 6200 4850
+Connection ~ 6200 4850
+Wire Wire Line
+	6200 4850 6350 4850
+$Comp
+L power:+5V #PWR?
+U 1 1 5E24EEA4
+P 5800 4100
+AR Path="/5E07245F/5E24EEA4" Ref="#PWR?"  Part="1" 
+AR Path="/5E858220/5E24EEA4" Ref="#PWR?"  Part="1" 
+AR Path="/5E91D96F/5E24EEA4" Ref="#PWR0217"  Part="1" 
+F 0 "#PWR0217" H 5800 3950 50  0001 C CNN
+F 1 "+5V" H 5815 4273 50  0000 C CNN
+F 2 "" H 5800 4100 50  0001 C CNN
+F 3 "" H 5800 4100 50  0001 C CNN
+	1    5800 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5E24F365
+P 6200 4100
+AR Path="/5E07245F/5E24F365" Ref="#PWR?"  Part="1" 
+AR Path="/5E858220/5E24F365" Ref="#PWR?"  Part="1" 
+AR Path="/5E91D96F/5E24F365" Ref="#PWR0218"  Part="1" 
+F 0 "#PWR0218" H 6200 3950 50  0001 C CNN
+F 1 "+5V" H 6215 4273 50  0000 C CNN
+F 2 "" H 6200 4100 50  0001 C CNN
+F 3 "" H 6200 4100 50  0001 C CNN
+	1    6200 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 4100 5800 4200
+Wire Wire Line
+	6200 4100 6200 4200
+$Comp
+L Device:C C?
+U 1 1 5E26DDF1
+P 7250 5050
+AR Path="/5E07245F/5E26DDF1" Ref="C?"  Part="1" 
+AR Path="/5E858220/5E26DDF1" Ref="C?"  Part="1" 
+AR Path="/5E91D96F/5E26DDF1" Ref="C86"  Part="1" 
+F 0 "C86" H 7365 5096 50  0000 L CNN
+F 1 "0.01uF" H 7365 5005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7288 4900 50  0001 C CNN
+F 3 "~" H 7250 5050 50  0001 C CNN
+F 4 "0.05563" H 7250 5050 50  0001 C CNN "Cena"
+F 5 "" H 7250 5050 50  0001 C CNN "Link"
+F 6 "" H 7250 5050 50  0001 C CNN "Model"
+F 7 "" H 7250 5050 50  0001 C CNN "Opis"
+F 8 "" H 7250 5050 50  0001 C CNN "Producent"
+F 9 "SMD" H 7250 5050 50  0001 C CNN "Typ"
+	1    7250 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5E26E257
+P 6800 5050
+AR Path="/5E07245F/5E26E257" Ref="C?"  Part="1" 
+AR Path="/5E858220/5E26E257" Ref="C?"  Part="1" 
+AR Path="/5E91D96F/5E26E257" Ref="C85"  Part="1" 
+F 0 "C85" H 6915 5096 50  0000 L CNN
+F 1 "0.01uF" H 6915 5005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6838 4900 50  0001 C CNN
+F 3 "~" H 6800 5050 50  0001 C CNN
+F 4 "0.05563" H 6800 5050 50  0001 C CNN "Cena"
+F 5 "" H 6800 5050 50  0001 C CNN "Link"
+F 6 "" H 6800 5050 50  0001 C CNN "Model"
+F 7 "" H 6800 5050 50  0001 C CNN "Opis"
+F 8 "" H 6800 5050 50  0001 C CNN "Producent"
+F 9 "SMD" H 6800 5050 50  0001 C CNN "Typ"
+	1    6800 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 4850 7250 4850
+Wire Wire Line
+	7250 4850 7250 4900
+Wire Wire Line
+	6800 4900 6800 4650
+Wire Wire Line
+	6800 4650 6650 4650
+Wire Wire Line
+	6800 4650 7400 4650
+Connection ~ 6800 4650
+Wire Wire Line
+	7250 4850 7400 4850
+Connection ~ 7250 4850
+$Comp
+L power:GND #PWR?
+U 1 1 5E287910
+P 6800 5250
+AR Path="/5E07245F/5E287910" Ref="#PWR?"  Part="1" 
+AR Path="/5E858220/5E287910" Ref="#PWR?"  Part="1" 
+AR Path="/5E91D96F/5E287910" Ref="#PWR0219"  Part="1" 
+F 0 "#PWR0219" H 6800 5000 50  0001 C CNN
+F 1 "GND" H 6805 5077 50  0000 C CNN
+F 2 "" H 6800 5250 50  0001 C CNN
+F 3 "" H 6800 5250 50  0001 C CNN
+	1    6800 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E287BE6
+P 7250 5250
+AR Path="/5E07245F/5E287BE6" Ref="#PWR?"  Part="1" 
+AR Path="/5E858220/5E287BE6" Ref="#PWR?"  Part="1" 
+AR Path="/5E91D96F/5E287BE6" Ref="#PWR0220"  Part="1" 
+F 0 "#PWR0220" H 7250 5000 50  0001 C CNN
+F 1 "GND" H 7255 5077 50  0000 C CNN
+F 2 "" H 7250 5250 50  0001 C CNN
+F 3 "" H 7250 5250 50  0001 C CNN
+	1    7250 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 5200 6800 5250
+Wire Wire Line
+	7250 5200 7250 5250
+Text GLabel 7400 4650 2    50   Output ~ 0
+ENC2_A
+Text GLabel 7400 4850 2    50   Output ~ 0
+ENC2_B
+Text Notes 5750 3800 0    50   ~ 0
+Rotary encoder input
 $EndSCHEMATC
