@@ -218,7 +218,7 @@ Wire Wire Line
 Text Label 6150 3350 0    50   ~ 0
 OPE
 Text GLabel 4700 3600 0    50   Input ~ 0
-PE_SIGNAL
+OPE_SIGNAL
 Text Label 9500 2950 0    50   ~ 0
 PF_B
 Text Label 9500 3150 0    50   ~ 0
@@ -1866,7 +1866,7 @@ Wire Wire Line
 Text Label 10900 4000 0    50   ~ 0
 OPC1
 Text GLabel 9450 4250 0    50   Input ~ 0
-PC1_SIGNAL
+OPC1_SIGNAL
 Wire Wire Line
 	10700 4100 10700 4000
 Connection ~ 10700 4000

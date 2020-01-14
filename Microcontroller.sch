@@ -654,21 +654,19 @@ F 9 "SMD" H 3250 1100 50  0001 C CNN "Typ"
 $EndComp
 Text GLabel 2500 5550 0    50   Output ~ 0
 Y_ENABLE
-Text GLabel 2500 5050 0    50   Output ~ 0
+Text GLabel 2500 4850 0    50   Output ~ 0
 Z_ENABLE
-Text GLabel 5000 4350 2    50   Output ~ 0
+Text GLabel 5000 1950 2    50   Output ~ 0
 EMERGENCY
-Text GLabel 2500 4050 0    50   Output ~ 0
+Text GLabel 2500 3150 0    50   Output ~ 0
 LCD_DB4
-Text GLabel 2500 4150 0    50   Output ~ 0
+Text GLabel 2500 3250 0    50   Output ~ 0
 LCD_DB5
-Text GLabel 2500 4250 0    50   Output ~ 0
+Text GLabel 2500 3350 0    50   Output ~ 0
 LCD_DB6
-Text GLabel 2500 4350 0    50   Output ~ 0
+Text GLabel 2500 3450 0    50   Output ~ 0
 LCD_DB7
-Text GLabel 2500 3950 0    50   Output ~ 0
-LCD_E
-Text GLabel 2500 3850 0    50   Output ~ 0
+Text GLabel 5000 6150 2    50   Output ~ 0
 LCD_RS
 Text GLabel 5000 4150 2    50   Output ~ 0
 LCD_PWM
@@ -698,17 +696,17 @@ Text GLabel 5000 2050 2    50   Output ~ 0
 SPI_SCLK
 Text GLabel 5000 2250 2    50   Output ~ 0
 SPI_MOSI
-Text GLabel 2500 3250 0    50   Input ~ 0
+Text GLabel 5000 4050 2    50   Input ~ 0
 LIMIT_Y_BACK
-Text GLabel 2500 3550 0    50   Input ~ 0
+Text GLabel 2500 4950 0    50   Input ~ 0
 LIMIT_Z_DOWN
-Text GLabel 2500 3450 0    50   Input ~ 0
+Text GLabel 5000 5850 2    50   Input ~ 0
 LIMIT_Z_UP
-Text GLabel 2500 3350 0    50   Input ~ 0
+Text GLabel 2500 5050 0    50   Input ~ 0
 LIMIT_Y_FRONT
-Text GLabel 5000 1750 2    50   Output ~ 0
-PE_SIGNAL
-Text GLabel 5000 6150 2    50   Input ~ 0
+Text GLabel 5000 5350 2    50   Output ~ 0
+OPE_SIGNAL
+Text GLabel 2500 3850 0    50   Input ~ 0
 PHOTO_SENSOR
 Text GLabel 5000 3850 2    50   Output ~ 0
 Y_STEP
@@ -718,17 +716,17 @@ Text GLabel 2500 5450 0    50   Input ~ 0
 UART_RX
 Text GLabel 2500 5350 0    50   Output ~ 0
 UART_TX
-Text GLabel 2500 5250 0    50   Input ~ 0
-Y_INDEX
 Text GLabel 2500 5150 0    50   Input ~ 0
+Y_INDEX
+Text GLabel 2500 5250 0    50   Input ~ 0
 Y_DIAG
 Text GLabel 5000 3650 2    50   Output ~ 0
 Z_STEP
 Text GLabel 5000 3750 2    50   Output ~ 0
 Z_DIR
-Text GLabel 2500 4950 0    50   Input ~ 0
+Text GLabel 5000 5950 2    50   Input ~ 0
 Z_INDEX
-Text GLabel 2500 4850 0    50   Input ~ 0
+Text GLabel 5000 6050 2    50   Input ~ 0
 Z_DIAG
 Wire Wire Line
 	4650 3650 5000 3650
@@ -787,8 +785,6 @@ Wire Wire Line
 Wire Wire Line
 	4650 4150 5000 4150
 Wire Wire Line
-	5000 4350 4650 4350
-Wire Wire Line
 	2500 3850 2850 3850
 Wire Wire Line
 	2850 3950 2500 3950
@@ -798,8 +794,6 @@ Wire Wire Line
 	2850 4150 2500 4150
 Wire Wire Line
 	2500 4250 2850 4250
-Wire Wire Line
-	2850 4350 2500 4350
 Wire Wire Line
 	5000 1750 4650 1750
 Wire Wire Line
@@ -832,9 +826,7 @@ Wire Wire Line
 	5000 4650 4650 4650
 Wire Wire Line
 	4650 6150 5000 6150
-Wire Wire Line
-	2500 4550 2850 4550
-Text GLabel 2500 4550 0    50   Input ~ 0
+Text GLabel 2500 4250 0    50   Input ~ 0
 PRINTER_POWER_DETECT
 $Comp
 L Connector:USB_B J3
@@ -1037,14 +1029,10 @@ F 3 "" H 8150 3400 50  0001 C CNN
 $EndComp
 Text GLabel 9000 3200 2    50   Output ~ 0
 SWCLK
-Text GLabel 2500 4650 0    50   Input ~ 0
+Text GLabel 2500 3950 0    50   Input ~ 0
 TABLE_SENSOR
-Text Label 5000 4850 0    50   ~ 0
+Text Label 5350 5150 0    50   ~ 0
 LED_STATUS
-Wire Wire Line
-	4650 4850 5000 4850
-Wire Wire Line
-	2500 4650 2850 4650
 Wire Wire Line
 	8100 4250 8450 4250
 Text GLabel 9000 3300 2    50   Input ~ 0
@@ -1146,22 +1134,13 @@ F 5 "SMD" H 10100 3550 50  0001 C CNN "Typ"
 	1    10100 3550
 	1    0    0    -1  
 $EndComp
-NoConn ~ 2850 3150
 NoConn ~ 4650 2450
 NoConn ~ 4650 2550
-NoConn ~ 4650 1850
-NoConn ~ 4650 1950
 NoConn ~ 4650 3450
-NoConn ~ 4650 4050
 NoConn ~ 4650 4250
-NoConn ~ 4650 4450
 NoConn ~ 4650 5650
-NoConn ~ 4650 5950
-NoConn ~ 4650 6050
 NoConn ~ 4650 6350
 NoConn ~ 4650 6250
-NoConn ~ 2850 6150
-NoConn ~ 2850 6050
 Wire Wire Line
 	3550 1200 3450 1200
 Connection ~ 3550 1200
@@ -1306,40 +1285,34 @@ Text Label 8050 1800 0    50   ~ 0
 D-
 Text GLabel 5000 2650 2    50   BiDi ~ 0
 USB_D-
-Text GLabel 2500 4450 0    50   Input ~ 0
+Text GLabel 2500 4050 0    50   Input ~ 0
 INPUT3
-Text GLabel 5000 5250 2    50   Output ~ 0
+Text GLabel 5000 4450 2    50   Output ~ 0
 OUTPUT1
-Text GLabel 5000 5350 2    50   Output ~ 0
+Text GLabel 2500 6150 0    50   Output ~ 0
 OUTPUT2
-Text GLabel 5000 5150 2    50   Input ~ 0
-INPUT1
 Text GLabel 5000 5050 2    50   Input ~ 0
+INPUT1
+Text GLabel 5000 4950 2    50   Input ~ 0
 INPUT2
 Wire Wire Line
 	5000 5050 4650 5050
 Wire Wire Line
-	4650 5150 5000 5150
+	4650 5150 5350 5150
 Wire Wire Line
 	5000 5250 4650 5250
 Wire Wire Line
 	4650 5350 5000 5350
-Wire Wire Line
-	2500 4450 2850 4450
-Text GLabel 5000 4950 2    50   Output ~ 0
+Text GLabel 2500 4150 0    50   Output ~ 0
 RELAY
 Wire Wire Line
 	4650 4950 5000 4950
-Text GLabel 2500 6250 0    50   Input ~ 0
+Text GLabel 5000 1750 2    50   Input ~ 0
 5V_DETECT
-Text GLabel 2500 6350 0    50   Input ~ 0
+Text GLabel 5000 1850 2    50   Input ~ 0
 12V_DETECT
-Wire Wire Line
-	2500 6250 2850 6250
-Wire Wire Line
-	2850 6350 2500 6350
-Text GLabel 5000 5850 2    50   Output ~ 0
-PC1_SIGNAL
+Text GLabel 5000 5250 2    50   Output ~ 0
+OPC1_SIGNAL
 Wire Wire Line
 	4650 5850 5000 5850
 Text GLabel 5000 3250 2    50   Input ~ 0
@@ -1387,4 +1360,32 @@ Wire Wire Line
 	4900 3550 5000 3550
 Text Notes 5700 3500 0    50   ~ 0
 ENC2_B and SWO share pin, be careful
+Wire Wire Line
+	2500 3150 2850 3150
+Wire Wire Line
+	4650 4050 5000 4050
+Text GLabel 2500 3550 0    50   Output ~ 0
+LCD_E
+Wire Wire Line
+	4650 5950 5000 5950
+Wire Wire Line
+	5000 6050 4650 6050
+NoConn ~ 4650 4850
+Wire Wire Line
+	4650 1850 5000 1850
+Wire Wire Line
+	4650 1950 5000 1950
+Wire Wire Line
+	2500 6150 2850 6150
+NoConn ~ 4650 4350
+NoConn ~ 2850 4350
+NoConn ~ 2850 4450
+NoConn ~ 2850 4550
+NoConn ~ 2850 4650
+NoConn ~ 2850 6250
+NoConn ~ 2850 6350
+Wire Wire Line
+	4650 4450 5000 4450
+NoConn ~ 2850 6050
+NoConn ~ 6000 2600
 $EndSCHEMATC
