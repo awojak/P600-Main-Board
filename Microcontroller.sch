@@ -704,7 +704,7 @@ Text GLabel 5000 5850 2    50   Input ~ 0
 LIMIT_Z_UP
 Text GLabel 2500 5050 0    50   Input ~ 0
 LIMIT_Y_FRONT
-Text GLabel 5000 5350 2    50   Output ~ 0
+Text GLabel 5000 3450 2    50   Output ~ 0
 OPE_SIGNAL
 Text GLabel 2500 3850 0    50   Input ~ 0
 PHOTO_SENSOR
@@ -793,8 +793,6 @@ Wire Wire Line
 Wire Wire Line
 	2850 4150 2500 4150
 Wire Wire Line
-	2500 4250 2850 4250
-Wire Wire Line
 	5000 1750 4650 1750
 Wire Wire Line
 	2500 3250 2850 3250
@@ -826,7 +824,7 @@ Wire Wire Line
 	5000 4650 4650 4650
 Wire Wire Line
 	4650 6150 5000 6150
-Text GLabel 2500 4250 0    50   Input ~ 0
+Text GLabel 5000 5250 2    50   Input ~ 0
 PRINTER_POWER_DETECT
 $Comp
 L Connector:USB_B J3
@@ -1136,7 +1134,6 @@ F 5 "SMD" H 10100 3550 50  0001 C CNN "Typ"
 $EndComp
 NoConn ~ 4650 2450
 NoConn ~ 4650 2550
-NoConn ~ 4650 3450
 NoConn ~ 4650 4250
 NoConn ~ 4650 5650
 NoConn ~ 4650 6350
@@ -1276,8 +1273,6 @@ sprawdzić VBAT
 Text GLabel 5000 3550 2    50   Output ~ 0
 SWO
 Wire Wire Line
-	4650 3550 4900 3550
-Wire Wire Line
 	2750 2050 2750 2250
 Text Label 8050 1700 0    50   ~ 0
 D+
@@ -1311,7 +1306,7 @@ Text GLabel 5000 1750 2    50   Input ~ 0
 5V_DETECT
 Text GLabel 5000 1850 2    50   Input ~ 0
 12V_DETECT
-Text GLabel 5000 5250 2    50   Output ~ 0
+Text GLabel 5000 5350 2    50   Output ~ 0
 OPC1_SIGNAL
 Wire Wire Line
 	4650 5850 5000 5850
@@ -1347,18 +1342,11 @@ F 3 "~" H 8150 5400 50  0001 C CNN
 $EndComp
 Text GLabel 5000 3050 2    50   Input ~ 0
 ENC2_A
-Text GLabel 5300 3450 2    50   Input ~ 0
+Text GLabel 5350 3600 2    50   Input ~ 0
 ENC2_B
 Wire Wire Line
 	4650 3050 5000 3050
-Wire Wire Line
-	4900 3550 4900 3450
-Wire Wire Line
-	4900 3450 5300 3450
-Connection ~ 4900 3550
-Wire Wire Line
-	4900 3550 5000 3550
-Text Notes 5700 3500 0    50   ~ 0
+Text Notes 5700 3650 0    50   ~ 0
 ENC2_B and SWO share pin, be careful
 Wire Wire Line
 	2500 3150 2850 3150
@@ -1388,4 +1376,16 @@ Wire Wire Line
 	4650 4450 5000 4450
 NoConn ~ 2850 6050
 NoConn ~ 6000 2600
+Wire Wire Line
+	5000 3450 4650 3450
+Wire Wire Line
+	4650 3550 4900 3550
+Wire Wire Line
+	4900 3600 4900 3550
+Connection ~ 4900 3550
+Wire Wire Line
+	4900 3550 5000 3550
+Wire Wire Line
+	4900 3600 5350 3600
+NoConn ~ 2850 4250
 $EndSCHEMATC
