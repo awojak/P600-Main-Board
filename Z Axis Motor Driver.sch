@@ -379,14 +379,6 @@ F 9 "SMD" H 6950 3750 50  0001 C CNN "Typ"
 	1    6950 3750
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	4400 3550 6050 3550
-Wire Wire Line
-	6050 3550 6050 3050
-Wire Wire Line
-	4400 3450 5950 3450
-Wire Wire Line
-	5950 3450 5950 2900
 $Comp
 L Device:C_Small C28
 U 1 1 5E01D666
@@ -463,10 +455,6 @@ F 11 "SMD" H 7700 2500 50  0001 C CNN "Typ"
 	1    7700 2500
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9200 2900 9200 3300
-Wire Wire Line
-	8850 3050 8850 3300
 Connection ~ 8500 3600
 Connection ~ 8850 3050
 Connection ~ 9200 2900
@@ -518,54 +506,6 @@ Text Notes 10150 2950 0    50   ~ 0
 Motor Z output
 Text Notes 10150 2850 0    50   ~ 0
 Złącze JST XH2.5
-Wire Wire Line
-	8150 3750 8150 3300
-$Comp
-L Connector:TestPoint TP5
-U 1 1 5E0831DE
-P 8150 3300
-F 0 "TP5" V 8050 3350 50  0000 L CNN
-F 1 "Z_OB2" V 8250 3350 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 8350 3300 50  0001 C CNN
-F 3 "~" H 8350 3300 50  0001 C CNN
-	1    8150 3300
-	0    1    1    0   
-$EndComp
-$Comp
-L Connector:TestPoint TP6
-U 1 1 5E087114
-P 8500 3300
-F 0 "TP6" V 8400 3350 50  0000 L CNN
-F 1 "Z_OB1" V 8600 3350 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 8700 3300 50  0001 C CNN
-F 3 "~" H 8700 3300 50  0001 C CNN
-	1    8500 3300
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	8500 3300 8500 3600
-$Comp
-L Connector:TestPoint TP7
-U 1 1 5E0874C7
-P 8850 3300
-F 0 "TP7" V 8750 3350 50  0000 L CNN
-F 1 "Z_OA2" V 8950 3350 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 9050 3300 50  0001 C CNN
-F 3 "~" H 9050 3300 50  0001 C CNN
-	1    8850 3300
-	0    1    1    0   
-$EndComp
-$Comp
-L Connector:TestPoint TP8
-U 1 1 5E087849
-P 9200 3300
-F 0 "TP8" V 9100 3350 50  0000 L CNN
-F 1 "Z_OA1" V 9300 3350 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 9400 3300 50  0001 C CNN
-F 3 "~" H 9400 3300 50  0001 C CNN
-	1    9200 3300
-	0    1    1    0   
-$EndComp
 Text GLabel 1400 2850 0    50   Input ~ 0
 Z_STEP
 Text GLabel 1400 2950 0    50   Input ~ 0
@@ -608,10 +548,6 @@ Wire Wire Line
 Wire Wire Line
 	2700 2950 1400 2950
 Wire Wire Line
-	6150 3650 6150 3600
-Wire Wire Line
-	4400 3650 6150 3650
-Wire Wire Line
 	7050 2900 7300 2900
 Wire Wire Line
 	7050 3050 7700 3050
@@ -640,9 +576,7 @@ Connection ~ 7700 3050
 Wire Wire Line
 	7700 3050 8850 3050
 Wire Wire Line
-	6150 3600 6850 3600
-Wire Wire Line
-	4400 3750 6850 3750
+	6250 3600 6850 3600
 Wire Wire Line
 	6050 3050 6850 3050
 Wire Wire Line
@@ -1005,8 +939,6 @@ F 9 "SMD" H 9200 4250 50  0001 C CNN "Typ"
 	1    9200 4250
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	9200 3300 9200 4100
 $Comp
 L Device:D_TVS_ALT D?
 U 1 1 5E26C4F8
@@ -1054,8 +986,6 @@ Wire Notes Line
 Wire Notes Line
 	8050 4050 9500 4050
 Wire Wire Line
-	8850 3300 8850 4100
-Wire Wire Line
 	9200 4400 9200 5000
 $Comp
 L power:GND #PWR041
@@ -1102,8 +1032,6 @@ F 3 "" H 8500 5000 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8500 3600 8500 4100
-Connection ~ 8850 3300
-Connection ~ 9200 3300
 $Comp
 L Device:D_TVS_ALT D?
 U 1 1 5E1E2C26
@@ -1170,4 +1098,26 @@ Wire Wire Line
 	9600 3050 9650 3050
 Wire Wire Line
 	9750 3750 9750 4100
+Wire Wire Line
+	4400 3750 5950 3750
+Wire Wire Line
+	5950 2900 5950 3750
+Wire Wire Line
+	6050 3650 4400 3650
+Wire Wire Line
+	6050 3050 6050 3650
+Wire Wire Line
+	4400 3450 6250 3450
+Wire Wire Line
+	6250 3450 6250 3600
+Wire Wire Line
+	6850 3750 6150 3750
+Wire Wire Line
+	6150 3750 6150 3550
+Wire Wire Line
+	6150 3550 4400 3550
+Wire Wire Line
+	8850 3050 8850 4100
+Wire Wire Line
+	9200 2900 9200 4100
 $EndSCHEMATC

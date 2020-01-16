@@ -417,14 +417,6 @@ F 9 "SMD" H 7150 3900 50  0001 C CNN "Typ"
 	1    7150 3900
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	4600 3700 6250 3700
-Wire Wire Line
-	6250 3700 6250 3200
-Wire Wire Line
-	4600 3600 6150 3600
-Wire Wire Line
-	6150 3600 6150 3050
 $Comp
 L Device:C_Small C?
 U 1 1 5E2490EA
@@ -510,10 +502,6 @@ F 11 "SMD" H 7900 2650 50  0001 C CNN "Typ"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9400 3050 9400 3450
-Wire Wire Line
-	9050 3200 9050 3450
-Wire Wire Line
 	8350 3900 8350 4250
 Connection ~ 8700 3750
 Connection ~ 9050 3200
@@ -586,62 +574,6 @@ Text Notes 10350 3100 0    50   ~ 0
 Motor Y output
 Text Notes 10350 3000 0    50   ~ 0
 Złącze JST XH2.5
-Wire Wire Line
-	8350 3900 8350 3450
-$Comp
-L Connector:TestPoint TP?
-U 1 1 5E249152
-P 8350 3450
-AR Path="/5DE588DC/5E249152" Ref="TP?"  Part="1" 
-AR Path="/5DE587B9/5E249152" Ref="TP1"  Part="1" 
-F 0 "TP1" V 8250 3500 50  0000 L CNN
-F 1 "Z_OB2" V 8450 3500 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 8550 3450 50  0001 C CNN
-F 3 "~" H 8550 3450 50  0001 C CNN
-	1    8350 3450
-	0    1    1    0   
-$EndComp
-$Comp
-L Connector:TestPoint TP?
-U 1 1 5E24915B
-P 8700 3450
-AR Path="/5DE588DC/5E24915B" Ref="TP?"  Part="1" 
-AR Path="/5DE587B9/5E24915B" Ref="TP2"  Part="1" 
-F 0 "TP2" V 8600 3500 50  0000 L CNN
-F 1 "Z_OB1" V 8800 3500 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 8900 3450 50  0001 C CNN
-F 3 "~" H 8900 3450 50  0001 C CNN
-	1    8700 3450
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	8700 3450 8700 3750
-$Comp
-L Connector:TestPoint TP?
-U 1 1 5E249163
-P 9050 3450
-AR Path="/5DE588DC/5E249163" Ref="TP?"  Part="1" 
-AR Path="/5DE587B9/5E249163" Ref="TP3"  Part="1" 
-F 0 "TP3" V 8950 3500 50  0000 L CNN
-F 1 "Z_OA2" V 9150 3500 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 9250 3450 50  0001 C CNN
-F 3 "~" H 9250 3450 50  0001 C CNN
-	1    9050 3450
-	0    1    1    0   
-$EndComp
-$Comp
-L Connector:TestPoint TP?
-U 1 1 5E24916B
-P 9400 3450
-AR Path="/5DE588DC/5E24916B" Ref="TP?"  Part="1" 
-AR Path="/5DE587B9/5E24916B" Ref="TP4"  Part="1" 
-F 0 "TP4" V 9300 3500 50  0000 L CNN
-F 1 "Z_OA1" V 9500 3500 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 9600 3450 50  0001 C CNN
-F 3 "~" H 9600 3450 50  0001 C CNN
-	1    9400 3450
-	0    1    1    0   
-$EndComp
 Text GLabel 1600 3000 0    50   Input ~ 0
 Y_STEP
 Text GLabel 1600 3100 0    50   Input ~ 0
@@ -661,10 +593,6 @@ Wire Wire Line
 	2900 3000 1600 3000
 Wire Wire Line
 	2900 3100 1600 3100
-Wire Wire Line
-	6350 3800 6350 3750
-Wire Wire Line
-	4600 3800 6350 3800
 Wire Wire Line
 	7250 3050 7500 3050
 Wire Wire Line
@@ -691,10 +619,6 @@ Wire Wire Line
 Connection ~ 7900 3200
 Wire Wire Line
 	7900 3200 9050 3200
-Wire Wire Line
-	6350 3750 7050 3750
-Wire Wire Line
-	4600 3900 7050 3900
 Wire Wire Line
 	6250 3200 7050 3200
 Wire Wire Line
@@ -1134,8 +1058,6 @@ F 9 "SMD" H 8350 4400 50  0001 C CNN "Typ"
 	1    8350 4400
 	0    1    1    0   
 $EndComp
-Connection ~ 9400 3450
-Connection ~ 9050 3450
 Wire Wire Line
 	7900 3750 8700 3750
 $Comp
@@ -1155,8 +1077,6 @@ F 9 "SMD" H 9400 4400 50  0001 C CNN "Typ"
 	1    9400 4400
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	9400 3450 9400 4250
 $Comp
 L Device:D_TVS_ALT D3
 U 1 1 5E255191
@@ -1199,8 +1119,6 @@ Wire Notes Line
 	9700 4200 9700 4600
 Wire Notes Line
 	8250 4200 9700 4200
-Wire Wire Line
-	9050 3450 9050 4250
 Wire Wire Line
 	9400 4550 9400 5150
 $Comp
@@ -1306,4 +1224,28 @@ Wire Wire Line
 Connection ~ 9750 3750
 Wire Wire Line
 	9750 3750 9850 3750
+Wire Wire Line
+	6450 3750 7050 3750
+Wire Wire Line
+	4600 3900 6150 3900
+Wire Wire Line
+	6150 3050 6150 3900
+Wire Wire Line
+	6250 3800 4600 3800
+Wire Wire Line
+	6250 3200 6250 3800
+Wire Wire Line
+	4600 3600 6450 3600
+Wire Wire Line
+	6450 3600 6450 3750
+Wire Wire Line
+	7050 3900 6350 3900
+Wire Wire Line
+	6350 3900 6350 3700
+Wire Wire Line
+	6350 3700 4600 3700
+Wire Wire Line
+	9050 3200 9050 4250
+Wire Wire Line
+	9400 3050 9400 4250
 $EndSCHEMATC
