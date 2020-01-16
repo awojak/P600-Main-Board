@@ -89,7 +89,7 @@ Wire Wire Line
 	3900 4950 3900 4850
 Text Notes 5400 4050 0    50   ~ 0
 Sense resistors
-Text Notes 1650 1850 0    50   ~ 0
+Text Notes 1900 1750 0    50   ~ 0
 minimum capacity of 100μF
 Wire Wire Line
 	4600 3100 5050 3100
@@ -705,154 +705,8 @@ Text Notes 6750 1950 0    50   ~ 0
 Zabezpieczenie ESD można pominąć gdy silnik nie będzie wpinany/rozpinany hot-plug 
 Text Notes 6750 1850 0    50   ~ 0
 Zabezpieczenie EMC może zredukować zakłócenia elektromagnetyczne, przetestować czy warto jest stosować.
-$Comp
-L Device:CP_Small C?
-U 1 1 5E249212
-P 1400 2200
-AR Path="/5DE588DC/5E249212" Ref="C?"  Part="1" 
-AR Path="/5DE587B9/5E249212" Ref="C1"  Part="1" 
-F 0 "C1" H 1488 2291 50  0000 L CNN
-F 1 "330uF" H 1488 2200 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm" H 1400 2200 50  0001 C CNN
-F 3 "~" H 1400 2200 50  0001 C CNN
-F 4 "50V" H 1488 2109 50  0000 L CNN "Napięcie"
-F 5 "ED1H331MNN1025" H 1400 2200 50  0001 C CNN "Model"
-F 6 "0.6747" H 1400 2200 50  0001 C CNN "Cena"
-F 7 "Elite" H 1400 2200 50  0001 C CNN "Producent"
-F 8 "20%" H 1400 2200 50  0001 C CNN "Tolerancja"
-F 9 "THT" H 1400 2200 50  0001 C CNN "Typ"
-	1    1400 2200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 5E24921A
-P 1750 2200
-AR Path="/5DE588DC/5E24921A" Ref="C?"  Part="1" 
-AR Path="/5DE587B9/5E24921A" Ref="C2"  Part="1" 
-F 0 "C2" H 1850 2350 50  0000 L CNN
-F 1 "10uF" H 1850 2250 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric" H 1750 2200 50  0001 C CNN
-F 3 "~" H 1750 2200 50  0001 C CNN
-F 4 "50V" H 1850 2150 50  0000 L CNN "Napięcie"
-F 5 "X7R" H 1850 2050 50  0000 L CNN "Dielektryk"
-F 6 "1.45250" H 1750 2200 50  0001 C CNN "Cena"
-F 7 "CL32B106KBJNNNE" H 1750 2200 50  0001 C CNN "Model"
-F 8 "SAMSUNG" H 1750 2200 50  0001 C CNN "Producent"
-F 9 "10%" H 1750 2200 50  0001 C CNN "Tolerancja"
-F 10 "SMD" H 1750 2200 50  0001 C CNN "Typ"
-	1    1750 2200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 5E249222
-P 2450 2200
-AR Path="/5DE588DC/5E249222" Ref="C?"  Part="1" 
-AR Path="/5DE587B9/5E249222" Ref="C4"  Part="1" 
-F 0 "C4" H 2550 2350 50  0000 L CNN
-F 1 "0.1uF" H 2550 2250 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 2450 2200 50  0001 C CNN
-F 3 "~" H 2450 2200 50  0001 C CNN
-F 4 "50V" H 2550 2150 50  0000 L CNN "Napięcie"
-F 5 "X7R" H 2550 2050 50  0000 L CNN "Dielektryk"
-F 6 "0.05982" H 2450 2200 50  0001 C CNN "Cena"
-F 7 "CL10B104KB8NNNC " H 2450 2200 50  0001 C CNN "Model"
-F 8 "SAMSUNG" H 2450 2200 50  0001 C CNN "Producent"
-F 9 "10%" H 2450 2200 50  0001 C CNN "Tolerancja"
-F 10 "SMD" H 2450 2200 50  0001 C CNN "Typ"
-	1    2450 2200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 5E24922A
-P 2100 2200
-AR Path="/5DE588DC/5E24922A" Ref="C?"  Part="1" 
-AR Path="/5DE587B9/5E24922A" Ref="C3"  Part="1" 
-F 0 "C3" H 2200 2350 50  0000 L CNN
-F 1 "1uF" H 2200 2250 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 2100 2200 50  0001 C CNN
-F 3 "~" H 2100 2200 50  0001 C CNN
-F 4 "50V" H 2200 2150 50  0000 L CNN "Napięcie"
-F 5 "X7R" H 2200 2050 50  0000 L CNN "Dielektryk"
-F 6 "0.09" H 2100 2200 50  0001 C CNN "Cena"
-F 7 "CL21B105KBFNNNE" H 2100 2200 50  0001 C CNN "Model"
-F 8 "SAMSUNG" H 2100 2200 50  0001 C CNN "Producent"
-F 9 "10%" H 2100 2200 50  0001 C CNN "Tolerancja"
-F 10 "SMD" H 2100 2200 50  0001 C CNN "Typ"
-	1    2100 2200
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VS #PWR?
-U 1 1 5E249230
-P 1400 1900
-AR Path="/5DE588DC/5E249230" Ref="#PWR?"  Part="1" 
-AR Path="/5DE587B9/5E249230" Ref="#PWR02"  Part="1" 
-F 0 "#PWR02" H 1200 1750 50  0001 C CNN
-F 1 "VS" H 1417 2073 50  0000 C CNN
-F 2 "" H 1400 1900 50  0001 C CNN
-F 3 "" H 1400 1900 50  0001 C CNN
-	1    1400 1900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1400 1900 1400 2000
-Wire Wire Line
-	1400 2000 1750 2000
-Connection ~ 1400 2000
-Wire Wire Line
-	1400 2000 1400 2100
 Wire Wire Line
 	3400 2000 3400 2400
-$Comp
-L power:GND #PWR?
-U 1 1 5E24923B
-P 1400 2450
-AR Path="/5DE588DC/5E24923B" Ref="#PWR?"  Part="1" 
-AR Path="/5DE587B9/5E24923B" Ref="#PWR03"  Part="1" 
-F 0 "#PWR03" H 1400 2200 50  0001 C CNN
-F 1 "GND" H 1405 2277 50  0000 C CNN
-F 2 "" H 1400 2450 50  0001 C CNN
-F 3 "" H 1400 2450 50  0001 C CNN
-	1    1400 2450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1400 2300 1400 2400
-Wire Wire Line
-	1750 2100 1750 2000
-Connection ~ 1750 2000
-Wire Wire Line
-	1750 2000 2100 2000
-Wire Wire Line
-	2100 2100 2100 2000
-Connection ~ 2100 2000
-Wire Wire Line
-	2100 2000 2450 2000
-Wire Wire Line
-	2450 2100 2450 2000
-Connection ~ 2450 2000
-Wire Wire Line
-	2450 2000 3400 2000
-Wire Wire Line
-	2450 2400 2450 2300
-Connection ~ 1400 2400
-Wire Wire Line
-	1400 2400 1400 2450
-Wire Wire Line
-	2100 2300 2100 2400
-Wire Wire Line
-	1400 2400 1750 2400
-Connection ~ 2100 2400
-Wire Wire Line
-	2100 2400 2450 2400
-Wire Wire Line
-	1750 2300 1750 2400
-Connection ~ 1750 2400
-Wire Wire Line
-	1750 2400 2100 2400
 $Comp
 L Device:C_Small C?
 U 1 1 5E249258
@@ -915,42 +769,9 @@ Text Notes 2000 4250 2    50   ~ 0
 INDEX na wejście Timera STM
 NoConn ~ 2900 4300
 NoConn ~ 2900 4500
-$Comp
-L Device:R R?
-U 1 1 5E249277
-P 2400 4700
-AR Path="/5DE588DC/5E249277" Ref="R?"  Part="1" 
-AR Path="/5DE587B9/5E249277" Ref="R3"  Part="1" 
-F 0 "R3" H 2200 4650 50  0000 L CNN
-F 1 "100kΩ" H 2100 4750 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 2330 4700 50  0001 C CNN
-F 3 "~" H 2400 4700 50  0001 C CNN
-F 4 "" H 2400 4700 50  0001 C CNN "Model"
-F 5 "0.04651" H 2400 4700 50  0001 C CNN "Cena"
-F 6 "SMD" H 2400 4700 50  0001 C CNN "Typ"
-	1    2400 4700
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	2400 4550 2400 4400
 Connection ~ 2400 4400
 Wire Wire Line
 	2400 4400 1600 4400
-$Comp
-L power:GND #PWR?
-U 1 1 5E249280
-P 2400 5150
-AR Path="/5DE588DC/5E249280" Ref="#PWR?"  Part="1" 
-AR Path="/5DE587B9/5E249280" Ref="#PWR05"  Part="1" 
-F 0 "#PWR05" H 2400 4900 50  0001 C CNN
-F 1 "GND" H 2405 4977 50  0000 C CNN
-F 2 "" H 2400 5150 50  0001 C CNN
-F 3 "" H 2400 5150 50  0001 C CNN
-	1    2400 5150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2400 4850 2400 5150
 Text Notes 3900 5700 2    50   ~ 0
 Pin 25 NC można podłączyć do GND jeśli poprawi to rutowanie PCB
 $Comp
@@ -1248,4 +1069,264 @@ Wire Wire Line
 	9050 3200 9050 4250
 Wire Wire Line
 	9400 3050 9400 4250
+$Comp
+L Device:C_Small C?
+U 1 1 5E2A1C1D
+P 2000 2200
+AR Path="/5DE588DC/5E2A1C1D" Ref="C?"  Part="1" 
+AR Path="/5DE587B9/5E2A1C1D" Ref="C4"  Part="1" 
+F 0 "C4" H 2100 2350 50  0000 L CNN
+F 1 "10uF" H 2100 2250 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 2000 2200 50  0001 C CNN
+F 3 "~" H 2000 2200 50  0001 C CNN
+F 4 "50V" H 2100 2150 50  0000 L CNN "Napięcie"
+F 5 "X7R" H 2100 2050 50  0000 L CNN "Dielektryk"
+F 6 "1.45250" H 2000 2200 50  0001 C CNN "Cena"
+F 7 "CL32B106KBJNNNE" H 2000 2200 50  0001 C CNN "Model"
+F 8 "SAMSUNG" H 2000 2200 50  0001 C CNN "Producent"
+F 9 "10%" H 2000 2200 50  0001 C CNN "Tolerancja"
+F 10 "SMD" H 2000 2200 50  0001 C CNN "Typ"
+	1    2000 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5E2A1C2A
+P 3050 2200
+AR Path="/5DE588DC/5E2A1C2A" Ref="C?"  Part="1" 
+AR Path="/5DE587B9/5E2A1C2A" Ref="C89"  Part="1" 
+F 0 "C89" H 3150 2350 50  0000 L CNN
+F 1 "0.1uF" H 3150 2250 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3050 2200 50  0001 C CNN
+F 3 "~" H 3050 2200 50  0001 C CNN
+F 4 "50V" H 3150 2150 50  0000 L CNN "Napięcie"
+F 5 "X7R" H 3150 2050 50  0000 L CNN "Dielektryk"
+F 6 "0.05982" H 3050 2200 50  0001 C CNN "Cena"
+F 7 "CL10B104KB8NNNC " H 3050 2200 50  0001 C CNN "Model"
+F 8 "SAMSUNG" H 3050 2200 50  0001 C CNN "Producent"
+F 9 "10%" H 3050 2200 50  0001 C CNN "Tolerancja"
+F 10 "SMD" H 3050 2200 50  0001 C CNN "Typ"
+	1    3050 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5E2A1C37
+P 2700 2200
+AR Path="/5DE588DC/5E2A1C37" Ref="C?"  Part="1" 
+AR Path="/5DE587B9/5E2A1C37" Ref="C88"  Part="1" 
+F 0 "C88" H 2800 2350 50  0000 L CNN
+F 1 "1uF" H 2800 2250 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2700 2200 50  0001 C CNN
+F 3 "~" H 2700 2200 50  0001 C CNN
+F 4 "50V" H 2800 2150 50  0000 L CNN "Napięcie"
+F 5 "X7R" H 2800 2050 50  0000 L CNN "Dielektryk"
+F 6 "0.09" H 2700 2200 50  0001 C CNN "Cena"
+F 7 "CL21B105KBFNNNE" H 2700 2200 50  0001 C CNN "Model"
+F 8 "SAMSUNG" H 2700 2200 50  0001 C CNN "Producent"
+F 9 "10%" H 2700 2200 50  0001 C CNN "Tolerancja"
+F 10 "SMD" H 2700 2200 50  0001 C CNN "Typ"
+	1    2700 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VS #PWR?
+U 1 1 5E2A1C3D
+P 1200 1950
+AR Path="/5DE588DC/5E2A1C3D" Ref="#PWR?"  Part="1" 
+AR Path="/5DE587B9/5E2A1C3D" Ref="#PWR02"  Part="1" 
+F 0 "#PWR02" H 1000 1800 50  0001 C CNN
+F 1 "VS" H 1217 2123 50  0000 C CNN
+F 2 "" H 1200 1950 50  0001 C CNN
+F 3 "" H 1200 1950 50  0001 C CNN
+	1    1200 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1200 1950 1200 2000
+Wire Wire Line
+	1200 2000 1600 2000
+Connection ~ 1200 2000
+Wire Wire Line
+	1200 2000 1200 2100
+Wire Wire Line
+	1200 2300 1200 2400
+Wire Wire Line
+	2700 2100 2700 2000
+Wire Wire Line
+	3050 2100 3050 2000
+Wire Wire Line
+	3050 2400 3050 2300
+Connection ~ 1200 2400
+Wire Wire Line
+	2700 2300 2700 2400
+Wire Wire Line
+	1200 2400 1600 2400
+Connection ~ 2700 2400
+Wire Wire Line
+	2700 2400 3050 2400
+Wire Wire Line
+	2350 2400 2700 2400
+Connection ~ 2700 2000
+Wire Wire Line
+	2700 2000 3050 2000
+Connection ~ 3050 2000
+Wire Wire Line
+	3050 2000 3400 2000
+$Comp
+L Device:C_Small C?
+U 1 1 5E2A1C5C
+P 2350 2200
+AR Path="/5DE588DC/5E2A1C5C" Ref="C?"  Part="1" 
+AR Path="/5DE587B9/5E2A1C5C" Ref="C87"  Part="1" 
+F 0 "C87" H 2450 2350 50  0000 L CNN
+F 1 "10uF" H 2450 2250 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 2350 2200 50  0001 C CNN
+F 3 "~" H 2350 2200 50  0001 C CNN
+F 4 "50V" H 2450 2150 50  0000 L CNN "Napięcie"
+F 5 "X7R" H 2450 2050 50  0000 L CNN "Dielektryk"
+F 6 "1.45250" H 2350 2200 50  0001 C CNN "Cena"
+F 7 "CL32B106KBJNNNE" H 2350 2200 50  0001 C CNN "Model"
+F 8 "SAMSUNG" H 2350 2200 50  0001 C CNN "Producent"
+F 9 "10%" H 2350 2200 50  0001 C CNN "Tolerancja"
+F 10 "SMD" H 2350 2200 50  0001 C CNN "Typ"
+	1    2350 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 2100 2350 2000
+Connection ~ 2350 2000
+Wire Wire Line
+	2350 2000 2700 2000
+Wire Wire Line
+	2350 2300 2350 2400
+Wire Wire Line
+	2000 2100 2000 2000
+Connection ~ 2000 2000
+Wire Wire Line
+	2000 2000 2350 2000
+Connection ~ 2350 2400
+Wire Wire Line
+	2000 2300 2000 2400
+Connection ~ 2000 2400
+Wire Wire Line
+	2000 2400 2350 2400
+$Comp
+L Device:CP_Small C?
+U 1 1 5E2A1C75
+P 1600 2200
+AR Path="/5DE588DC/5E2A1C75" Ref="C?"  Part="1" 
+AR Path="/5DE587B9/5E2A1C75" Ref="C3"  Part="1" 
+F 0 "C3" H 1688 2291 50  0000 L CNN
+F 1 "120uF" H 1688 2200 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 1600 2200 50  0001 C CNN
+F 3 "~" H 1600 2200 50  0001 C CNN
+F 4 "50V" H 1688 2109 50  0000 L CNN "Napięcie"
+F 5 "1.074" H 1600 2200 50  0001 C CNN "Cena"
+F 6 "EEUFR1H121L" H 1600 2200 50  0001 C CNN "Model"
+F 7 "Panasonic" H 1600 2200 50  0001 C CNN "Producent"
+F 8 "20%" H 1600 2200 50  0001 C CNN "Tolerancja"
+F 9 "THT" H 1600 2200 50  0001 C CNN "Typ"
+F 10 "https://www.tme.eu/pl/details/eeufr1h121l/kondensatory-elektr-tht-niskoimpedan/panasonic/" H 1600 2200 50  0001 C CNN "Link"
+F 11 "Kondensator: elektrolityczny; niskoimpedancyjny; THT; 120uF; ±20% " H 1600 2200 50  0001 C CNN "Opis"
+	1    1600 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1200 2400 1200 2450
+$Comp
+L power:GND #PWR?
+U 1 1 5E2A1C7C
+P 1200 2450
+AR Path="/5DE588DC/5E2A1C7C" Ref="#PWR?"  Part="1" 
+AR Path="/5DE587B9/5E2A1C7C" Ref="#PWR03"  Part="1" 
+F 0 "#PWR03" H 1200 2200 50  0001 C CNN
+F 1 "GND" H 1205 2277 50  0000 C CNN
+F 2 "" H 1200 2450 50  0001 C CNN
+F 3 "" H 1200 2450 50  0001 C CNN
+	1    1200 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 2100 1600 2000
+Connection ~ 1600 2000
+Wire Wire Line
+	1600 2300 1600 2400
+Connection ~ 1600 2400
+Wire Wire Line
+	1600 2400 2000 2400
+Wire Wire Line
+	1600 2000 2000 2000
+$Comp
+L Device:CP_Small C?
+U 1 1 5E2A1C90
+P 1200 2200
+AR Path="/5DE588DC/5E2A1C90" Ref="C?"  Part="1" 
+AR Path="/5DE587B9/5E2A1C90" Ref="C2"  Part="1" 
+F 0 "C2" H 1288 2291 50  0000 L CNN
+F 1 "120uF" H 1288 2200 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 1200 2200 50  0001 C CNN
+F 3 "~" H 1200 2200 50  0001 C CNN
+F 4 "50V" H 1288 2109 50  0000 L CNN "Napięcie"
+F 5 "1.074" H 1200 2200 50  0001 C CNN "Cena"
+F 6 "EEUFR1H121L" H 1200 2200 50  0001 C CNN "Model"
+F 7 "Panasonic" H 1200 2200 50  0001 C CNN "Producent"
+F 8 "20%" H 1200 2200 50  0001 C CNN "Tolerancja"
+F 9 "THT" H 1200 2200 50  0001 C CNN "Typ"
+F 10 "https://www.tme.eu/pl/details/eeufr1h121l/kondensatory-elektr-tht-niskoimpedan/panasonic/" H 1200 2200 50  0001 C CNN "Link"
+F 11 "Kondensator: elektrolityczny; niskoimpedancyjny; THT; 120uF; ±20% " H 1200 2200 50  0001 C CNN "Opis"
+	1    1200 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 4550 2400 4400
+$Comp
+L Device:R R?
+U 1 1 5E249277
+P 2400 4700
+AR Path="/5DE588DC/5E249277" Ref="R?"  Part="1" 
+AR Path="/5DE587B9/5E249277" Ref="R3"  Part="1" 
+F 0 "R3" H 2200 4650 50  0000 L CNN
+F 1 "100kΩ" H 2100 4750 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2330 4700 50  0001 C CNN
+F 3 "~" H 2400 4700 50  0001 C CNN
+F 4 "" H 2400 4700 50  0001 C CNN "Model"
+F 5 "0.04651" H 2400 4700 50  0001 C CNN "Cena"
+F 6 "SMD" H 2400 4700 50  0001 C CNN "Typ"
+	1    2400 4700
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5E33B2D8
+P 2200 4800
+AR Path="/5DE588DC/5E33B2D8" Ref="#PWR?"  Part="1" 
+AR Path="/5DE587B9/5E33B2D8" Ref="#PWR0108"  Part="1" 
+F 0 "#PWR0108" H 2200 4650 50  0001 C CNN
+F 1 "VCC" H 2217 4973 50  0000 C CNN
+F 2 "" H 2200 4800 50  0001 C CNN
+F 3 "" H 2200 4800 50  0001 C CNN
+	1    2200 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 4850 2400 4850
+Wire Wire Line
+	2200 4800 2200 4850
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5E3F672C
+P 2600 1100
+F 0 "#FLG0101" H 2600 1175 50  0001 C CNN
+F 1 "PWR_FLAG" H 2600 1273 50  0000 C CNN
+F 2 "" H 2600 1100 50  0001 C CNN
+F 3 "~" H 2600 1100 50  0001 C CNN
+	1    2600 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 1250 2600 1250
+Wire Wire Line
+	2600 1250 2600 1100
+Connection ~ 2300 1250
 $EndSCHEMATC

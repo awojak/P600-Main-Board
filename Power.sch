@@ -2128,4 +2128,89 @@ F 9 "SMD" H 1400 4500 50  0001 C CNN "Typ"
 	1    1400 4500
 	0    -1   -1   0   
 $EndComp
+$Comp
+L Device:CP_Small C?
+U 1 1 5E284A7D
+P 2800 3800
+AR Path="/5DE588DC/5E284A7D" Ref="C?"  Part="1" 
+AR Path="/5E1018C2/5E284A7D" Ref="C15"  Part="1" 
+F 0 "C15" H 2888 3891 50  0000 L CNN
+F 1 "120uF" H 2888 3800 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 2800 3800 50  0001 C CNN
+F 3 "~" H 2800 3800 50  0001 C CNN
+F 4 "50V" H 2888 3709 50  0000 L CNN "Napięcie"
+F 5 "1.074" H 2800 3800 50  0001 C CNN "Cena"
+F 6 "EEUFR1H121L" H 2800 3800 50  0001 C CNN "Model"
+F 7 "Panasonic" H 2800 3800 50  0001 C CNN "Producent"
+F 8 "20%" H 2800 3800 50  0001 C CNN "Tolerancja"
+F 9 "THT" H 2800 3800 50  0001 C CNN "Typ"
+F 10 "https://www.tme.eu/pl/details/eeufr1h121l/kondensatory-elektr-tht-niskoimpedan/panasonic/" H 2800 3800 50  0001 C CNN "Link"
+F 11 "Kondensator: elektrolityczny; niskoimpedancyjny; THT; 120uF; ±20% " H 2800 3800 50  0001 C CNN "Opis"
+	1    2800 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP_Small C?
+U 1 1 5E2A7E64
+P 2400 3800
+AR Path="/5DE588DC/5E2A7E64" Ref="C?"  Part="1" 
+AR Path="/5E1018C2/5E2A7E64" Ref="C1"  Part="1" 
+F 0 "C1" H 2488 3891 50  0000 L CNN
+F 1 "120uF" H 2488 3800 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 2400 3800 50  0001 C CNN
+F 3 "~" H 2400 3800 50  0001 C CNN
+F 4 "50V" H 2488 3709 50  0000 L CNN "Napięcie"
+F 5 "1.074" H 2400 3800 50  0001 C CNN "Cena"
+F 6 "EEUFR1H121L" H 2400 3800 50  0001 C CNN "Model"
+F 7 "Panasonic" H 2400 3800 50  0001 C CNN "Producent"
+F 8 "20%" H 2400 3800 50  0001 C CNN "Tolerancja"
+F 9 "THT" H 2400 3800 50  0001 C CNN "Typ"
+F 10 "https://www.tme.eu/pl/details/eeufr1h121l/kondensatory-elektr-tht-niskoimpedan/panasonic/" H 2400 3800 50  0001 C CNN "Link"
+F 11 "Kondensator: elektrolityczny; niskoimpedancyjny; THT; 120uF; ±20% " H 2400 3800 50  0001 C CNN "Opis"
+	1    2400 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VS #PWR0104
+U 1 1 5E2A820A
+P 2400 3600
+F 0 "#PWR0104" H 2200 3450 50  0001 C CNN
+F 1 "VS" H 2417 3773 50  0000 C CNN
+F 2 "" H 2400 3600 50  0001 C CNN
+F 3 "" H 2400 3600 50  0001 C CNN
+	1    2400 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E2A862B
+P 2400 4000
+AR Path="/5DE588DC/5E2A862B" Ref="#PWR?"  Part="1" 
+AR Path="/5DE587B9/5E2A862B" Ref="#PWR?"  Part="1" 
+AR Path="/5E1018C2/5E2A862B" Ref="#PWR0105"  Part="1" 
+F 0 "#PWR0105" H 2400 3750 50  0001 C CNN
+F 1 "GND" H 2405 3827 50  0000 C CNN
+F 2 "" H 2400 4000 50  0001 C CNN
+F 3 "" H 2400 4000 50  0001 C CNN
+	1    2400 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 3600 2400 3650
+Wire Wire Line
+	2400 3900 2400 3950
+Wire Wire Line
+	2400 3650 2800 3650
+Wire Wire Line
+	2800 3650 2800 3700
+Connection ~ 2400 3650
+Wire Wire Line
+	2400 3650 2400 3700
+Wire Wire Line
+	2400 3950 2800 3950
+Wire Wire Line
+	2800 3950 2800 3900
+Connection ~ 2400 3950
+Wire Wire Line
+	2400 3950 2400 4000
 $EndSCHEMATC

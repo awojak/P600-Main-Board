@@ -83,7 +83,7 @@ Wire Wire Line
 	3700 4800 3700 4700
 Text Notes 5200 3900 0    50   ~ 0
 Sense resistors
-Text Notes 1450 1700 0    50   ~ 0
+Text Notes 1600 1300 0    50   ~ 0
 minimum capacity of 100μF
 Wire Wire Line
 	4400 2950 4850 2950
@@ -654,141 +654,97 @@ Zabezpieczenie ESD można pominąć gdy silnik nie będzie wpinany/rozpinany hot
 Text Notes 6550 1700 0    50   ~ 0
 Zabezpieczenie EMC może zredukować zakłócenia elektromagnetyczne, przetestować czy warto jest stosować.
 $Comp
-L Device:CP_Small C15
-U 1 1 5E1B5096
-P 1200 2050
-F 0 "C15" H 1288 2141 50  0000 L CNN
-F 1 "330uF" H 1288 2050 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm" H 1200 2050 50  0001 C CNN
-F 3 "~" H 1200 2050 50  0001 C CNN
-F 4 "50V" H 1288 1959 50  0000 L CNN "Napięcie"
-F 5 "0.6747" H 1200 2050 50  0001 C CNN "Cena"
-F 6 "ED1H331MNN1025" H 1200 2050 50  0001 C CNN "Model"
-F 7 "Elite" H 1200 2050 50  0001 C CNN "Producent"
-F 8 "20%" H 1200 2050 50  0001 C CNN "Tolerancja"
-F 9 "THT" H 1200 2050 50  0001 C CNN "Typ"
-	1    1200 2050
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C_Small C16
 U 1 1 5E1BA555
-P 1550 2050
-F 0 "C16" H 1650 2200 50  0000 L CNN
-F 1 "10uF" H 1650 2100 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric" H 1550 2050 50  0001 C CNN
-F 3 "~" H 1550 2050 50  0001 C CNN
-F 4 "50V" H 1650 2000 50  0000 L CNN "Napięcie"
-F 5 "X7R" H 1650 1900 50  0000 L CNN "Dielektryk"
-F 6 "1.45250" H 1550 2050 50  0001 C CNN "Cena"
-F 7 "CL32B106KBJNNNE" H 1550 2050 50  0001 C CNN "Model"
-F 8 "SAMSUNG" H 1550 2050 50  0001 C CNN "Producent"
-F 9 "10%" H 1550 2050 50  0001 C CNN "Tolerancja"
-F 10 "SMD" H 1550 2050 50  0001 C CNN "Typ"
-	1    1550 2050
+P 1800 2050
+F 0 "C16" H 1900 2200 50  0000 L CNN
+F 1 "10uF" H 1900 2100 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 1800 2050 50  0001 C CNN
+F 3 "~" H 1800 2050 50  0001 C CNN
+F 4 "50V" H 1900 2000 50  0000 L CNN "Napięcie"
+F 5 "X7R" H 1900 1900 50  0000 L CNN "Dielektryk"
+F 6 "1.45250" H 1800 2050 50  0001 C CNN "Cena"
+F 7 "CL32B106KBJNNNE" H 1800 2050 50  0001 C CNN "Model"
+F 8 "SAMSUNG" H 1800 2050 50  0001 C CNN "Producent"
+F 9 "10%" H 1800 2050 50  0001 C CNN "Tolerancja"
+F 10 "SMD" H 1800 2050 50  0001 C CNN "Typ"
+	1    1800 2050
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C_Small C18
 U 1 1 5E1BDA34
-P 2250 2050
-F 0 "C18" H 2350 2200 50  0000 L CNN
-F 1 "0.1uF" H 2350 2100 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 2250 2050 50  0001 C CNN
-F 3 "~" H 2250 2050 50  0001 C CNN
-F 4 "50V" H 2350 2000 50  0000 L CNN "Napięcie"
-F 5 "X7R" H 2350 1900 50  0000 L CNN "Dielektryk"
-F 6 "0.05982" H 2250 2050 50  0001 C CNN "Cena"
-F 7 "CL10B104KB8NNNC " H 2250 2050 50  0001 C CNN "Model"
-F 8 "SAMSUNG" H 2250 2050 50  0001 C CNN "Producent"
-F 9 "10%" H 2250 2050 50  0001 C CNN "Tolerancja"
-F 10 "SMD" H 2250 2050 50  0001 C CNN "Typ"
-	1    2250 2050
+P 2850 2050
+F 0 "C18" H 2950 2200 50  0000 L CNN
+F 1 "0.1uF" H 2950 2100 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2850 2050 50  0001 C CNN
+F 3 "~" H 2850 2050 50  0001 C CNN
+F 4 "50V" H 2950 2000 50  0000 L CNN "Napięcie"
+F 5 "X7R" H 2950 1900 50  0000 L CNN "Dielektryk"
+F 6 "0.05982" H 2850 2050 50  0001 C CNN "Cena"
+F 7 "CL10B104KB8NNNC " H 2850 2050 50  0001 C CNN "Model"
+F 8 "SAMSUNG" H 2850 2050 50  0001 C CNN "Producent"
+F 9 "10%" H 2850 2050 50  0001 C CNN "Tolerancja"
+F 10 "SMD" H 2850 2050 50  0001 C CNN "Typ"
+	1    2850 2050
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C_Small C17
 U 1 1 5E1BE03A
-P 1900 2050
-F 0 "C17" H 2000 2200 50  0000 L CNN
-F 1 "1uF" H 2000 2100 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 1900 2050 50  0001 C CNN
-F 3 "~" H 1900 2050 50  0001 C CNN
-F 4 "50V" H 2000 2000 50  0000 L CNN "Napięcie"
-F 5 "X7R" H 2000 1900 50  0000 L CNN "Dielektryk"
-F 6 "0.09" H 1900 2050 50  0001 C CNN "Cena"
-F 7 "CL21B105KBFNNNE" H 1900 2050 50  0001 C CNN "Model"
-F 8 "SAMSUNG" H 1900 2050 50  0001 C CNN "Producent"
-F 9 "10%" H 1900 2050 50  0001 C CNN "Tolerancja"
-F 10 "SMD" H 1900 2050 50  0001 C CNN "Typ"
-	1    1900 2050
+P 2500 2050
+F 0 "C17" H 2600 2200 50  0000 L CNN
+F 1 "1uF" H 2600 2100 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2500 2050 50  0001 C CNN
+F 3 "~" H 2500 2050 50  0001 C CNN
+F 4 "50V" H 2600 2000 50  0000 L CNN "Napięcie"
+F 5 "X7R" H 2600 1900 50  0000 L CNN "Dielektryk"
+F 6 "0.09" H 2500 2050 50  0001 C CNN "Cena"
+F 7 "CL21B105KBFNNNE" H 2500 2050 50  0001 C CNN "Model"
+F 8 "SAMSUNG" H 2500 2050 50  0001 C CNN "Producent"
+F 9 "10%" H 2500 2050 50  0001 C CNN "Tolerancja"
+F 10 "SMD" H 2500 2050 50  0001 C CNN "Typ"
+	1    2500 2050
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:VS #PWR023
 U 1 1 5E1BEFF0
-P 1200 1750
-F 0 "#PWR023" H 1000 1600 50  0001 C CNN
-F 1 "VS" H 1217 1923 50  0000 C CNN
-F 2 "" H 1200 1750 50  0001 C CNN
-F 3 "" H 1200 1750 50  0001 C CNN
-	1    1200 1750
+P 1000 1800
+F 0 "#PWR023" H 800 1650 50  0001 C CNN
+F 1 "VS" H 1017 1973 50  0000 C CNN
+F 2 "" H 1000 1800 50  0001 C CNN
+F 3 "" H 1000 1800 50  0001 C CNN
+	1    1000 1800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1200 1750 1200 1850
+	1000 1800 1000 1850
 Wire Wire Line
-	1200 1850 1550 1850
-Connection ~ 1200 1850
+	1000 1850 1400 1850
+Connection ~ 1000 1850
 Wire Wire Line
-	1200 1850 1200 1950
+	1000 1850 1000 1950
 Wire Wire Line
 	3200 1850 3200 2250
-$Comp
-L power:GND #PWR024
-U 1 1 5E1C53FB
-P 1200 2300
-F 0 "#PWR024" H 1200 2050 50  0001 C CNN
-F 1 "GND" H 1205 2127 50  0000 C CNN
-F 2 "" H 1200 2300 50  0001 C CNN
-F 3 "" H 1200 2300 50  0001 C CNN
-	1    1200 2300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	1200 2150 1200 2250
+	1000 2150 1000 2250
 Wire Wire Line
-	1550 1950 1550 1850
-Connection ~ 1550 1850
+	2500 1950 2500 1850
 Wire Wire Line
-	1550 1850 1900 1850
+	2850 1950 2850 1850
 Wire Wire Line
-	1900 1950 1900 1850
-Connection ~ 1900 1850
+	2850 2250 2850 2150
+Connection ~ 1000 2250
 Wire Wire Line
-	1900 1850 2250 1850
+	2500 2150 2500 2250
 Wire Wire Line
-	2250 1950 2250 1850
-Connection ~ 2250 1850
+	1000 2250 1400 2250
+Connection ~ 2500 2250
 Wire Wire Line
-	2250 1850 3200 1850
+	2500 2250 2850 2250
 Wire Wire Line
-	2250 2250 2250 2150
-Connection ~ 1200 2250
-Wire Wire Line
-	1200 2250 1200 2300
-Wire Wire Line
-	1900 2150 1900 2250
-Wire Wire Line
-	1200 2250 1550 2250
-Connection ~ 1900 2250
-Wire Wire Line
-	1900 2250 2250 2250
-Wire Wire Line
-	1550 2150 1550 2250
-Connection ~ 1550 2250
-Wire Wire Line
-	1550 2250 1900 2250
+	2150 2250 2500 2250
 $Comp
 L Device:C_Small C23
 U 1 1 5E1E6B3C
@@ -834,7 +790,7 @@ Text GLabel 1400 4250 0    50   Input ~ 0
 Z_ENN
 Wire Wire Line
 	2700 4250 2200 4250
-Text Notes 2850 1500 2    50   ~ 0
+Text Notes 2800 1200 2    50   ~ 0
 Low ESR electrolytic capacitors\nare recommended for VS filtering.
 Text GLabel 1400 3950 0    50   Output ~ 0
 Z_INDEX
@@ -867,19 +823,6 @@ Wire Wire Line
 Connection ~ 2200 4250
 Wire Wire Line
 	2200 4250 1400 4250
-$Comp
-L power:GND #PWR025
-U 1 1 5E22A887
-P 2200 5000
-F 0 "#PWR025" H 2200 4750 50  0001 C CNN
-F 1 "GND" H 2205 4827 50  0000 C CNN
-F 2 "" H 2200 5000 50  0001 C CNN
-F 3 "" H 2200 5000 50  0001 C CNN
-	1    2200 5000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2200 4700 2200 5000
 Text Notes 3700 5550 2    50   ~ 0
 Pin 25 NC można podłączyć do GND jeśli poprawi to rutowanie PCB
 Wire Wire Line
@@ -1120,4 +1063,124 @@ Wire Wire Line
 	8850 3050 8850 4100
 Wire Wire Line
 	9200 2900 9200 4100
+Connection ~ 2500 1850
+Wire Wire Line
+	2500 1850 2850 1850
+Connection ~ 2850 1850
+Wire Wire Line
+	2850 1850 3200 1850
+$Comp
+L Device:C_Small C92
+U 1 1 5E21E598
+P 2150 2050
+F 0 "C92" H 2250 2200 50  0000 L CNN
+F 1 "10uF" H 2250 2100 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 2150 2050 50  0001 C CNN
+F 3 "~" H 2150 2050 50  0001 C CNN
+F 4 "50V" H 2250 2000 50  0000 L CNN "Napięcie"
+F 5 "X7R" H 2250 1900 50  0000 L CNN "Dielektryk"
+F 6 "1.45250" H 2150 2050 50  0001 C CNN "Cena"
+F 7 "CL32B106KBJNNNE" H 2150 2050 50  0001 C CNN "Model"
+F 8 "SAMSUNG" H 2150 2050 50  0001 C CNN "Producent"
+F 9 "10%" H 2150 2050 50  0001 C CNN "Tolerancja"
+F 10 "SMD" H 2150 2050 50  0001 C CNN "Typ"
+	1    2150 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 1950 2150 1850
+Connection ~ 2150 1850
+Wire Wire Line
+	2150 1850 2500 1850
+Wire Wire Line
+	2150 2150 2150 2250
+Wire Wire Line
+	1800 1950 1800 1850
+Connection ~ 1800 1850
+Wire Wire Line
+	1800 1850 2150 1850
+Connection ~ 2150 2250
+Wire Wire Line
+	1800 2150 1800 2250
+Connection ~ 1800 2250
+Wire Wire Line
+	1800 2250 2150 2250
+$Comp
+L Device:CP_Small C91
+U 1 1 5E23BD43
+P 1400 2050
+F 0 "C91" H 1488 2141 50  0000 L CNN
+F 1 "120uF" H 1488 2050 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 1400 2050 50  0001 C CNN
+F 3 "~" H 1400 2050 50  0001 C CNN
+F 4 "50V" H 1488 1959 50  0000 L CNN "Napięcie"
+F 5 "1.074" H 1400 2050 50  0001 C CNN "Cena"
+F 6 "EEUFR1H121L" H 1400 2050 50  0001 C CNN "Model"
+F 7 "Panasonic" H 1400 2050 50  0001 C CNN "Producent"
+F 8 "20%" H 1400 2050 50  0001 C CNN "Tolerancja"
+F 9 "THT" H 1400 2050 50  0001 C CNN "Typ"
+F 10 "https://www.tme.eu/pl/details/eeufr1h121l/kondensatory-elektr-tht-niskoimpedan/panasonic/" H 1400 2050 50  0001 C CNN "Link"
+F 11 "Kondensator: elektrolityczny; niskoimpedancyjny; THT; 120uF; ±20% " H 1400 2050 50  0001 C CNN "Opis"
+	1    1400 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1000 2250 1000 2300
+$Comp
+L power:GND #PWR024
+U 1 1 5E1C53FB
+P 1000 2300
+F 0 "#PWR024" H 1000 2050 50  0001 C CNN
+F 1 "GND" H 1005 2127 50  0000 C CNN
+F 2 "" H 1000 2300 50  0001 C CNN
+F 3 "" H 1000 2300 50  0001 C CNN
+	1    1000 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 1950 1400 1850
+Connection ~ 1400 1850
+Wire Wire Line
+	1400 2150 1400 2250
+Connection ~ 1400 2250
+Wire Wire Line
+	1400 2250 1800 2250
+Wire Wire Line
+	1400 1850 1800 1850
+$Comp
+L Device:CP_Small C90
+U 1 1 5E272FA5
+P 1000 2050
+F 0 "C90" H 1088 2141 50  0000 L CNN
+F 1 "120uF" H 1088 2050 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 1000 2050 50  0001 C CNN
+F 3 "~" H 1000 2050 50  0001 C CNN
+F 4 "50V" H 1088 1959 50  0000 L CNN "Napięcie"
+F 5 "1.074" H 1000 2050 50  0001 C CNN "Cena"
+F 6 "EEUFR1H121L" H 1000 2050 50  0001 C CNN "Model"
+F 7 "Panasonic" H 1000 2050 50  0001 C CNN "Producent"
+F 8 "20%" H 1000 2050 50  0001 C CNN "Tolerancja"
+F 9 "THT" H 1000 2050 50  0001 C CNN "Typ"
+F 10 "https://www.tme.eu/pl/details/eeufr1h121l/kondensatory-elektr-tht-niskoimpedan/panasonic/" H 1000 2050 50  0001 C CNN "Link"
+F 11 "Kondensator: elektrolityczny; niskoimpedancyjny; THT; 120uF; ±20% " H 1000 2050 50  0001 C CNN "Opis"
+	1    1000 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0109
+U 1 1 5E351D6E
+P 2000 4700
+F 0 "#PWR0109" H 2000 4550 50  0001 C CNN
+F 1 "VCC" H 2017 4873 50  0000 C CNN
+F 2 "" H 2000 4700 50  0001 C CNN
+F 3 "" H 2000 4700 50  0001 C CNN
+	1    2000 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 4700 2000 4750
+Wire Wire Line
+	2000 4750 2200 4750
+Wire Wire Line
+	2200 4750 2200 4700
 $EndSCHEMATC
