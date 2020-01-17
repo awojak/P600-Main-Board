@@ -1004,9 +1004,9 @@ F 9 "THT" H 8650 4350 50  0001 C CNN "Typ"
 	1    8650 4350
 	-1   0    0    -1  
 $EndComp
-Text GLabel 8100 4450 0    50   Input ~ 0
+Text GLabel 8100 4250 0    50   Input ~ 0
 UART_OUT_TX
-Text GLabel 8100 4250 0    50   Output ~ 0
+Text GLabel 8100 4450 0    50   Output ~ 0
 UART_OUT_RX
 Wire Wire Line
 	8450 4450 8100 4450

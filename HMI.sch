@@ -82,19 +82,19 @@ Wire Wire Line
 $Comp
 L power:+5V #PWR?
 U 1 1 5E132C10
-P 1450 2550
+P 1250 2550
 AR Path="/5E07245F/5E132C10" Ref="#PWR?"  Part="1" 
 AR Path="/5E858220/5E132C10" Ref="#PWR?"  Part="1" 
 AR Path="/5E91D96F/5E132C10" Ref="#PWR0181"  Part="1" 
-F 0 "#PWR0181" H 1450 2400 50  0001 C CNN
-F 1 "+5V" H 1465 2723 50  0000 C CNN
-F 2 "" H 1450 2550 50  0001 C CNN
-F 3 "" H 1450 2550 50  0001 C CNN
-	1    1450 2550
+F 0 "#PWR0181" H 1250 2400 50  0001 C CNN
+F 1 "+5V" H 1265 2723 50  0000 C CNN
+F 2 "" H 1250 2550 50  0001 C CNN
+F 3 "" H 1250 2550 50  0001 C CNN
+	1    1250 2550
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	1450 2550 1600 2550
+	1250 2550 1600 2550
 $Comp
 L Device:R_Pack04 RN?
 U 1 1 5E132C1D
@@ -147,17 +147,15 @@ Wire Wire Line
 	2600 2050 2650 2050
 Wire Wire Line
 	2600 2150 2650 2150
-Wire Wire Line
-	2600 2350 2650 2350
 Text Notes 1050 1200 0    50   ~ 0
 Buffered outputs signals
-Text GLabel 1450 1850 0    50   Input ~ 0
-LCD_DB4
-Text GLabel 1450 1950 0    50   Input ~ 0
-LCD_DB5
-Text GLabel 1450 2050 0    50   Input ~ 0
-LCD_DB6
 Text GLabel 1450 2150 0    50   Input ~ 0
+LCD_DB4
+Text GLabel 1450 2050 0    50   Input ~ 0
+LCD_DB5
+Text GLabel 1450 1950 0    50   Input ~ 0
+LCD_DB6
+Text GLabel 1450 1850 0    50   Input ~ 0
 LCD_DB7
 Text GLabel 1450 1750 0    50   Input ~ 0
 LCD_E
@@ -257,7 +255,7 @@ F 9 "THT" H 4200 6200 50  0001 C CNN "Typ"
 	1    4200 6200
 	-1   0    0    -1  
 $EndComp
-Text GLabel 3150 2350 2    50   Output ~ 0
+Text GLabel 3250 4600 0    50   Output ~ 0
 SPI_MISO
 $Comp
 L power:GND #PWR?
@@ -277,14 +275,8 @@ Wire Wire Line
 	4000 4700 3850 4700
 Wire Wire Line
 	3850 4700 3850 4900
-Wire Wire Line
-	4000 4600 3700 4600
-Text Label 3700 4600 0    50   ~ 0
+Text Label 1750 3650 0    50   ~ 0
 MISO
-Text Label 1450 2350 0    50   ~ 0
-MISO
-Wire Wire Line
-	1600 2350 1450 2350
 $Comp
 L power:GND #PWR?
 U 1 1 5E1871CF
@@ -1064,8 +1056,6 @@ F 3 "" H 9450 5000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3050 2350 3150 2350
-Wire Wire Line
 	2600 2250 2650 2250
 Wire Wire Line
 	3800 2350 3800 2450
@@ -1748,4 +1738,28 @@ Text GLabel 7400 4850 2    50   Output ~ 0
 ENC2_B
 Text Notes 5750 3800 0    50   ~ 0
 Rotary encoder input
+NoConn ~ 2600 2350
+NoConn ~ 2650 2350
+NoConn ~ 3050 2350
+NoConn ~ 1600 2350
+$Comp
+L Device:R R?
+U 1 1 5E330DF5
+P 3450 4600
+AR Path="/5E07245F/5E330DF5" Ref="R?"  Part="1" 
+AR Path="/5E858220/5E330DF5" Ref="R?"  Part="1" 
+AR Path="/5E91D96F/5E330DF5" Ref="R47"  Part="1" 
+F 0 "R47" V 3250 4600 50  0000 C CNN
+F 1 "330Ω" V 3350 4600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3380 4600 50  0001 C CNN
+F 3 "~" H 3450 4600 50  0001 C CNN
+F 4 "0.04651" H 3450 4600 50  0001 C CNN "Cena"
+F 5 "SMD" H 3450 4600 50  0001 C CNN "Typ"
+	1    3450 4600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3300 4600 3250 4600
+Wire Wire Line
+	3600 4600 4000 4600
 $EndSCHEMATC

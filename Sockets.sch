@@ -293,17 +293,17 @@ Wire Notes Line
 	4050 4150 4050 2650
 Text Notes 4550 2600 0    50   ~ 0
 PE Signal Output to Emulate PE Sensor
-Text GLabel 4700 5600 0    50   Input ~ 0
+Text GLabel 4700 6300 0    50   Input ~ 0
 Y_STEP
-Text GLabel 4700 5700 0    50   Input ~ 0
+Text GLabel 4700 6200 0    50   Input ~ 0
 Y_DIR
-Text GLabel 4700 5800 0    50   Input ~ 0
-Z_STEP
-Text GLabel 4700 5900 0    50   Input ~ 0
-Z_DIR
-Text GLabel 4700 6000 0    50   Input ~ 0
-LED1_CONTROL
 Text GLabel 4700 6100 0    50   Input ~ 0
+Z_STEP
+Text GLabel 4700 6000 0    50   Input ~ 0
+Z_DIR
+Text GLabel 4700 5900 0    50   Input ~ 0
+LED1_CONTROL
+Text GLabel 4700 5800 0    50   Input ~ 0
 LED2_CONTROL
 $Comp
 L power:+5V #PWR090
@@ -361,17 +361,17 @@ F 3 "" H 4550 6500 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4550 6500 4700 6500
-Text Label 6550 5600 2    50   ~ 0
+Text Label 6550 6300 2    50   ~ 0
 YSTEP
-Text Label 6550 5700 2    50   ~ 0
+Text Label 6550 6200 2    50   ~ 0
 YDIR
-Text Label 6550 5800 2    50   ~ 0
-ZSTEP
-Text Label 6550 5900 2    50   ~ 0
-ZDIR
-Text Label 6550 6000 2    50   ~ 0
-LED1_CNT
 Text Label 6550 6100 2    50   ~ 0
+ZSTEP
+Text Label 6550 6000 2    50   ~ 0
+ZDIR
+Text Label 6550 5900 2    50   ~ 0
+LED1_CNT
+Text Label 6550 5800 2    50   ~ 0
 LED2_CNT
 Text Label 7700 5050 2    50   ~ 0
 LED1_CNT
@@ -398,17 +398,17 @@ Wire Wire Line
 Wire Wire Line
 	5700 6300 5750 6300
 Wire Wire Line
-	6150 5600 6550 5600
+	6150 6300 6550 6300
 Wire Wire Line
-	6150 5700 6550 5700
+	6150 6200 6550 6200
+Wire Wire Line
+	6150 6100 6550 6100
+Wire Wire Line
+	6150 6000 6550 6000
 Wire Wire Line
 	6150 5800 6550 5800
 Wire Wire Line
 	6150 5900 6550 5900
-Wire Wire Line
-	6150 6000 6550 6000
-Wire Wire Line
-	6150 6100 6550 6100
 Wire Notes Line
 	4050 4450 6750 4450
 Wire Notes Line
@@ -465,13 +465,13 @@ Wire Notes Line
 	6750 4050 6750 2700
 Text Notes 7500 2650 0    50   ~ 0
 Optional Step/DIR Outputs
-Text GLabel 4700 6300 0    50   Input ~ 0
+Text GLabel 4700 5700 0    50   Input ~ 0
 SPI_SCLK
-Text GLabel 4700 6200 0    50   Input ~ 0
+Text GLabel 4700 5600 0    50   Input ~ 0
 SPI_MOSI
-Text GLabel 6150 6200 2    50   Output ~ 0
+Text GLabel 6150 5600 2    50   Output ~ 0
 SPI_MOSI_BUF
-Text GLabel 6150 6300 2    50   Output ~ 0
+Text GLabel 6150 5700 2    50   Output ~ 0
 SPI_SCLK_BUF
 Wire Wire Line
 	5200 4800 5200 4900
