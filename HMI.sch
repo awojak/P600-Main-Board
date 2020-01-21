@@ -275,8 +275,6 @@ Wire Wire Line
 	4000 4700 3850 4700
 Wire Wire Line
 	3850 4700 3850 4900
-Text Label 1750 3650 0    50   ~ 0
-MISO
 $Comp
 L power:GND #PWR?
 U 1 1 5E1871CF
