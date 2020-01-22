@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source "D:\\DTG\\PCB\\P600-Main-Board\\Main Board.sch")
-    (date "20.01.2020 22:11:27")
+    (date "22.01.2020 21:20:42")
     (tool "Eeschema (5.1.5)-3")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -200,7 +200,7 @@
       (tstamp 5E3112BF))
     (comp (ref U1)
       (value TMC2209-LA)
-      (footprint footprints:QFN-28_5X5_3X8_EPAD)
+      (footprint footprints:QFN-28_5X5mm_P0.5mm_EP3.35x.3.35mm)
       (datasheet https://www.trinamic.com/fileadmin/assets/Products/ICs_Documents/TMC2209_Datasheet_V103.pdf)
       (fields
         (field (name Cena) 10.30)
@@ -668,7 +668,7 @@
       (tstamp 5E249277))
     (comp (ref U2)
       (value TMC2209-LA)
-      (footprint footprints:QFN-28_5X5_3X8_EPAD)
+      (footprint footprints:QFN-28_5X5mm_P0.5mm_EP3.35x.3.35mm)
       (datasheet https://www.trinamic.com/fileadmin/assets/Products/ICs_Documents/TMC2209_Datasheet_V103.pdf)
       (fields
         (field (name Cena) 10.30)

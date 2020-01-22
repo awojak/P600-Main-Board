@@ -19,7 +19,7 @@ U 1 1 5DE59DB9
 P 3550 3600
 F 0 "U2" H 2650 4700 60  0000 L CNN
 F 1 "TMC2209-LA" H 2650 4600 60  0000 L CNN
-F 2 "footprints:QFN-28_5X5_3X8_EPAD" V 3500 3600 60  0001 C CNN
+F 2 "footprints:QFN-28_5X5mm_P0.5mm_EP3.35x.3.35mm" V 3500 3600 60  0001 C CNN
 F 3 "https://www.trinamic.com/fileadmin/assets/Products/ICs_Documents/TMC2209_Datasheet_V103.pdf" H 2500 4250 60  0001 C CNN
 F 4 "10.30" H 3550 3600 50  0001 C CNN "Cena"
 F 5 "https://pl.farnell.com/trinamic/tmc2209-la-t/motor-driver-stepper-qfn-28/dp/3131535?st=TMC2209" H 3550 3600 50  0001 C CNN "Link"
