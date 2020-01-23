@@ -1262,7 +1262,6 @@ NoConn ~ 2850 4450
 NoConn ~ 2850 4550
 NoConn ~ 2850 4650
 NoConn ~ 2850 6250
-NoConn ~ 2850 6350
 Wire Wire Line
 	4650 4450 5000 4450
 NoConn ~ 2850 6050
@@ -1518,4 +1517,8 @@ F 3 "" H 4350 1200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 4350 1200
+Text GLabel 2500 6350 0    50   Output ~ 0
+EEPROM_P
+Wire Wire Line
+	2500 6350 2850 6350
 $EndSCHEMATC

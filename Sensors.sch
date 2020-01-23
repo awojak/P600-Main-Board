@@ -397,4 +397,119 @@ Text Notes 2350 1400 0    50   ~ 0
 Czujnik wilgotności i temperatury
 Text Notes 1700 2950 0    50   ~ 0
 Rezystor do odłączenia układy gdy chcielibyśmy\npodłączyć taki sam na zewnętrznych I2C.\nI2C z wyjściem jest dzielone z tym czujnikiem
+$Comp
+L Memory_EEPROM:M24C02-WDW U13
+U 1 1 5E2A2C9E
+P 3550 3850
+F 0 "U13" H 3750 4250 50  0000 C CNN
+F 1 "M24C02-WDW" H 3950 4150 50  0000 C CNN
+F 2 "Package_SO:TSSOP-8_4.4x3mm_P0.65mm" H 3550 4200 50  0001 C CNN
+F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/b0/d8/50/40/5a/85/49/6f/DM00071904.pdf/files/DM00071904.pdf/jcr:content/translations/en.DM00071904.pdf" H 3600 3350 50  0001 C CNN
+	1    3550 3850
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3150 3750
+NoConn ~ 3150 3850
+NoConn ~ 3150 3950
+$Comp
+L Device:R R?
+U 1 1 5E2A6608
+P 4750 3700
+AR Path="/5E91D7CC/5E2A6608" Ref="R?"  Part="1" 
+AR Path="/5E91D96F/5E2A6608" Ref="R?"  Part="1" 
+AR Path="/5E1B3A8F/5E2A6608" Ref="R1"  Part="1" 
+F 0 "R1" H 4820 3746 50  0000 L CNN
+F 1 "10kΩ" H 4820 3655 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4680 3700 50  0001 C CNN
+F 3 "~" H 4750 3700 50  0001 C CNN
+F 4 "0.04651" H 4750 3700 50  0001 C CNN "Cena"
+F 5 "SMD" H 4750 3700 50  0001 C CNN "Typ"
+	1    4750 3700
+	1    0    0    -1  
+$EndComp
+Text GLabel 4150 3850 2    50   Input ~ 0
+I2C_SCL
+Text GLabel 4150 3750 2    50   BiDi ~ 0
+I2C_SDA
+Wire Wire Line
+	3950 3750 4150 3750
+Wire Wire Line
+	3950 3850 4150 3850
+$Comp
+L power:GND #PWR0221
+U 1 1 5E2A9FA2
+P 3550 4250
+F 0 "#PWR0221" H 3550 4000 50  0001 C CNN
+F 1 "GND" H 3555 4077 50  0000 C CNN
+F 2 "" H 3550 4250 50  0001 C CNN
+F 3 "" H 3550 4250 50  0001 C CNN
+	1    3550 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0222
+U 1 1 5E2AA2F7
+P 3550 3450
+F 0 "#PWR0222" H 3550 3300 50  0001 C CNN
+F 1 "+3.3V" H 3565 3623 50  0000 C CNN
+F 2 "" H 3550 3450 50  0001 C CNN
+F 3 "" H 3550 3450 50  0001 C CNN
+	1    3550 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 3450 3550 3500
+Wire Wire Line
+	3550 3500 2950 3500
+Connection ~ 3550 3500
+Wire Wire Line
+	3550 3500 3550 3550
+Wire Wire Line
+	2950 3800 2950 4200
+Wire Wire Line
+	2950 4200 3550 4200
+Wire Wire Line
+	3550 4200 3550 4150
+Wire Wire Line
+	3550 4200 3550 4250
+Connection ~ 3550 4200
+$Comp
+L power:+3.3V #PWR0223
+U 1 1 5E2AF48A
+P 4750 3450
+F 0 "#PWR0223" H 4750 3300 50  0001 C CNN
+F 1 "+3.3V" H 4765 3623 50  0000 C CNN
+F 2 "" H 4750 3450 50  0001 C CNN
+F 3 "" H 4750 3450 50  0001 C CNN
+	1    4750 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 3450 4750 3550
+Wire Wire Line
+	4750 3950 4750 3850
+Wire Wire Line
+	3950 3950 4750 3950
+Wire Wire Line
+	4750 3950 4900 3950
+Connection ~ 4750 3950
+$Comp
+L Device:C C95
+U 1 1 5E2B5185
+P 2950 3650
+F 0 "C95" H 3065 3696 50  0000 L CNN
+F 1 "0.1uF" H 3065 3605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2988 3500 50  0001 C CNN
+F 3 "~" H 2950 3650 50  0001 C CNN
+F 4 "0.05982" H 2950 3650 50  0001 C CNN "Cena"
+F 5 "CL10B104KB8NNNC " H 2950 3650 50  0001 C CNN "Model"
+F 6 "50V" H 2950 3650 50  0001 C CNN "Napięcie"
+F 7 "SAMSUNG" H 2950 3650 50  0001 C CNN "Producent"
+F 8 "10%" H 2950 3650 50  0001 C CNN "Tolerancja"
+F 9 "SMD" H 2950 3650 50  0001 C CNN "Typ"
+	1    2950 3650
+	-1   0    0    1   
+$EndComp
+Text GLabel 4900 3950 2    50   Input ~ 0
+EEPROM_P
 $EndSCHEMATC
