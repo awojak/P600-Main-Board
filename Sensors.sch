@@ -201,14 +201,14 @@ AR Path="/5E1018C2/5E1CAE4C" Ref="R?"  Part="1"
 AR Path="/5DFB2EC0/5E1CAE4C" Ref="R?"  Part="1" 
 AR Path="/5E1B3A8F/5E1CAE4C" Ref="R115"  Part="1" 
 F 0 "R115" H 6920 1496 50  0000 L CNN
-F 1 "47kΩ" H 6920 1405 50  0000 L CNN
+F 1 "20kΩ" H 6920 1405 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 6780 1450 50  0001 C CNN
 F 3 "~" H 6850 1450 50  0001 C CNN
-F 4 "" H 6850 1450 50  0001 C CNN "Cena"
-F 5 "" H 6850 1450 50  0001 C CNN "Link"
-F 6 "" H 6850 1450 50  0001 C CNN "Model"
-F 7 "" H 6850 1450 50  0001 C CNN "Opis"
-F 8 "" H 6850 1450 50  0001 C CNN "Producent"
+F 4 "0.03572" H 6850 1450 50  0001 C CNN "Cena"
+F 5 "https://www.tme.eu/pl/details/smd0603-47k/rezystory-smd-0603/royal-ohm/0603saj0473t5e/" H 6850 1450 50  0001 C CNN "Link"
+F 6 "0603SAJ0473T5E" H 6850 1450 50  0001 C CNN "Model"
+F 7 "Rezystor: thick film; SMD; 0603; 47kΩ; 0,1W; ±5%; -55÷155°C" H 6850 1450 50  0001 C CNN "Opis"
+F 8 "ROYAL OHM" H 6850 1450 50  0001 C CNN "Producent"
 F 9 "SMD" H 6850 1450 50  0001 C CNN "Typ"
 	1    6850 1450
 	-1   0    0    1   
@@ -246,6 +246,12 @@ F 0 "R113" V 6507 1900 50  0000 C CNN
 F 1 "100Ω" V 6416 1900 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 6230 1900 50  0001 C CNN
 F 3 "~" H 6300 1900 50  0001 C CNN
+F 4 "0.03185" H 6300 1900 50  0001 C CNN "Cena"
+F 5 "https://www.tme.eu/pl/details/smd0603-100r-1%25/rezystory-smd-0603/royal-ohm/0603saf1000t5e/" H 6300 1900 50  0001 C CNN "Link"
+F 6 "0603SAF1000T5E" H 6300 1900 50  0001 C CNN "Model"
+F 7 "Rezystor: thick film; SMD; 0603; 100Ω; 0,1W; ±1%; -55÷155°C" H 6300 1900 50  0001 C CNN "Opis"
+F 8 "ROYAL OHM" H 6300 1900 50  0001 C CNN "Producent"
+F 9 "SMD" H 6300 1900 50  0001 C CNN "Typ"
 	1    6300 1900
 	0    -1   -1   0   
 $EndComp
@@ -300,14 +306,14 @@ AR Path="/5E1018C2/5E1DEF56" Ref="R?"  Part="1"
 AR Path="/5DFB2EC0/5E1DEF56" Ref="R?"  Part="1" 
 AR Path="/5E1B3A8F/5E1DEF56" Ref="R116"  Part="1" 
 F 0 "R116" H 6920 2946 50  0000 L CNN
-F 1 "47kΩ" H 6920 2855 50  0000 L CNN
+F 1 "20kΩ" H 6920 2855 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 6780 2900 50  0001 C CNN
 F 3 "~" H 6850 2900 50  0001 C CNN
-F 4 "" H 6850 2900 50  0001 C CNN "Cena"
-F 5 "" H 6850 2900 50  0001 C CNN "Link"
-F 6 "" H 6850 2900 50  0001 C CNN "Model"
-F 7 "" H 6850 2900 50  0001 C CNN "Opis"
-F 8 "" H 6850 2900 50  0001 C CNN "Producent"
+F 4 "0.03572" H 6850 2900 50  0001 C CNN "Cena"
+F 5 "https://www.tme.eu/pl/details/smd0603-47k/rezystory-smd-0603/royal-ohm/0603saj0473t5e/" H 6850 2900 50  0001 C CNN "Link"
+F 6 "0603SAJ0473T5E" H 6850 2900 50  0001 C CNN "Model"
+F 7 "Rezystor: thick film; SMD; 0603; 47kΩ; 0,1W; ±5%; -55÷155°C" H 6850 2900 50  0001 C CNN "Opis"
+F 8 "ROYAL OHM" H 6850 2900 50  0001 C CNN "Producent"
 F 9 "SMD" H 6850 2900 50  0001 C CNN "Typ"
 	1    6850 2900
 	-1   0    0    1   
@@ -345,6 +351,12 @@ F 0 "R114" V 6507 3350 50  0000 C CNN
 F 1 "100Ω" V 6416 3350 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 6230 3350 50  0001 C CNN
 F 3 "~" H 6300 3350 50  0001 C CNN
+F 4 "0.03185" H 6300 3350 50  0001 C CNN "Cena"
+F 5 "https://www.tme.eu/pl/details/smd0603-100r-1%25/rezystory-smd-0603/royal-ohm/0603saf1000t5e/" H 6300 3350 50  0001 C CNN "Link"
+F 6 "0603SAF1000T5E" H 6300 3350 50  0001 C CNN "Model"
+F 7 "Rezystor: thick film; SMD; 0603; 100Ω; 0,1W; ±1%; -55÷155°C" H 6300 3350 50  0001 C CNN "Opis"
+F 8 "ROYAL OHM" H 6300 3350 50  0001 C CNN "Producent"
+F 9 "SMD" H 6300 3350 50  0001 C CNN "Typ"
 	1    6300 3350
 	0    -1   -1   0   
 $EndComp
@@ -405,6 +417,12 @@ F 0 "U13" H 3750 4250 50  0000 C CNN
 F 1 "M24C02-WDW" H 3950 4150 50  0000 C CNN
 F 2 "Package_SO:TSSOP-8_4.4x3mm_P0.65mm" H 3550 4200 50  0001 C CNN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/b0/d8/50/40/5a/85/49/6f/DM00071904.pdf/files/DM00071904.pdf/jcr:content/translations/en.DM00071904.pdf" H 3600 3350 50  0001 C CNN
+F 4 "0.56" H 3550 3850 50  0001 C CNN "Cena"
+F 5 "https://pl.farnell.com/stmicroelectronics/m24c02-wdw6tp/eeprom-2kbit-i2c-400khz-tssop/dp/2849956RL" H 3550 3850 50  0001 C CNN "Link"
+F 6 "M24C02-WDW6TP" H 3550 3850 50  0001 C CNN "Model"
+F 7 "EEPROM, 2 Kbit, 256 x 8 bitów, Szeregowy I2C (2-Wire), 400 kHz, TSSOP, 8 piny/-ów" H 3550 3850 50  0001 C CNN "Opis"
+F 8 "ST" H 3550 3850 50  0001 C CNN "Producent"
+F 9 "SMD" H 3550 3850 50  0001 C CNN "Typ"
 	1    3550 3850
 	1    0    0    -1  
 $EndComp
@@ -422,7 +440,7 @@ F 0 "R1" H 4820 3746 50  0000 L CNN
 F 1 "10kΩ" H 4820 3655 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 4680 3700 50  0001 C CNN
 F 3 "~" H 4750 3700 50  0001 C CNN
-F 4 "0.04651" H 4750 3700 50  0001 C CNN "Cena"
+F 4 "0.03622" H 4750 3700 50  0001 C CNN "Cena"
 F 5 "SMD" H 4750 3700 50  0001 C CNN "Typ"
 	1    4750 3700
 	1    0    0    -1  

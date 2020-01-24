@@ -79,6 +79,7 @@ F 0 "H1" H 8700 2149 50  0000 L CNN
 F 1 "MH" H 8700 2058 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.5mm_Pad_Via" H 8600 2100 50  0001 C CNN
 F 3 "~" H 8600 2100 50  0001 C CNN
+F 4 "0" H 8600 2100 50  0001 C CNN "Cena"
 	1    8600 2100
 	1    0    0    -1  
 $EndComp
@@ -90,6 +91,7 @@ F 0 "H2" H 9000 2149 50  0000 L CNN
 F 1 "MH" H 9000 2058 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.5mm_Pad_Via" H 8900 2100 50  0001 C CNN
 F 3 "~" H 8900 2100 50  0001 C CNN
+F 4 "0" H 8900 2100 50  0001 C CNN "Cena"
 	1    8900 2100
 	1    0    0    -1  
 $EndComp
@@ -101,6 +103,7 @@ F 0 "H3" H 9300 2149 50  0000 L CNN
 F 1 "MH" H 9300 2058 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.5mm_Pad_Via" H 9200 2100 50  0001 C CNN
 F 3 "~" H 9200 2100 50  0001 C CNN
+F 4 "0" H 9200 2100 50  0001 C CNN "Cena"
 	1    9200 2100
 	1    0    0    -1  
 $EndComp
@@ -112,6 +115,7 @@ F 0 "H4" H 9600 2149 50  0000 L CNN
 F 1 "MH" H 9600 2058 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.5mm_Pad_Via" H 9500 2100 50  0001 C CNN
 F 3 "~" H 9500 2100 50  0001 C CNN
+F 4 "0" H 9500 2100 50  0001 C CNN "Cena"
 	1    9500 2100
 	1    0    0    -1  
 $EndComp
@@ -123,6 +127,7 @@ F 0 "H5" H 9900 2149 50  0000 L CNN
 F 1 "MH" H 9900 2058 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.5mm_Pad_Via" H 9800 2100 50  0001 C CNN
 F 3 "~" H 9800 2100 50  0001 C CNN
+F 4 "0" H 9800 2100 50  0001 C CNN "Cena"
 	1    9800 2100
 	1    0    0    -1  
 $EndComp
@@ -134,6 +139,7 @@ F 0 "H6" H 10200 2149 50  0000 L CNN
 F 1 "MH" H 10200 2058 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.5mm_Pad_Via" H 10100 2100 50  0001 C CNN
 F 3 "~" H 10100 2100 50  0001 C CNN
+F 4 "0" H 10100 2100 50  0001 C CNN "Cena"
 	1    10100 2100
 	1    0    0    -1  
 $EndComp
@@ -151,6 +157,7 @@ F 0 "FID1" H 8735 3096 50  0000 L CNN
 F 1 "Fiducial" H 8735 3005 50  0000 L CNN
 F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 8650 3050 50  0001 C CNN
 F 3 "~" H 8650 3050 50  0001 C CNN
+F 4 "0" H 8650 3050 50  0001 C CNN "Cena"
 	1    8650 3050
 	1    0    0    -1  
 $EndComp
@@ -162,6 +169,7 @@ F 0 "FID2" H 9235 3096 50  0000 L CNN
 F 1 "Fiducial" H 9235 3005 50  0000 L CNN
 F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 9150 3050 50  0001 C CNN
 F 3 "~" H 9150 3050 50  0001 C CNN
+F 4 "0" H 9150 3050 50  0001 C CNN "Cena"
 	1    9150 3050
 	1    0    0    -1  
 $EndComp
@@ -173,6 +181,7 @@ F 0 "FID3" H 9735 3096 50  0000 L CNN
 F 1 "Fiducial" H 9735 3005 50  0000 L CNN
 F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 9650 3050 50  0001 C CNN
 F 3 "~" H 9650 3050 50  0001 C CNN
+F 4 "0" H 9650 3050 50  0001 C CNN "Cena"
 	1    9650 3050
 	1    0    0    -1  
 $EndComp
@@ -184,6 +193,7 @@ F 0 "FID4" H 10235 3096 50  0000 L CNN
 F 1 "Fiducial" H 10235 3005 50  0000 L CNN
 F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 10150 3050 50  0001 C CNN
 F 3 "~" H 10150 3050 50  0001 C CNN
+F 4 "0" H 10150 3050 50  0001 C CNN "Cena"
 	1    10150 3050
 	1    0    0    -1  
 $EndComp
@@ -201,6 +211,7 @@ F 0 "FID5" H 8735 3346 50  0000 L CNN
 F 1 "Fiducial" H 8735 3255 50  0000 L CNN
 F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 8650 3300 50  0001 C CNN
 F 3 "~" H 8650 3300 50  0001 C CNN
+F 4 "0" H 8650 3300 50  0001 C CNN "Cena"
 	1    8650 3300
 	1    0    0    -1  
 $EndComp
@@ -212,6 +223,7 @@ F 0 "FID6" H 9235 3346 50  0000 L CNN
 F 1 "Fiducial" H 9235 3255 50  0000 L CNN
 F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 9150 3300 50  0001 C CNN
 F 3 "~" H 9150 3300 50  0001 C CNN
+F 4 "0" H 9150 3300 50  0001 C CNN "Cena"
 	1    9150 3300
 	1    0    0    -1  
 $EndComp
