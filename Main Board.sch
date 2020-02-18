@@ -202,7 +202,7 @@ Mounting Holes
 Text Notes 9300 2850 0    50   ~ 0
 Fiducials
 Text Notes 2750 5000 0    50   ~ 0
-Generowanie BOM:\nxsltproc -o "X:/DTG/PCB/P600-Main-Board/GrupedBOMRaw.csv" "C:\Program Files\KiCad\bin\scripting\plugins\bom2grouped_csv.xsl" "X:\DTG\PCB\P600-Main-Board\Main Board.xml"
+Generowanie BOM:\nxsltproc -o "G:/DTG/PCB/P600-Main-Board/GrupedBOMRaw.csv" "C:\Program Files\KiCad\bin\scripting\plugins\bom2grouped_csv.xsl" "G:\DTG\PCB\P600-Main-Board\Main Board.xml"
 $Comp
 L Mechanical:Fiducial FID5
 U 1 1 5E310D94

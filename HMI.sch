@@ -430,12 +430,14 @@ F 0 "C81" H 10015 1896 50  0000 L CNN
 F 1 "0.1uF" H 10015 1805 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 9938 1700 50  0001 C CNN
 F 3 "~" H 9900 1850 50  0001 C CNN
-F 4 "0.05563" H 9900 1850 50  0001 C CNN "Cena"
-F 5 "https://www.tme.eu/pl/details/cl10b102kb8nnnc/kondensatory-mlcc-smd-0603/samsung/" H 9900 1850 50  0001 C CNN "Link"
-F 6 "CL10B102KB8NNNC" H 9900 1850 50  0001 C CNN "Model"
-F 7 "Kondensator: ceramiczny; MLCC; 1nF; 50V; X7R; ±10%; SMD; 0603" H 9900 1850 50  0001 C CNN "Opis"
+F 4 "0.07894" H 9900 1850 50  0001 C CNN "Cena"
+F 5 "https://www.tme.eu/pl/details/cl10b104kb8nnnc/kondensatory-mlcc-smd-0603/samsung/" H 9900 1850 50  0001 C CNN "Link"
+F 6 "CL10B104KB8NNNC" H 9900 1850 50  0001 C CNN "Model"
+F 7 "Kondensator: ceramiczny; MLCC; 100nF; 50V; X7R; ±10%; SMD; 0603" H 9900 1850 50  0001 C CNN "Opis"
 F 8 "SAMSUNG" H 9900 1850 50  0001 C CNN "Producent"
 F 9 "SMD" H 9900 1850 50  0001 C CNN "Typ"
+F 10 "X7R" H 9900 1850 50  0001 C CNN "Dielektryk"
+F 11 "50V" H 9900 1850 50  0001 C CNN "Napięcie"
 	1    9900 1850
 	1    0    0    -1  
 $EndComp
@@ -538,12 +540,14 @@ F 0 "C82" H 10015 3146 50  0000 L CNN
 F 1 "0.1uF" H 10015 3055 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 9938 2950 50  0001 C CNN
 F 3 "~" H 9900 3100 50  0001 C CNN
-F 4 "0.05563" H 9900 3100 50  0001 C CNN "Cena"
-F 5 "https://www.tme.eu/pl/details/cl10b102kb8nnnc/kondensatory-mlcc-smd-0603/samsung/" H 9900 3100 50  0001 C CNN "Link"
-F 6 "CL10B102KB8NNNC" H 9900 3100 50  0001 C CNN "Model"
-F 7 "Kondensator: ceramiczny; MLCC; 1nF; 50V; X7R; ±10%; SMD; 0603" H 9900 3100 50  0001 C CNN "Opis"
+F 4 "0.07894" H 9900 3100 50  0001 C CNN "Cena"
+F 5 "https://www.tme.eu/pl/details/cl10b104kb8nnnc/kondensatory-mlcc-smd-0603/samsung/" H 9900 3100 50  0001 C CNN "Link"
+F 6 "CL10B104KB8NNNC" H 9900 3100 50  0001 C CNN "Model"
+F 7 "Kondensator: ceramiczny; MLCC; 100nF; 50V; X7R; ±10%; SMD; 0603" H 9900 3100 50  0001 C CNN "Opis"
 F 8 "SAMSUNG" H 9900 3100 50  0001 C CNN "Producent"
 F 9 "SMD" H 9900 3100 50  0001 C CNN "Typ"
+F 10 "X7R" H 9900 3100 50  0001 C CNN "Dielektryk"
+F 11 "50V" H 9900 3100 50  0001 C CNN "Napięcie"
 	1    9900 3100
 	1    0    0    -1  
 $EndComp
@@ -646,12 +650,14 @@ F 0 "C79" H 9965 4396 50  0000 L CNN
 F 1 "0.1uF" H 9965 4305 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 9888 4200 50  0001 C CNN
 F 3 "~" H 9850 4350 50  0001 C CNN
-F 4 "0.05563" H 9850 4350 50  0001 C CNN "Cena"
-F 5 "https://www.tme.eu/pl/details/cl10b102kb8nnnc/kondensatory-mlcc-smd-0603/samsung/" H 9850 4350 50  0001 C CNN "Link"
-F 6 "CL10B102KB8NNNC" H 9850 4350 50  0001 C CNN "Model"
-F 7 "Kondensator: ceramiczny; MLCC; 1nF; 50V; X7R; ±10%; SMD; 0603" H 9850 4350 50  0001 C CNN "Opis"
+F 4 "0.07894" H 9850 4350 50  0001 C CNN "Cena"
+F 5 "https://www.tme.eu/pl/details/cl10b104kb8nnnc/kondensatory-mlcc-smd-0603/samsung/" H 9850 4350 50  0001 C CNN "Link"
+F 6 "CL10B104KB8NNNC" H 9850 4350 50  0001 C CNN "Model"
+F 7 "Kondensator: ceramiczny; MLCC; 100nF; 50V; X7R; ±10%; SMD; 0603" H 9850 4350 50  0001 C CNN "Opis"
 F 8 "SAMSUNG" H 9850 4350 50  0001 C CNN "Producent"
 F 9 "SMD" H 9850 4350 50  0001 C CNN "Typ"
+F 10 "X7R" H 9850 4350 50  0001 C CNN "Dielektryk"
+F 11 "50V" H 9850 4350 50  0001 C CNN "Napięcie"
 	1    9850 4350
 	1    0    0    -1  
 $EndComp
@@ -754,12 +760,14 @@ F 0 "C80" H 9965 5646 50  0000 L CNN
 F 1 "0.1uF" H 9965 5555 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 9888 5450 50  0001 C CNN
 F 3 "~" H 9850 5600 50  0001 C CNN
-F 4 "0.05563" H 9850 5600 50  0001 C CNN "Cena"
-F 5 "https://www.tme.eu/pl/details/cl10b102kb8nnnc/kondensatory-mlcc-smd-0603/samsung/" H 9850 5600 50  0001 C CNN "Link"
-F 6 "CL10B102KB8NNNC" H 9850 5600 50  0001 C CNN "Model"
-F 7 "Kondensator: ceramiczny; MLCC; 1nF; 50V; X7R; ±10%; SMD; 0603" H 9850 5600 50  0001 C CNN "Opis"
+F 4 "0.07894" H 9850 5600 50  0001 C CNN "Cena"
+F 5 "https://www.tme.eu/pl/details/cl10b104kb8nnnc/kondensatory-mlcc-smd-0603/samsung/" H 9850 5600 50  0001 C CNN "Link"
+F 6 "CL10B104KB8NNNC" H 9850 5600 50  0001 C CNN "Model"
+F 7 "Kondensator: ceramiczny; MLCC; 100nF; 50V; X7R; ±10%; SMD; 0603" H 9850 5600 50  0001 C CNN "Opis"
 F 8 "SAMSUNG" H 9850 5600 50  0001 C CNN "Producent"
 F 9 "SMD" H 9850 5600 50  0001 C CNN "Typ"
+F 10 "X7R" H 9850 5600 50  0001 C CNN "Dielektryk"
+F 11 "50V" H 9850 5600 50  0001 C CNN "Napięcie"
 	1    9850 5600
 	1    0    0    -1  
 $EndComp
@@ -914,6 +922,10 @@ F 2 "Resistor_SMD:R_0603_1608Metric" V 6280 1300 50  0001 C CNN
 F 3 "~" H 6350 1300 50  0001 C CNN
 F 4 "0.04651" H 6350 1300 50  0001 C CNN "Cena"
 F 5 "SMD" H 6350 1300 50  0001 C CNN "Typ"
+F 6 "https://www.tme.eu/pl/details/smd0603-330r-1%25/rezystory-smd-0603/royal-ohm/0603saf3300t5e/" H 6350 1300 50  0001 C CNN "Link"
+F 7 "0603SAF3300T5E" H 6350 1300 50  0001 C CNN "Model"
+F 8 "Rezystor: thick film; SMD; 0603; 330Ω; 0,1W; ±1%; -55÷155°C" H 6350 1300 50  0001 C CNN "Opis"
+F 9 "ROYAL OHM" H 6350 1300 50  0001 C CNN "Producent"
 	1    6350 1300
 	0    1    1    0   
 $EndComp
@@ -994,6 +1006,10 @@ F 2 "Resistor_SMD:R_0603_1608Metric" V 6280 2500 50  0001 C CNN
 F 3 "~" H 6350 2500 50  0001 C CNN
 F 4 "0.04651" H 6350 2500 50  0001 C CNN "Cena"
 F 5 "SMD" H 6350 2500 50  0001 C CNN "Typ"
+F 6 "https://www.tme.eu/pl/details/smd0603-330r-1%25/rezystory-smd-0603/royal-ohm/0603saf3300t5e/" H 6350 2500 50  0001 C CNN "Link"
+F 7 "0603SAF3300T5E" H 6350 2500 50  0001 C CNN "Model"
+F 8 "Rezystor: thick film; SMD; 0603; 330Ω; 0,1W; ±1%; -55÷155°C" H 6350 2500 50  0001 C CNN "Opis"
+F 9 "ROYAL OHM" H 6350 2500 50  0001 C CNN "Producent"
 	1    6350 2500
 	0    1    1    0   
 $EndComp
@@ -1093,13 +1109,15 @@ F 0 "C78" H 2365 1146 50  0000 L CNN
 F 1 "0.1uF" H 2365 1055 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 2288 950 50  0001 C CNN
 F 3 "~" H 2250 1100 50  0001 C CNN
-F 4 "0.05982" H 2250 1100 50  0001 C CNN "Cena"
+F 4 "0.07894" H 2250 1100 50  0001 C CNN "Cena"
 F 5 "X7R" H 2250 1100 50  0001 C CNN "Dielektryk"
-F 6 "CL10B104KB8NNNC " H 2250 1100 50  0001 C CNN "Model"
+F 6 "CL10B104KB8NNNC" H 2250 1100 50  0001 C CNN "Model"
 F 7 "50V" H 2250 1100 50  0001 C CNN "Napięcie"
 F 8 "SAMSUNG" H 2250 1100 50  0001 C CNN "Producent"
 F 9 "10%" H 2250 1100 50  0001 C CNN "Tolerancja"
 F 10 "SMD" H 2250 1100 50  0001 C CNN "Typ"
+F 11 "https://www.tme.eu/pl/details/cl10b104kb8nnnc/kondensatory-mlcc-smd-0603/samsung/" H 2250 1100 50  0001 C CNN "Link"
+F 12 "Kondensator: ceramiczny; MLCC; 100nF; 50V; X7R; ±10%; SMD; 0603" H 2250 1100 50  0001 C CNN "Opis"
 	1    2250 1100
 	1    0    0    -1  
 $EndComp
@@ -1199,11 +1217,11 @@ F 0 "R96" V 3343 6200 50  0000 C CNN
 F 1 "20Ω" V 3434 6200 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 3480 6200 50  0001 C CNN
 F 3 "~" H 3550 6200 50  0001 C CNN
-F 4 "" H 3550 6200 50  0001 C CNN "Cena"
-F 5 "" H 3550 6200 50  0001 C CNN "Link"
-F 6 "" H 3550 6200 50  0001 C CNN "Model"
-F 7 "" H 3550 6200 50  0001 C CNN "Opis"
-F 8 "" H 3550 6200 50  0001 C CNN "Producent"
+F 4 "0.1" H 3550 6200 50  0001 C CNN "Cena"
+F 5 "https://www.tme.eu/pl/details/crcw060320r0fktabc/rezystory-smd-0603/vishay/" H 3550 6200 50  0001 C CNN "Link"
+F 6 "CRCW060320R0FKTABC" H 3550 6200 50  0001 C CNN "Model"
+F 7 "Rezystor: thick film; SMD; 0603; 20Ω; 0,1W; ±1%; -55÷155°C" H 3550 6200 50  0001 C CNN "Opis"
+F 8 "VISHAY" H 3550 6200 50  0001 C CNN "Producent"
 F 9 "SMD" H 3550 6200 50  0001 C CNN "Typ"
 	1    3550 6200
 	0    1    1    0   
@@ -1219,11 +1237,11 @@ F 0 "R97" V 3750 6400 50  0000 C CNN
 F 1 "20Ω" V 3650 6400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 3480 6400 50  0001 C CNN
 F 3 "~" H 3550 6400 50  0001 C CNN
-F 4 "" H 3550 6400 50  0001 C CNN "Cena"
-F 5 "" H 3550 6400 50  0001 C CNN "Link"
-F 6 "" H 3550 6400 50  0001 C CNN "Model"
-F 7 "" H 3550 6400 50  0001 C CNN "Opis"
-F 8 "" H 3550 6400 50  0001 C CNN "Producent"
+F 4 "0.1" H 3550 6400 50  0001 C CNN "Cena"
+F 5 "https://www.tme.eu/pl/details/crcw060320r0fktabc/rezystory-smd-0603/vishay/" H 3550 6400 50  0001 C CNN "Link"
+F 6 "CRCW060320R0FKTABC" H 3550 6400 50  0001 C CNN "Model"
+F 7 "Rezystor: thick film; SMD; 0603; 20Ω; 0,1W; ±1%; -55÷155°C" H 3550 6400 50  0001 C CNN "Opis"
+F 8 "VISHAY" H 3550 6400 50  0001 C CNN "Producent"
 F 9 "SMD" H 3550 6400 50  0001 C CNN "Typ"
 	1    3550 6400
 	0    1    1    0   
@@ -1667,12 +1685,14 @@ F 0 "C86" H 7365 5096 50  0000 L CNN
 F 1 "0.01uF" H 7365 5005 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 7288 4900 50  0001 C CNN
 F 3 "~" H 7250 5050 50  0001 C CNN
-F 4 "0.05563" H 7250 5050 50  0001 C CNN "Cena"
-F 5 "" H 7250 5050 50  0001 C CNN "Link"
-F 6 "" H 7250 5050 50  0001 C CNN "Model"
-F 7 "" H 7250 5050 50  0001 C CNN "Opis"
-F 8 "" H 7250 5050 50  0001 C CNN "Producent"
+F 4 "0.05269" H 7250 5050 50  0001 C CNN "Cena"
+F 5 "https://www.tme.eu/pl/details/vj0603y103kxacw1bc/kondensatory-mlcc-smd-0603/vishay/" H 7250 5050 50  0001 C CNN "Link"
+F 6 "VJ0603Y103KXACW1BC" H 7250 5050 50  0001 C CNN "Model"
+F 7 "Kondensator: ceramiczny; MLCC; 10nF; 50V; X7R; ±10%; SMD; 0603" H 7250 5050 50  0001 C CNN "Opis"
+F 8 "VISHAY" H 7250 5050 50  0001 C CNN "Producent"
 F 9 "SMD" H 7250 5050 50  0001 C CNN "Typ"
+F 10 "X7R" H 7250 5050 50  0001 C CNN "Dielektryk"
+F 11 "50V" H 7250 5050 50  0001 C CNN "Napięcie"
 	1    7250 5050
 	1    0    0    -1  
 $EndComp
@@ -1687,12 +1707,14 @@ F 0 "C85" H 6915 5096 50  0000 L CNN
 F 1 "0.01uF" H 6915 5005 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 6838 4900 50  0001 C CNN
 F 3 "~" H 6800 5050 50  0001 C CNN
-F 4 "0.05563" H 6800 5050 50  0001 C CNN "Cena"
-F 5 "" H 6800 5050 50  0001 C CNN "Link"
-F 6 "" H 6800 5050 50  0001 C CNN "Model"
-F 7 "" H 6800 5050 50  0001 C CNN "Opis"
-F 8 "" H 6800 5050 50  0001 C CNN "Producent"
+F 4 "0.05269" H 6800 5050 50  0001 C CNN "Cena"
+F 5 "https://www.tme.eu/pl/details/vj0603y103kxacw1bc/kondensatory-mlcc-smd-0603/vishay/" H 6800 5050 50  0001 C CNN "Link"
+F 6 "VJ0603Y103KXACW1BC" H 6800 5050 50  0001 C CNN "Model"
+F 7 "Kondensator: ceramiczny; MLCC; 10nF; 50V; X7R; ±10%; SMD; 0603" H 6800 5050 50  0001 C CNN "Opis"
+F 8 "VISHAY" H 6800 5050 50  0001 C CNN "Producent"
 F 9 "SMD" H 6800 5050 50  0001 C CNN "Typ"
+F 10 "X7R" H 6800 5050 50  0001 C CNN "Dielektryk"
+F 11 "50V" H 6800 5050 50  0001 C CNN "Napięcie"
 	1    6800 5050
 	1    0    0    -1  
 $EndComp
@@ -1765,6 +1787,10 @@ F 2 "Resistor_SMD:R_0603_1608Metric" V 3380 4600 50  0001 C CNN
 F 3 "~" H 3450 4600 50  0001 C CNN
 F 4 "0.04651" H 3450 4600 50  0001 C CNN "Cena"
 F 5 "SMD" H 3450 4600 50  0001 C CNN "Typ"
+F 6 "https://www.tme.eu/pl/details/smd0603-330r-1%25/rezystory-smd-0603/royal-ohm/0603saf3300t5e/" H 3450 4600 50  0001 C CNN "Link"
+F 7 "0603SAF3300T5E" H 3450 4600 50  0001 C CNN "Model"
+F 8 "Rezystor: thick film; SMD; 0603; 330Ω; 0,1W; ±1%; -55÷155°C" H 3450 4600 50  0001 C CNN "Opis"
+F 9 "ROYAL OHM" H 3450 4600 50  0001 C CNN "Producent"
 	1    3450 4600
 	0    -1   -1   0   
 $EndComp

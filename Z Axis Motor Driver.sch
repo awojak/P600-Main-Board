@@ -105,6 +105,7 @@ F 8 "https://www.tme.eu/pl/details/cc0603krx7r9223/kondensatory-mlcc-smd-0603/ya
 F 9 "YAGEO" H 4850 3050 50  0001 C CNN "Producent"
 F 10 "10%" H 4850 3050 50  0001 C CNN "Tolerancja"
 F 11 "SMD" H 4850 3050 50  0001 C CNN "Typ"
+F 12 "Kondensator: ceramiczny; MLCC; 22nF; 50V; X7R; ±10%; SMD; 0603" H 4850 3050 50  0001 C CNN "Opis"
 	1    4850 3050
 	1    0    0    -1  
 $EndComp
@@ -138,10 +139,12 @@ F 3 "~" H 3350 2050 50  0001 C CNN
 F 4 "50V" H 3450 2100 50  0000 L CNN "Napięcie"
 F 5 "X7R" H 3450 2000 50  0000 L CNN "Dielektryk"
 F 6 "10%" H 3450 1900 50  0000 L CNN "Tolerancja"
-F 7 "CL10B104KB8NNNC " H 3350 2050 50  0001 C CNN "Model"
-F 8 "0.05982" H 3350 2050 50  0001 C CNN "Cena"
+F 7 "CL10B104KB8NNNC" H 3350 2050 50  0001 C CNN "Model"
+F 8 "0.07894" H 3350 2050 50  0001 C CNN "Cena"
 F 9 "SAMSUNG" H 3350 2050 50  0001 C CNN "Producent"
 F 10 "SMD" H 3350 2050 50  0001 C CNN "Typ"
+F 11 "https://www.tme.eu/pl/details/cl10b104kb8nnnc/kondensatory-mlcc-smd-0603/samsung/" H 3350 2050 50  0001 C CNN "Link"
+F 12 "Kondensator: ceramiczny; MLCC; 100nF; 50V; X7R; ±10%; SMD; 0603" H 3350 2050 50  0001 C CNN "Opis"
 	1    3350 2050
 	1    0    0    -1  
 $EndComp
@@ -199,10 +202,12 @@ F 3 "~" H 3950 2050 50  0001 C CNN
 F 4 "50V" H 4050 2100 50  0000 L CNN "Napięcie"
 F 5 "X7R" H 4050 2000 50  0000 L CNN "Dielektryk"
 F 6 "10%" H 4050 1900 50  0000 L CNN "Tolerancja"
-F 7 "CL10B104KB8NNNC " H 3950 2050 50  0001 C CNN "Model"
-F 8 "0.05982" H 3950 2050 50  0001 C CNN "Cena"
+F 7 "CL10B104KB8NNNC" H 3950 2050 50  0001 C CNN "Model"
+F 8 "0.07894" H 3950 2050 50  0001 C CNN "Cena"
 F 9 "SAMSUNG" H 3950 2050 50  0001 C CNN "Producent"
 F 10 "SMD" H 3950 2050 50  0001 C CNN "Typ"
+F 11 "https://www.tme.eu/pl/details/cl10b104kb8nnnc/kondensatory-mlcc-smd-0603/samsung/" H 3950 2050 50  0001 C CNN "Link"
+F 12 "Kondensator: ceramiczny; MLCC; 100nF; 50V; X7R; ±10%; SMD; 0603" H 3950 2050 50  0001 C CNN "Opis"
 	1    3950 2050
 	1    0    0    -1  
 $EndComp
@@ -224,10 +229,12 @@ F 3 "~" H 5200 4300 50  0001 C CNN
 F 4 "50V" H 5300 4300 50  0000 L CNN "Napięcie"
 F 5 "X7R" H 5292 4209 50  0000 L CNN "Dielektryk"
 F 6 "10%" H 5292 4118 50  0000 L CNN "Tolerancja"
-F 7 "CL10B104KB8NNNC " H 5200 4300 50  0001 C CNN "Model"
-F 8 "0.05982" H 5200 4300 50  0001 C CNN "Cena"
+F 7 "CL10B104KB8NNNC" H 5200 4300 50  0001 C CNN "Model"
+F 8 "0.07894" H 5200 4300 50  0001 C CNN "Cena"
 F 9 "SAMSUNG" H 5200 4300 50  0001 C CNN "Producent"
 F 10 "SMD" H 5200 4300 50  0001 C CNN "Typ"
+F 11 "https://www.tme.eu/pl/details/cl10b104kb8nnnc/kondensatory-mlcc-smd-0603/samsung/" H 5200 4300 50  0001 C CNN "Link"
+F 12 "Kondensator: ceramiczny; MLCC; 100nF; 50V; X7R; ±10%; SMD; 0603" H 5200 4300 50  0001 C CNN "Opis"
 	1    5200 4300
 	1    0    0    -1  
 $EndComp
@@ -242,10 +249,12 @@ F 3 "~" H 6250 4300 50  0001 C CNN
 F 4 "50V" H 6350 4300 50  0000 L CNN "Napięcie"
 F 5 "X7R" H 6342 4209 50  0000 L CNN "Dielektryk"
 F 6 "10%" H 6342 4118 50  0000 L CNN "Tolerancja"
-F 7 "CL10B104KB8NNNC " H 6250 4300 50  0001 C CNN "Model"
-F 8 "0.05982" H 6250 4300 50  0001 C CNN "Cena"
+F 7 "CL10B104KB8NNNC" H 6250 4300 50  0001 C CNN "Model"
+F 8 "0.07894" H 6250 4300 50  0001 C CNN "Cena"
 F 9 "SAMSUNG" H 6250 4300 50  0001 C CNN "Producent"
 F 10 "SMD" H 6250 4300 50  0001 C CNN "Typ"
+F 11 "https://www.tme.eu/pl/details/cl10b104kb8nnnc/kondensatory-mlcc-smd-0603/samsung/" H 6250 4300 50  0001 C CNN "Link"
+F 12 "Kondensator: ceramiczny; MLCC; 100nF; 50V; X7R; ±10%; SMD; 0603" H 6250 4300 50  0001 C CNN "Opis"
 	1    6250 4300
 	1    0    0    -1  
 $EndComp
@@ -395,6 +404,7 @@ F 8 "0.09147" H 7700 4250 50  0001 C CNN "Cena"
 F 9 "https://www.tme.eu/pl/details/c0805c471j1gac/kondensatory-mlcc-smd-0805/kemet/c0805c471j1gactu/" H 7700 4250 50  0001 C CNN "Link"
 F 10 "KEMET" H 7700 4250 50  0001 C CNN "Producent"
 F 11 "SMD" H 7700 4250 50  0001 C CNN "Typ"
+F 12 "Kondensator: ceramiczny; MLCC; 470pF; 100VDC; C0G; ±5%; SMD; 0805" H 7700 4250 50  0001 C CNN "Opis"
 	1    7700 4250
 	1    0    0    -1  
 $EndComp
@@ -414,6 +424,7 @@ F 8 "0.09147" H 7300 2500 50  0001 C CNN "Cena"
 F 9 "https://www.tme.eu/pl/details/c0805c471j1gac/kondensatory-mlcc-smd-0805/kemet/c0805c471j1gactu/" H 7300 2500 50  0001 C CNN "Link"
 F 10 "KEMET" H 7300 2500 50  0001 C CNN "Producent"
 F 11 "SMD" H 7300 2500 50  0001 C CNN "Typ"
+F 12 "Kondensator: ceramiczny; MLCC; 470pF; 100VDC; C0G; ±5%; SMD; 0805" H 7300 2500 50  0001 C CNN "Opis"
 	1    7300 2500
 	1    0    0    -1  
 $EndComp
@@ -433,6 +444,7 @@ F 8 "0.09147" H 7300 4250 50  0001 C CNN "Cena"
 F 9 "https://www.tme.eu/pl/details/c0805c471j1gac/kondensatory-mlcc-smd-0805/kemet/c0805c471j1gactu/" H 7300 4250 50  0001 C CNN "Link"
 F 10 "KEMET" H 7300 4250 50  0001 C CNN "Producent"
 F 11 "SMD" H 7300 4250 50  0001 C CNN "Typ"
+F 12 "Kondensator: ceramiczny; MLCC; 470pF; 100VDC; C0G; ±5%; SMD; 0805" H 7300 4250 50  0001 C CNN "Opis"
 	1    7300 4250
 	1    0    0    -1  
 $EndComp
@@ -452,6 +464,7 @@ F 8 "0.09147" H 7700 2500 50  0001 C CNN "Cena"
 F 9 "https://www.tme.eu/pl/details/c0805c471j1gac/kondensatory-mlcc-smd-0805/kemet/c0805c471j1gactu/" H 7700 2500 50  0001 C CNN "Link"
 F 10 "KEMET" H 7700 2500 50  0001 C CNN "Producent"
 F 11 "SMD" H 7700 2500 50  0001 C CNN "Typ"
+F 12 "Kondensator: ceramiczny; MLCC; 470pF; 100VDC; C0G; ±5%; SMD; 0805" H 7700 2500 50  0001 C CNN "Opis"
 	1    7700 2500
 	1    0    0    -1  
 $EndComp
@@ -668,6 +681,8 @@ F 7 "CL32B106KBJNNNE" H 1800 2050 50  0001 C CNN "Model"
 F 8 "SAMSUNG" H 1800 2050 50  0001 C CNN "Producent"
 F 9 "10%" H 1800 2050 50  0001 C CNN "Tolerancja"
 F 10 "SMD" H 1800 2050 50  0001 C CNN "Typ"
+F 11 "https://www.tme.eu/pl/details/cl32b106kbjnnne/kondensatory-mlcc-smd-1210/samsung/" H 1800 2050 50  0001 C CNN "Link"
+F 12 "Kondensator: ceramiczny; MLCC; 10uF; 50V; X7R; ±10%; SMD; 1210" H 1800 2050 50  0001 C CNN "Opis"
 	1    1800 2050
 	1    0    0    -1  
 $EndComp
@@ -681,11 +696,13 @@ F 2 "Capacitor_SMD:C_0603_1608Metric" H 2850 2050 50  0001 C CNN
 F 3 "~" H 2850 2050 50  0001 C CNN
 F 4 "50V" H 2950 2000 50  0000 L CNN "Napięcie"
 F 5 "X7R" H 2950 1900 50  0000 L CNN "Dielektryk"
-F 6 "0.05982" H 2850 2050 50  0001 C CNN "Cena"
-F 7 "CL10B104KB8NNNC " H 2850 2050 50  0001 C CNN "Model"
+F 6 "0.07894" H 2850 2050 50  0001 C CNN "Cena"
+F 7 "CL10B104KB8NNNC" H 2850 2050 50  0001 C CNN "Model"
 F 8 "SAMSUNG" H 2850 2050 50  0001 C CNN "Producent"
 F 9 "10%" H 2850 2050 50  0001 C CNN "Tolerancja"
 F 10 "SMD" H 2850 2050 50  0001 C CNN "Typ"
+F 11 "https://www.tme.eu/pl/details/cl10b104kb8nnnc/kondensatory-mlcc-smd-0603/samsung/" H 2850 2050 50  0001 C CNN "Link"
+F 12 "Kondensator: ceramiczny; MLCC; 100nF; 50V; X7R; ±10%; SMD; 0603" H 2850 2050 50  0001 C CNN "Opis"
 	1    2850 2050
 	1    0    0    -1  
 $EndComp
@@ -704,6 +721,8 @@ F 7 "CL21B105KBFNNNE" H 2500 2050 50  0001 C CNN "Model"
 F 8 "SAMSUNG" H 2500 2050 50  0001 C CNN "Producent"
 F 9 "10%" H 2500 2050 50  0001 C CNN "Tolerancja"
 F 10 "SMD" H 2500 2050 50  0001 C CNN "Typ"
+F 11 "https://www.tme.eu/pl/details/cl21b105kbfnnng/kondensatory-mlcc-smd-0805/samsung/" H 2500 2050 50  0001 C CNN "Link"
+F 12 "Kondensator: ceramiczny; MLCC; 1uF; 50V; X7R; ±10%; SMD; 0805" H 2500 2050 50  0001 C CNN "Opis"
 	1    2500 2050
 	1    0    0    -1  
 $EndComp
@@ -760,6 +779,7 @@ F 7 "0.08" H 5250 3050 50  0001 C CNN "Cena"
 F 8 "https://www.tme.eu/pl/details/cl10a225kp8nnnc/kondensatory-mlcc-smd-0603/samsung/" H 5250 3050 50  0001 C CNN "Link"
 F 9 "SAMSUNG" H 5250 3050 50  0001 C CNN "Producent"
 F 10 "SMD" H 5250 3050 50  0001 C CNN "Typ"
+F 11 "Kondensator: ceramiczny; MLCC; 2,2uF; 10V; X5R; ±10%; SMD; 0603" H 5250 3050 50  0001 C CNN "Opis"
 	1    5250 3050
 	1    0    0    -1  
 $EndComp
@@ -812,9 +832,12 @@ F 0 "R7" H 2000 4500 50  0000 L CNN
 F 1 "100kΩ" H 1950 4600 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 2130 4550 50  0001 C CNN
 F 3 "~" H 2200 4550 50  0001 C CNN
-F 4 "" H 2200 4550 50  0001 C CNN "Model"
+F 4 "0603SAF1003T5E" H 2200 4550 50  0001 C CNN "Model"
 F 5 "0.04651" H 2200 4550 50  0001 C CNN "Cena"
 F 6 "SMD" H 2200 4550 50  0001 C CNN "Typ"
+F 7 "https://www.tme.eu/pl/details/smd0603-100k-1%25/rezystory-smd-0603/royal-ohm/0603saf1003t5e/" H 2200 4550 50  0001 C CNN "Link"
+F 8 "Rezystor: thick film; SMD; 0603; 100kΩ; 0,1W; ±1%; -55÷155°C" H 2200 4550 50  0001 C CNN "Opis"
+F 9 "ROYAL OHM" H 2200 4550 50  0001 C CNN "Producent"
 	1    2200 4550
 	-1   0    0    1   
 $EndComp
@@ -1084,6 +1107,8 @@ F 7 "CL32B106KBJNNNE" H 2150 2050 50  0001 C CNN "Model"
 F 8 "SAMSUNG" H 2150 2050 50  0001 C CNN "Producent"
 F 9 "10%" H 2150 2050 50  0001 C CNN "Tolerancja"
 F 10 "SMD" H 2150 2050 50  0001 C CNN "Typ"
+F 11 "https://www.tme.eu/pl/details/cl32b106kbjnnne/kondensatory-mlcc-smd-1210/samsung/" H 2150 2050 50  0001 C CNN "Link"
+F 12 "Kondensator: ceramiczny; MLCC; 10uF; 50V; X7R; ±10%; SMD; 1210" H 2150 2050 50  0001 C CNN "Opis"
 	1    2150 2050
 	1    0    0    -1  
 $EndComp

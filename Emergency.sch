@@ -163,6 +163,10 @@ F 2 "Resistor_SMD:R_0603_1608Metric" V 5830 2350 50  0001 C CNN
 F 3 "~" H 5900 2350 50  0001 C CNN
 F 4 "0.04651" H 5900 2350 50  0001 C CNN "Cena"
 F 5 "SMD" H 5900 2350 50  0001 C CNN "Typ"
+F 6 "https://www.tme.eu/pl/details/smd0603-100k-1%25/rezystory-smd-0603/royal-ohm/0603saf1003t5e/" H 5900 2350 50  0001 C CNN "Link"
+F 7 "0603SAF1003T5E" H 5900 2350 50  0001 C CNN "Model"
+F 8 "Rezystor: thick film; SMD; 0603; 100kΩ; 0,1W; ±1%; -55÷155°C" H 5900 2350 50  0001 C CNN "Opis"
+F 9 "ROYAL OHM" H 5900 2350 50  0001 C CNN "Producent"
 	1    5900 2350
 	0    1    1    0   
 $EndComp
@@ -206,9 +210,9 @@ F 1 "20kΩ" H 6720 1855 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 6580 1900 50  0001 C CNN
 F 3 "~" H 6650 1900 50  0001 C CNN
 F 4 "0.04651" H 6650 1900 50  0001 C CNN "Cena"
-F 5 "https://www.tme.eu/pl/details/smd0603-1k-1%25/rezystory-smd-0603/royal-ohm/0603saf1001t5e/" H 6650 1900 50  0001 C CNN "Link"
-F 6 "0603SAF1001T5E" H 6650 1900 50  0001 C CNN "Model"
-F 7 "Rezystor: thick film; SMD; 0603; 1kΩ; 0,1W; ±1%; -55÷155°C" H 6650 1900 50  0001 C CNN "Opis"
+F 5 "https://www.tme.eu/pl/details/smd0603-47k/rezystory-smd-0603/royal-ohm/0603saj0473t5e/" H 6650 1900 50  0001 C CNN "Link"
+F 6 "0603SAJ0473T5E" H 6650 1900 50  0001 C CNN "Model"
+F 7 "Rezystor: thick film; SMD; 0603; 47kΩ; 0,1W; ±5%; -55÷155°C" H 6650 1900 50  0001 C CNN "Opis"
 F 8 "ROYAL OHM" H 6650 1900 50  0001 C CNN "Producent"
 F 9 "SMD" H 6650 1900 50  0001 C CNN "Typ"
 	1    6650 1900
@@ -322,6 +326,10 @@ F 2 "Resistor_SMD:R_0603_1608Metric" V 7580 3950 50  0001 C CNN
 F 3 "~" H 7650 3950 50  0001 C CNN
 F 4 "0.04651" H 7650 3950 50  0001 C CNN "Cena"
 F 5 "SMD" H 7650 3950 50  0001 C CNN "Typ"
+F 6 "https://www.tme.eu/pl/details/smd0603-100k-1%25/rezystory-smd-0603/royal-ohm/0603saf1003t5e/" H 7650 3950 50  0001 C CNN "Link"
+F 7 "0603SAF1003T5E" H 7650 3950 50  0001 C CNN "Model"
+F 8 "Rezystor: thick film; SMD; 0603; 100kΩ; 0,1W; ±1%; -55÷155°C" H 7650 3950 50  0001 C CNN "Opis"
+F 9 "ROYAL OHM" H 7650 3950 50  0001 C CNN "Producent"
 	1    7650 3950
 	1    0    0    -1  
 $EndComp
@@ -340,6 +348,10 @@ F 2 "Resistor_SMD:R_0603_1608Metric" V 7580 3200 50  0001 C CNN
 F 3 "~" H 7650 3200 50  0001 C CNN
 F 4 "0.04651" H 7650 3200 50  0001 C CNN "Cena"
 F 5 "SMD" H 7650 3200 50  0001 C CNN "Typ"
+F 6 "https://www.tme.eu/pl/details/smd0603-100k-1%25/rezystory-smd-0603/royal-ohm/0603saf1003t5e/" H 7650 3200 50  0001 C CNN "Link"
+F 7 "0603SAF1003T5E" H 7650 3200 50  0001 C CNN "Model"
+F 8 "Rezystor: thick film; SMD; 0603; 100kΩ; 0,1W; ±1%; -55÷155°C" H 7650 3200 50  0001 C CNN "Opis"
+F 9 "ROYAL OHM" H 7650 3200 50  0001 C CNN "Producent"
 	1    7650 3200
 	1    0    0    -1  
 $EndComp
@@ -394,12 +406,14 @@ F 0 "C77" H 7300 2400 50  0000 L CNN
 F 1 "0.1uF" H 7300 2300 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 7200 2350 50  0001 C CNN
 F 3 "~" H 7200 2350 50  0001 C CNN
-F 4 "0.05563" H 7200 2350 50  0001 C CNN "Cena"
-F 5 "https://www.tme.eu/pl/details/cl10b102kb8nnnc/kondensatory-mlcc-smd-0603/samsung/" H 7200 2350 50  0001 C CNN "Link"
-F 6 "CL10B102KB8NNNC" H 7200 2350 50  0001 C CNN "Model"
-F 7 "Kondensator: ceramiczny; MLCC; 1nF; 50V; X7R; ±10%; SMD; 0603" H 7200 2350 50  0001 C CNN "Opis"
+F 4 "0.07894" H 7200 2350 50  0001 C CNN "Cena"
+F 5 "https://www.tme.eu/pl/details/cl10b104kb8nnnc/kondensatory-mlcc-smd-0603/samsung/" H 7200 2350 50  0001 C CNN "Link"
+F 6 "CL10B104KB8NNNC" H 7200 2350 50  0001 C CNN "Model"
+F 7 "Kondensator: ceramiczny; MLCC; 100nF; 50V; X7R; ±10%; SMD; 0603" H 7200 2350 50  0001 C CNN "Opis"
 F 8 "SAMSUNG" H 7200 2350 50  0001 C CNN "Producent"
 F 9 "SMD" H 7200 2350 50  0001 C CNN "Typ"
+F 10 "X7R" H 7200 2350 50  0001 C CNN "Dielektryk"
+F 11 "50V" H 7200 2350 50  0001 C CNN "Napięcie"
 	1    7200 2350
 	1    0    0    -1  
 $EndComp
@@ -470,6 +484,12 @@ F 0 "R88" V 3300 3750 50  0000 C CNN
 F 1 "0Ω" V 3300 3900 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 3330 3800 50  0001 C CNN
 F 3 "~" H 3400 3800 50  0001 C CNN
+F 4 "0.045" H 3400 3800 50  0001 C CNN "Cena"
+F 5 "https://www.tme.eu/pl/details/smd0805-0r/rezystory-smd-0805/royal-ohm/0805s8j0000t5e/" H 3400 3800 50  0001 C CNN "Link"
+F 6 "0805S8J0000T5E" H 3400 3800 50  0001 C CNN "Model"
+F 7 "Rezystor: thick film; SMD; 0805; 0Ω; 0,125W; ±5%; -55÷125°C" H 3400 3800 50  0001 C CNN "Opis"
+F 8 "ROYAL OHM" H 3400 3800 50  0001 C CNN "Producent"
+F 9 "SMD" H 3400 3800 50  0001 C CNN "Typ"
 	1    3400 3800
 	0    1    1    0   
 $EndComp
@@ -509,6 +529,10 @@ F 2 "Resistor_SMD:R_0603_1608Metric" V 6180 2550 50  0001 C CNN
 F 3 "~" H 6250 2550 50  0001 C CNN
 F 4 "0.04651" H 6250 2550 50  0001 C CNN "Cena"
 F 5 "SMD" H 6250 2550 50  0001 C CNN "Typ"
+F 6 "https://www.tme.eu/pl/details/smd0603-100k-1%25/rezystory-smd-0603/royal-ohm/0603saf1003t5e/" H 6250 2550 50  0001 C CNN "Link"
+F 7 "0603SAF1003T5E" H 6250 2550 50  0001 C CNN "Model"
+F 8 "Rezystor: thick film; SMD; 0603; 100kΩ; 0,1W; ±1%; -55÷155°C" H 6250 2550 50  0001 C CNN "Opis"
+F 9 "ROYAL OHM" H 6250 2550 50  0001 C CNN "Producent"
 	1    6250 2550
 	1    0    0    -1  
 $EndComp
